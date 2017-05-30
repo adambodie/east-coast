@@ -1,5 +1,8 @@
 h1 {
-  color: #923;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 250%;
+  color: #ff0000;
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  background-color: blue;
+  padding: 40px;
+  margin: 0;
 }

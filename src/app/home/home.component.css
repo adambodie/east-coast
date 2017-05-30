@@ -1,7 +1,4 @@
-:host {
-  padding: 1em;
-  display: block;
-}
+
 
 h1 {
   color: #369;
@@ -9,6 +6,19 @@ h1 {
   font-size: 250%;
 }
 
+/*.flex-container {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.image {
+    -webkit-flex: 1;
+    flex: 1;
+}
+.paragraph {
+    -webkit-flex: 1;
+    flex: 1;  
+}*/
 figure {
   margin: 0;
   position: relative;

@@ -1,0 +1,20 @@
+a {
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+.flex-item {
+    width: 100px;
+    margin: 10px;
+}
