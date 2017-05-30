@@ -6,6 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  places = ['Washington D.C.', ' Baltimore', ' New York '];
+
+  place() {
+      let places = ['Washington D.C.', 'Baltimore', 'New York', 'Arlington', 'Laurel', 'Coatesville', 'Brooklyn', 'New Jersey'];
+      let numberOne = Math.floor(Math.random() * places.length);
+      let numberTwo = Math.floor(Math.random() * places.length);
+      let numberThree = Math.floor(Math.random() * places.length);
+      let items = `${places[numberOne]}, ${places[numberTwo]}, ${places[numberThree]} and more...`;  
+      return items;
+  }
   photo = 'https://placehold.it/600x450/?text=East Coast Project';
 }
