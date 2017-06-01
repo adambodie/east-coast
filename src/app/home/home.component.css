@@ -1,3 +1,6 @@
+.flex-item {
+	padding: 20px;
+}
 
 
 h1 {
@@ -6,19 +9,7 @@ h1 {
   font-size: 250%;
 }
 
-/*.flex-container {
-    display: -webkit-flex;
-    display: flex;
-}
-
-.image {
-    -webkit-flex: 1;
-    flex: 1;
-}
-.paragraph {
-    -webkit-flex: 1;
-    flex: 1;  
-}*/
+/**/
 figure {
   margin: 0;
   position: relative;
@@ -38,4 +29,22 @@ img {
   display: block;
   width: 100%;
   height: auto;
+}
+
+@media screen and (min-width: 480px) {
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    padding: 20px;
+}
+
+.image {
+    -webkit-flex: 1;
+    flex: 1;
+}
+.paragraph {
+    -webkit-flex: 1;
+    flex: 1;  
+}
 }
