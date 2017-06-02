@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent {
-  name = "Adam Bodie @";
+  name = "Adam Bodie ©";
   year = 2017;
 
 }
