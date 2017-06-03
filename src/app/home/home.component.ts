@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectorRef } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,16 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
-  /*place() {
-      let places = ['Washington D.C.', 'Baltimore', 'New York', 'Arlington', 'Laurel', 'Coatesville', 'Brooklyn', 'New Jersey'];
-      let numberOne = Math.floor(Math.random() * places.length);
-      let numberTwo = Math.floor(Math.random() * places.length);
-      let numberThree = Math.floor(Math.random() * places.length);
-      let items = `${places[numberOne]}, ${places[numberTwo]}, ${places[numberThree]} and more...`;  
-      return items;
-  }*/
+constructor(private cdr: ChangeDetectorRef) {}
+
   photo = 'https://placehold.it/600x450/?text=East Coast Project';
   name: string = "";
+  items: string = '';
 
   submitted = false;
 
@@ -27,4 +22,18 @@ export class HomeComponent {
     this.submitted = false;
   }
 
+  ngAfterViewInit() {
+    let places = ['Washington D.C.', 'Baltimore', 'New York', 'Arlington', 'Laurel', 'Coatesville', 'Brooklyn', 'New Jersey'];
+    let numberOne = Math.floor(Math.random() * places.length);
+    let numberTwo = Math.floor(Math.random() * places.length);
+    while (numberOne === numberTwo) {
+      numberTwo = Math.floor(Math.random() * places.length);
+    }
+    let numberThree = Math.floor(Math.random() * places.length);
+    while (numberOne === numberThree || numberTwo === numberThree) {
+      numberThree = Math.floor(Math.random() * places.length);
+    }       
+    this.items = `${places[numberOne]}, ${places[numberTwo]}, ${places[numberThree]} and more...`;
+    this.cdr.detectChanges();
+  }
 }
