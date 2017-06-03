@@ -1,24 +1,25 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
-export class Picture {
-  id: number;
-  image: string;
-  alt: string;
-  title: string;
-  description: string;
-}
+import { Picture } from '../picture';
+import { PictureService } from '../picture.service';
 
-const PICTURES: Picture[] = [
-  {id: 1, image: 'https://placehold.it/600x450/?text=First Slide', alt: 'First Slide', title: "Title One", description: 'Random description One'},
-  {id: 2, image: 'https://placehold.it/600x450/?text=Second Slide', alt: 'Second Slide', title: "Title Two", description: 'Random description Two'},
-  {id: 3, image: 'https://placehold.it/600x450/?text=Third Slide', alt: 'Third Slide', title: "Title Three", description: 'Random description Three'},
-]
 
 @Component({
   selector: 'app-carousel',
   templateUrl: './carousel.component.html',
-  styleUrls: ['./carousel.component.css']
+  styleUrls: ['./carousel.component.css'],
+  providers: [PictureService]
 })
-export class CarouselComponent {
-  pictures = PICTURES;
+export class CarouselComponent implements OnInit {
+  pictures: Picture[];
+
+  constructor(private pictureService: PictureService) { }
+
+  getPictures(): void {
+    this.pictureService.getPictures().then(pictures => this.pictures = pictures);
+  }
+
+  ngOnInit(): void {
+    this.getPictures();
+  }
 }
