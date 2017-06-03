@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
   name = "Adam Bodie ©";
-  year = 2017;
+  year = new Date().getFullYear();
 
 }

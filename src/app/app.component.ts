@@ -6,6 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  places = ['Washington D.C.', ' Baltimore', ' New York '];
-  photo = 'https://placehold.it/600x450/?text=East Coast Project';
+
 }

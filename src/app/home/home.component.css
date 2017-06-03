@@ -2,7 +2,23 @@
 	padding: 20px;
 }
 
+button {
+  margin-top: 10px;
+}
 
+.ng-valid[required], .ng-valid.required  {
+  border-left: 5px solid #42A948; /* green */
+}
+.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 h1 {
   color: #369;
   font-family: Arial, Helvetica, sans-serif;

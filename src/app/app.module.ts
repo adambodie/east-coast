@@ -11,6 +11,8 @@ import { HeaderComponent } from './header';
 import { NavbarComponent } from './navbar';
 import { FooterComponent } from './footer';
 import { CarouselComponent } from './carousel';
+import { IntroComponent } from './intro';
+import { HighlightDirective } from './shared/highlight.directive';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { CarouselComponent } from './carousel';
     HeaderComponent,
     NavbarComponent,
     FooterComponent,
-    CarouselComponent
+    CarouselComponent,
+    IntroComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
@@ -34,6 +38,10 @@ import { CarouselComponent } from './carousel';
         },
         {   path: '',
             component: HomeComponent
+        },
+        {
+          path: 'intro',
+          component: IntroComponent
         }
 ])
   ],

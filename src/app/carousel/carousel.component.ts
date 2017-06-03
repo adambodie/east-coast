@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Picture } from '../picture';
-import { PictureService } from '../picture.service';
+import { Picture } from '../shared/picture';
+import { PictureService } from '../shared/picture.service';
 
 
 @Component({

@@ -1,7 +1,30 @@
 <div class="flex-container">
     <div class="flex-item paragraph">
+        <div [hidden]="submitted">
+        <h1>Welcome!</h1>
+        </div>
+        <div [hidden]="!submitted">
+        <h1>Welcome {{name}}!</h1>
+        </div>        
     <p>Letterpress live-edge VHS organic, chia kinfolk viral listicle skateboard. Lyft fingerstache brunch banh mi tote bag meggings. Pitchfork celiac wayfarers, tbh cornhole iceland irony synth leggings fap tofu selfies photo booth enamel pin salvia. Taxidermy YOLO banjo, tofu dreamcatcher raw denim VHS next level. Authentic salvia wolf pabst. Sustainable pitchfork tattooed kinfolk echo park. Cronut hot chicken taxidermy, chillwave freegan vaporware lyft truffaut. </p>
-    <h4>{{place()}}</h4> 
+    <!--<h4>{{place()}}</h4>-->    
+        <form [hidden]="submitted" (submit)="onSubmit()">
+            <h2>What is your name?</h2>
+            <div>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" class="form-control" [(ngModel)]="name" required/>
+            </div>
+            <div>
+                <button class="btn btn-primary">Submit</button>
+            </div>
+
+        </form>
+        
+        <form [hidden]="!submitted" (submit)="onClear()">
+            <div>
+                <button class="btn btn-primary">Clear</button>
+            </div>
+        </form>            
     </div>
     <div class="flex-item image">
     <figure>
@@ -9,4 +32,7 @@
         <figcaption>caption</figcaption>
     </figure>
     </div>
+    <div class="flex-item form">
+  
+    </div> 
 </div>
