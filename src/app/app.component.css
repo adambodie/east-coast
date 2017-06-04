@@ -4,5 +4,7 @@
 :host {
   display: block;
   margin: 0;
-  background-color: #FAF2BB;
+  background: url('../assets/background.jpg') no-repeat center fixed; 
+  background-size: cover;  
 }
+

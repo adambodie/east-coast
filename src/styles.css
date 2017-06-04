@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+p {
+  font-weight: bold;
+  color: white;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.carousel-control.left {
+  background-image: none;
+}
+
+.carousel-control.right {
+  background-image: none;
+}

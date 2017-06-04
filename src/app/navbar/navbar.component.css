@@ -14,8 +14,8 @@ a:hover {
 .flex-container {
     display: -webkit-flex;
     display: flex;
-    background-color: blue;
     border-top: 1px solid black;
+    background: #393192;
 }
 
 .flex-item {
@@ -25,7 +25,7 @@ a:hover {
 
 .dropdown-menu {
 	margin-top: 10px;
-	background-color: blue;
+	background-color: #393192;
 	border-top: 1px solid black;
 	border-radius: 0px;
 }
@@ -36,7 +36,7 @@ a:hover {
 
 .dropdown-menu>li>a:hover {
 	color: #D1B24D;
-	background-color: blue;
+	background-color: #393192;
 }
 
 .dropdown-menu .divider {

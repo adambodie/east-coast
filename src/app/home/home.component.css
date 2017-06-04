@@ -1,3 +1,5 @@
+
+
 .flex-item {
 	padding: 20px;
 }
@@ -62,11 +64,6 @@ figcaption {
   right: 0;
 }
 
-img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
 
 @media screen and (min-width: 480px) {
 
