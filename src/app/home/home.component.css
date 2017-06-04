@@ -25,7 +25,28 @@ h1 {
   font-size: 250%;
 }
 
-/**/
+.ad {
+  background: #4E79A9; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #4E79A9 , #FFF); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #4E79A9, #FFF); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #4E79A9, #FFF); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #4E79A9 , #FFF); /* Standard syntax */
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.ad  h1 {
+  display: none;
+}
+.text {
+  padding: 0;
+}
+.ad a {
+  text-decoration: none;
+}
+
 figure {
   margin: 0;
   position: relative;
@@ -62,5 +83,15 @@ img {
 .paragraph {
     -webkit-flex: 1;
     flex: 1;  
+}
+.ad  h1 {
+  display: block;
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 3em;
+  margin-left: 30px;
+}
+.text {
+  padding: 20px;
 }
 }
