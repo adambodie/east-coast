@@ -21,7 +21,7 @@ form {
 }
 h1 {
   color: #369;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Abril Fatface', cursive;
   font-size: 250%;
 }
 
@@ -74,8 +74,13 @@ img {
     display: -webkit-flex;
     display: flex;
     padding: 20px;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;    
 }
 
+.featured {
+	width: 100%;
+}
 .image {
     -webkit-flex: 1;
     flex: 1;

@@ -25,9 +25,8 @@ a:hover {
 
 .dropdown-menu {
 	margin-top: 10px;
-	width: 300px;
 	background-color: blue;
-	border: none;
+	border-top: 1px solid black;
 	border-radius: 0px;
 }
 
@@ -38,4 +37,11 @@ a:hover {
 .dropdown-menu>li>a:hover {
 	color: #D1B24D;
 	background-color: blue;
+}
+
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: black;
 }
