@@ -1,7 +1,17 @@
 
 <nav class="flex-container">
-  <a class="flex-item" routerLink="/">Home</a>
-  <a class="flex-item" routerLink="/about">About</a>
-  <a class="flex-item" routerLink="#">Other</a>
+  <span class="flex-item"><a routerLink="/">Home</a></span>
+  <span class="flex-item"><a class="flex-item" routerLink="/about">About</a></span>
+  <span class="flex-item" dropdown container="body">
+  <a href dropdownToggle (click)="false">Other</a>
+    <ul *dropdownMenu class="dropdown-menu">
+      <li><a class="dropdown-item" routerLink="/intro">Intro</a></li>
+      <li><a class="dropdown-item" routerLink="/intro">Intro</a></li>
+      <li><a class="dropdown-item" routerLink="/intro">Intro</a></li>
+    </ul>
+</span>
 </nav>
+
+
+
 <router-outlet></router-outlet>

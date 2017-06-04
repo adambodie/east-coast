@@ -14,8 +14,6 @@ a:hover {
 .flex-container {
     display: -webkit-flex;
     display: flex;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
     background-color: blue;
     border-top: 1px solid black;
 }
@@ -23,4 +21,21 @@ a:hover {
 .flex-item {
     width: 100px;
     margin: 10px;
+}
+
+.dropdown-menu {
+	margin-top: 10px;
+	width: 300px;
+	background-color: blue;
+	border: none;
+	border-radius: 0px;
+}
+
+.dropdown-menu>li>a {
+	color: #F5D15D;
+}
+
+.dropdown-menu>li>a:hover {
+	color: #D1B24D;
+	background-color: blue;
 }

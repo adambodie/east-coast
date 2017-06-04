@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule }   from '@angular/router';
-import { CarouselModule } from 'ngx-bootstrap';
+import { CarouselModule, BsDropdownModule } from 'ngx-bootstrap';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about';
 import { HomeComponent } from './home';
@@ -31,6 +31,7 @@ import { HighlightDirective } from './shared/highlight.directive';
     FormsModule,
     HttpModule,
     CarouselModule.forRoot(),
+    BsDropdownModule.forRoot(),
     RouterModule.forRoot([
         {
           path: 'about',
