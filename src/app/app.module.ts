@@ -12,7 +12,8 @@ import { NavbarComponent } from './navbar';
 import { FooterComponent } from './footer';
 import { CarouselComponent } from './carousel';
 import { IntroComponent } from './intro';
-import { HighlightDirective } from './shared/highlight.directive';
+import { CommentComponent } from './comment';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import { HighlightDirective } from './shared/highlight.directive';
     FooterComponent,
     CarouselComponent,
     IntroComponent,
-    HighlightDirective
+    CommentComponent
   ],
   imports: [
     BrowserModule,
