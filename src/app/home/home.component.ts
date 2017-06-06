@@ -15,7 +15,13 @@ constructor(private cdr: ChangeDetectorRef) {}
 
   submitted = false;
 
-  onSubmit() { this.submitted = true; }
+  onSubmit() {
+    if (this.name.length <= 1) {
+      return 
+    } else {
+      this.submitted = true; 
+    }
+  }
 
   onClear() {
     this.name =  "";
