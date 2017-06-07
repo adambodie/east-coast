@@ -1,6 +1,6 @@
-<form (submit)="onSubmit()" #commentForm="ngForm" novalidate>
+<form (submit)="onSubmit()" #commentForm="ngForm" novalidate class="comment-form">
     <div>
-        <label for="name">Name</label>
+        <label for="name">Name</label><br>
         <input type="text" name="name" [(ngModel)]="name" 
             required minlength="3" #nameField="ngModel" 
             [ngStyle]="{'outline-color': nameField.dirty && nameField.valid ? 'green' : undefined }"/>
@@ -10,8 +10,8 @@
         </div>
     </div>
     <div>
-        <label for="comment">Comment</label>
-        <textarea name="comment" [(ngModel)]="comment" 
+        <label for="comment">Comment</label><br>
+        <textarea name="comment" [(ngModel)]="comment" rows="10" cols="60"
             required minlength="3" #commentField="ngModel"
             [ngStyle]="{'outline-color': commentField.dirty && commentField.valid ? 'green' : undefined }"></textarea>
         <div class="alert alert-danger" *ngIf="(commentForm.submitted || commentField.touched) && commentField.errors">
@@ -20,6 +20,6 @@
         </div>
     </div>
     <div>
-        <button>Submit</button>
+        <button class="btn btn-primary">Submit</button>
     </div>
 </form>
