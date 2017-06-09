@@ -1,9 +1,3 @@
-img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 @media screen and (min-width: 480px) {
 
 .flex-container {
