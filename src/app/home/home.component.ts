@@ -11,13 +11,14 @@ constructor(private cdr: ChangeDetectorRef) {}
 
   photo = 'https://placehold.it/600x450/?text=East Coast Project';
   name: string = "";
+  location: string = "";
   items: string = '';
 
   submitted = false;
 
   onSubmit() {
-    if (this.name.length <= 1) {
-      return 
+    if (this.name.length <= 1 || this.location.length <=4) {
+      alert("Please try again"); 
     } else {
       this.submitted = true; 
     }
@@ -25,6 +26,7 @@ constructor(private cdr: ChangeDetectorRef) {}
 
   onClear() {
     this.name =  "";
+    this.location =  "";
     this.submitted = false;
   }
 
