@@ -4,6 +4,12 @@ p {
   color: white;
 }
 
+h1 {
+  color: #FFF;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 250%;
+}
+
 img {
   display: block;
   width: 100%;
@@ -17,3 +23,5 @@ img {
 .carousel-control.right {
   background-image: none;
 }
+
+
