@@ -8,11 +8,8 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about';
 import { HomeComponent } from './home';
 import { HeaderComponent } from './header';
-import { NavbarComponent } from './navbar';
 import { FooterComponent } from './footer';
-import { CarouselComponent } from './carousel';
-import { IntroComponent } from './intro';
-import { CommentComponent } from './comment';
+import { ArticleComponent, ArticleCommentComponent, ArticleCarouselComponent } from './articles';
 
 
 @NgModule({
@@ -21,11 +18,10 @@ import { CommentComponent } from './comment';
     HomeComponent,
     AboutComponent,
     HeaderComponent,
-    NavbarComponent,
     FooterComponent,
-    CarouselComponent,
-    IntroComponent,
-    CommentComponent
+    ArticleCarouselComponent,
+    ArticleComponent,
+    ArticleCommentComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +39,7 @@ import { CommentComponent } from './comment';
         },
         {
           path: 'intro',
-          component: IntroComponent
+          component: ArticleComponent
         }
 ])
   ],

@@ -5,12 +5,12 @@ import { PictureService } from '../shared/picture.service';
 
 
 @Component({
-  selector: 'app-carousel',
-  templateUrl: './carousel.component.html',
-  styleUrls: ['./carousel.component.css'],
+  selector: 'app-article-carousel',
+  templateUrl: './article-carousel.component.html',
+  styleUrls: ['./article.component.css'],
   providers: [PictureService]
 })
-export class CarouselComponent implements OnInit {
+export class ArticleCarouselComponent implements OnInit {
   pictures: Picture[];
 
   constructor(private pictureService: PictureService) { }

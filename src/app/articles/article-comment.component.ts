@@ -3,12 +3,12 @@ import { NgForm } from '@angular/forms';
 
 
 @Component({
-    selector: 'app-comment',
-    templateUrl: 'comment.component.html',
-      styleUrls: ['./comment.component.css']
+    selector: 'app-article-comment',
+    templateUrl: 'article-comment.component.html',
+      styleUrls: ['./article.component.css']
 })
 
-export class CommentComponent {
+export class ArticleCommentComponent {
     name: string = "";
     comment: string = "";
     @Input() entryId: number;
