@@ -1,1 +1,1 @@
-export * from '../articles/article.component';
+export * from '../articles/intro.component';

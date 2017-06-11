@@ -11,6 +11,32 @@ form {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.actions {
+    padding: 2em;
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.actions p {
+    color: black;
+    text-indent: 2em;
+}
+
+.actions h4 {
+  font-weight: bold;
+}
+.liked {
+    color: yellow;
+}
+
+.ng-valid[required], .ng-valid.required  {
+  border-bottom: 5px solid #42A948; /* green */
+}
+.ng-invalid:not(form)  {
+  border-bottom: 5px solid #a94442; /* red */
+}
+
 @media screen and (min-width: 480px) {
 
 .flex-container {

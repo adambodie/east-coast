@@ -9,7 +9,7 @@ import { AboutComponent } from './about';
 import { HomeComponent } from './home';
 import { HeaderComponent } from './header';
 import { FooterComponent } from './footer';
-import { ArticleComponent } from './articles';
+import { IntroComponent } from './articles';
 
 
 @NgModule({
@@ -19,7 +19,7 @@ import { ArticleComponent } from './articles';
     AboutComponent,
     HeaderComponent,
     FooterComponent,
-    ArticleComponent
+    IntroComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +37,7 @@ import { ArticleComponent } from './articles';
         },
         {
           path: 'intro',
-          component: ArticleComponent
+          component: IntroComponent
         }
 ])
   ],

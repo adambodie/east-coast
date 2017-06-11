@@ -6,8 +6,8 @@
 			<img src="{{picture.image}}" alt="{{picture.alt}}">
 			<div class="carousel-caption">
 			  <h3>{{picture.title}}</h3>
-			  <p>{{picture.description}}</p>
-			</div>    
+			  <p>{{picture.description}}</p>   
+			</div>
 		  </slide>
 		</carousel>
     </div>
@@ -17,31 +17,31 @@
         <p>Keytar brooklyn viral, coloring book roof party occupy you probably haven't heard of them la croix shaman readymade deep v mumblecore. Trust fund pok pok enamel pin jianbing put a bird on it. Kale chips man bun master cleanse, fixie freegan kinfolk vegan +1 hell of taiyaki. Before they sold out four loko pinterest jianbing. Lo-fi austin squid, kitsch affogato fixie listicle. Truffaut kogi try-hard, pickled vape yr neutra cred lumbersexual lyft shabby chic 90's XOXO. Put a bird on it small batch slow-carb copper mug, neutra tumeric farm-to-table blue bottle disrupt hella tumblr.</p>
         </div>   
     </div>
- 
-        <div class="flex-container">
-			<form (submit)="onSubmit()" #commentForm="ngForm" novalidate class="comment-form">
+		<div class="flex-container">
+			<div class="actions">
+					<button class="btn btn-primary" type="button" (click)="isLiked = !isLiked" [ngClass]="{liked: isLiked}">❤</button>
+				<div [hidden]="!submitted">
+					<h4>{{name}}</h4>
+					<p>{{comment}}</p>
+				</div>
+			</div>
+		</div>
+      <div class="flex-container">
+			<form (ngSubmit)="onSubmit()" #commentForm="ngForm">
 				<div>
 					<label for="name">Name</label><br>
 					<input type="text" name="name" [(ngModel)]="name" 
 						required minlength="3" #nameField="ngModel" 
-						[ngStyle]="{'outline-color': nameField.dirty && nameField.valid ? 'green' : undefined }"/>
-					<div class="alert alert-danger" *ngIf="(commentForm.submitted || nameField.touched) && nameField.errors">
-						<div [hidden]="!nameField.errors.required">Name is required</div>
-						<div [hidden]="!nameField.errors.minlength">Name must be a minimum of 3 characters long</div>
-					</div>
+						/>
 				</div>
 				<div>
 					<label for="comment">Comment</label><br>
 					<textarea name="comment" [(ngModel)]="comment" rows="10" cols="60"
 						required minlength="3" #commentField="ngModel"
-						[ngStyle]="{'outline-color': commentField.dirty && commentField.valid ? 'green' : undefined }"></textarea>
-					<div class="alert alert-danger" *ngIf="(commentForm.submitted || commentField.touched) && commentField.errors">
-						<div [hidden]="!commentField.errors.required">Comment is required</div>
-						<div [hidden]="!commentField.errors.minlength">Comment must be a minimum of 3 characters long</div>
-					</div>
+					></textarea>
 				</div>
 				<div>
-					<button class="btn btn-primary">Submit</button>
+					<button class="btn btn-success" [disabled]="!commentForm.form.valid">Submit</button>
 				</div>
 			</form>			
         </div>
