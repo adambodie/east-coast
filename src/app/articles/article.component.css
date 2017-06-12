@@ -9,6 +9,7 @@ form {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  flex: 2;
 }
 
 .actions {
@@ -35,6 +36,18 @@ form {
 }
 .ng-invalid:not(form)  {
   border-bottom: 5px solid #a94442; /* red */
+}
+
+
+.ad {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(red, black); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(red, black); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(red, black); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(red, black); /* Standard syntax */
+  margin: 10px;
+  flex: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media screen and (min-width: 480px) {
