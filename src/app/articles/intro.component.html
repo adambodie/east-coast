@@ -17,15 +17,19 @@
         <p>Keytar brooklyn viral, coloring book roof party occupy you probably haven't heard of them la croix shaman readymade deep v mumblecore. Trust fund pok pok enamel pin jianbing put a bird on it. Kale chips man bun master cleanse, fixie freegan kinfolk vegan +1 hell of taiyaki. Before they sold out four loko pinterest jianbing. Lo-fi austin squid, kitsch affogato fixie listicle. Truffaut kogi try-hard, pickled vape yr neutra cred lumbersexual lyft shabby chic 90's XOXO. Put a bird on it small batch slow-carb copper mug, neutra tumeric farm-to-table blue bottle disrupt hella tumblr.</p>
         </div>   
     </div>
+    <div class="comments">
 		<div class="flex-container">
 			<div class="actions">
-					<button class="btn btn-primary" type="button" (click)="isLiked = !isLiked" [ngClass]="{liked: isLiked}">❤</button>
-				<div [hidden]="!submitted">
+				<button class="btn btn-primary" type="button" (click)="isLiked = !isLiked" [ngClass]="{liked: isLiked}">❤</button>
+			</div>
+		</div>
+		<div class="flex-container">	
+			<div [hidden]="!submitted">
 					<h4>{{name}}</h4>
 					<p>{{comment}}</p>
 				</div>
-			</div>
 		</div>
+	</div>	
       <div class="flex-container">
 			<form (ngSubmit)="onSubmit()" #commentForm="ngForm">
 				<div>

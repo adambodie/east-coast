@@ -13,28 +13,30 @@ form {
   margin: 10px;
 }
 
-textarea { width: calc(100% - 20px); }
-
-.actions {
-    padding: 2em;
-    background-color: white;
-    border-radius: 5px;
-    width: 90%;
-    margin: 10px;
+textarea { 
+	width: calc(100% - 20px); 
+	
 }
 
-.actions p {
+.actions {
+	width: calc(100% - 20px);
+}
+
+.comments p {
     color: black;
     text-indent: 2em;
 }
 
-.actions h4 {
-  font-weight: bold;
+.comments h4 {
+	font-weight: bold;
 }
 .liked {
     color: yellow;
 }
-
+.comments {
+	background-color: white;
+	margin: 20px;
+}
 .ng-valid[required], .ng-valid.required  {
   border-bottom: 5px solid #42A948; /* green */
 }
