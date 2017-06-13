@@ -36,7 +36,7 @@
 				</div>
 				<div>
 					<label for="comment">Comment</label><br>
-					<textarea name="comment" [(ngModel)]="comment" rows="10" cols="60"
+					<textarea name="comment" [(ngModel)]="comment" rows="10"
 						required minlength="10" #commentField="ngModel"
 					></textarea>
 				</div>
@@ -44,9 +44,7 @@
 					<button class="btn btn-success" [disabled]="!commentForm.form.valid">Submit</button>
 				</div>
 			</form>
-			    <div class="ad">
-        <a href="http://fortune-cookie.bodiewebdesign.com">
-        <div class="flex-item"><img src="assets/fortune.gif" alt="Read Your Fortune Cookie"/></div>
-        </a>
-    </div>			
+        <a class="ad flex-container" href="http://fortune-cookie.bodiewebdesign.com">
+        <img class="flex-item" src="assets/fortune.gif" alt="Read Your Fortune Cookie"/>
+        </a>			
         </div>

@@ -10,13 +10,17 @@ form {
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   flex: 2;
+  margin: 10px;
 }
+
+textarea { width: calc(100% - 20px); }
 
 .actions {
     padding: 2em;
     background-color: white;
-    width: 100%;
     border-radius: 5px;
+    width: 90%;
+    margin: 10px;
 }
 
 .actions p {
@@ -48,6 +52,7 @@ form {
   margin: 10px;
   flex: 1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  align-items: center;
 }
 
 @media screen and (min-width: 480px) {
@@ -57,6 +62,7 @@ form {
     display: flex;
     padding: 20px;
 }
+
 
 .flex-item {
     -webkit-flex: 1;
