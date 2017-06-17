@@ -1,0 +1,17 @@
+			<form (ngSubmit)="onSubmit()" #commentForm="ngForm">
+				<div>
+					<label for="comment.name">Name</label><br>
+					<input type="text" name="comment.name" [(ngModel)]="comment.name" 
+						required minlength="3" #nameField="ngModel" 
+						/>
+				</div>
+				<div>
+					<label for="text">Comment</label><br>
+					<textarea name="text" [(ngModel)]="comment.text" rows="10"
+						required minlength="10" #commentField="ngModel"
+					></textarea>
+				</div>
+				<div>
+					<button class="btn btn-success" [disabled]="!commentForm.form.valid">Submit</button>
+				</div>
+			</form>

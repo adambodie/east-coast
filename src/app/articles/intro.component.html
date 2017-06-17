@@ -26,12 +26,13 @@
 		<div class="flex-container">	
 			<div [hidden]="!submitted">
 					<h4>{{name}}</h4>
-					<p>{{comment}}</p>
+					<p>{{text}}</p>
 				</div>
 		</div>
 	</div>	
       <div class="flex-container">
-			<form (ngSubmit)="onSubmit()" #commentForm="ngForm">
+				<app-article-comment></app-article-comment>	
+			<!--<form (ngSubmit)="onSubmit()" #commentForm="ngForm">
 				<div>
 					<label for="name">Name</label><br>
 					<input type="text" name="name" [(ngModel)]="name" 
@@ -47,8 +48,9 @@
 				<div>
 					<button class="btn btn-success" [disabled]="!commentForm.form.valid">Submit</button>
 				</div>
-			</form>
+			</form>-->
         <a class="ad flex-container" href="http://fortune-cookie.bodiewebdesign.com">
         <img class="flex-item" src="assets/fortune.gif" alt="Read Your Fortune Cookie"/>
-        </a>			
+        </a>
+					
         </div>
