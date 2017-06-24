@@ -57,6 +57,14 @@ textarea {
   align-items: center;
 }
 
+/*Author CSS
+ -----------------------*/
+ 
+ .author {
+	text-align: right;
+	color: white;
+ }
+
 @media screen and (min-width: 480px) {
 
 .flex-container {

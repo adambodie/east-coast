@@ -9,7 +9,7 @@ export class HomeComponent {
 
 constructor(private cdr: ChangeDetectorRef) {}
 
-  photo = 'https://placehold.it/600x450/?text=East Coast Project';
+  photo = 'assets/intro1.jpg';
   name: string = "";
   location: string = "";
   items: string = '';

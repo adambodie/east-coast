@@ -12,10 +12,27 @@
 		</carousel>
     </div>
     <div class="flex-item">
-        <p>Hashtag kogi gastropub, asymmetrical mixtape master cleanse umami hot chicken chillwave glossier. Yuccie shoreditch forage pop-up XOXO, chartreuse affogato skateboard cornhole deep v mixtape. +1 man braid bushwick, cray lyft sartorial art party disrupt cornhole iceland truffaut pok pok. Cold-pressed blog cred cray lo-fi, af ugh coloring book heirloom butcher kitsch mumblecore actually. Biodiesel fam lyft, messenger bag butcher VHS pickled small batch meh. Salvia four loko pour-over mumblecore trust fund edison bulb. Knausgaard skateboard helvetica squid poutine snackwave.</p>
-        <p>Jianbing 90's marfa semiotics, post-ironic hella everyday carry disrupt snackwave single-origin coffee gastropub +1 tofu polaroid cred. You probably haven't heard of them food truck hot chicken selvage hashtag, lyft cliche meggings art party subway tile meh chicharrones stumptown vegan pug. Chia crucifix XOXO waistcoat single-origin coffee, four loko fingerstache schlitz lo-fi. Gluten-free tacos art party, taxidermy dreamcatcher direct trade cred vexillologist tofu ramps poutine cornhole. Art party small batch irony retro. Godard iPhone pork belly put a bird on it freegan, offal palo santo live-edge microdosing green juice portland. Jean shorts semiotics roof party occupy thundercats franzen.</p>
-        <p>Keytar brooklyn viral, coloring book roof party occupy you probably haven't heard of them la croix shaman readymade deep v mumblecore. Trust fund pok pok enamel pin jianbing put a bird on it. Kale chips man bun master cleanse, fixie freegan kinfolk vegan +1 hell of taiyaki. Before they sold out four loko pinterest jianbing. Lo-fi austin squid, kitsch affogato fixie listicle. Truffaut kogi try-hard, pickled vape yr neutra cred lumbersexual lyft shabby chic 90's XOXO. Put a bird on it small batch slow-carb copper mug, neutra tumeric farm-to-table blue bottle disrupt hella tumblr.</p>
+		<h1>You Can Call Me Al</h1>
+		<h3 class="author">by Adam Bodie</h3>
+        <p>Back in the day, You Can Call Me Al was a song performed by Paul Simon, made famous with a video containing Chevy Chase lip-synching the lyrics.  Of course, anyone heading to the D.C.-Baltimore region should know that Chevy Chase is also the name of a Washington D.C. suburb.  So it was only fitting that on the way to the airport, this song got brought up in the car and stuck in my head.  So what exactly is this song about, the very song I played drums when I was just 2 years old?</p>
+        <p>Extensive Research led me to find this out: The song, written by Paul Simon, appears to be about a man in a midlife crisis.  Simon was inspired to write this song after making a trip to South Africa, which led him to make the Graceland album which this song is featured as a single.  As for the names in the some, Al and Betty, Paul Simon came up with those names from a party which him and his wife Peggy were mistaken for Al and Betty.</p>
+        <p>Of course, there are plenty of people out there know simply as Al.  Short for Albert, here are a list of people, both real and fictional, who go by the name Al:</p>
+        <ul>
+			<li *ngFor="let famousAl of famousAls" class="famousAl">
+				{{famousAl}}
+			</li>
+        </ul>
         </div>   
+    </div>
+    <div class="flex-container">
+		<div class="flex-item">
+			<h1>Crop Circles, the Hidden Truth</h1>
+			<h3 class="author">by Adam Bodie</h3>
+        <p>Jianbing 90's marfa semiotics, post-ironic hella everyday carry disrupt snackwave single-origin coffee gastropub +1 tofu polaroid cred. You probably haven't heard of them food truck hot chicken selvage hashtag, lyft cliche meggings art party subway tile meh chicharrones stumptown vegan pug. Chia crucifix XOXO waistcoat single-origin coffee, four loko fingerstache schlitz lo-fi. Gluten-free tacos art party, taxidermy dreamcatcher direct trade cred vexillologist tofu ramps poutine cornhole. Art party small batch irony retro. Godard iPhone pork belly put a bird on it freegan, offal palo santo live-edge microdosing green juice portland. Jean shorts semiotics roof party occupy thundercats franzen.</p>
+        <p>Jianbing 90's marfa semiotics, post-ironic hella everyday carry disrupt snackwave single-origin coffee gastropub +1 tofu polaroid cred. You probably haven't heard of them food truck hot chicken selvage hashtag, lyft cliche meggings art party subway tile meh chicharrones stumptown vegan pug. Chia crucifix XOXO waistcoat single-origin coffee, four loko fingerstache schlitz lo-fi. Gluten-free tacos art party, taxidermy dreamcatcher direct trade cred vexillologist tofu ramps poutine cornhole. Art party small batch irony retro. Godard iPhone pork belly put a bird on it freegan, offal palo santo live-edge microdosing green juice portland. Jean shorts semiotics roof party occupy thundercats franzen.</p>
+        <p>Jianbing 90's marfa semiotics, post-ironic hella everyday carry disrupt snackwave single-origin coffee gastropub +1 tofu polaroid cred. You probably haven't heard of them food truck hot chicken selvage hashtag, lyft cliche meggings art party subway tile meh chicharrones stumptown vegan pug. Chia crucifix XOXO waistcoat single-origin coffee, four loko fingerstache schlitz lo-fi. Gluten-free tacos art party, taxidermy dreamcatcher direct trade cred vexillologist tofu ramps poutine cornhole. Art party small batch irony retro. Godard iPhone pork belly put a bird on it freegan, offal palo santo live-edge microdosing green juice portland. Jean shorts semiotics roof party occupy thundercats franzen.</p>
+			
+		</div>
     </div>
     <div class="comments">
 		<div class="flex-container">
@@ -31,8 +48,8 @@
 		</div>
 	</div>	
       <div class="flex-container">
-				<app-article-comment></app-article-comment>	
-			<!--<form (ngSubmit)="onSubmit()" #commentForm="ngForm">
+			<!--	<app-article-comment></app-article-comment>	
+			<form (ngSubmit)="onSubmit()" #commentForm="ngForm">
 				<div>
 					<label for="name">Name</label><br>
 					<input type="text" name="name" [(ngModel)]="name" 

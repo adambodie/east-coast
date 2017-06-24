@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  title = 'Untitled East Coast Project';
+  title = 'N.A.D.M. 2 - The Infamous';
 }

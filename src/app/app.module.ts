@@ -33,12 +33,12 @@ import { ArticleCommentComponent, IntroComponent } from './articles';
           path: 'about',
           component: AboutComponent
         },
-        {   path: '',
-            component: HomeComponent
+        {   path: 'intro',
+            component: IntroComponent
         },
         {
-          path: 'intro',
-          component: IntroComponent
+          path: '',
+          component: HomeComponent
         }
 ])
   ],
