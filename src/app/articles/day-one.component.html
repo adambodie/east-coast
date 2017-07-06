@@ -1,0 +1,38 @@
+<div class="flex-container">
+    <div class="flex-item">
+		<carousel>
+		  <slide *ngFor="let picture of pictures">
+			<img src="https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/photos/{{picture.image}}" alt="{{picture.alt}}" class="img-responsive">
+			<div class="carousel-caption">
+			  <h3>{{picture.title}}</h3>
+			  <p>{{picture.description}}</p>   
+			</div>
+		  </slide>
+		</carousel>
+    </div>
+</div>
+<div class="flex-container">
+	<div class="flex-item">
+		<h1>Baltimore</h1>
+			<p>What a difference the time of year can make upon one's impression of the city.  Having been in Baltimore for the first time during a snowstorm in 2013, the city had an entirely different feel during the late late spring evening when that snow and cold is replaced with clear skies and humidity.</p>
+			<p>Walking around the Inner Harbor was much more lively this time around.  From people listening to a live band perform at the Hard Rock Cafe to the flock of people having a good time walking around, Baltimore was ready to party.  There’s plenty of fun around the Harbor, but at the time of night, it's unfortunate there's little to eat around the Harbor.  Unable to find a place to eat, it was time to head back to Laurel, but due to the unfortunate closing of their Silver Diner, we instead went to the next nearest Diner in Greenbelt.</p>
+	</div>
+</div>
+<div class="row">
+	<h1>Spotlight</h1>
+	<div class="col-md-6">
+		
+			<carousel>
+		  <slide *ngFor="let pier of piers">
+			<img src="https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/photos/{{pier.image}}" alt="{{pier.alt}}" class="img-responsive">
+			<div class="carousel-caption">
+			  <h3>{{pier.title}}</h3>
+			  <p>{{pier.description}}</p>   
+			</div>
+		  </slide>
+		</carousel>	
+		</div>
+		<div class="col-md-6">
+			<p>Tumeric williamsburg shoreditch viral disrupt. Hexagon PBR&B photo booth, cliche disrupt pok pok godard. Kinfolk raw denim cray VHS fam small batch, listicle PBR&B franzen single-origin coffee. Tote bag live-edge authentic polaroid iPhone hell of lo-fi yr chia fam unicorn umami mumblecore truffaut. Single-origin coffee pop-up wayfarers vegan keytar, flannel knausgaard pabst. Helvetica beard pabst bushwick jean shorts before they sold out. Kale chips fixie banjo vape cold-pressed meh hell of swag stumptown authentic leggings chartreuse snackwave waistcoat. VHS tattooed chillwave you probably haven't heard of them church-key synth. Godard meh green juice health goth, artisan cornhole bushwick gastropub trust fund woke 90's.</p>
+		</div>
+</div>
