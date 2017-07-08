@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 
 import { Picture } from './picture';
-import { PICTURES } from './mock-pictures';
-import { INTROPICTURES } from './intro-pictures';
+import { PICTURES, INTROPICTURES, BALTIMOREPICTURES, PIERPICTURES } from './mock-pictures';
+
 
 @Injectable()
 export class PictureService {
@@ -12,4 +12,10 @@ export class PictureService {
     getIntroPictures(): Promise<Picture[]>{
         return Promise.resolve(INTROPICTURES);
     }
+    getBaltimorePictures(): Promise<Picture[]>{
+        return Promise.resolve(BALTIMOREPICTURES);
+    }
+    getPierPictures(): Promise<Picture[]>{
+        return Promise.resolve(PIERPICTURES);
+    }         
 }

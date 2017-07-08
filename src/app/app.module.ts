@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule }   from '@angular/router';
-import { CarouselModule, BsDropdownModule } from 'ngx-bootstrap';
+import { CarouselModule, BsDropdownModule, ModalModule } from 'ngx-bootstrap';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about';
 import { HomeComponent } from './home';
@@ -29,6 +29,7 @@ import { ArticleCommentComponent, IntroComponent, DayOneComponent } from './arti
     HttpModule,
     CarouselModule.forRoot(),
     BsDropdownModule.forRoot(),
+    ModalModule.forRoot(),
     RouterModule.forRoot([
         {
           path: 'about',

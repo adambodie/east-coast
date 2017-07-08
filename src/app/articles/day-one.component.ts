@@ -1,23 +1,27 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, EventEmitter, Input, Output, ViewChild } from '@angular/core';
+import { Picture } from '../shared/picture';
+import { Comment } from '../shared/comments.model';
+import { PictureService } from '../shared/picture.service';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-day-one',
   templateUrl: './day-one.component.html',
-  styleUrls: ['./day-one.component.css']
+  styleUrls: ['./article.component.css'],
+  providers: [PictureService]
 })
-export class DayOneComponent {
-    pictures = [
-    {id: 1, image: 'baltimore1.jpg', alt: 'MT&T Bank Stadium', title: "MT&T Bank Stadium", description: 'Home of the Baltimore Ravens'},
-    {id: 2, image: 'baltimore2.jpg', alt: 'MT&T Bank Stadium', title: "MT&T Bank Stadium", description: 'I finally got a picture of the football stadium'},
-    {id: 3, image: 'baltimore3.jpg', alt: 'Baltimore', title: "Welcome Back Baltimore", description: 'At least there\'s no Snow'},
-    {id: 4, image: 'baltimore4.jpg', alt: 'Baltimore', title: "Welcome Back Baltimore", description: 'At least there\'s no Snow'},   
-    ]
+export class DayOneComponent implements OnInit {
+  baltimorePictures: Picture[];
+  pierPictures: Picture[];
+  link = "https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/";        
+  constructor(private pictureService: PictureService) { }
 
-    piers = [
-        {id: 1, image: 'pier1.jpg', alt: 'MT&T Bank Stadium', title: "MT&T Bank Stadium", description: 'Home of the Baltimore Ravens'},
-    {id: 2, image: 'pier2.jpg', alt: 'MT&T Bank Stadium', title: "MT&T Bank Stadium", description: 'I finally got a picture of the football stadium'},
-    {id: 3, image: 'pier3.jpg', alt: 'Baltimore', title: "Welcome Back Baltimore", description: 'At least there\'s no Snow'},
-    {id: 4, image: 'pier4.jpg', alt: 'Baltimore', title: "Welcome Back Baltimore", description: 'At least there\'s no Snow'},   
+  getPictures(): void {
+    this.pictureService.getBaltimorePictures().then(pictures => this.baltimorePictures = pictures);
+    this.pictureService.getPierPictures().then(pictures => this.pierPictures = pictures);
+  }
 
-    ]
+  ngOnInit(): void {
+    this.getPictures();
+  }
 }

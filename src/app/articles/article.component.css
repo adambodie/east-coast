@@ -1,7 +1,6 @@
 img {
   display: block;
-  width: 100%;
-  height: auto;
+  margin: 0 auto;
 }
 
 form {
@@ -57,6 +56,27 @@ textarea {
   align-items: center;
 }
 
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    
+}
+
+span {
+    font-size: 2em;
+    color: #F5D15D;
+}
+
+.video {
+    position:relative;
+    max-width:1920px;
+}
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
 /*Author CSS
  -----------------------*/
  
@@ -71,6 +91,8 @@ textarea {
     display: -webkit-flex;
     display: flex;
     padding: 20px;
+    -webkit-align-items: center;
+    align-items: center;
 }
 
 
@@ -79,4 +101,5 @@ textarea {
     flex: 1;
     padding: 20px;
 }
+
 }
