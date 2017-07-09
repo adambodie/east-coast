@@ -84,22 +84,29 @@ span {
 	text-align: right;
 	color: white;
  }
+.btn {
+    min-width: 100px;
+    min-height: 50px;
+    display: block;
+    margin: 0 auto;
+
+}
+
 
 @media screen and (min-width: 480px) {
-
-.flex-container {
-    display: -webkit-flex;
-    display: flex;
-    padding: 20px;
-    -webkit-align-items: center;
-    align-items: center;
-}
-
-
-.flex-item {
-    -webkit-flex: 1;
-    flex: 1;
-    padding: 20px;
-}
-
+    .flex-container {
+        display: -webkit-flex;
+        display: flex;
+        padding: 20px;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .flex-item {
+        -webkit-flex: 1;
+        flex: 1;
+        padding: 20px;
+    }
+    .carousel-indicators {
+        display: block!important;
+    }
 }
