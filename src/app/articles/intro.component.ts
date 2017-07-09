@@ -11,6 +11,7 @@ import { PictureService } from '../shared/picture.service';
 
 export class IntroComponent implements OnInit {
   pictures: Picture[];
+  kevinPictures: Picture[];
   link = "https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/";  
 
   famousAls = [
@@ -30,6 +31,7 @@ export class IntroComponent implements OnInit {
 
   getPictures(): void {
     this.pictureService.getIntroPictures().then(pictures => this.pictures = pictures);
+    this.pictureService.getKevinPictures().then(pictures => this.kevinPictures = pictures);
   }
 
   ngOnInit(): void {

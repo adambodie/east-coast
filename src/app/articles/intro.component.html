@@ -23,7 +23,7 @@
 			</div>
       </div>   
 </div>
-    <div class="flex-container">
+    <div class="flex-container center">
 			<div class="flex-item article">
 				<h1>So We Made it to Maryland</h1>
 					<p>After our uneventful flight, we arrived at BWI where the first thing we noticed was how hot and muggy it was; much muggier than Portland ever gets.  Thankfully, Neal showed up not too long after, though we had to wait a little bit because our flight (unfortunately, as the humorous Pilot put it) arrived early.  He had a new car than from the last time I was in Maryland, and it was slick, but one thing that struck me was the bad stench to Neal's car.  I've smelled worse, but it was noticeable enough.  Other than that, the car was nice and modern, with the now standard back-up camera, as well as the optional lane change camera.</p>
@@ -37,7 +37,7 @@
 			</div>			
     </div>	
 
-		<div class="flex-container">
+		<div class="flex-container center">
 			<div class="flex-item">
 					<h1>Dinner Review: Pho Kevin</h1>
 					<h3 style="text-indent: 2em">How to Eat Pho by Neal Pitts</h3>
@@ -57,7 +57,15 @@
 
 			</div>
 			<div class="flex-item">
-				<img class="img-responsive" src="{{link}}photos/kevin3.jpg" alt="Pho Kevin"/>
+				<carousel>
+					<slide *ngFor="let kevinPicture of kevinPictures">
+					<img src="{{link}}photos/{{kevinPicture.image}}" alt="{{kevinPicture.alt}}" class="img-responsive">
+					<div class="carousel-caption">
+						<h3>{{kevinPicture.title}}</h3>
+						<p>{{kevinPicture.description}}</p>   
+					</div>
+					</slide>
+		</carousel>
 			</div>
 		</div>
 			<div class="flex-container">

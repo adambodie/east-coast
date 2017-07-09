@@ -29,15 +29,12 @@ export const INTROPICTURES: Picture[] = [
   {id: 19, image: 'intro19.jpg', alt: 'Uniontown', title: 'Uniontown, Pennsylvania'},
   {id: 20, image: 'intro20.jpg', alt: 'Jenn & Adam', title: 'We\'re ready for this plane to land'},  
   {id: 21, image: 'laurel1.jpg', alt: 'Laurel', title: 'View from the Hotel'},
-  {id: 22, image: 'kevin1.jpg', alt: 'Pho Kevin', title: 'Pho Kevin'},
-  {id: 23, image: 'kevin2.jpg', alt: 'Thai Iced Tea', title: 'Thai Iced Tea'},
-  {id: 24, image: 'kevin3.jpg', alt: 'Pho', title: 'Pho'},
-  {id: 25, image: 'laurel2.jpg', alt: 'Sunset', title: 'Sunset in Laurel'},
-  {id: 26, image: 'laurel3.jpg', alt: 'Sunset', title: 'Sunset in Laurel'},
-  {id: 27, image: 'laurel4.jpg', alt: 'Jenn and Neal', title: 'Two Deaths and a Chiropractic Treatment'},
-  {id: 28, image: 'laurel5.jpg', alt: 'Jenn and Neal', title: 'Coming to a Hotel Room Near You'},
-  {id: 29, image: 'laurel6.jpg', alt: 'Jenn and Neal', title: 'This is not part of the cirriculum'},
-  {id: 30, image: 'laurel7.jpg', alt: 'Holiday Inn Express', title: 'Holiday Inn Express'}                    
+  {id: 22, image: 'laurel2.jpg', alt: 'Sunset', title: 'Sunset in Laurel'},
+  {id: 23, image: 'laurel3.jpg', alt: 'Sunset', title: 'Sunset in Laurel'},
+  {id: 24, image: 'laurel4.jpg', alt: 'Jenn and Neal', title: 'Two Deaths and a Chiropractic Treatment'},
+  {id: 25, image: 'laurel5.jpg', alt: 'Jenn and Neal', title: 'Coming to a Hotel Room Near You'},
+  {id: 26, image: 'laurel6.jpg', alt: 'Jenn and Neal', title: 'This is not part of the cirriculum'},
+  {id: 27, image: 'laurel7.jpg', alt: 'Holiday Inn Express', title: 'Holiday Inn Express'}                    
 ];
 
 export const BALTIMOREPICTURES: Picture[] = [
@@ -93,12 +90,12 @@ export const BALTIMOREPICTURES: Picture[] = [
     {id: 50, image: 'baltimore50.jpg', alt: 'U.S.S. Constellation', title: 'U.S.S. Constellation'},
     {id: 51, image: 'baltimore51.jpg', alt: 'View from the Inner Harbor', title: 'View from the Inner Harbor'},
     {id: 52, image: 'baltimore52.jpg', alt: 'Hebrew', title: 'Hebrew on the Streets', description: 'Jenn found this, good eye!'},
-    {id: 53, image: 'baltimore53.jpg', alt: 'Baltimore World Trade Center', title: 'Baltimore World Center'},
+    {id: 53, image: 'baltimore53.jpg', alt: 'Baltimore World Trade Center', title: 'Baltimore World Trade Center'},
     {id: 54, image: 'baltimore54.jpg', alt: 'Baltimore Skyline', title: 'Baltimore Skyline', description: 'The second tallest building in Maryland, the Bank of America Building, is on the right with the bright yellow top'},
     {id: 55, image: 'baltimore55.jpg', alt: 'Baltimore Skyline', title: 'Baltimore Skyline'},
     {id: 56, image: 'baltimore56.jpg', alt: 'Baltimore Skyline', title: 'Baltimore Skyline'},
     {id: 57, image: 'baltimore57.jpg', alt: 'Baltimore Skyline', title: 'Baltimore Skyline'},
-    {id: 58, image: 'baltimore58.jpg', alt: '', title: ''}                               
+    {id: 58, image: 'baltimore58.jpg', alt: 'Baltimore Skyline', title: 'Baltimore SKyline'}                               
 ]
 
 export const PIERPICTURES: Picture[] = [
@@ -119,4 +116,16 @@ export const PIERPICTURES: Picture[] = [
     {id: 15, image: 'pier15.jpg', alt: 'View from the Pier', title: 'View from the Pier'}                
 ]
 
+export const KEVINPICTURES: Picture[] = [
+  {id: 1, image: 'kevin1.jpg', alt: 'Pho Kevin', title: 'Pho Kevin'},
+  {id: 2, image: 'kevin2.jpg', alt: 'Thai Iced Tea', title: 'Thai Iced Tea'},
+  {id: 3, image: 'kevin3.jpg', alt: 'Pho', title: 'Pho'}  
+]
+
+export const DINERPICTURES: Picture[] = [
+  {id: 1, image: 'silver-diner1.jpg', alt: 'Silver Diner', title: 'Silver Diner'},
+  {id: 2, image: 'silver-diner2.jpg', alt: 'Jenn', title: 'Smile Jenn'},
+  {id: 3, image: 'silver-diner3.jpg', alt: 'Jenn', title: 'Is that Yummy Jenn?'},
+  {id: 4, image: 'silver-diner4.jpg', alt: 'Wasabi Salmon Sliders', title: 'Wasabi Salmon Sliders'},  
+]
 /*    {id: , image: '.jpg', alt: '', title: ''},*/

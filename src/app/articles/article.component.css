@@ -1,18 +1,23 @@
 /* Basic CSS
 -------------------------*/
 
-img {
-  display: block;
-  margin: 0 auto;
+.main-carousel {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    max-height: 300px;
+}
+.secondary-carousel {
+    display: block;
+    margin: 0 auto;
+    max-width: 375px;
+    max-height: 280px;       
 }
 
 h3 {
     color: white;
 }
-ul>li {
-    color: white;
-    list-style: none;
-}
+
 ol>li {
     color: white;
     font-weight: bold;
@@ -27,7 +32,6 @@ span {
     min-height: 50px;
     display: block;
     margin: 0 auto;
-
 }
 
 .video {
@@ -76,8 +80,8 @@ span {
         display: -webkit-flex;
         display: flex;
         padding: 20px;
-        -webkit-align-items: center;
-        align-items: center;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
     }
     .flex-item {
         -webkit-flex: 1;
@@ -87,4 +91,32 @@ span {
     .carousel-indicators {
         display: block!important;
     }
+    .main-carousel {
+        max-width: 600px;
+        max-height: 450px;
+    }
+    .secondary-carousel {
+        max-width: 400px;
+        max-height: 300px;       
+    }
+    .center {
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .top {
+        -webkit-align-items: flex-start;
+        align-items: flex-start;
+    }                  
+}
+
+@media screen and (min-width: 768px) {
+    .main-carousel {
+        max-width: 800px;
+        max-height: 600px;
+    }
+
+    .secondary-carousel {
+        max-width: 600px;
+        max-height: 450px;       
+    }    
 }

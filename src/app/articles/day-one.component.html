@@ -3,7 +3,7 @@
 		<carousel>
 		  <slide *ngFor="let baltimorePicture of baltimorePictures">
 				<a href="{{link}}photos/{{baltimorePicture.image}}">
-					<img src="{{link}}photos/{{baltimorePicture.image}}" alt="{{baltimorePicture.alt}}" class="img-responsive">
+					<img src="{{link}}photos/{{baltimorePicture.image}}" alt="{{baltimorePicture.alt}}" class="img-responsive main-carousel">
 				</a>
 			<div class="carousel-caption">
 			  <h3>{{baltimorePicture.title}}</h3>
@@ -13,18 +13,26 @@
 		</carousel>
     </div>	
 </div>
-<div class="flex-container">
+<div class="flex-container center">
+	<div class="flex-item" style="flex: 2">
+		<h1>First Night in Baltimore</h1>
+			<p>What a difference the time of year can make upon one's impression of the city.  Having been in Baltimore for the first time during a snowstorm in 2013, the city had an entirely different feel during the late late spring evening when that snow and cold is replaced with clear skies and humidity.  Instead of having it constantly and digging your way through walking, the roads were clear, easy to navigate, and you didn't have to bundle up inside the Panera Bread on the corner.</p>
+			<p>Walking around the Inner Harbor was much more lively this time around.  From people listening to a live band perform at the Hard Rock Cafe to the flock of people having a good time walking around, Baltimore was more fun to see this time around.  There's plenty of fun around the Harbor, but at the time of night, it's unfortunate there's little to eat around the Harbor.  Unable to find a place to eat, it was time to head back to Laurel, but due to the unfortunate closing of their Silver Diner, we instead went to the next nearest Silver Diner in Greenbelt.</p>
+	</div>
 	<div class="flex-item">
-		<h1>Baltimore</h1>
-			<p>What a difference the time of year can make upon one's impression of the city.  Having been in Baltimore for the first time during a snowstorm in 2013, the city had an entirely different feel during the late late spring evening when that snow and cold is replaced with clear skies and humidity.  Instead of having it constantly and digging your way through walking, the roads were clear and easy to navigate.</p>
-			<p>Walking around the Inner Harbor was much more lively this time around.  From people listening to a live band perform at the Hard Rock Cafe to the flock of people having a good time walking around, Baltimore was ready to party.  There’s plenty of fun around the Harbor, but at the time of night, it's unfortunate there's little to eat around the Harbor.  Unable to find a place to eat, it was time to head back to Laurel, but due to the unfortunate closing of their Silver Diner, we instead went to the next nearest Diner in Greenbelt.</p>
+		<a href="http://nfl-passer-rating.bodiewebdesign.com">
+				<img class="flex-item img-responsive" src="assets/nfl.jpg" alt="NFL Passer Rating"/>
+				</a>
 	</div>
 </div>
-<div class="flex-container">	
+	<div class="flex-container">
+	<h1>Spotlight</h1>	
+	</div>
+<div class="flex-container top">
 	<div class="flex-item">		
 			<carousel>
 		  <slide *ngFor="let pierPicture of pierPictures">
-			<img src="{{link}}photos/{{pierPicture.image}}" alt="{{pierPicture.alt}}" class="img-responsive"/>
+			<img src="{{link}}photos/{{pierPicture.image}}" alt="{{pierPicture.alt}}" class="img-responsive secondary-carousel"/>
 			<div class="carousel-caption">
 			  <h3>{{pierPicture.title}}</h3>
 			  <p>{{pierPicture.description}}</p>   
@@ -33,22 +41,21 @@
 		</carousel>	
 		</div>
 		<div class="flex-item">
-			<h1>Spotlight</h1>
 			<p>The Inner Harbor is full of fun places to visit.  The National Aquarium is one the more obvious places; it's ranked as one of the World's Best Aquariums.  The World Trade Center stands out in the middle of the Harbor.  And further down, there are a few fun places, like Ripley's Believe it or Not Odditorium.  But one particular visually striking place that always catches my eye is the restaurants/businesses at Pier 4.</p>
 			<p>The center of Pier 4 is the Barnes & Noble.  The least interesting place of the bunch, as it is just your typical chain bookstore.  Since we visited at night, it was closed.  Clearly, no action was happening then.  But the restaurants are what brings the heart and soul of the Pier.  To the left is a seafood restaurant named Phillips.  Looks like a fancy place, and with outdoor seating on the harbor itself, it would be a great summer hangout to sit back and relax.  To the right of the Barnes & Noble is the Hard Rock Cafe.  More fun than Phillips, the Hard Rock Cafe was the place to hang out at night, as a live band was performing outdoor along the Harbor.  Covering famous songs including Prince's classic Purple Rain, there's always plenty of action at the Hard Rock Cafe.  Unfortunately, we would have been better off showing up earlier in the evening.  By the time we got there, the kitchen had already closed.  Still fun to walk around the area.</p>
 			<p>Those are the big three businesses at the Pier, but other ones hide themselves well.  One place I found was Dick's Last Resort, which had a tropic theme.  Sitting outside was a grumpy looking statue, whom I'm assuming is Dick, wearing a Hawaiian Shirt, shorts and holding a beer.  I didn't want to attempt to pick its nose; that's more of Jenn's thing, and since I ran off to go picture crazy, I didn't get around to showing Jenn grumpy old Dick.</p>
 		</div>
 	</div>
-	<div class="flex-container">
+	<div class="flex-container center">
 		<div class="flex-item">
 			<h1>Baltimore By The Numbers</h1>
 			<p><span>29</span> - Ranking of most populated cities in the United States</p>
 			<p><span>3</span> - The number of cities outside of Virginia that are not part of any county. Besides Baltimore, the other two are St. Louis and Carson City</p>
 			<p><span>1729</span> - The year which Baltimore was founded</p>
-			<p><span>234.25</span> - height of the Phoenix Shot Tower in Baltimore, the tallest building in the US from 1828 until the Civil War</p>
+			<p><span>234.25</span> - The height of the Phoenix Shot Tower in Baltimore, the tallest building in the US from 1828 until the Civil War</p>
 			<p><span>405</span> - Height of the Baltimore World Trade Center, making it the world's tallest equilateral pentagonal building</p>
-			<p><span>1</span> - the 1st Roman Catholic Cathedral in the US was built in Baltimore</p>
-			<p><span>2</span> - the 2nd city to ever reach a population over 100K, after New York City</p>
+			<p><span>1</span> - 1st Roman Catholic Cathedral in the US was built in Baltimore</p>
+			<p><span>2</span> - 2nd City in the US to reach a population over 100K, after New York City</p>
 		</div>
 		<div class="flex-item">
 			<div class="video">
@@ -58,6 +65,24 @@
 						<source src="{{link}}videos/baltimore.ogv" type="video/ogg" />
 				</video>
 			</div>
+		</div>
+	</div>
+	<div class="flex-container">
+		<div class="flex-item">
+				<carousel>
+					<slide *ngFor="let dinerPicture of dinerPictures">
+					<img src="{{link}}photos/{{dinerPicture.image}}" alt="{{dinerPicture.alt}}" class="img-responsive secondary-carousel"/>
+					<div class="carousel-caption">
+						<h3>{{dinerPicture.title}}</h3>
+						<p>{{dinerPicture.description}}</p>   
+					</div>
+					</slide>
+				</carousel>	
+		</div>
+		<div class="flex-item">
+			<h1>Silver Diner Review</h1>
+			<p>Looking for a place to eat, but not wanting to stay in Baltimore, we headed back towards Laurel to the Silver Diner.  But that location closed down, so we went to one in Greenbelt instead, which was the closest Silver Diner to Laurel.  Of course, it was past Laurel, so extra driving was involved.  But eating at 1:00 am, although basically unprecedented for me, felt more natural since it only seemed like 1:00 am.</p>
+			<p>Similar to the retro 50's cafes like Johnny Rockets, or Guenther Toody's in Denver, you'll feel back in time with the jukeboxes and old time music.  But the menu does not have that feeling at all, as they have many interesting food and drink item combinations.  Jenn continued her adventerous streak by trying the Guava Mint Ginger Ale.  An interesting combo, but Jenn enjoyed it.  As for me, I also took an adventure and had the Wasabi Fresh Atlantic Salmon Sliders.  Served with a fruit salad, it came with two sliders, and since I wasn't too hungry, I didn't mind.  The sliders themselves weren't bad.  I didn't taste enough Wasabi, but other than that, I enjoyed them.  I also had some of Jenn's fries in exchange for the salad that I didn't really want.</p>
 		</div>
 	</div>
 	<div class="flex-container">

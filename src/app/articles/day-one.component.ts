@@ -13,12 +13,14 @@ import { NgForm } from '@angular/forms';
 export class DayOneComponent implements OnInit {
   baltimorePictures: Picture[];
   pierPictures: Picture[];
+  dinerPictures: Picture[];
   link = "https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/";        
   constructor(private pictureService: PictureService) { }
 
   getPictures(): void {
     this.pictureService.getBaltimorePictures().then(pictures => this.baltimorePictures = pictures);
     this.pictureService.getPierPictures().then(pictures => this.pierPictures = pictures);
+    this.pictureService.getDinerPictures().then(pictures => this.dinerPictures = pictures);
   }
 
   ngOnInit(): void {
