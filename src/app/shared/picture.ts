@@ -4,5 +4,5 @@ export class Picture {
   image: string;
   alt: string;
   title: string;
-  description: string;
+  description?: string;
 }
