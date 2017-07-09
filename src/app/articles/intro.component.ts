@@ -1,8 +1,6 @@
-import { Component, OnInit, EventEmitter, Input, Output, ViewChild } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Picture } from '../shared/picture';
-import { Comment } from '../shared/comments.model';
 import { PictureService } from '../shared/picture.service';
-import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-intro',
@@ -14,12 +12,19 @@ import { NgForm } from '@angular/forms';
 export class IntroComponent implements OnInit {
   pictures: Picture[];
   link = "https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/";  
-  @Input() name: string = "";
-  @Input() comment: string = "";
-  @Input() id: number;
 
-  famousAls = ["Al Green", "Al Roker", "Al Pacino", "Al Gore", "Big Gay Al", "Weird Al Yankovic", "Al Capone", "Al Franken"];
-  submitted = false;
+  famousAls = [
+    {name:'Al Green', image: 'green.jpg'},
+    {name: 'Al Roker', image: 'roker.jpg'},
+    {name: 'Al Pacino', image: 'pacino.jpg'},
+    {name: 'Al Gore', image: 'gore.jpg'},
+    {name: 'Big Gay Al', image: 'big-gay-al.jpg'},
+    {name: 'Weird Al Yankovic', image: 'yankovic.jpg'},
+    {name: 'Al Capone', image: 'capone.jpg'},
+    {name: 'Al Franken', image: 'franken.jpg'},
+    {name: 'Al Davis', image: 'davis.jpg'}
+    ];
+
 
   constructor(private pictureService: PictureService) { }
 
@@ -31,8 +36,4 @@ export class IntroComponent implements OnInit {
     this.getPictures();
   }
 
-    
-  onSubmit() {
-    this.submitted = true;
-  }
 }

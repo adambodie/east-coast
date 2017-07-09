@@ -27,7 +27,17 @@ export const INTROPICTURES: Picture[] = [
   {id: 17, image: 'intro17.jpg', alt: 'Jenn and Adam', title: 'Long plane rides make you Crazy'},
   {id: 18, image: 'intro18.jpg', alt: 'Ohio & West Virginia', title: 'The Ohio River cutting through Ohio and West Virginia'},
   {id: 19, image: 'intro19.jpg', alt: 'Uniontown', title: 'Uniontown, Pennsylvania'},
-  {id: 20, image: 'intro20.jpg', alt: 'Jenn & Adam', title: 'We\'re ready for this plane to land'},        
+  {id: 20, image: 'intro20.jpg', alt: 'Jenn & Adam', title: 'We\'re ready for this plane to land'},  
+  {id: 21, image: 'laurel1.jpg', alt: 'Laurel', title: 'View from the Hotel'},
+  {id: 22, image: 'kevin1.jpg', alt: 'Pho Kevin', title: 'Pho Kevin'},
+  {id: 23, image: 'kevin2.jpg', alt: 'Thai Iced Tea', title: 'Thai Iced Tea'},
+  {id: 24, image: 'kevin3.jpg', alt: 'Pho', title: 'Pho'},
+  {id: 25, image: 'laurel2.jpg', alt: 'Sunset', title: 'Sunset in Laurel'},
+  {id: 26, image: 'laurel3.jpg', alt: 'Sunset', title: 'Sunset in Laurel'},
+  {id: 27, image: 'laurel4.jpg', alt: 'Jenn and Neal', title: 'Two Deaths and a Chiropractic Treatment'},
+  {id: 28, image: 'laurel5.jpg', alt: 'Jenn and Neal', title: 'Coming to a Hotel Room Near You'},
+  {id: 29, image: 'laurel6.jpg', alt: 'Jenn and Neal', title: 'This is not part of the cirriculum'},
+  {id: 30, image: 'laurel7.jpg', alt: 'Holiday Inn Express', title: 'Holiday Inn Express'}                    
 ];
 
 export const BALTIMOREPICTURES: Picture[] = [
