@@ -31,7 +31,7 @@ constructor(private cdr: ChangeDetectorRef) {}
   }
 
   ngAfterViewInit() {
-    let places = ['Washington D.C.', 'Baltimore', 'New York', 'Arlington', 'Laurel', 'Coatesville', 'Brooklyn', 'New Jersey'];
+    let places = ['Washington D.C.', 'Baltimore', 'New York', 'Arlington', 'Laurel', 'Philadelphia', 'Delaware', 'New Jersey'];
     let numberOne = Math.floor(Math.random() * places.length);
     let numberTwo = Math.floor(Math.random() * places.length);
     while (numberOne === numberTwo) {

@@ -12,8 +12,8 @@ import { NgForm } from '@angular/forms';
 })
 
 export class IntroComponent implements OnInit {
-  title = "Introduction";
   pictures: Picture[];
+  link = "https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/";  
   @Input() name: string = "";
   @Input() comment: string = "";
   @Input() id: number;
