@@ -128,4 +128,30 @@ export const DINERPICTURES: Picture[] = [
   {id: 3, image: 'silver-diner3.jpg', alt: 'Jenn', title: 'Is that Yummy Jenn?'},
   {id: 4, image: 'silver-diner4.jpg', alt: 'Wasabi Salmon Sliders', title: 'Wasabi Salmon Sliders'},  
 ]
+
+export const MARYLANDPICTURES: Picture[] = [
+{id: 1, image: 'maryland1.jpg', alt: 'Cruise Ship', title: 'Cruise Ship Past Baltimore'},
+{id: 2, image: 'maryland2.jpg', alt: 'Susquehanna River', title: 'Over the Susquehanna River in Havre de Grace'},
+{id: 3, image: 'maryland3.jpg', alt: 'Adam', title: 'Car Selfie'},
+{id: 4, image: 'maryland4.jpg', alt: 'Susquehanna River', title: 'Same Susquehanna River, but during a Sunset'},
+{id: 5, image: 'maryland5.jpg', alt: 'Baltimore', title: 'Baltimore from a distance during the Evening'},
+{id: 6, image: 'maryland6.jpg', alt: 'Blobs Road', title: 'Blobs Road.  Really?'},
+]
+
+export const DELAWAREPICTURES: Picture[] = [
+{id: 1, image: 'delaware1.jpg', alt: 'Delaware', title: 'Welcome to Delaware', description: 'At least they\'re a Blue State'},
+{id: 2, image: 'delaware2.jpg', alt: 'Delaware', title: 'We\'re approaching Philadelphia', description: 'and Wilmington, too...'},
+{id: 3, image: 'delaware3.jpg', alt: 'Delaware', title: 'Newport Closed'},
+{id: 4, image: 'delaware4.jpg', alt: 'Delaware', title: 'Crossing the Christina River'},
+{id: 5, image: 'delaware5.jpg', alt: 'Wilimgton', title: 'The view of Wilmington...and Neal\'s watch'},
+{id: 6, image: 'delaware6.jpg', alt: 'Delaware', title: 'Another ordinary Delaware Picture'},
+{id: 7, image: 'delaware7.jpg', alt: 'Adam', title: 'Tilted Mirror in a Dunkin Donuts Bathroom'},
+{id: 8, image: 'delaware8.jpg', alt: 'Claymont', title: 'Claymont Fire Station'},
+{id: 9, image: 'delaware9.jpg', alt: 'Adam', title: 'My "I\'m in Delaware" Picture'},
+{id: 10, image: 'delaware10.jpg', alt: 'Wilmington', title: 'Wilmington on the way back from Philly', description: 'Sorry to skip ahead...'},
+{id: 11, image: 'delaware11.jpg', alt: 'Delaware', title: 'More Delaware on the way back.'},
+{id: 12, image: 'delaware12.jpg', alt: 'Delaware', title: 'Sun shining bright in Delaware'}
+]
+
+
 /*    {id: , image: '.jpg', alt: '', title: ''},*/

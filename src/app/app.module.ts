@@ -9,7 +9,8 @@ import { AboutComponent } from './about';
 import { HomeComponent } from './home';
 import { HeaderComponent } from './header';
 import { FooterComponent } from './footer';
-import { ArticleCommentComponent, IntroComponent, DayOneComponent } from './articles';
+import { IntroComponent, DayOneComponent, DayTwoComponent } from './articles';
+import { DelawareComponent } from './articles/delaware/delaware.component';
 
 
 @NgModule({
@@ -19,9 +20,10 @@ import { ArticleCommentComponent, IntroComponent, DayOneComponent } from './arti
     AboutComponent,
     HeaderComponent,
     FooterComponent,
-    ArticleCommentComponent,
     IntroComponent,
-    DayOneComponent
+    DayOneComponent,
+    DayTwoComponent,
+    DelawareComponent
   ],
   imports: [
     BrowserModule,
@@ -45,6 +47,14 @@ import { ArticleCommentComponent, IntroComponent, DayOneComponent } from './arti
         {
           path: 'one',
           component: DayOneComponent
+        },
+        {
+			path: 'two',
+			component: DayTwoComponent
+        },
+        {
+			path: 'two/delaware',
+			component: DelawareComponent
         }
 ])
   ],

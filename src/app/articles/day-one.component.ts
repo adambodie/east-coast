@@ -1,8 +1,6 @@
-import { Component, OnInit, EventEmitter, Input, Output, ViewChild } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { Picture } from '../shared/picture';
-import { Comment } from '../shared/comments.model';
 import { PictureService } from '../shared/picture.service';
-import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-day-one',
