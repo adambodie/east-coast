@@ -9,8 +9,8 @@ import { AboutComponent } from './about';
 import { HomeComponent } from './home';
 import { HeaderComponent } from './header';
 import { FooterComponent } from './footer';
-import { IntroComponent, DayOneComponent, DayTwoComponent } from './articles';
-import { DelawareComponent } from './articles/delaware/delaware.component';
+import { IntroComponent, DayOneComponent, DayTwoComponent, DelawareComponent } from './articles';
+
 
 
 @NgModule({

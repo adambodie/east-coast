@@ -1,11 +1,11 @@
 import { Component, OnInit} from '@angular/core';
-import { Picture } from '../shared/picture';
-import { PictureService } from '../shared/picture.service';
+import { Picture } from '../../shared/picture';
+import { PictureService } from '../../shared/picture.service';
 
 @Component({
   selector: 'app-day-two',
   templateUrl: './day-two.component.html',
-  styleUrls: ['./article.component.css'],
+  styleUrls: ['../article.component.css'],
   providers: [PictureService]
 })
 export class DayTwoComponent implements OnInit {
