@@ -76,8 +76,16 @@ span {
 }
 
 .features {
-	border-bottom: 1px solid black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+	margin: 20px;
+	background-color: #5b52c5;
+	padding: 20px;
 }
+
+.features h1 {
+	color: #F5D15D;
+}
+
 @media screen and (min-width: 480px) {
     .flex-container {
         display: -webkit-flex;
