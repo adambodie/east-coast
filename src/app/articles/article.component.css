@@ -75,6 +75,9 @@ span {
     font-size: 0.8em;
 }
 
+.features {
+	border-bottom: 1px solid black;
+}
 @media screen and (min-width: 480px) {
     .flex-container {
         display: -webkit-flex;
@@ -118,5 +121,8 @@ span {
     .secondary-carousel {
         max-width: 600px;
         max-height: 450px;       
+    }
+    .master {
+		width: calc(100% - 200px);
     }    
 }

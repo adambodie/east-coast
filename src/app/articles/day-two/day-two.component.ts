@@ -10,11 +10,36 @@ import { PictureService } from '../../shared/picture.service';
 })
 export class DayTwoComponent implements OnInit {
 	features = [
-		{title: "Wait, What?", link: "/two/delaware", image: "philadelphia1.jpg", paragraph: "Activated charcoal godard deserunt qui duis tempor XOXO. Fashion axe shaman vice mlkshk narwhal edison bulb af you probably haven't heard of them chambray XOXO health goth messenger bag cray unicorn. Irure aute adaptogen mustache wayfarers, chillwave mollit affogato activated charcoal tumeric sriracha blog XOXO coloring book. Voluptate pickled marfa eiusmod."},
-		{title: "Independence Park", link: "/two/independence", image: "philadelphia1.jpg", paragraph: "3 wolf moon listicle pop-up artisan aute. Labore slow-carb nulla heirloom ramps, venmo woke quis austin. Trust fund 8-bit direct trade chicharrones asymmetrical XOXO farm-to-table subway tile biodiesel migas umami yr aliqua poutine neutra. Cliche selfies bitters woke. Try-hard blue bottle excepteur typewriter mixtape. "},
-		{title: "Philly Pride", link: "/two/pride", image: "philadelphia1.jpg", paragraph: "Aliqua selfies cillum shoreditch farm-to-table succulents fixie brooklyn semiotics vape four loko. Retro aute wolf tempor, non occaecat ethical unicorn et celiac. Voluptate semiotics labore deserunt. Drinking vinegar YOLO slow-carb tattooed. Cornhole chillwave cronut street art. YOLO authentic occupy tumblr, vape put a bird on it squid raclette brooklyn enamel pin you probably haven't heard of them DIY poutine trust fund exercitation."},
-		{title: "More to Philly", link: "/two/penn", image: "philadelphia1.jpg", paragraph: "Activated charcoal single-origin coffee in humblebrag portland everyday carry bushwick. Pitchfork wayfarers church-key roof party tbh banh mi, labore fixie occaecat esse yuccie synth. Bitters austin chillwave forage fam fingerstache est wayfarers actually. Lo-fi cred la croix ut biodiesel hashtag vaporware street art excepteur. Mustache proident ethical do minim unicorn health goth."},
-		{title: "Art Museum", link: "/two/art", image: "philadelphia1.jpg", paragraph: "Microdosing ut offal adipisicing dolor hammock ut fingerstache keffiyeh trust fund hella readymade godard. Edison bulb dolore gastropub cred, jean shorts pitchfork 8-bit activated charcoal photo booth hashtag. Venmo magna authentic, coloring book polaroid cupidatat ad tumeric hell of man bun nisi kombucha. "}
+		{	
+			title: "Wait, What?", 
+			link: "/two/delaware", 
+			image: "philadelphia1.jpg", 
+			paragraph: "The trip from Maryland to Philadelphia is a two hour drive.  Naturally, getting there is half the battle.  Also apparent is that the quickest route to Philadelphia involves entering Delaware.  Click the link below to read about the journey through Northern Maryland and Delaware before culminating into Pennsylvania."
+		},
+		{
+			title: "Independence Park", 
+			link: "/two/independence", 
+			image: "philadelphia1.jpg", 
+			paragraph: "Philadelphia is rich in Colonial United States history.  One of the oldest cities in the United States, it is home of Independence Hall and the Liberty Bell.  Click below to see and read about the famed historical sights that Philadelphia is world famous for."
+		},
+		{
+			title: "Philly Pride", 
+			link: "/two/pride", 
+			image: "philadelphia1.jpg", 
+			paragraph: "There's a reason Philadelphia is nicknamed the City of Brotherly Love.  Our trip to Philadelphia coincided with the Philly Pride Parade for the LGBTQ community which deserves the same rights as anyone else.  Check out Pictures, Videos and other tidbits by clicking the link below."
+		},
+		{
+			title: "More to Philly", 
+			ink: "/two/penn", 
+			image: "philadelphia1.jpg", 
+			paragraph: "After the Pride parade was over, it was time to eat and check out nearby attractions.  Located close to Penn's Landing, this made it a perfect place to explore after eating lunch.  To dig deeper in Philadelphia, click the link below."
+		},
+		{
+			title: "Art Museum", 
+			link: "/two/art", 
+			image: "philadelphia1.jpg", 
+			paragraph: "Standing at 5 feet, 10 inches and weighing 216 pounds is Philadelphia's favorite champion, Rocky Balboa.  Making the classic Philadelphia Museum of Art and worldwide attraction for all things Rocky, who ran up the Rocky Steps en route to being America's favorite fictional boxer, click below to see our adventures doing the Rocky experience, and more..."
+		}
 	]
 	constructor(private pictureService: PictureService) { }
 	link = "https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/"; 
