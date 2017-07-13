@@ -177,8 +177,8 @@ export const PHILADELPHIAWELCOMEPICTURES: Picture[] = [
 ]
 
 
-/*export const PRIDEPICTURES: Picture[] = [
-{id: 1, image: 'pride1.jpg', alt: 'Judge's Booth', title: 'Judge\'s Booth'},
+export const PRIDEPICTURES: Picture[] = [
+{id: 1, image: 'pride1.jpg', alt: 'Judge\'s Booth', title: 'Judge\'s Booth'},
 {id: 2, image: 'pride2.jpg', alt: 'Pride Parade', title: 'Getting ready for the Pride Parade'},
 {id: 3, image: 'pride3.jpg', alt: 'First Amendment', title: 'The First Amendment: For All Americans, including the LGBTQ'},
 {id: 4, image: 'pride4.jpg', alt: 'First Amendment', title: 'The First Amendment', description: 'Where people have the right to wear a shirt that says "Gay as Fuck"'},
@@ -197,7 +197,7 @@ export const PHILADELPHIAWELCOMEPICTURES: Picture[] = [
 {id: 17, image: 'pride17.jpg', alt: 'Furry Mascot', title: 'Furry Mascot gives a High Five'},
 {id: 18, image: 'pride18.jpg', alt: 'Xfinity', title: 'Comcast might be a terrible cable provider, but at least they support LGBTQ Pride'},
 {id: 19, image: 'pride19.jpg', alt: 'More Marching', title: 'More Marching'},
-{id: 20, image: 'pride20.jpg', alt: 'The City of Brotherly Love', title: 'The City of Brotherly Love},
+{id: 20, image: 'pride20.jpg', alt: 'The City of Brotherly Love', title: 'The City of Brotherly Love'},
 {id: 21, image: 'pride21.jpg', alt: 'More Pride', title: 'More Pride'},
 {id: 22, image: 'pride22.jpg', alt: 'More Pride', title: 'More Pride'},
 {id: 23, image: 'pride23.jpg', alt: 'The Crowd Goes On', title: 'The Crowd Goes On'},
@@ -218,7 +218,7 @@ export const PHILADELPHIAWELCOMEPICTURES: Picture[] = [
 {id: 38, image: 'pride38.jpg', alt: 'One Confused Person', title: 'One Confused Person'},
 {id: 39, image: 'pride39.jpg', alt: 'Gays 4 Trump', title: 'Gays 4 Trump', description: 'Ironically wearing a mask of Hillary Clinton, who actually supports the LGBTQ unlike Trump who only pretended to like them for vote pandering'},
 {id: 40, image: 'pride40.jpg', alt: 'Neal', title: 'While I was walking around and Jenn was couped up inside, Neal and Heidi stayed at their one spot the entire time'},
-{id: 41, image: 'pride41.jpg', alt: Refuse Facism', title: 'Refuse Fascism, Drive out Trump & Pence', description: 'Neal took this picture, I didn\'t even see this sign.  But it\'s 100% true.'}
-]*/
+{id: 41, image: 'pride41.jpg', alt: 'Refuse Facism', title: 'Refuse Fascism, Drive out Trump & Pence', description: 'Neal took this picture, I didn\'t even see this sign.  But it\'s 100% true.'}
+]
 
 /*    {id: , image: '.jpg', alt: '', title: ''},*/

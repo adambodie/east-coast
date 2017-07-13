@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 
 import { Picture } from './picture';
-import { PICTURES, INTROPICTURES, KEVINPICTURES, BALTIMOREPICTURES, PIERPICTURES, DINERPICTURES, DELAWAREPICTURES, MARYLANDPICTURES, PHILADELPHIAWELCOMEPICTURES } from './mock-pictures';
+import { PICTURES, INTROPICTURES, KEVINPICTURES, BALTIMOREPICTURES, PIERPICTURES, DINERPICTURES, DELAWAREPICTURES, MARYLANDPICTURES, PHILADELPHIAWELCOMEPICTURES, PRIDEPICTURES } from './mock-pictures';
 
 
 @Injectable()
@@ -32,5 +32,8 @@ export class PictureService {
     }
     getPhiladelphiaPictures(): Promise<Picture[]>{
         return Promise.resolve(PHILADELPHIAWELCOMEPICTURES);
-    }                           
+    }
+    getPridePictures(): Promise<Picture[]>{
+        return Promise.resolve(PRIDEPICTURES);
+    }                                 
 }
