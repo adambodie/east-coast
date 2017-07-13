@@ -153,5 +153,72 @@ export const DELAWAREPICTURES: Picture[] = [
 {id: 12, image: 'delaware12.jpg', alt: 'Delaware', title: 'Sun shining bright in Delaware'}
 ]
 
+export const PHILADELPHIAWELCOMEPICTURES: Picture[] = [
+{id: 1, image: 'philadelphia1.jpg', alt: 'Pennsylvania', title: 'Welcome to Pennsylvania', description: 'Nice to meet you'},
+{id: 2, image: 'philadelphia2.jpg', alt: 'Lincoln Financial Field', title: 'Lincoln Financial Field', description: 'Home of the Philadelphia Eagles'},
+{id: 3, image: 'philadelphia3.jpg', alt: 'Philadelphia', title: 'Philadelphia Skyline from afar'},
+{id: 4, image: 'philadelphia4.jpg', alt: 'United States Coast Guard', title: 'United States Coast Guard'},
+{id: 5, image: 'philadelphia5.jpg', alt: 'Municipal Pier', title: 'Municipal Pier'},
+{id: 6, image: 'philadelphia6.jpg', alt: 'Merchants Exchange Building', title: 'Merchants Exchange Building'},
+{id: 7, image: 'philadelphia7.jpg', alt: 'Museum of the American Revolution', title: 'Museum of the American Revolution'},
+{id: 8, image: 'philadelphia8.jpg', alt: 'Colonial', title: 'Woman knitting in Colonial clothing'},
+{id: 9, image: 'philadelphia9.jpg', alt: 'Philadelphia', title: 'Philadelphia', description: 'View from the parking garage'},
+{id: 10, image: 'philadelphia10.jpg', alt: 'Chestnut Street', title: 'Chestnut Street'},
+{id: 11, image: 'philadelphia11.jpg', alt: 'Chestnut Street', title: 'Chestnut Street'},
+{id: 12, image: 'philadelphia12.jpg', alt: 'Market Street', title: 'Market Street'},
+{id: 13, image: 'philadelphia13.jpg', alt: 'Market Street', title: 'Market Street'},
+{id: 14, image: 'philadelphia14.jpg', alt: 'Rainbow', title: 'Man wearing nothing but Rainbow Underwear', description: 'Neal likes the view'},
+{id: 15, image: 'philadelphia15.jpg', alt: 'Big Ass', title: 'Big Ass Slices'},
+{id: 16, image: 'philadelphia16.jpg', alt: 'Bodine Street', title: 'Bodine Street', description: 'The closest to Bodie we\'ll see in Philly'},
+{id: 17, image: 'philadelphia17.jpg', alt: 'Love Wins', title: 'Love Wins', description: 'Damn Right!'},
+{id: 18, image: 'philadelphia18.jpg', alt: 'United States Post Office', title: 'United States Post Office', description: 'Part of the Ben Franklin Museum'},
+{id: 19, image: 'philadelphia19.jpg', alt: 'Printing Office', title: 'Printing Office & Bindery'},
+{id: 20, image: 'philadelphia20.jpg', alt: 'National Museum of American Jewish History', title: 'National Museum of American Jewish History'}
+]
+
+
+/*export const PRIDEPICTURES: Picture[] = [
+{id: 1, image: 'pride1.jpg', alt: 'Judge's Booth', title: 'Judge\'s Booth'},
+{id: 2, image: 'pride2.jpg', alt: 'Pride Parade', title: 'Getting ready for the Pride Parade'},
+{id: 3, image: 'pride3.jpg', alt: 'First Amendment', title: 'The First Amendment: For All Americans, including the LGBTQ'},
+{id: 4, image: 'pride4.jpg', alt: 'First Amendment', title: 'The First Amendment', description: 'Where people have the right to wear a shirt that says "Gay as Fuck"'},
+{id: 5, image: 'pride5.jpg', alt: 'Motorcycles', title: 'Motorcycles'},
+{id: 6, image: 'pride6.jpg', alt: 'Motorcycles', title: 'Motorcycles'},
+{id: 7, image: 'pride7.jpg', alt: 'Pride Parade', title: 'Scenes from the Pride Parade'},
+{id: 8, image: 'pride8.jpg', alt: 'March', title: 'The March Begins'},
+{id: 9, image: 'pride9.jpg', alt: 'Jewish Support', title: 'Philadelphia\'s Jewish Community supports the LGBTQ'},
+{id: 10, image: 'pride10.jpg', alt: 'Pride Parade', title: 'More people marching'},
+{id: 11, image: 'pride11.jpg', alt: 'Donald Trump in Lipstick', title: 'Donald Trump in Lipstick', description: 'Fact: Donald Trump did not recognize June as LGBTQ Pride Month; so much for him liking the LGBTQ community'},
+{id: 12, image: 'pride12.jpg', alt: 'Pride Parade', title: 'Parade Floats'},
+{id: 13, image: 'pride13.jpg', alt: 'PECO Float', title: 'PECO Float'},
+{id: 14, image: 'pride14.jpg', alt: 'Pride Parade', title: 'More Parade Pictures'},
+{id: 15, image: 'pride15.jpg', alt: 'Pussy Power', title: 'Pussy Power coming through.'},
+{id: 16, image: 'pride16.jpg', alt: 'Furry Mascot', title: 'Furry Mascot coming through'},
+{id: 17, image: 'pride17.jpg', alt: 'Furry Mascot', title: 'Furry Mascot gives a High Five'},
+{id: 18, image: 'pride18.jpg', alt: 'Xfinity', title: 'Comcast might be a terrible cable provider, but at least they support LGBTQ Pride'},
+{id: 19, image: 'pride19.jpg', alt: 'More Marching', title: 'More Marching'},
+{id: 20, image: 'pride20.jpg', alt: 'The City of Brotherly Love', title: 'The City of Brotherly Love},
+{id: 21, image: 'pride21.jpg', alt: 'More Pride', title: 'More Pride'},
+{id: 22, image: 'pride22.jpg', alt: 'More Pride', title: 'More Pride'},
+{id: 23, image: 'pride23.jpg', alt: 'The Crowd Goes On', title: 'The Crowd Goes On'},
+{id: 24, image: 'pride24.jpg', alt: 'Driving Through the Parade', title: 'Driving Through the Parade', description: 'I love this view!'},
+{id: 25, image: 'pride25.jpg', alt: 'The Rainbow Effect', title: 'The Rainbow Effect'},
+{id: 26, image: 'pride26.jpg', alt: 'The Calm Before the Storm', title: 'The Calm Before the Storm'},
+{id: 27, image: 'pride27.jpg', alt: 'The Judges Booth', title: 'The Judges Booth'},
+{id: 28, image: 'pride28.jpg', alt: 'Waive them Flags', title: 'Waive them Flags'},
+{id: 29, image: 'pride29.jpg', alt: 'Introducing...The Flaggots', title: 'Introducing...The Flaggots', description: 'The Nation\'s oldest LGBTQ flag group'},
+{id: 30, image: 'pride30.jpg', alt: 'The Flaggots', title: 'The Flaggots'},
+{id: 31, image: 'pride31.jpg', alt: 'The Flaggots', title: 'The Flaggots'},
+{id: 32, image: 'pride32.jpg', alt: 'The Flaggots', title: 'The Flaggots'},
+{id: 33, image: 'pride33.jpg', alt: 'The Flaggots', title: 'The Flaggots'},
+{id: 34, image: 'pride34.jpg', alt: 'The Flaggots and Jenn', title: 'The Flaggots'},
+{id: 35, image: 'pride35.jpg', alt: 'The Flaggots and Jenn', title: 'The Flaggots'},
+{id: 36, image: 'pride36.jpg', alt: 'The Flaggots', title: 'The Flaggots'},
+{id: 37, image: 'pride37.jpg', alt: 'The Flaggots', title: 'The Flaggots'},
+{id: 38, image: 'pride38.jpg', alt: 'One Confused Person', title: 'One Confused Person'},
+{id: 39, image: 'pride39.jpg', alt: 'Gays 4 Trump', title: 'Gays 4 Trump', description: 'Ironically wearing a mask of Hillary Clinton, who actually supports the LGBTQ unlike Trump who only pretended to like them for vote pandering'},
+{id: 40, image: 'pride40.jpg', alt: 'Neal', title: 'While I was walking around and Jenn was couped up inside, Neal and Heidi stayed at their one spot the entire time'},
+{id: 41, image: 'pride41.jpg', alt: Refuse Facism', title: 'Refuse Fascism, Drive out Trump & Pence', description: 'Neal took this picture, I didn\'t even see this sign.  But it\'s 100% true.'}
+]*/
 
 /*    {id: , image: '.jpg', alt: '', title: ''},*/

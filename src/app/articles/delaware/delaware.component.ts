@@ -11,12 +11,14 @@ import { PictureService } from '../../shared/picture.service';
 export class DelawareComponent implements OnInit {
 	marylandPictures: Picture[];
 	delawarePictures: Picture[];
+	philadelphiaPictures: Picture[];
 	link = "https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/";        
 	constructor(private pictureService: PictureService) { }
 
 	getPictures(): void {
 		this.pictureService.getMarylandPictures().then(pictures => this.marylandPictures = pictures);
 		this.pictureService.getDelawarePictures().then(pictures => this.delawarePictures = pictures);
+		this.pictureService.getPhiladelphiaPictures().then(pictures => this.philadelphiaPictures = pictures);
 	}
 
   ngOnInit(): void {
