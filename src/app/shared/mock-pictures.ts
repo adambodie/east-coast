@@ -177,6 +177,28 @@ export const PHILADELPHIAWELCOMEPICTURES: Picture[] = [
 ]
 
 
+export const INDEPENDENCEPICTURES: Picture[] = [
+{id: 1, image: 'independence1.jpg', alt: 'Independence National Historical Park', title: 'Independence National Historical Park'},
+{id: 2, image: 'independence2.jpg', alt: 'Independence National Historical Park', title: 'Independence National Historical Park'},
+{id: 3, image: 'independence3.jpg', alt: 'Independence Hall', title: 'Independence Hall'},
+{id: 4, image: 'independence4.jpg', alt: 'Independence Hall', title: 'Independence Hall'},
+{id: 5, image: 'independence5.jpg', alt: 'Independence Hall', title: 'Independence Hall'},
+{id: 6, image: 'independence6.jpg', alt: 'Independence Hall', title: 'Independence Hall'},
+{id: 7, image: 'independence7.jpg', alt: 'Liberty Bell Center', title: 'Liberty Bell Center'},
+{id: 8, image: 'independence8.jpg', alt: 'Independence National Historical Park', title: 'Independence National Historical Park'},
+{id: 9, image: 'independence10.jpg', alt: 'Adam', title: 'Independence Selfie'},
+{id: 10, image: 'independence11.jpg',  alt: 'Independence Hall', title: 'Independence Hall'},
+{id: 11, image: 'independence12.jpg',  alt: 'Liberty Bell Center', title: 'Liberty Bell Center'},
+{id: 12, image: 'independence13.jpg',  alt: 'Adam', title: 'Adam at Independence Historical National Park'},
+{id: 13, image: 'independence14.jpg',  alt: 'Liberty Bell Center', title: 'Liberty Bell Center'},
+{id: 14, image: 'independence15.jpg',  alt: 'Independence Hall', title: 'Independence Hall'},
+{id: 15, image: 'independence17.jpg',  alt: 'Follow the Steps', title: 'Follow the Steps'},
+{id: 16, image: 'independence18.jpg',  alt: 'Independence National Historical Park', title: 'No Bigotry at the Independence National Historical Park'},
+{id: 17, image: 'independence19.jpg',  alt: 'Independence Visitor Center', title: 'Independence Visitor Center'},
+{id: 18, image: 'independence20.jpg', alt: 'Independence National Historical Park', title: 'Independence National Historical Park'},
+{id: 19, image: 'independence21.jpg',  alt: 'Independence National Historical Park', title: 'Independence National Historical Park'}
+]
+
 export const PRIDEPICTURES: Picture[] = [
 {id: 1, image: 'pride1.jpg', alt: 'Judge\'s Booth', title: 'Judge\'s Booth'},
 {id: 2, image: 'pride2.jpg', alt: 'Pride Parade', title: 'Getting ready for the Pride Parade'},

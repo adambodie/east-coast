@@ -9,7 +9,13 @@ import { AboutComponent } from './about';
 import { HomeComponent } from './home';
 import { HeaderComponent } from './header';
 import { FooterComponent } from './footer';
-import { IntroComponent, DayOneComponent, DayTwoComponent, DelawareComponent, PrideComponent } from './articles';
+import { IntroComponent, 
+		DayOneComponent, 
+		DayTwoComponent, 
+		DelawareComponent, 
+		IndependenceComponent, 
+		PrideComponent 
+		} from './articles';
 
 
 
@@ -24,7 +30,9 @@ import { IntroComponent, DayOneComponent, DayTwoComponent, DelawareComponent, Pr
     DayOneComponent,
     DayTwoComponent,
     DelawareComponent,
-    PrideComponent
+    IndependenceComponent,
+    PrideComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -57,6 +65,10 @@ import { IntroComponent, DayOneComponent, DayTwoComponent, DelawareComponent, Pr
 			path: 'two/delaware',
 			component: DelawareComponent
         },
+        {
+			path: 'two/independence',
+			component: IndependenceComponent
+        },        
         {
 			path: 'two/pride',
 			component: PrideComponent

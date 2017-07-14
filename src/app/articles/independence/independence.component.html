@@ -1,0 +1,16 @@
+<h1>Independence Hall</h1>
+<div class="flex-container">
+    <div class="flex-item">
+		<carousel>
+		  <slide *ngFor="let independencePicture of independencePictures">
+				<a href="{{link}}photos/{{independencePicture.image}}">
+					<img src="{{link}}photos/{{independencePicture.image}}" alt="{{independencePicture.alt}}" class="img-responsive main-carousel">
+				</a>
+			<div class="carousel-caption">
+			  <h3>{{independencePicture.title}}</h3>
+			  <p>{{independencePicture.description}}</p>   
+			</div>
+		  </slide>
+		</carousel>
+    </div>	
+</div>
