@@ -1,12 +1,5 @@
 import { Picture } from './picture';
 
-export const PICTURES: Picture[] = [
-  {id: 1, image: 'https://placehold.it/600x450/?text=First Slide', alt: 'First Slide', title: 'Title One'},
-  {id: 2, image: 'https://placehold.it/600x450/?text=Second Slide', alt: 'Second Slide', title: 'Title Two'},
-  {id: 3, image: 'https://placehold.it/600x450/?text=Third Slide', alt: 'Third Slide', title: 'Title Three'},
-  {id: 4, image: 'https://placehold.it/600x450/?text=Fourth Slide', alt: 'Fourth Slide', title: 'Title Four'},
-];
-
 export const INTROPICTURES: Picture[] = [
   {id: 1, image: 'intro1.jpg', alt: 'Portland', title: 'Goodbye Portland'},
   {id: 2, image: 'intro2.jpg', alt: 'Above the Clouds', title: 'Cloudy Portland'},

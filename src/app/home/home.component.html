@@ -1,4 +1,4 @@
-<div class="flex-container">
+<div class="flex-container center">
     <div class="flex-item paragraph">
         <div [hidden]="submitted"><h1>Welcome!</h1></div>
         <div [hidden]="!submitted"><h1>Welcome {{name}} from {{location}}!</h1></div>        
@@ -25,8 +25,8 @@
     </div>
     <div class="flex-item image">
     <figure>
-        <img src="{{photo}}" alt="placehold"/>
-        <figcaption>caption</figcaption>
+        <img src="{{photo}}" alt="cover" class="img-responsive"/>
+        <figcaption>Philadelphia Art Museum</figcaption>
     </figure>
     </div>
 </div>
@@ -39,30 +39,30 @@
     
 <div class="flex-container">
 	<div class="flex-item featured">
-	<h1>Featured articles</h1>
+	    <h1>Featured articles</h1>
 	</div>
 	<div class="flex-item image">
-    <figure >
-        <img src="{{photo}}" alt="placehold"/>
+    <figure>
+        <img src="{{photo2}}" alt="placehold"  class="img-responsive"/>
         <figcaption>caption</figcaption>
     </figure>
     <p>Poutine intelligentsia hashtag, pork belly lo-fi gluten-free gentrify mlkshk fanny pack. Slow-carb four loko live-edge, craft beer kogi brooklyn mixtape art party butcher beard ramps vegan wolf cred. </p>   
-
+<button class="btn btn-primary" routerLink='/two/independence'>Click Here</button>
     </div>
 	    <div class="flex-item image">
     <figure>
-        <img src="{{photo}}" alt="placehold"/>
+        <img src="{{photo3}}" alt="placehold"  class="img-responsive"/>
         <figcaption>caption</figcaption>
     </figure>
     <p>Hoodie kogi art party live-edge godard gluten-free. Mixtape unicorn retro, tumeric man braid typewriter flexitarian scenester yuccie woke swag.</p>   
-
+<button class="btn btn-primary" routerLink='/two/pride'>Click Here</button>
     </div>
 	    <div class="flex-item image">
     <figure>
-        <img src="{{photo}}" alt="placehold"/>
+        <img src="{{photo4}}" alt="placehold" class="img-responsive"/>
         <figcaption>caption</figcaption>
     </figure>
     <p>Bicycle rights gluten-free austin ethical taiyaki church-key lomo shabby chic, vaporware mumblecore raclette kinfolk fingerstache. Hexagon whatever pop-up, DIY vegan skateboard art party quinoa thundercats hot chicken schlitz food truck.</p>   
-
+    <button class="btn btn-primary" routerLink='/two/penn'>Click Here</button>
     </div>
 </div>  

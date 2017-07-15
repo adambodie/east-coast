@@ -11,7 +11,23 @@ h1 {
   margin: 20px;
 }
 
-
+figure {
+  margin: 0;
+  position: relative;
+  background-color: black;
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2), 0 18px 60px 0 rgba(255, 255, 255, 0.19);
+}
+figcaption {
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  font-size: 1.2em;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
 .carousel-control.left {
   background-image: none;
 }
@@ -35,7 +51,8 @@ h1 {
     right: 0;
 }
 @media screen and (min-width: 768px) {
-    .carousel-indicators {
-        display: block;
+    .center {
+        -webkit-align-items: center;
+        align-items: center;
     }
 }

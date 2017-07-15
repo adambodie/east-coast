@@ -2,41 +2,40 @@
     <div class="flex-item">
 		<carousel>
 		  <slide *ngFor="let baltimorePicture of baltimorePictures">
+				<figure>
 				<a href="{{link}}photos/{{baltimorePicture.image}}">
-					<img src="{{link}}photos/{{baltimorePicture.image}}" alt="{{baltimorePicture.alt}}" class="img-responsive main-carousel">
+					<img src="{{link}}photos/{{baltimorePicture.image}}" alt="{{baltimorePicture.alt}}" class="img-responsive secondary-carousel">
 				</a>
-			<div class="carousel-caption">
-			  <h3>{{baltimorePicture.title}}</h3>
-			  <p>{{baltimorePicture.description}}</p>   
-			</div>
-		  </slide>
+				<figcaption>
+			  	<h3>{{baltimorePicture.title}}</h3>
+			  	<p>{{baltimorePicture.description}}</p>   
+				</figcaption>
+				</figure>
+			</slide>								
 		</carousel>
-    </div>	
-</div>
-<div class="flex-container center">
-	<div class="flex-item" style="flex: 2">
+		</div>
+		<div class="flex-item">
 		<h1>First Night in Baltimore</h1>
 			<p>What a difference the time of year can make upon one's impression of the city.  Having been in Baltimore for the first time during a snowstorm in 2013, the city had an entirely different feel during the late late spring evening when that snow and cold is replaced with clear skies and humidity.  Instead of having it constantly and digging your way through walking, the roads were clear, easy to navigate, and you didn't have to bundle up inside the Panera Bread on the corner.</p>
 			<p>Walking around the Inner Harbor was much more lively this time around.  From people listening to a live band perform at the Hard Rock Cafe to the flock of people having a good time walking around, Baltimore was more fun to see this time around.  There's plenty of fun around the Harbor, but at the time of night, it's unfortunate there's little to eat around the Harbor.  Unable to find a place to eat, it was time to head back to Laurel, but due to the unfortunate closing of their Silver Diner, we instead went to the next nearest Silver Diner in Greenbelt.</p>
-	</div>
-	<div class="flex-item">
-		<a href="http://nfl-passer-rating.bodiewebdesign.com">
-				<img class="flex-item img-responsive" src="assets/nfl.jpg" alt="NFL Passer Rating"/>
-				</a>
-	</div>
+	</div>	
 </div>
-	<div class="flex-container">
+<div class="flex-container">
 	<h1>Spotlight</h1>	
 	</div>
 <div class="flex-container top">
 	<div class="flex-item">		
 			<carousel>
 		  <slide *ngFor="let pierPicture of pierPictures">
-			<img src="{{link}}photos/{{pierPicture.image}}" alt="{{pierPicture.alt}}" class="img-responsive secondary-carousel"/>
-			<div class="carousel-caption">
-			  <h3>{{pierPicture.title}}</h3>
-			  <p>{{pierPicture.description}}</p>   
-			</div>
+				<figure>
+					<a href="{{link}}photos/{{pierPicture.image}}">
+						<img src="{{link}}photos/{{pierPicture.image}}" alt="{{pierPicture.alt}}" class="img-responsive secondary-carousel"/>
+					</a>
+				<figcaption>
+			  	<h3>{{pierPicture.title}}</h3>
+			  	<p>{{pierPicture.description}}</p>   
+				</figcaption>
+				</figure>
 		  </slide>
 		</carousel>	
 		</div>

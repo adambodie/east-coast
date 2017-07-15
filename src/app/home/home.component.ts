@@ -9,7 +9,10 @@ export class HomeComponent {
 
 constructor(private cdr: ChangeDetectorRef) {}
 
-  photo = 'assets/intro1.jpg';
+  photo = 'https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/photos/art4.jpg';
+  photo2 = 'https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/photos/independence3.jpg';
+  photo3 = 'https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/photos/pride26.jpg';
+  photo4 = 'https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/photos/penn3.jpg';
   name: string = "";
   location: string = "";
   items: string = '';

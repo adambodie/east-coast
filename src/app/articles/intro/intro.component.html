@@ -1,26 +1,29 @@
 <div class="flex-container">
     <div class="flex-item">
-		<carousel>
-		  <slide *ngFor="let picture of pictures">
-			<img src="{{link}}photos/{{picture.image}}" alt="{{picture.alt}}" class="img-responsive">
-			<div class="carousel-caption">
-			  <h3>{{picture.title}}</h3>
-			  <p>{{picture.description}}</p>   
-			</div>
+			<carousel>
+		  	<slide *ngFor="let picture of pictures">
+					<figure>
+						<img src="{{link}}photos/{{picture.image}}" alt="{{picture.alt}}" class="img-responsive">
+						<figcaption>
+			  			<h3>{{picture.title}}</h3>
+			  			<p>{{picture.description}}</p>   
+						</figcaption>
+			</figure>
 		  </slide>
 		</carousel>
     </div>
     <div class="flex-item">
 		<h1>You Can Call Me Al</h1>
-        <p>Back in the day, You Can Call Me Al was a song performed by Paul Simon, made famous with a video containing Chevy Chase lip-synching the lyrics.  Of course, anyone heading to the D.C.-Baltimore region should know that Chevy Chase is also the name of a Washington D.C. suburb.  So it was only fitting that on the way to the airport, this song got brought up in the car and stuck in my head.  So what exactly is this song about, the very song I played drums when I was just 2 years old?</p>
-        <p>Extensive Research led me to find this out: The song, written by Paul Simon, appears to be about a man in a midlife crisis.  Simon was inspired to write this song after making a trip to South Africa, which led him to make the Graceland album which this song is featured as a single.  As for the names in the some, Al and Betty, Paul Simon came up with those names from a party which him and his wife Peggy were mistaken for Al and Betty.</p>
-        <p>Of course, there are plenty of people out there know simply as Al.  Short for Albert, here are a list of people, both real and fictional, who go by the name Al, which is perhaps the shortest name a man can go by:</p>
 			<div class="famousAl flex-container">
-				<div *ngFor="let famousAl of famousAls" class="flex-item">
-				<img src="assets/{{famousAl.image}}"/>
-				<p>{{famousAl.name}}</p>
+					<div *ngFor="let famousAl of famousAls" class="flex-item">
+					<img src="assets/{{famousAl.image}}"/>
+					<p>{{famousAl.name}}</p>
+					</div>
 				</div>
-			</div>
+				<div class="alParagraph">
+        			<p>Back in the day, You Can Call Me Al was a song performed by Paul Simon, made famous with a video containing Chevy Chase lip-synching the lyrics.  Of course, anyone heading to the D.C.-Baltimore region should know that Chevy Chase is also the name of a Washington D.C. suburb.  So it was only fitting that on the way to the airport, this song got brought up in the car and stuck in my head.  So what exactly is this song about, the very song I played drums when I was just 2 years old?</p>
+        			<p>Extensive Research led me to find this out: The song, written by Paul Simon, appears to be about a man in a midlife crisis.  Simon was inspired to write this song after making a trip to South Africa, which led him to make the Graceland album which this song is featured as a single.  As for the names in the some, Al and Betty, Paul Simon came up with those names from a party which him and his wife Peggy were mistaken for Al and Betty.</p>
+        </div>
       </div>   
 </div>
     <div class="flex-container center">
