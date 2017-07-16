@@ -91,6 +91,11 @@ span {
 	color: #F5D15D;
 }
 
+#philadelphia {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
 @media screen and (min-width: 480px) {
     .flex-container {
         display: -webkit-flex;

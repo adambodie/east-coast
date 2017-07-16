@@ -148,35 +148,33 @@ export const DELAWAREPICTURES: Picture[] = [
 
 export const PHILADELPHIAWELCOMEPICTURES: Picture[] = [
 {id: 1, image: 'philadelphia1.jpg', alt: 'Pennsylvania', title: 'Welcome to Pennsylvania', description: 'Nice to meet you'},
-{id: 2, image: 'philadelphia2.jpg', alt: 'Lincoln Financial Field', title: 'Lincoln Financial Field', description: 'Home of the Philadelphia Eagles'},
-{id: 3, image: 'philadelphia3.jpg', alt: 'Philadelphia', title: 'Philadelphia Skyline from afar'},
-{id: 4, image: 'philadelphia4.jpg', alt: 'United States Coast Guard', title: 'United States Coast Guard'},
-{id: 5, image: 'philadelphia5.jpg', alt: 'Municipal Pier', title: 'Municipal Pier'},
-{id: 6, image: 'philadelphia6.jpg', alt: 'Merchants Exchange Building', title: 'Merchants Exchange Building'},
-{id: 7, image: 'philadelphia7.jpg', alt: 'Museum of the American Revolution', title: 'Museum of the American Revolution'},
-{id: 8, image: 'philadelphia8.jpg', alt: 'Colonial', title: 'Woman knitting in Colonial clothing'},
-{id: 9, image: 'philadelphia9.jpg', alt: 'Philadelphia', title: 'Philadelphia', description: 'View from the parking garage'},
-{id: 10, image: 'philadelphia10.jpg', alt: 'Chestnut Street', title: 'Chestnut Street'},
-{id: 11, image: 'philadelphia11.jpg', alt: 'Chestnut Street', title: 'Chestnut Street'},
-{id: 12, image: 'philadelphia12.jpg', alt: 'Market Street', title: 'Market Street'},
-{id: 13, image: 'philadelphia13.jpg', alt: 'Market Street', title: 'Market Street'},
-{id: 14, image: 'philadelphia14.jpg', alt: 'Rainbow', title: 'Man wearing nothing but Rainbow Underwear', description: 'Neal likes the view'},
-{id: 15, image: 'philadelphia15.jpg', alt: 'Big Ass', title: 'Big Ass Slices'},
-{id: 16, image: 'philadelphia16.jpg', alt: 'Bodine Street', title: 'Bodine Street', description: 'The closest to Bodie we\'ll see in Philly'},
-{id: 17, image: 'philadelphia17.jpg', alt: 'Love Wins', title: 'Love Wins', description: 'Damn Right!'},
-{id: 18, image: 'philadelphia18.jpg', alt: 'United States Post Office', title: 'United States Post Office', description: 'Part of the Ben Franklin Museum'},
-{id: 19, image: 'philadelphia19.jpg', alt: 'Printing Office', title: 'Printing Office & Bindery'},
-{id: 20, image: 'philadelphia20.jpg', alt: 'National Museum of American Jewish History', title: 'National Museum of American Jewish History'}
+{id: 2, image: 'philadelphia4.jpg', alt: 'United States Coast Guard', title: 'United States Coast Guard'},
+{id: 3, image: 'philadelphia5.jpg', alt: 'Municipal Pier', title: 'Municipal Pier'},
+{id: 4, image: 'philadelphia6.jpg', alt: 'Merchants Exchange Building', title: 'Merchants Exchange Building'},
+{id: 5, image: 'philadelphia7.jpg', alt: 'Museum of the American Revolution', title: 'Museum of the American Revolution'},
+{id: 6, image: 'philadelphia8.jpg', alt: 'Colonial', title: 'Woman knitting in Colonial clothing'},
+{id: 7, image: 'philadelphia9.jpg', alt: 'Philadelphia', title: 'Philadelphia', description: 'View from the parking garage'},
+{id: 8, image: 'philadelphia10.jpg', alt: 'Chestnut Street', title: 'Chestnut Street'},
+{id: 9, image: 'philadelphia11.jpg', alt: 'Chestnut Street', title: 'Chestnut Street'},
+{id: 10, image: 'philadelphia12.jpg', alt: 'Market Street', title: 'Market Street'},
+{id: 11, image: 'philadelphia13.jpg', alt: 'Market Street', title: 'Market Street'},
+{id: 12, image: 'philadelphia14.jpg', alt: 'Rainbow', title: 'Man wearing nothing but Rainbow Underwear', description: 'Neal likes the view'},
+{id: 13, image: 'philadelphia15.jpg', alt: 'Big Ass', title: 'Big Ass Slices'},
+{id: 14, image: 'philadelphia16.jpg', alt: 'Bodine Street', title: 'Bodine Street', description: 'The closest to Bodie we\'ll see in Philly'},
+{id: 15, image: 'philadelphia17.jpg', alt: 'Love Wins', title: 'Love Wins', description: 'Damn Right!'},
+{id: 16, image: 'philadelphia18.jpg', alt: 'United States Post Office', title: 'United States Post Office', description: 'Part of the Ben Franklin Museum'},
+{id: 17, image: 'philadelphia19.jpg', alt: 'Printing Office', title: 'Printing Office & Bindery'},
+{id: 18, image: 'philadelphia20.jpg', alt: 'National Museum of American Jewish History', title: 'National Museum of American Jewish History'}
 ]
 
 
 export const INDEPENDENCEPICTURES: Picture[] = [
 {id: 1, image: 'independence1.jpg', alt: 'Independence National Historical Park', title: 'Independence National Historical Park'},
 {id: 2, image: 'independence2.jpg', alt: 'Independence National Historical Park', title: 'Independence National Historical Park'},
-{id: 3, image: 'independence3.jpg', alt: 'Independence Hall', title: 'Independence Hall'},
+{id: 3, image: 'independence3.jpg', alt: 'Independence Hall', title: 'Independence Hall', description: 'Where the Declaration of Independence was signed'},
 {id: 4, image: 'independence4.jpg', alt: 'Independence Hall', title: 'Independence Hall'},
 {id: 5, image: 'independence5.jpg', alt: 'Independence Hall', title: 'Independence Hall'},
-{id: 6, image: 'independence6.jpg', alt: 'Independence Hall', title: 'Independence Hall'},
+{id: 6, image: 'independence6.jpg', alt: 'Independence Hall', title: 'Independence Hall', description: 'Also the site of the 1915 convention that lead to the formation of the League to Enforce Peace, which eventually became the United Nations.'},
 {id: 7, image: 'independence7.jpg', alt: 'Liberty Bell Center', title: 'Liberty Bell Center'},
 {id: 8, image: 'independence8.jpg', alt: 'Independence National Historical Park', title: 'Independence National Historical Park'},
 {id: 9, image: 'independence10.jpg', alt: 'Adam', title: 'Independence Selfie'},
@@ -190,6 +188,36 @@ export const INDEPENDENCEPICTURES: Picture[] = [
 {id: 17, image: 'independence19.jpg',  alt: 'Independence Visitor Center', title: 'Independence Visitor Center'},
 {id: 18, image: 'independence20.jpg', alt: 'Independence National Historical Park', title: 'Independence National Historical Park'},
 {id: 19, image: 'independence21.jpg',  alt: 'Independence National Historical Park', title: 'Independence National Historical Park'}
+]
+
+export const LIBERTYBELLPICTURES: Picture[] = [
+{id: 1, image: 'liberty-bell1.jpg', alt: '', title: ''},
+{id: 2, image: 'liberty-bell2.jpg', alt: '', title: ''},
+{id: 3, image: 'liberty-bell3.jpg', alt: '', title: ''},
+{id: 4, image: 'liberty-bell4.jpg', alt: '', title: ''},
+{id: 5, image: 'liberty-bell5.jpg', alt: '', title: ''},
+{id: 6, image: 'liberty-bell6.jpg', alt: '', title: ''},
+{id: 7, image: 'liberty-bell7.jpg', alt: '', title: ''},
+{id: 8, image: 'liberty-bell8.jpg', alt: '', title: ''},
+{id: 9, image: 'liberty-bell9.jpg', alt: '', title: ''},
+{id: 10, image: 'liberty-bell10.jpg', alt: '', title: ''},
+{id: 11, image: 'liberty-bell11.jpg', alt: '', title: ''},
+{id: 12, image: 'liberty-bell12.jpg', alt: '', title: ''},
+{id: 13, image: 'liberty-bell13.jpg', alt: '', title: ''},
+{id: 14, image: 'liberty-bell14.jpg', alt: '', title: ''},
+{id: 15, image: 'liberty-bell15.jpg', alt: '', title: ''},
+{id: 16, image: 'liberty-bell16.jpg', alt: '', title: ''},
+{id: 17, image: 'liberty-bell17.jpg', alt: '', title: ''},
+{id: 18, image: 'liberty-bell18.jpg', alt: '', title: ''},
+{id: 19, image: 'liberty-bell19.jpg', alt: '', title: ''},
+{id: 20, image: 'liberty-bell20.jpg', alt: '', title: ''},
+{id: 21, image: 'liberty-bell21.jpg', alt: '', title: ''},
+{id: 22, image: 'liberty-bell22.jpg', alt: '', title: ''},
+{id: 23, image: 'liberty-bell23.jpg', alt: '', title: ''},
+{id: 24, image: 'liberty-bell24.jpg', alt: '', title: ''},
+{id: 25, image: 'liberty-bell25.jpg', alt: '', title: ''},
+{id: 26, image: 'liberty-bell26.jpg', alt: '', title: ''},
+{id: 27, image: 'liberty-bell27.jpg', alt: '', title: ''}
 ]
 
 export const PRIDEPICTURES: Picture[] = [

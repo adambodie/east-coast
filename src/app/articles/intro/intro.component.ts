@@ -10,10 +10,10 @@ import { PictureService } from '../../shared/picture.service';
 })
 
 export class IntroComponent implements OnInit {
-  pictures: Picture[];
+  introPictures: Picture[];
   kevinPictures: Picture[];
   link = "https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/";  
-
+  date = "June 17, 2017";
   famousAls = [
     {name:'Al Green', image: 'green.jpg'},
     {name: 'Al Roker', image: 'roker.jpg'},
@@ -30,7 +30,7 @@ export class IntroComponent implements OnInit {
   constructor(private pictureService: PictureService) { }
 
   getPictures(): void {
-    this.pictureService.getIntroPictures().then(pictures => this.pictures = pictures);
+    this.pictureService.getIntroPictures().then(pictures => this.introPictures = pictures);
     this.pictureService.getKevinPictures().then(pictures => this.kevinPictures = pictures);
   }
 

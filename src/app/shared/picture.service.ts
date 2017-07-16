@@ -10,7 +10,8 @@ import {
 		DELAWAREPICTURES, 
 		MARYLANDPICTURES, 
 		PHILADELPHIAWELCOMEPICTURES, 
-		INDEPENDENCEPICTURES, 
+        INDEPENDENCEPICTURES,
+        LIBERTYBELLPICTURES, 
 		PRIDEPICTURES 
 		} from './mock-pictures';
 
@@ -44,7 +45,10 @@ export class PictureService {
     }
     getIndependencePictures(): Promise<Picture[]>{
         return Promise.resolve(INDEPENDENCEPICTURES);
-    }    
+    }
+    getLibertyBellPictures(): Promise<Picture[]>{
+        return Promise.resolve(LIBERTYBELLPICTURES);
+    }        
     getPridePictures(): Promise<Picture[]>{
         return Promise.resolve(PRIDEPICTURES);
     }                                 

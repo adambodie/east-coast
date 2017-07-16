@@ -1,75 +1,104 @@
 <div class="flex-container top">
 		<div class="flex-item">		
-		<carousel>
-		  <slide *ngFor="let marylandPicture of marylandPictures">
-			<img src="{{link}}photos/{{marylandPicture.image}}" alt="{{marylandPicture.alt}}" class="img-responsive secondary-carousel"/>
-			<div class="carousel-caption">
-			  <h3>{{marylandPicture.title}}</h3>
-			  <p>{{marylandPicture.description}}</p>   
-			</div>
-		  </slide>
-		</carousel>
+				<figure>
+						<img src="{{link}}photos/maryland2.jpg" alt="Susquehanna River" class="img-responsive"/>
+						<figcaption>
+			  				<h3>Over the Susquehanna River in Havre de Grace</h3>  
+						</figcaption>
+		  	</figure>
 		</div>
 		<div class="flex-item">
-			<h1>Wait, What?</h1>
-			<p>I was expecting a more “relaxing” day on Sunday, so it came as a complete surprise when Jenn mentioned we were going to spend the day in Philadelphia, which we hadn't discussed going to.  At first we planned to leave at 9, but Neal’s friend Heidi, who we were going to visit, wanted us there at 10.  Not surprisingly, it takes a mountain to get Neal out of bed, so we left at our original planned time of 9.  Nothing Heidi can do about that, right?</p>
-			<p>It was our first time heading north of Baltimore, which is mostly devoid of urban life.  Aside from passing the Susquehanna River in Havre de Grace, there wasn't anything to see that really stood out.  It's no surprise that this area isn't that populated compared to the rest of the state.  Of course, we had one additional state to go through before reaching Pennsylvania, the First State itself, Delaware.</p>
+				<h1>Wait, What?</h1>
+				<h4>{{date}}</h4>
+				<p>I was expecting a more "relaxing" day on Sunday, so it came as a complete surprise when Jenn mentioned just before we left Baltimore that we were going to spend the day in Philadelphia, which we hadn't even discussed going to.  At first we planned to leave at 9, but Neal;s friend Heidi, who we were going to visit, wanted us there at 10, something we didn't find out until after we got back to our hotel.  Not surprisingly, it takes a mountain to get Neal out of bed, so we left at our original planned time of 9.  Nothing Heidi can do about that, right?</p>
+				<p>It was our first time heading north of Baltimore, which is mostly devoid of urban life.  One spot to note was the crossing over the Susquehanna River in Havre de Grace.  Neal gave me the heads up before we crossed, telling me "Get your camera ready."  No other place north of Baltimore on the Interstate was worthy of such distinction.  Of course, we had one additional state to go through before reaching Pennsylvania, the First State itself, Delaware.</p>
 		</div>
 	</div>
 	<div class="flex-container">
 		<div class="flex-item">
-			<h1>Delaware - The Simple State</h1>
-			<p>When people think of states to visit in the United States, Delaware ranks near the bottom of the list.  It's small, doesn't have big cities, nor scenery of any kind.  There's some decent places to see, but most people will drive through to reach their destination, whether it be Philly, New York, or god forbid, New Jersey.</p>
-			<p>Driving through Delaware was a bit of a breeze.  Nothing really stood out.  You can see the ‘big’ city of Wilmington from the Interstate, there's the Christina River to cross.  Other than that, Delaware can be be described as a bathroom state.  The perfect place to stop when needing to use the restroom.  Of course, that's exactly what happened to us, a desparate stop needed in the last town of Delaware; Claymont.  A simple town with stone buildings and a Dunkin Donuts.  A mile later, it was time to enter Pennsylvania.</p>
+			<div class="ad">
+        <a href="http://www.bodiewebdesign.com" class="flex-container">
+        <div class="flex-item"><img src="assets/bwd-logo.gif" alt="Bodie Web Design"/></div>
+        <div class="flex-item text"><h1>Bodie Web Design</h1></div>
+        </a>
+    </div>
 		</div>
+	</div>
+	<div class="flex-container">
+			<div class="flex-item">
+					<h1>Delaware - The Simple State</h1>
+					<h4>{{date}}</h4>
+					<p>When people think of states to visit in the United States, Delaware ranks near the bottom of the list.  It's small, doesn't have big cities, nor scenery of any kind.  There's some decent places to see, but most people will drive through to reach their destination, whether it be Philly, New York, or god forbid, New Jersey.</p>
+					<p>Driving through Delaware was a bit of a breeze.  Nothing really stood out.  You can see the ‘big’ city of Wilmington from the Interstate, there's the Christina River to cross.  Other than that, Delaware can be be described as a bathroom state.  The perfect place to stop when needing to use the restroom.  Of course, that's exactly what happened to us, a desparate stop needed in the last town of Delaware; Claymont.  A simple town with stone buildings and a Dunkin Donuts.  A mile later, it was time to enter Pennsylvania.  After all, I already did the expose on Delaware two years ago with Duck vs. Blue Hen.</p>
+			</div>
 		<div class="flex-item">		
 		<carousel>
-		  <slide *ngFor="let delawarePicture of delawarePictures">
-			<img src="{{link}}photos/{{delawarePicture.image}}" alt="{{delawarePicture.alt}}" class="img-responsive secondary-carousel"/>
-			<div class="carousel-caption">
-			  <h3>{{delawarePicture.title}}</h3>
-			  <p>{{delawarePicture.description}}</p>   
-			</div>
+		  	<slide *ngFor="let delawarePicture of delawarePictures">
+					<figure>
+						<img src="{{link}}photos/{{delawarePicture.image}}" alt="{{delawarePicture.alt}}" class="img-responsive secondary-carousel"/>
+						<figcaption>
+			  				<h3>{{delawarePicture.title}}</h3>
+			  				<p>{{delawarePicture.description}}</p>   
+						</figcaption>
+					</figure>
 		  </slide>
 		</carousel>
 		</div>
-	</div>
+</div>
 <div class="flex-container">
-	<div class="flex-item">
+	<div class="flex-item" style="flex: 2">
 		<h1>Delaware by the Numbers</h1>
 		<p><span>1</span> - The first state to become part of the United States by ratifying the Constitution</p>
 		<p><span>3</span> - The number of counties in Delaware, the least amount of any U.S. State</p>
 		<p><span>12</span> - The radius of the quasi-circular northern border with Pennsylvania, known as the Twelve-Mile Circle.  It’s the only circular border in the United States.</p>
 		<p><span>23.43</span> - The length in miles of Interstate 95 in Delaware that we went through to get from Maryland to Pennsylvania.</p>
 	</div>
+	<div class="flex-item">
+		<a href="http://battle.bodiewebdesign.com" class="flex-container">
+        <div class="flex-item"><img src="assets/delaware.jpg" alt="Delaware" class="img-responsive"/></div>
+    </a>
+	</div>
 </div>
-<div class="flex-container">
+<div class="flex-container center">
     <div class="flex-item">
 		<carousel>
 		  <slide *ngFor="let philadelphiaPicture of philadelphiaPictures">
+				<figure>
 				<a href="{{link}}photos/{{philadelphiaPicture.image}}">
-					<img src="{{link}}photos/{{philadelphiaPicture.image}}" alt="{{philadelphiaPicture.alt}}" class="img-responsive main-carousel">
+					<img src="{{link}}photos/{{philadelphiaPicture.image}}" alt="{{philadelphiaPicture.alt}}" class="img-responsive secondary-carousel">
 				</a>
-			<div class="carousel-caption">
+			<figcaption>
 			  <h3>{{philadelphiaPicture.title}}</h3>
 			  <p>{{philadelphiaPicture.description}}</p>   
-			</div>
+			</figcaption>
+			</figure>
 		  </slide>
 		</carousel>
-    </div>	
-</div>
-	<div class="flex-container">
-		<div class="flex-item">
+		</div>
+			<div class="flex-item">
 			<h1>Welcome to Philadelphia</h1>
+			<h4>{{date}}</h4>
 			<p>Entering Pennsylvania, not far from Philadelphia, provided a slightly different experience than Delaware.  But that feeling didn't last long once a large city scape peeked its head.  And with that, it was time to immerse myself with Philadelphia.  I was amazed with how big and spread out Philly was.  Not since I had driven to Chicago did I find myself amazed with the size of a city's skyline.  Driving through the sports complex was another reminder of its huge size.  With the basketball arena, baseball stadium and football stadium one by one, along the highway, showed off how big of a metropolis it truly is.</p>
 			<p>But within that outer exterior came a charming interior.  Philadelphia, one of the most historic cities in the United States, provided a perfect blend of historical buildings and modern skyscrapers.  Similar to Boston, but more spread out, I couldn't help but find myself mesmerized with the city itself.  It's no wonder they call it the City of Brotherly Love.  As for us, we were there to check out the Pride parade.  Nothing says Brotherly Love than supporting all consenting love.  After reaching the parking lot at 11:30, it was time to enjoy Philadelphia.</p>
 			<p>One thing not so lovely in Philly was the humidity.  It was hot and muggy, but no different from the rest of the area.  Plus I thought it was always sunny in Philadelphia, but there was sun at least.  As long as it wasn't gray clouds.  We headed to Independence National Historic Park, which happened to be where the judges for the Pride Parade were hanging out.  The park made me think of a bigger, more historical version of Portland’s Pioneer Courthouse Square.  Wanting to see Independence Hall and the Liberty Bell, I explored the park area with Jenn while Neal and Heidi stood at their spot across the street.  But poor Jenn couldn't handle the humidity.  It sucks it was so humid, Jenn had to hang out at the coffeehouse across the street.  At least she was able to see part of the parade.</p>
-		</div>
+		</div>	
+</div>
+	<div class="flex-container">
+		<img src="assets/philadelphia.jpg" class="img-responsive" id="philadelphia"/>
+	</div>
+	<div class="flex-container">
 		<div class="flex-item">
 			<h1>For the Exercise Buffs</h1>
+			<h4>{{date}}</h4>
 			<p>There are many reasons to be thankful for all the technologic advances in the 21th Century.  Instead of going backwards in time, we are accomplishing things never seemed possible before.  As you can see, we have made advances in exercise movement, with Apple having taken the time with its Apple Watch to detect such movements.  You can see as much as I recorded my walk from the Philadelphia parking lot to the Pride parade.</p>
 			<p>Not surprisingly, this part of Philadelphia is flat, as shown with the mere 13 feet change in elevation.  The temperature was high and the humidity was as well.  The recorded walk was 0.70 miles, though is appears half of that was at Independence Hall, where the red indicates me stopping to take pictures.  Of course, there are some inaccuracies with the results; Apple isn't completely perfect.  For example, despite the implication that I cross streets on the way to the Pride Parade, I did not.  I was walking on the left side of the street, enjoying the views...even the man wearing nothing but a rainbow colored underwear.</p>
+		</div>
+		<div class="flex-item">
 			<img src="{{link}}photos/philly-walk.jpg" alt="Philly Walk" class="img-responsive"/>
 		</div>
 	</div>
-
+<div class="flex-container">
+	<div class="flex-item"><button class="btn btn-primary" routerLink="/one">Previous</button></div>
+	<div class="flex-item"><button class="btn btn-primary" routerLink="/two/independence">Next</button></div>
+</div>
+<router-outlet></router-outlet>

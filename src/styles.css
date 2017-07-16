@@ -10,6 +10,11 @@ h1 {
   font-size: 250%;
   margin: 20px;
 }
+h4 {
+  color: white;
+  text-align: right;
+  font-weight: bold;
+}
 
 figure {
   margin: 0;

@@ -2,13 +2,15 @@
     <div class="flex-item">
 		<carousel>
 		  <slide *ngFor="let pridePicture of pridePictures">
+				<figure>
 				<a href="{{link}}photos/{{pridePicture.image}}">
 					<img src="{{link}}photos/{{pridePicture.image}}" alt="{{pridePicture.alt}}" class="img-responsive main-carousel">
 				</a>
-			<div class="carousel-caption">
+			<figcaption>
 			  <h3>{{pridePicture.title}}</h3>
 			  <p>{{pridePicture.description}}</p>   
-			</div>
+			</figcaption>
+			</figure>
 		  </slide>
 		</carousel>
     </div>	

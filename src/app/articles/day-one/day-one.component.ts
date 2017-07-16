@@ -12,6 +12,7 @@ export class DayOneComponent implements OnInit {
   baltimorePictures: Picture[];
   pierPictures: Picture[];
   dinerPictures: Picture[];
+  date = "June 17, 2017";
   link = "https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/";        
   constructor(private pictureService: PictureService) { }
 
