@@ -140,10 +140,8 @@ export const DELAWAREPICTURES: Picture[] = [
 {id: 6, image: 'delaware6.jpg', alt: 'Delaware', title: 'Another ordinary Delaware Picture'},
 {id: 7, image: 'delaware7.jpg', alt: 'Adam', title: 'Tilted Mirror in a Dunkin Donuts Bathroom'},
 {id: 8, image: 'delaware8.jpg', alt: 'Claymont', title: 'Claymont Fire Station'},
-{id: 9, image: 'delaware9.jpg', alt: 'Adam', title: 'My "I\'m in Delaware" Picture'},
-{id: 10, image: 'delaware10.jpg', alt: 'Wilmington', title: 'Wilmington on the way back from Philly', description: 'Sorry to skip ahead...'},
-{id: 11, image: 'delaware11.jpg', alt: 'Delaware', title: 'More Delaware on the way back.'},
-{id: 12, image: 'delaware12.jpg', alt: 'Delaware', title: 'Sun shining bright in Delaware'}
+{id: 9, image: 'delaware9.jpg', alt: 'Adam', title: 'My "I\'m in Delaware" Picture'}
+
 ]
 
 export const PHILADELPHIAWELCOMEPICTURES: Picture[] = [
@@ -187,37 +185,39 @@ export const INDEPENDENCEPICTURES: Picture[] = [
 {id: 16, image: 'independence18.jpg',  alt: 'Independence National Historical Park', title: 'No Bigotry at the Independence National Historical Park'},
 {id: 17, image: 'independence19.jpg',  alt: 'Independence Visitor Center', title: 'Independence Visitor Center'},
 {id: 18, image: 'independence20.jpg', alt: 'Independence National Historical Park', title: 'Independence National Historical Park'},
-{id: 19, image: 'independence21.jpg',  alt: 'Independence National Historical Park', title: 'Independence National Historical Park'}
+{id: 19, image: 'independence21.jpg',  alt: 'Independence National Historical Park', title: 'Independence National Historical Park'},
+{id: 20, image: 'philadelphia21.jpg', alt: 'A Rocky Statue', title: 'A Rocky Statue, not The Rocky Statue'},
+{id: 21, image: 'philadelphia22.jpg', alt: 'Adam', title: 'Adam with a Rocky Statue'},
 ]
 
 export const LIBERTYBELLPICTURES: Picture[] = [
-{id: 1, image: 'liberty-bell1.jpg', alt: '', title: ''},
-{id: 2, image: 'liberty-bell2.jpg', alt: '', title: ''},
-{id: 3, image: 'liberty-bell3.jpg', alt: '', title: ''},
-{id: 4, image: 'liberty-bell4.jpg', alt: '', title: ''},
-{id: 5, image: 'liberty-bell5.jpg', alt: '', title: ''},
-{id: 6, image: 'liberty-bell6.jpg', alt: '', title: ''},
-{id: 7, image: 'liberty-bell7.jpg', alt: '', title: ''},
-{id: 8, image: 'liberty-bell8.jpg', alt: '', title: ''},
-{id: 9, image: 'liberty-bell9.jpg', alt: '', title: ''},
-{id: 10, image: 'liberty-bell10.jpg', alt: '', title: ''},
-{id: 11, image: 'liberty-bell11.jpg', alt: '', title: ''},
-{id: 12, image: 'liberty-bell12.jpg', alt: '', title: ''},
-{id: 13, image: 'liberty-bell13.jpg', alt: '', title: ''},
-{id: 14, image: 'liberty-bell14.jpg', alt: '', title: ''},
-{id: 15, image: 'liberty-bell15.jpg', alt: '', title: ''},
-{id: 16, image: 'liberty-bell16.jpg', alt: '', title: ''},
-{id: 17, image: 'liberty-bell17.jpg', alt: '', title: ''},
-{id: 18, image: 'liberty-bell18.jpg', alt: '', title: ''},
-{id: 19, image: 'liberty-bell19.jpg', alt: '', title: ''},
-{id: 20, image: 'liberty-bell20.jpg', alt: '', title: ''},
-{id: 21, image: 'liberty-bell21.jpg', alt: '', title: ''},
-{id: 22, image: 'liberty-bell22.jpg', alt: '', title: ''},
-{id: 23, image: 'liberty-bell23.jpg', alt: '', title: ''},
-{id: 24, image: 'liberty-bell24.jpg', alt: '', title: ''},
-{id: 25, image: 'liberty-bell25.jpg', alt: '', title: ''},
-{id: 26, image: 'liberty-bell26.jpg', alt: '', title: ''},
-{id: 27, image: 'liberty-bell27.jpg', alt: '', title: ''}
+{id: 1, image: 'liberty-bell1.jpg', alt: 'In Line for the Liberty Bell', title: 'In Line for the Liberty Bell'},
+{id: 2, image: 'liberty-bell2.jpg', alt: 'In Line for the Liberty Bell', title: 'In Line for the Liberty Bell'},
+{id: 3, image: 'liberty-bell3.jpg', alt: 'Adam', title: 'Adam In Line for the Liberty Bell'},
+{id: 4, image: 'liberty-bell4.jpg', alt: 'In Line for the Liberty Bell', title: 'In Line for the Liberty Bell'},
+{id: 5, image: 'liberty-bell5.jpg', alt: 'In Line for the Liberty Bell', title: 'In Line for the Liberty Bell'},
+{id: 6, image: 'liberty-bell6.jpg', alt: 'In Line for the Liberty Bell', title: 'In Line for the Liberty Bell'},
+{id: 7, image: 'liberty-bell7.jpg', alt: 'Adam', title: 'In Line for the Liberty Bell'},
+{id: 8, image: 'liberty-bell8.jpg', alt: 'In Line for the Liberty Bell', title: 'In Line for the Liberty Bell'},
+{id: 9, image: 'liberty-bell9.jpg', alt: 'Memorial', title: 'Memorial', description: 'I miss Obama, we need an Actual President, not a clown'},
+{id: 10, image: 'liberty-bell10.jpg', alt: 'In Line for the Liberty Bell', title: 'In Line for the Liberty Bell'},
+{id: 11, image: 'liberty-bell11.jpg', alt: 'In Line for the Liberty Bell', title: 'In Line for the Liberty Bell'},
+{id: 12, image: 'liberty-bell12.jpg', alt: 'Inside the Line for the Liberty Bell', title: 'Inside the Line for the Liberty Bell'},
+{id: 13, image: 'liberty-bell13.jpg', alt: 'Inside the Line for the Liberty Bell', title: 'Inside the Line for the Liberty Bell'},
+{id: 14, image: 'liberty-bell14.jpg', alt: 'Inside the Line for the Liberty Bell', title: 'Inside the Line for the Liberty Bell'},
+{id: 15, image: 'liberty-bell15.jpg', alt: 'Inside the Line for the Liberty Bell', title: 'Inside the Line for the Liberty Bell'},
+{id: 16, image: 'liberty-bell16.jpg', alt: 'Inside the Line for the Liberty Bell', title: 'Inside the Line for the Liberty Bell'},
+{id: 17, image: 'liberty-bell17.jpg', alt: 'Inside the Liberty Bell Center, Metal Detector', title: 'Inside the Liberty Bell Center, Metal Detector'},
+{id: 18, image: 'liberty-bell18.jpg', alt: 'America\'s Liberty Bell', title: 'America\'s Liberty Bell'},
+{id: 19, image: 'liberty-bell19.jpg', alt: 'The World\'s Symbol for Liberty', title: 'The World\'s Symbol for Liberty'},
+{id: 20, image: 'liberty-bell20.jpg', alt: 'Inside the Liberty Bell Center', title: 'Inside the Liberty Bell Center'},
+{id: 21, image: 'liberty-bell21.jpg', alt: 'The Liberty Bell', title: 'The Liberty Bell'},
+{id: 22, image: 'liberty-bell22.jpg', alt: 'Adam', title: 'Adam at Liberty Bell'},
+{id: 23, image: 'liberty-bell23.jpg', alt: 'Adam', title: 'Adam at Liberty Bell with better view'},
+{id: 24, image: 'liberty-bell24.jpg', alt: 'Liberty Bell', title: 'Liberty Bell'},
+{id: 25, image: 'liberty-bell25.jpg', alt: 'Independence Hall', title: 'Independence Hall'},
+{id: 26, image: 'liberty-bell26.jpg', alt: 'Liberty Bell', title: 'Liberty Bell'},
+{id: 27, image: 'liberty-bell27.jpg', alt: 'Outside the Liberty Bell Center', title: 'Outside the Liberty Bell Center'}
 ]
 
 export const PRIDEPICTURES: Picture[] = [
@@ -261,7 +261,145 @@ export const PRIDEPICTURES: Picture[] = [
 {id: 38, image: 'pride38.jpg', alt: 'One Confused Person', title: 'One Confused Person'},
 {id: 39, image: 'pride39.jpg', alt: 'Gays 4 Trump', title: 'Gays 4 Trump', description: 'Ironically wearing a mask of Hillary Clinton, who actually supports the LGBTQ unlike Trump who only pretended to like them for vote pandering'},
 {id: 40, image: 'pride40.jpg', alt: 'Neal', title: 'While I was walking around and Jenn was couped up inside, Neal and Heidi stayed at their one spot the entire time'},
-{id: 41, image: 'pride41.jpg', alt: 'Refuse Facism', title: 'Refuse Fascism, Drive out Trump & Pence', description: 'Neal took this picture, I didn\'t even see this sign.  But it\'s 100% true.'}
+{id: 41, image: 'pride41.jpg', alt: 'Refuse Facism', title: 'Refuse Fascism, Drive out Trump & Pence', description: 'Neal took this picture, I didn\'t even see this sign.  But it\'s 100% true.'},
+{id: 42, image: 'pennsylvania23.jpg', alt: 'Jenn', title: 'Jenn was staying cool inside during the parade'},
+{id: 43, image: 'pennsylvania24.jpg', alt: 'Cappuccino', title: 'Gotta enjoy a Cappuccino'}
+]
+
+export const PENNPICTURES: Picture[] = [
+{id: 1, image: 'philadelphia25.jpg', alt: 'National Museum of American Jewish History', title: 'National Museum of American Jewish History', description: 'Everyone should feel Welcomed'},
+{id: 2, image: 'philadelphia26.jpg', alt: 'Interesting View', title: 'Interesting View'},
+{id: 3, image: 'philadelphia27.jpg', alt: 'Doggie Style', title: 'Doggie Style', description: 'Another weird place we saw: Llama Tooth'},
+{id: 4, image: 'penn1.jpg', alt: 'Penn\'s Landing', title: 'Penn\'s Landing'},
+{id: 5, image: 'penn2.jpg', alt: 'Delaware River', title: 'Delaware River'},
+{id: 6, image: 'penn3.jpg', alt: 'I see New Jersey', title: 'I see New Jersey'},
+{id: 7, image: 'penn4.jpg', alt: 'Welcome to Penn\'s Landing', title: 'Welcome to Penn\'s Landing'},
+{id: 8, image: 'penn5.jpg', alt: 'Skating Rink', title: 'Skating Rink'},
+{id: 9, image: 'penn6.jpg', alt: 'Benjamin Franklin Bridge', title: 'Benjamin Franklin Bridge'},
+{id: 10, image: 'penn7.jpg', alt: 'Philadelphia Skyline', title: 'Philadelphia Skyline'},
+{id: 11, image: 'penn8.jpg', alt: 'Philadelphia Skyline', title: 'Philadelphia Skyline'},
+{id: 12, image: 'penn9.jpg', alt: 'Adam', title: 'Adam with Beads'},
+{id: 13, image: 'penn10.jpg', alt: 'Adam', title: 'Welcome to Penn\'s Landing, Adam'},
+{id: 14, image: 'penn11.jpg', alt: 'Market Street', title: 'Market Street'},
+{id: 15, image: 'penn12.jpg', alt: 'Old City', title: 'Old City'},
+{id: 16, image: 'penn13.jpg', alt: 'Old City', title: 'Old City'}
+]
+
+export const CONTINENTALPICTURES: Picture[] = [
+  {id: 1, image: 'continental1.jpg', alt: 'Continental', title: 'Continental'},
+  {id: 2, image: 'continental2.jpg', alt: 'Adam', title: 'Adam'},
+  {id: 3, image: 'continental3.jpg', alt: 'Korean Tacos', title: 'Korean Tacos'}  
+]
+
+export const ARTPICTURES: Picture[] = [
+{id: 1, image: 'art1.jpg', alt: 'Philadelphia Museum of Art', title: 'Philadelphia Museum of Art'},
+{id: 2, image: 'art2.jpg', alt: 'Philadelphia Skyline', title: 'Philadelphia Skyline'},
+{id: 3, image: 'art3.jpg', alt: 'Rocky Statue', title: 'Rocky Statue', description: 'The Rocky Statue'},
+{id: 4, image: 'art4.jpg', alt: 'The Rocky Steps', title: 'The Rocky Steps'},
+{id: 5, image: 'art5.jpg', alt: 'Philadephia Museum of Art', title: 'Philadelphia Museum of Art'},
+{id: 6, image: 'art6.jpg', alt: 'Philadelphia Skyline', title: 'Philadelphia Skyline'},
+{id: 7, image: 'art37.jpg', alt: 'Jenn doesn\'t want her picture taken', title: 'Jenn doesn\'t want her picture taken'},
+{id: 8, image: 'art38.jpg', alt: 'Jenn really doesn\'t want her picture taken', title: 'Jenn really doesn\'t want her picture taken'},
+{id: 9, image: 'art7.jpg', alt: 'Philadelphia Museum of Art', title: 'Philadelphia Museum of Art after the Rocky Run'},
+{id: 10, image: 'art8.jpg', alt: 'Philadelphia Skyline', title: 'Philadelphia Skyline'},
+{id: 11, image: 'art9.jpg', alt: 'Adam', title: 'Adam Heart Philly'},
+{id: 12, image: 'art10.jpg', alt: 'Adam and Jenn', title: 'Adam and Jenn'},
+{id: 13, image: 'art11.jpg', alt: 'Neal, Adam and Jenn', title: 'Neal, Adam and Jenn do the full Rocky', description: 'Jenn only did half Rocky'},
+{id: 14, image: 'art12.jpg', alt: 'Philadelphia Skyline', title: 'Philadelphia Skyline' , description: 'The tallest building in Philadelphia, and the state of Pennsylvania, is the Comcast Center, the tall building on the left, at 975 feet'},
+{id: 15, image: 'art13.jpg', alt: 'Rocky Steps', title: 'Rocky Steps'},
+{id: 16, image: 'art14.jpg', alt: 'Philadelphia Museum of Art', title: 'Philadelphia Museum of Art'},
+{id: 17, image: 'art15.jpg', alt: 'Adam', title: 'Adam at the Philadelphia Museum of Art'},
+{id: 18, image: 'art16.jpg', alt: 'Philadelphia Museum of Art', title: 'Philadelphia Museum of Art'},
+{id: 19, image: 'art17.jpg', alt: 'Philadelphia Museum of Art', title: 'Philadelphia Museum of Art Fountain'},
+{id: 20, image: 'art18.jpg', alt: 'Jenn and Neal', title: 'Jenn and Neal'},
+{id: 21, image: 'art19.jpg', alt: 'Adam', title: 'Adam wins!'},
+{id: 22, image: 'art39.jpg', alt: 'Neal and Heidi', title: 'Neal and Heidi'},
+{id: 23, image: 'art20.jpg', alt: 'Fountain', title: 'Fountain'},
+{id: 24, image: 'art21.jpg', alt: 'Philadelphia Museum of Art', title: 'Philadelphia Museum of Art'},
+{id: 25, image: 'art22.jpg', alt: 'Philadelphia Skyline', title: 'Philadelphia Skyline', description: 'The tall building to the right is the Comcast Technology Center, which will be the tallest building in Philadelphia once completed in 2018, at 1,121 feet'},
+{id: 26, image: 'art23.jpg', alt: 'Philadelphia Museum of Art', title: 'Philadelphia Museum of Art'},
+{id: 27, image: 'art24.jpg', alt: 'Philadelphia Museum of Art fountain', title: 'Philadelphia Museum of Art fountain'},
+{id: 28, image: 'art25.jpg', alt: 'Jenn, Neal and Heidi', title: 'Jenn, Neal and Heidi'},
+{id: 29, image: 'art26.jpg', alt: 'View from the Philadelphia Museum of Art', title: 'View from the Philadelphia Museum of Art'},
+{id: 30, image: 'art27.jpg', alt: 'View from the Philadelphia Museum of Art', title: 'View from the Philadelphia Museum of Art'},
+{id: 31, image: 'art28.jpg', alt: 'Another View', title: 'Another View'},
+{id: 32, image: 'art29.jpg', alt: 'Adam', title: 'Adam resting at the top'},
+{id: 33, image: 'art30.jpg', alt: 'Jenn sticking her tongue', title: 'Jenn sticking her tongue out'},
+{id: 34, image: 'art31.jpg', alt: 'Statue on the Other Side', title: 'Statue on the Other Side'},
+{id: 35, image: 'art32.jpg', alt: 'The Back Side', title: 'The Back Side'},
+{id: 36, image: 'art33.jpg', alt: 'The Back Side Gardens', title: 'The Back Side Gardens'},
+{id: 37, image: 'art34.jpg', alt: 'The Back Side Gardens', title: 'The Back Side Gardens'},
+{id: 38, image: 'art35.jpg', alt: 'The Back Side Gardens', title: 'The Back Side Gardens'},
+{id: 39, image: 'art36.jpg', alt: 'Statue', title: 'Statue'},
+
+
+]
+
+export const DANCEPICTURES: Picture[] = [
+{id: 1, image: 'dance1.jpg', alt: 'Beyond the Art Musem', title: 'Beyond the Art Musem'},
+{id: 2, image: 'dance2.jpg', alt: 'Philadelphia Skyline', title: 'Philadelphia Skyline'},
+{id: 3, image: 'dance3.jpg', alt: 'Philadelphia Skyline', title: 'Philadelphia Skyline'},
+{id: 4, image: 'dance4.jpg', alt: 'Fairmount Water Works', title: 'Fairmount Water Works'},
+{id: 5, image: 'dance34.jpg', alt: 'Jenn at the Fairmount Water Works', title: 'Jenn at the Fairmount Water Works'},
+{id: 6, image: 'dance35.jpg', alt: 'Jenn at the Fairmount Water Works', title: 'Jenn at the Fairmount Water Works'},
+{id: 7, image: 'dance36.jpg', alt: 'Jenn and Heidi', title: 'Jenn and Heidi'},
+{id: 8, image: 'dance5.jpg', alt: 'Schuylkill River', title: 'Schuylkill River'},
+{id: 9, image: 'dance6.jpg', alt: 'Schuylkill River', title: 'Schuylkill River'},
+{id: 10, image: 'dance7.jpg', alt: 'Schuylkill River', title: 'Schuylkill River'},
+{id: 11, image: 'dance8.jpg', alt: 'Philadelphia Skyline', title: 'Philadelphia Skyline'},
+{id: 12, image: 'dance9.jpg', alt: 'Fairmount Water Works', title: 'Fairmount Water Works'},
+{id: 13, image: 'dance10.jpg', alt: 'Philadelphia Skyline', title: 'Philadelphia Skyline'},
+{id: 14, image: 'dance12.jpg', alt: 'Schuylkill River', title: 'Schuylkill River'},
+{id: 15, image: 'dance13.jpg', alt: 'Adam', title: 'Adam'},
+{id: 16, image: 'dance14.jpg', alt: 'Jenn', title: 'Jenn'},
+{id: 17, image: 'dance15.jpg', alt: 'Jenn', title: 'Jenn'},
+{id: 18, image: 'dance16.jpg', alt: 'Schuylkill River', title: 'Schuylkill River'},
+{id: 19, image: 'dance17.jpg', alt: 'Schuylkill River', title: 'Schuylkill River'},
+{id: 20, image: 'dance18.jpg', alt: 'Schuylkill River', title: 'Schuylkill River'},
+{id: 21, image: 'dance19.jpg', alt: 'Schuylkill River', title: 'Schuylkill River'},
+{id: 22, image: 'dance20.jpg', alt: 'Fairmount Water Works', title: 'Fairmount Water Works'},
+{id: 23, image: 'dance21.jpg', alt: 'Schuylkill River', title: 'Schuylkill River'},
+{id: 24, image: 'dance22.jpg', alt: 'Schuylkill River', title: 'Schuylkill River'},
+{id: 25, image: 'dance23.jpg', alt: 'Philadelphia Museum of Art', title: 'Philadelphia Museum of Art'},
+{id: 26, image: 'dance24.jpg', alt: 'Piggyback ride', title: 'Piggyback ride'},
+{id: 27, image: 'dance25.jpg', alt: 'Jenn and Neal', title: 'Jenn\'s feet hurt'},
+{id: 28, image: 'dance26.jpg', alt: 'Lloyd Hall', title: 'Lloyd Hall'},
+{id: 29, image: 'dance27.jpg', alt: 'Jewish Apple Cake', title: 'Jewish Apple Cake'},
+{id: 30, image: 'dance28.jpg', alt: 'Neal dancing', title: 'Neal dancing'},
+{id: 31, image: 'dance29.jpg', alt: 'Neal dancing', title: 'Neal dancing'},
+{id: 32, image: 'dance30.jpg', alt: 'Neal needs water', title: 'Neal needs water'},
+{id: 35, image: 'dance31.jpg', alt: 'Seven bottles of water for Neal', title: 'Seven bottles of water for Neal', description:'Neal was actually buying them for the dancers'},
+{id: 34, image: 'dance32.jpg', alt: 'Jenn\'s excited', title: 'Jenn\'s excited'},
+{id: 35, image: 'dance33.jpg', alt: 'Jenn\'s excited', title: 'Jenn\'s excited'},
+
+
+]
+
+export const PHILLYPICTURES: Picture[] = [
+{id: 1, image: 'philadelphia28.jpg', alt: 'Towers', title: 'Towers'},
+{id: 2, image: 'philadelphia29.jpg', alt: 'Answer Injustice with Justice', title: 'Answer Injustice with Justice', description: 'On a wall of things people wish: Impeach Donald Trump'},
+{id: 3, image: 'philadelphia30.jpg', alt: 'Penn\'s Landing Statue', title: 'Penn\'s Landing Statue'},
+{id: 4, image: 'philadlephia31.jpg', alt: 'Goodbye Philly', title: 'Goodbye Philly'},
+{id: 5, image: 'philadlephia32.jpg', alt: 'Citizens Bank Park', title: 'Citizens Bank Park', description: 'Home of the Philadelphia Phillies'},
+{id: 6, image: 'philadlephia33.jpg', alt: 'Citizen Bank Park', title: 'Citizens Bank Park and Philly'},
+{id: 7, image: 'philadlephia34.jpg', alt: 'Lincoln Field', title: 'Lincoln Field', description: 'Home of the Philadelphia Eagles'},
+{id: 8, image: 'philadlephia35.jpg', alt: 'Lincoln Field', title: 'Lincoln Field', description: 'Cue the theme song of It\'s Always Sunny in Philadelphia'},
+{id: 9, image: 'philadlephia36.jpg', alt: 'Wells Fargo Center', title: 'Wells Fargo Center', description: 'Home of the Philadelphia 76ers and Philadelphia Flyers'},
+{id: 10, image: 'philadlephia37.jpg', alt: 'Wells Fargo Center', title: 'Wells Fargo Center'},
+{id: 11, image: 'philadlephia38.jpg', alt: 'Philadelphia', title: 'Philadelphia Freedom'},
+{id: 12, image: 'philadlephia39.jpg', alt: 'Adam', title: 'Adam silly leaving Philadelphia'},
+{id: 13, image: 'delaware10.jpg', alt: 'Wilmington', title: 'Wilmington on the way back from Philly'},
+{id: 14, image: 'delaware11.jpg', alt: 'Delaware', title: 'More Delaware on the way back.'},
+{id: 15, image: 'delaware12.jpg', alt: 'Delaware', title: 'Sun shining bright in Delaware'},
+{id: 16, image: 'maryland4.jpg', alt: 'Sunset', title: 'Sunset from Susquehanna River'},
+{id: 17, image: 'maryland5.jpg', alt: 'Baltimore', title: 'Baltimore from afar'},
+{id: 18, image: 'maryland6.jpg', alt: 'Blobs Road', title: 'Blobs Road?'}
+]
+
+export const CHIDOPICTURES: Picture[] = [
+  {id: 1, image: 'chido1.jpg', alt: 'Chido\'s', title: 'Chido\'s'},
+  {id: 2, image: 'chido2.jpg', alt: 'Margarita', title: 'Margarita'},
+  {id: 3, image: 'chido3.jpg', alt: 'Taco Salad', title: 'Taco Salad'}  
 ]
 
 /*    {id: , image: '.jpg', alt: '', title: ''},*/

@@ -30,7 +30,7 @@ export class DayTwoComponent implements OnInit {
 		},
 		{
 			title: "More to Philly", 
-			ink: "/two/penn", 
+			link: "/two/penn", 
 			image: "penn4.jpg", 
 			paragraph: "After the Pride parade was over, it was time to eat and check out nearby attractions.  Located close to Penn's Landing, this made it a perfect place to explore after eating lunch.  To dig deeper in Philadelphia, click the link below."
 		},

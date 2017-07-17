@@ -12,7 +12,13 @@ import {
 		PHILADELPHIAWELCOMEPICTURES, 
         INDEPENDENCEPICTURES,
         LIBERTYBELLPICTURES, 
-		PRIDEPICTURES 
+		PRIDEPICTURES,
+		CONTINENTALPICTURES,
+		PENNPICTURES,
+		ARTPICTURES,
+		DANCEPICTURES,
+		PHILLYPICTURES,
+		CHIDOPICTURES 
 		} from './mock-pictures';
 
 
@@ -51,5 +57,23 @@ export class PictureService {
     }        
     getPridePictures(): Promise<Picture[]>{
         return Promise.resolve(PRIDEPICTURES);
-    }                                 
+    }
+    getContinentalPictures(): Promise<Picture[]>{
+        return Promise.resolve(CONTINENTALPICTURES);
+    }     
+    getPennPictures(): Promise<Picture[]>{
+        return Promise.resolve(PENNPICTURES);
+    }
+    getArtPictures(): Promise<Picture[]>{
+        return Promise.resolve(ARTPICTURES);
+    }
+    getDancePictures(): Promise<Picture[]>{
+        return Promise.resolve(DANCEPICTURES);
+    }             
+    getPhillyPictures(): Promise<Picture[]>{
+        return Promise.resolve(PHILLYPICTURES);
+    }
+    getChidoPictures(): Promise<Picture[]>{
+        return Promise.resolve(CHIDOPICTURES);
+    }                                           
 }

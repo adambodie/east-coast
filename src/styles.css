@@ -15,7 +15,11 @@ h4 {
   text-align: right;
   font-weight: bold;
 }
-
+li {
+	color: white;
+	font-weight: bold;
+	list-style: none;
+}
 figure {
   margin: 0;
   position: relative;

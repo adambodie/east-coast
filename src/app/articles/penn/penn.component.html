@@ -1,0 +1,71 @@
+<div class="flex-container">
+    <div class="flex-item">
+		<carousel>
+		  <slide *ngFor="let pennPicture of pennPictures">
+				<figure>
+				<a href="{{link}}photos/{{pennPicture.image}}">
+					<img src="{{link}}photos/{{pennPicture.image}}" alt="{{pennPicture.alt}}" class="img-responsive main-carousel">
+				</a>
+			<figcaption>
+			  <h3>{{pennPicture.title}}</h3>
+			  <p>{{pennPicture.description}}</p>   
+			</figcaption>
+			</figure>
+		  </slide>
+		</carousel>
+    </div>	
+</div>
+<div class="flex-container">
+	<div class="flex-item">
+		<h1>After the Pride</h1>
+		<p>After the Pride Parade finished, stomachs started growling as it was time for lunch.  Naturally, the best direction to go was to head back towards our car.  So with that in mind,  seeking adventure and flair, the four of us went to the Continental, a fun restaurant with a variety of interesting items on the menu.  For me, it was the Korean Tacos which caught my eye.  More of an appetizer than a full course meal, but nonetheless quite tasty.  Of course, the humidity had made my shirt real sweaty and heavy.  It felt like I had gained 10 pounds simply for the shirt.</p>
+		<p>After lunch, I briefly walked around Penn’s Landing, a park on the edge of the Delaware River.  As Neal had been complaining that no rain had yet come as projected, drops of rain finally showed up, but none too bad.  The views from Penn’s Landing were expansive, with the river and Camden, New Jersey on one side, and a view of the city from the other side, complete with historical buildings in between.  There was a Festival in conjunction with the Pride Parade being held here, but we didn’t feel the need to go see it.  With plenty of time and one major stop on my list of things I really wanted to see in Philadelphia, we headed west to the Philadelphia Museum of Art via Uber.</p>
+	</div>
+	<div class="flex-item">
+	<h1>Famous Philadelphians</h1>
+			<div class="flex-container famousAl">
+			<div *ngFor="let famousPhiladelphian of famousPhiladelphians" class="flex-item">
+				<img src="assets/{{famousPhiladelphian.image}}"/>
+				<p>{{famousPhiladelphian.name}}</p>
+			</div>
+		</div>
+	<p>There are plenty of famous people from Philadelphia, from the Historical figures to the modern day entertainers.  The list includes:</p>
+	<ul>
+		<li><span>Benjamin Franklin:</span> Founding Father of the United States and Inventor of the Lightning Rod</li>
+		<li><span>Dick Clark:</span> Radio and TV Personality most famous for Dick Clark's Rockin New Year's Eve show at Time Square</li>
+		<li><span>Wilt Chamberlain:</span> NBA Legend, offensive juggernatt in the 1960s and the only player to score 100 points in a game</li>
+		<li><span>Noam Chomsky:</span> Considered the Father of Modern Linguistics</li>
+		<li><span>Bill Cosby:</span> Actor and Comedian who starred in movies and TV Shows, most famously The Cosby Show</li>
+		<li><span>Bradley Cooper:</span> Actor of many films, including The Hangover series and Silver Linings Playbook</li>
+		<li><span>Kobe Bryant:</span> NBA Legend recently retired from the Los Angeles Lakers, and my personal favorite NBA Player of All-Time</li>
+		<li><span>Reggie Jackson:</span> Hall of Fame MLB player, known as Mr. October for his World Series Heroics.</li>
+		<li><span>Will Smith:</span> Actor and Rapper who's starred in many films and TV Shows, including The Fresh Prince of Bel Air</li>
+		<li><span>Richard Gere:</span> Actor and humanitarian activist starring in many films including Pretty Woman and Chicago</li>
+		<li><span>The Roots:</span> Hip-hop band with albums spanning back to the 1990s and house band for The Jimmy Fallon Show</li>
+		<li><span>Betsy Ross:</span> Designer of the original American Flag</li>
+						
+	</ul>
+	</div>
+</div>
+<div class="flex-container">
+    <div class="flex-item">
+		<carousel>
+		  <slide *ngFor="let continentalPicture of continentalPictures">
+				<figure>
+				<a href="{{link}}photos/{{continentalPicture.image}}">
+					<img src="{{link}}photos/{{continentalPicture.image}}" alt="{{continentalPicture.alt}}" class="img-responsive main-carousel">
+				</a>
+			<figcaption>
+			  <h3>{{continentalPicture.title}}</h3>
+			  <p>{{continentalPicture.description}}</p>   
+			</figcaption>
+			</figure>
+		  </slide>
+		</carousel>
+    </div>	
+</div>
+<div class="flex-container">
+	<div class="flex-item"><button class="btn btn-primary" routerLink="/two/pride">Previous</button></div>
+	<div class="flex-item"><button class="btn btn-primary" routerLink="/two/art">Next</button></div>
+</div>
+<router-outlet></router-outlet>	

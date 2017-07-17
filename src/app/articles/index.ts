@@ -2,6 +2,8 @@ export * from '../articles/intro/intro.component';
 export * from '../articles/day-one/day-one.component';
 export * from '../articles/day-two/day-two.component';
 export * from '../articles/delaware/delaware.component';
-export * from '../articles/pride/pride.component';
 export * from '../articles/independence/independence.component';
-
+export * from '../articles/pride/pride.component';
+export * from '../articles/penn/penn.component';
+export * from '../articles/art/art.component';
+export * from '../articles/philly/philly.component';

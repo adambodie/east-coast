@@ -14,10 +14,11 @@ import { IntroComponent,
 		DayTwoComponent, 
 		DelawareComponent, 
 		IndependenceComponent, 
-		PrideComponent 
+		PrideComponent,
+		PennComponent,
+		ArtComponent,
+		PhillyComponent 
 		} from './articles';
-
-
 
 @NgModule({
   declarations: [
@@ -32,6 +33,9 @@ import { IntroComponent,
     DelawareComponent,
     IndependenceComponent,
     PrideComponent,
+    PennComponent,
+    ArtComponent,
+    PhillyComponent,
 
   ],
   imports: [
@@ -42,37 +46,17 @@ import { IntroComponent,
     BsDropdownModule.forRoot(),
     ModalModule.forRoot(),
     RouterModule.forRoot([
-        {
-          path: 'about',
-          component: AboutComponent
-        },
-        {   path: 'intro',
-            component: IntroComponent
-        },
-        {
-          path: '',
-          component: HomeComponent
-        },
-        {
-          path: 'one',
-          component: DayOneComponent
-        },
-        {
-			path: 'two',
-			component: DayTwoComponent
-        },
-        {
-			path: 'two/delaware',
-			component: DelawareComponent
-        },
-        {
-			path: 'two/independence',
-			component: IndependenceComponent
-        },        
-        {
-			path: 'two/pride',
-			component: PrideComponent
-        }
+        {	path: '', component: HomeComponent	},    
+        {	path: 'about', component: AboutComponent  },
+        {   path: 'intro', component: IntroComponent  },
+        { 	path: 'one', component: DayOneComponent  },
+        {	path: 'two', component: DayTwoComponent  },
+        {   path: 'two/delaware', component: DelawareComponent  },
+        {   path: 'two/independence', component: IndependenceComponent },        
+        {   path: 'two/pride', component: PrideComponent  },
+        {   path: 'two/penn',  component: PennComponent  },
+        {   path: 'two/art',  component: ArtComponent   },        
+        {   path: 'two/philly', component: PhillyComponent  }
 ])
   ],
   providers: [],
