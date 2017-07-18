@@ -1,6 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 p {
-  font-weight: bold;
   color: white;
 }
 
@@ -17,7 +16,6 @@ h4 {
 }
 li {
 	color: white;
-	font-weight: bold;
 	list-style: none;
 }
 figure {
