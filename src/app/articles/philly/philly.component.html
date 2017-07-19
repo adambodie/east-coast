@@ -4,7 +4,7 @@
 		  <slide *ngFor="let phillyPicture of phillyPictures">
 				<figure>
 				<a href="{{link}}photos/{{phillyPicture.image}}">
-					<img src="{{link}}photos/{{phillyPicture.image}}" alt="{{phillyPicture.alt}}" class="img-responsive main-carousel">
+					<img src="{{link}}photos/{{phillyPicture.image}}" alt="{{phillyPicture.alt}}" class="img-responsive secondary-carousel">
 				</a>
 			<figcaption>
 			  <h3>{{phillyPicture.title}}</h3>
@@ -13,7 +13,21 @@
 			</figure>
 		  </slide>
 		</carousel>
+    </div>
+    <div class="flex-item">
+		<h1>Susquehanna vs. Schuylkill: The Tale of Two Funny Rivers</h1>
+		<h4>{{date}}</h4>
     </div>	
+</div>
+<div class="flex-container">
+	<div class="flex-item">
+		<h1>Goodbye Philly</h1>
+		<h4>{{date}}</h4>
+		<p>When it was all said and done, it was time to leave Philadelphia and head back to Laurel.  Driving back from Philly, it was a little sad leaving.  I really enjoyed Philadelphia.  It's true what they say; Sometimes the unexpected things in life can truly be the best.  But at the same time, we had bigger adventures ahead.  One thing I really liked about Philly was the culture.  A perfect blend of history and modern wonders, there are lots of adventures to be had in Philly.  Heading back was obviously much of the same, since we took the same route.  Jenn did some driving as Neal was incredibly pooped.</p>
+	</div>
+</div>
+<div class="flex-container">
+	<img src="assets/philadelphia.jpg" class="img-responsive" id="philadelphia"/>
 </div>
 <div class="flex-container">
 	<div class="flex-item">
@@ -21,7 +35,7 @@
 		  <slide *ngFor="let chidoPicture of chidoPictures">
 				<figure>
 				<a href="{{link}}photos/{{chidoPicture.image}}">
-					<img src="{{link}}photos/{{chidoPicture.image}}" alt="{{chidoPicture.alt}}" class="img-responsive main-carousel">
+					<img src="{{link}}photos/{{chidoPicture.image}}" alt="{{chidoPicture.alt}}" class="img-responsive secondary-carousel">
 				</a>
 			<figcaption>
 			  <h3>{{chidoPicture.title}}</h3>

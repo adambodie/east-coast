@@ -379,15 +379,15 @@ export const PHILLYPICTURES: Picture[] = [
 {id: 1, image: 'philadelphia28.jpg', alt: 'Towers', title: 'Towers'},
 {id: 2, image: 'philadelphia29.jpg', alt: 'Answer Injustice with Justice', title: 'Answer Injustice with Justice', description: 'On a wall of things people wish: Impeach Donald Trump'},
 {id: 3, image: 'philadelphia30.jpg', alt: 'Penn\'s Landing Statue', title: 'Penn\'s Landing Statue'},
-{id: 4, image: 'philadlephia31.jpg', alt: 'Goodbye Philly', title: 'Goodbye Philly'},
-{id: 5, image: 'philadlephia32.jpg', alt: 'Citizens Bank Park', title: 'Citizens Bank Park', description: 'Home of the Philadelphia Phillies'},
-{id: 6, image: 'philadlephia33.jpg', alt: 'Citizen Bank Park', title: 'Citizens Bank Park and Philly'},
-{id: 7, image: 'philadlephia34.jpg', alt: 'Lincoln Field', title: 'Lincoln Field', description: 'Home of the Philadelphia Eagles'},
-{id: 8, image: 'philadlephia35.jpg', alt: 'Lincoln Field', title: 'Lincoln Field', description: 'Cue the theme song of It\'s Always Sunny in Philadelphia'},
-{id: 9, image: 'philadlephia36.jpg', alt: 'Wells Fargo Center', title: 'Wells Fargo Center', description: 'Home of the Philadelphia 76ers and Philadelphia Flyers'},
-{id: 10, image: 'philadlephia37.jpg', alt: 'Wells Fargo Center', title: 'Wells Fargo Center'},
-{id: 11, image: 'philadlephia38.jpg', alt: 'Philadelphia', title: 'Philadelphia Freedom'},
-{id: 12, image: 'philadlephia39.jpg', alt: 'Adam', title: 'Adam silly leaving Philadelphia'},
+{id: 4, image: 'philadelphia31.jpg', alt: 'Goodbye Philly', title: 'Goodbye Philly'},
+{id: 5, image: 'philadelphia32.jpg', alt: 'Citizens Bank Park', title: 'Citizens Bank Park', description: 'Home of the Philadelphia Phillies'},
+{id: 6, image: 'philadelphia33.jpg', alt: 'Citizen Bank Park', title: 'Citizens Bank Park and Philly'},
+{id: 7, image: 'philadelphia34.jpg', alt: 'Lincoln Field', title: 'Lincoln Field', description: 'Home of the Philadelphia Eagles'},
+{id: 8, image: 'philadelphia35.jpg', alt: 'Lincoln Field', title: 'Lincoln Field', description: 'Cue the theme song of It\'s Always Sunny in Philadelphia'},
+{id: 9, image: 'philadelphia36.jpg', alt: 'Wells Fargo Center', title: 'Wells Fargo Center', description: 'Home of the Philadelphia 76ers and Philadelphia Flyers'},
+{id: 10, image: 'philadelphia37.jpg', alt: 'Wells Fargo Center', title: 'Wells Fargo Center'},
+{id: 11, image: 'philadelphia38.jpg', alt: 'Philadelphia', title: 'Philadelphia Freedom'},
+{id: 12, image: 'philadelphia39.jpg', alt: 'Adam', title: 'Adam silly leaving Philadelphia'},
 {id: 13, image: 'delaware10.jpg', alt: 'Wilmington', title: 'Wilmington on the way back from Philly'},
 {id: 14, image: 'delaware11.jpg', alt: 'Delaware', title: 'More Delaware on the way back.'},
 {id: 15, image: 'delaware12.jpg', alt: 'Delaware', title: 'Sun shining bright in Delaware'},
@@ -397,9 +397,9 @@ export const PHILLYPICTURES: Picture[] = [
 ]
 
 export const CHIDOPICTURES: Picture[] = [
-  {id: 1, image: 'chido1.jpg', alt: 'Chido\'s', title: 'Chido\'s'},
-  {id: 2, image: 'chido2.jpg', alt: 'Margarita', title: 'Margarita'},
-  {id: 3, image: 'chido3.jpg', alt: 'Taco Salad', title: 'Taco Salad'}  
+  {id: 1, image: 'chidos1.jpg', alt: 'Chido\'s', title: 'Chido\'s'},
+  {id: 2, image: 'chidos2.jpg', alt: 'Margarita', title: 'Margarita'},
+  {id: 3, image: 'chidos3.jpg', alt: 'Taco Salad', title: 'Taco Salad'}  
 ]
 
 /*    {id: , image: '.jpg', alt: '', title: ''},*/

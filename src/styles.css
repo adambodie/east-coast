@@ -2,9 +2,13 @@
 p {
   color: white;
 }
-
+span {
+	font-weight: bold;
+    font-size: 2em;
+    color: #F5D15D;	
+}
 h1 {
-  color: #FFF;
+  color: #F5D15D;
   font-family: 'Abril Fatface', cursive;
   font-size: 250%;
   margin: 20px;
