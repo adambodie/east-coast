@@ -22,6 +22,11 @@ li {
 	color: white;
 	list-style: none;
 }
+
+img {
+display: block; 
+margin: 0 auto;
+}
 figure {
   margin: 0;
   position: relative;
