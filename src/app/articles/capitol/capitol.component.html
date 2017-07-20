@@ -1,0 +1,91 @@
+<div class="flex-container">
+    <div class="flex-item">
+		<carousel>
+		  <slide *ngFor="let capitolPicture of capitolPictures">
+				<figure>
+				<a href="{{link}}photos/{{capitolPicture.image}}">
+					<img src="{{link}}photos/{{capitolPicture.image}}" alt="{{capitolPicture.alt}}" class="img-responsive main-carousel">
+				</a>
+			<figcaption>
+			  <h3>{{capitolPicture.title}}</h3>
+			  <p>{{capitolPicture.description}}</p>   
+			</figcaption>
+			</figure>
+		  </slide>
+		</carousel>
+    </div>	
+</div>
+<div class="flex-container">
+	<div class="flex-item center">
+		<h1>The Most Unexpected Ride to D.C.</h1>
+		<h4>{{date}}</h4>
+		<p>The next morning was not rushed as Neal had to take his car in and complete some job related stuff at home.  Jenn and I slept in a little and got ready for our adventure in Washington D.C.  Without a car, that meant Jenn and I go off on our own and meet Neal later.  The plan: Uber it to the Greenbelt Metro and hop on the Metro from there.  But life throws you curveballs.  Instead of going to what appeared to be a closer College Park Metro stop, we ended up at the Greenbelt stop, only for the Uber driver to be confused as to where to drop us off.  With the Uber drivers lack of understanding and our inexperience with the Metro, the Uber driver made it up to us by driving us straight to D.C., all while not charging us for the additional miles driven.  Who knew this would happen all because they use a ridiculously archaic term “Kiss and Ride” for drop offs?  Do people actually kiss their loved ones before heading off?  The big mystery in all of this.  Once we arrived in the nation’s Capital, we were dropped off at the U.S. Capitol, but first, it was time to eat.</p>
+	</div>
+	<div class="flex-item">
+	<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/WkZ5e94QnWk?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+	</div>
+</div>
+<div class="flex-container">
+    <div class="flex-item">
+		<carousel>
+		  <slide *ngFor="let alibiPicture of alibiPictures">
+				<figure>
+				<a href="{{link}}photos/{{alibiPicture.image}}">
+					<img src="{{link}}photos/{{alibiPicture.image}}" alt="{{alibiPicture.alt}}" class="img-responsive secondary-carousel">
+				</a>
+			<figcaption>
+			  <h3>{{alibiPicture.title}}</h3>
+			  <p>{{alibiPicture.description}}</p>   
+			</figcaption>
+			</figure>
+		  </slide>
+		</carousel>
+    </div>
+    <div class="flex-item">
+		<h1>The Alibi</h1>
+		<h4>{{date}}</h4>
+<p>With neither of us certain of where to eat, and not much options readily visible, we found the nearest place on the map, a British Pub called the Alibi, which had the feel of a British Pub, but unfortunately, didn't have very good service, as they were too slow, especially for “cranky from not eating anything” Jenn.  I unfortunately got the brunt of the crankiness.  As for the food, it was decent pub food.  I had a sausage sandwich with fries.  But Jenn’s crankiness set a bad mood and I simply wanted to get out of there A.S.A.P.  due to it.  Plus I wanted to visit D.C., since we were suddenly on a time crunch to see Galvin.</p>
+
+    </div>	
+</div>
+
+
+<div class="flex-container">
+    <div class="flex-item">
+		<carousel>
+		  <slide *ngFor="let mallPicture of mallPictures">
+				<figure>
+				<a href="{{link}}photos/{{mallPicture.image}}">
+					<img src="{{link}}photos/{{mallPicture.image}}" alt="{{mallPicture.alt}}" class="img-responsive main-carousel">
+				</a>
+			<figcaption>
+			  <h3>{{mallPicture.title}}</h3>
+			  <p>{{mallPicture.description}}</p>   
+			</figcaption>
+			</figure>
+		  </slide>
+		</carousel>
+    </div>	
+</div>
+<div class="flex-container">
+	<div class="flex-item">
+		<h1>Capitol Mall: The Hellhole Edition</h1>
+		<h4>{{date}}</h4>
+		<p>After lunch, we made our way back to visit the workplace of all but one of the most worthless bunch of Politicians ever assembled; the Republicans who can’t accomplish anything and want to give my money away to the wealthy.  The U.S. Capitol is a pretty building, an example of state capitols, and the Reflection pool gave it a more pleasant view.  I only visited the Capitol once before when I first went to D.C. In 2005, but didn't see much of it as I was young and had limited camera space.  Times have improved much more since then.</p>
+		<p>Also on the Agenda was the Capitol Mall, an area I only briefly visited in 2005 as well.  Of course, Jenn didn’t want to walk, so I gave her a bench to sit on while I did all the exploring.  A large grassy area full of the Smithsonian Art Museums and the Washington Monument in the distance provided a perfect backdrop for the aesthetic qualities of D.C.  It was also during this walk that the weather started to lose its sun, as dark clouds slowly started to come in.  Jenn wanted me to return as apparently she was more hot and sweaty by sitting than walking.  She also heard a storm was coming, as did I in a not to far location.  Having reached the Smithsonian Castle, I knew it was time to come back.  A lot of artwork in this area, which I really enjoyed.  But with limited time, I didn't get the full experience.  Having been the D.C. Before, it wasn’t that big of a deal.</p>
+
+	</div>
+	<div class="flex-item">
+	<h1>D.C. By the Numbers</h1>
+	<p><span>555</span> - Height in feet of the world's tallest obelisk, the Washington Monument.</p>
+	<p><span>68.34</span> - Square miles of Washington D.C.</p>
+	<p><span>2</span> - The number of U.S. States, Vermont and Wyoming, that have a smaller population than Washington D.C. (approximately 681,1170)</p>
+	<p><span>23</span> - The Amendment that gave Washington D.C. a right to Electoral College Votes in the Presidential Race in 1961</p>
+	<p><span>17.4</span> - The approval percentage ranking on June 19, 2017 of the Republican Controlled Congress, according to the polls of RealClearPolitics</p>
+	</div>
+</div>
+<div class="flex-container">
+	<div class="flex-item"><button class="btn btn-primary" routerLink="/two/philly">Previous</button></div>
+	<div class="flex-item"><button class="btn btn-primary" routerLink="/three/georgetown">Next</button></div>
+</div>
+<router-outlet></router-outlet>	

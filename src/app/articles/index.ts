@@ -7,3 +7,6 @@ export * from '../articles/pride/pride.component';
 export * from '../articles/penn/penn.component';
 export * from '../articles/art/art.component';
 export * from '../articles/philly/philly.component';
+export * from '../articles/day-three/day-three.component';
+export * from '../articles/capitol/capitol.component';
+export * from '../articles/georgetown/georgetown.component';

@@ -17,7 +17,10 @@ import { IntroComponent,
 		PrideComponent,
 		PennComponent,
 		ArtComponent,
-		PhillyComponent 
+		PhillyComponent,
+		DayThreeComponent,
+		CapitolComponent,
+		GeorgetownComponent
 		} from './articles';
 
 @NgModule({
@@ -36,6 +39,9 @@ import { IntroComponent,
     PennComponent,
     ArtComponent,
     PhillyComponent,
+    DayThreeComponent,
+    CapitolComponent,
+    GeorgetownComponent,
 
   ],
   imports: [
@@ -56,7 +62,10 @@ import { IntroComponent,
         {   path: 'two/pride', component: PrideComponent  },
         {   path: 'two/penn',  component: PennComponent  },
         {   path: 'two/art',  component: ArtComponent   },        
-        {   path: 'two/philly', component: PhillyComponent  }
+        {   path: 'two/philly', component: PhillyComponent  },
+        {   path: 'three', component: DayThreeComponent  },
+        {   path: 'three/capitol', component: CapitolComponent  },
+        {   path: 'three/georgetown', component: GeorgetownComponent  },                
 ])
   ],
   providers: [],

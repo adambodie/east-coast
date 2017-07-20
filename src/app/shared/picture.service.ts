@@ -18,7 +18,13 @@ import {
 		ARTPICTURES,
 		DANCEPICTURES,
 		PHILLYPICTURES,
-		CHIDOPICTURES 
+		CHIDOPICTURES,
+		CAPITOLPICTURES,
+		MALLPICTURES,
+		ALIBIPICTURES,
+		GEORGETOWNPICTURES,
+		ITHAIPICTURES,
+		POTOMACPICTURES 
 		} from './mock-pictures';
 
 
@@ -75,5 +81,23 @@ export class PictureService {
     }
     getChidoPictures(): Promise<Picture[]>{
         return Promise.resolve(CHIDOPICTURES);
-    }                                           
+    }
+    getCapitolPictures(): Promise<Picture[]>{
+        return Promise.resolve(CAPITOLPICTURES);
+    }
+    getAlibiPictures(): Promise<Picture[]>{
+        return Promise.resolve(ALIBIPICTURES);
+    }
+    getMallPictures(): Promise<Picture[]>{
+        return Promise.resolve(MALLPICTURES);
+    }    
+    getGeorgetownPictures(): Promise<Picture[]>{
+        return Promise.resolve(GEORGETOWNPICTURES);
+    }             
+    getIThaiPictures(): Promise<Picture[]>{
+        return Promise.resolve(ITHAIPICTURES);
+    }
+    getPotomacPictures(): Promise<Picture[]>{
+        return Promise.resolve(POTOMACPICTURES);
+    }                                                
 }

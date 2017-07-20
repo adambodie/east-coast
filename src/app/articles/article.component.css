@@ -18,6 +18,12 @@ h3 {
     color: white;
 }
 
+span {
+	font-weight: bold;
+    font-size: 2em;
+    color: #F5D15D;	
+}
+
 ol>li {
     color: white;
     font-weight: bold;
