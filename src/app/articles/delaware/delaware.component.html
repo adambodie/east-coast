@@ -29,7 +29,7 @@
 					<p>Driving through Delaware was a bit of a breeze.  Nothing really stood out.  You can see the ‘big’ city of Wilmington from the Interstate, there's the Christina River to cross.  Other than that, Delaware can be be described as a bathroom state.  The perfect place to stop when needing to use the restroom.  Of course, that's exactly what happened to us, a desparate stop needed in the last town of Delaware; Claymont.  A simple town with stone buildings and a Dunkin Donuts.  A mile later, it was time to enter Pennsylvania.  After all, I already did the expose on Delaware two years ago with Duck vs. Blue Hen.</p>
 			</div>
 		<div class="flex-item">		
-		<carousel>
+		<carousel [interval]="false">
 		  	<slide *ngFor="let delawarePicture of delawarePictures">
 					<figure>
 						<img src="{{link}}photos/{{delawarePicture.image}}" alt="{{delawarePicture.alt}}" class="img-responsive secondary-carousel"/>
@@ -58,7 +58,7 @@
 </div>
 <div class="flex-container center">
     <div class="flex-item">
-		<carousel>
+		<carousel [interval]="false">
 		  <slide *ngFor="let philadelphiaPicture of philadelphiaPictures">
 				<figure>
 				<a href="{{link}}photos/{{philadelphiaPicture.image}}">

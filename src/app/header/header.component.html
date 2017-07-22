@@ -1,7 +1,7 @@
 <header><h1>{{title}}</h1></header>
 <nav class="flex-container">
   <span class="flex-item"><a routerLink="/">Home</a></span>
-  <span class="flex-item"><a class="flex-item" routerLink="/about">About</a></span>
+  <span class="flex-item"><a routerLink="/about">About</a></span>
   <span class="flex-item" dropdown container="body">
   <a href dropdownToggle (click)="false">Articles</a>
     <ul *dropdownMenu class="dropdown-menu">
@@ -22,6 +22,7 @@
       <li><a class="dropdown-item" routerLink="/outro">Outro</a></li>                        
     </ul>
 </span>
+	 <span class="flex-item"><a routerLink="/extras">Extras</a></span>
 </nav>
 
 

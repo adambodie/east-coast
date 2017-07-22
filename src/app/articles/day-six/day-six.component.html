@@ -1,0 +1,13 @@
+<div *ngFor="let feature of features" class="master">
+	<div class="flex-container features">
+		<div class="flex-item">
+			<img class="img-responsive" src="{{link}}photos/{{feature.image}}" alt={{feature.title}}/>
+			</div>
+		<div class="flex-item" style="flex: 2">
+			<h1>{{feature.title}}</h1>
+			<p>{{feature.paragraph}}</p>
+			<button class="btn btn-primary" routerLink={{feature.link}}>Click Here</button>
+		</div>	
+	</div>
+</div>
+<router-outlet></router-outlet>

@@ -20,8 +20,14 @@ import { IntroComponent,
 		PhillyComponent,
 		DayThreeComponent,
 		CapitolComponent,
-		GeorgetownComponent
+		GeorgetownComponent,
+		DayFourComponent,
+		ArlingtonComponent,
+		MetroComponent,
+		DayFiveComponent		
 		} from './articles';
+import { DaySixComponent } from './articles/day-six/day-six.component';
+import { OutroComponent } from './articles/outro/outro.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +48,12 @@ import { IntroComponent,
     DayThreeComponent,
     CapitolComponent,
     GeorgetownComponent,
+    DayFourComponent,
+    ArlingtonComponent,
+    MetroComponent,
+    DayFiveComponent,
+    DaySixComponent,
+    OutroComponent,
 
   ],
   imports: [
@@ -65,7 +77,13 @@ import { IntroComponent,
         {   path: 'two/philly', component: PhillyComponent  },
         {   path: 'three', component: DayThreeComponent  },
         {   path: 'three/capitol', component: CapitolComponent  },
-        {   path: 'three/georgetown', component: GeorgetownComponent  },                
+        {   path: 'three/georgetown', component: GeorgetownComponent  },
+        {   path: 'four', component: DayFourComponent  },
+        {   path: 'four/arlington', component: ArlingtonComponent  },
+        {   path: 'four/metro', component: MetroComponent  },
+        {   path: 'five', component: DayFiveComponent  },
+        {   path: 'six', component: DaySixComponent  },
+        {   path: 'outro', component: OutroComponent  },                                                 
 ])
   ],
   providers: [],

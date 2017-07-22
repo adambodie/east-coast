@@ -13,16 +13,16 @@ export class DayThreeComponent implements OnInit {
 
 	features = [
 		{	
-			title: "Capitol", 
+			title: "U.S. Capitol", 
 			link: "/three/capitol", 
 			image: "capitol19.jpg", 
-			paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at accumsan leo. Nulla cursus odio vel tempus bibendum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam a quam eu lorem dapibus cursus vitae in dolor. Vestibulum accumsan pulvinar vehicula. Ut tincidunt, tortor dignissim varius vestibulum, lectus sem hendrerit ligula, vel congue lectus enim eu elit. Nunc vestibulum pretium ex nec convallis."
+			paragraph: "Visiting the Nation's Capital means seeing where are government allegedly works.  Home of our current Incompetent Republican controlled Congress, check out where our Congress used to do work.  A beautiful outside makes up for a lack of progress.  After all, Progress is the opposite of Congress."
 		},
 		{
 			title: "Georgetown", 
 			link: "/three/georgetown", 
 			image: "potomac15.jpg", 
-			paragraph: "Donec quis odio massa. Nam porttitor augue sem, dignissim consectetur lacus fringilla ac. Proin lectus magna, tristique sed augue et, finibus dapibus eros. Sed maximus risus et sapien accumsan vulputate. Vivamus vitae purus at dolor feugiat lacinia in id urna."
+			paragraph: "Nothing says style in D.C. more than visiting Georgetown, the more hip part of D.C., where no Government is involved in making decisions (not that they have made any recently).  Also hip is living on the Potomac River in a house boat.  With a friend of a friend living on a boat in the river, these areas are what gives D.C. its hipness."
 		}
 	]
 	constructor(private pictureService: PictureService) { }

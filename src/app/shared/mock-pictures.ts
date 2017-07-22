@@ -288,7 +288,7 @@ export const PENNPICTURES: Picture[] = [
 export const CONTINENTALPICTURES: Picture[] = [
   {id: 1, image: 'continental1.jpg', alt: 'Continental', title: 'Continental'},
   {id: 2, image: 'continental2.jpg', alt: 'Adam', title: 'Adam'},
-  {id: 3, image: 'continental3.jpg', alt: 'Korean Tacos', title: 'Korean Tacos'}  
+  {id: 3, image: 'continental3.jpg', alt: 'Korean Tacos', title: 'Korean Tacos'}
 ]
 
 export const ARTPICTURES: Picture[] = [
@@ -330,9 +330,7 @@ export const ARTPICTURES: Picture[] = [
 {id: 36, image: 'art33.jpg', alt: 'The Back Side Gardens', title: 'The Back Side Gardens'},
 {id: 37, image: 'art34.jpg', alt: 'The Back Side Gardens', title: 'The Back Side Gardens'},
 {id: 38, image: 'art35.jpg', alt: 'The Back Side Gardens', title: 'The Back Side Gardens'},
-{id: 39, image: 'art36.jpg', alt: 'Statue', title: 'Statue'},
-
-
+{id: 39, image: 'art36.jpg', alt: 'Statue', title: 'Statue'}
 ]
 
 export const DANCEPICTURES: Picture[] = [
@@ -370,9 +368,7 @@ export const DANCEPICTURES: Picture[] = [
 {id: 32, image: 'dance30.jpg', alt: 'Neal needs water', title: 'Neal needs water'},
 {id: 35, image: 'dance31.jpg', alt: 'Seven bottles of water for Neal', title: 'Seven bottles of water for Neal', description:'Neal was actually buying them for the dancers'},
 {id: 34, image: 'dance32.jpg', alt: 'Jenn\'s excited', title: 'Jenn\'s excited'},
-{id: 35, image: 'dance33.jpg', alt: 'Jenn\'s excited', title: 'Jenn\'s excited'},
-
-
+{id: 35, image: 'dance33.jpg', alt: 'Jenn\'s excited', title: 'Jenn\'s excited'}
 ]
 
 export const PHILLYPICTURES: Picture[] = [
@@ -399,7 +395,7 @@ export const PHILLYPICTURES: Picture[] = [
 export const CHIDOPICTURES: Picture[] = [
   {id: 1, image: 'chidos1.jpg', alt: 'Chido\'s', title: 'Chido\'s'},
   {id: 2, image: 'chidos2.jpg', alt: 'Margarita', title: 'Margarita'},
-  {id: 3, image: 'chidos3.jpg', alt: 'Taco Salad', title: 'Taco Salad'}  
+  {id: 3, image: 'chidos3.jpg', alt: 'Taco Salad', title: 'Taco Salad'}
 ]
 
 
@@ -426,7 +422,7 @@ export const CAPITOLPICTURES: Picture[] = [
     {id: 20, image: 'capitol20.jpg', alt: 'U.S. Capitol', title: 'U.S. Capitol'},
     {id: 21, image: 'capitol21.jpg', alt: 'Jenn and Adam at U.S. Capitol', title: 'Jenn and Adam at U.S. Capitol'},
     {id: 22, image: 'capitol22.jpg', alt: 'Capitol Reflection Pool', title: 'Capitol Reflection Pool', description: 'Nice picture Jenn'},
-    {id: 23, image: 'capitol23.jpg', alt: 'Squirrel on a Bench', title: 'Squirrel on a Bench', description: 'Another picture Jenn took.  Jenn accomplished more in D.C. with this picture than Donald Trump ever will'},                               
+    {id: 23, image: 'capitol23.jpg', alt: 'Squirrel on a Bench', title: 'Squirrel on a Bench', description: 'Jenn accomplished more in D.C. with this picture than Donald Trump ever will'}
 ]
 
 export const MALLPICTURES: Picture[] = [
@@ -437,7 +433,7 @@ export const MALLPICTURES: Picture[] = [
     {id: 5, image: 'mall5.jpg', alt: 'Artwork', title: 'Looking down at Artwork'},
     {id: 6, image: 'mall6.jpg', alt: 'Artwork', title: 'Seeing more Artwork'},
     {id: 7, image: 'mall7.jpg', alt: 'Hirshhorn Museum', title: 'Hirshhorn'},
-    {id: 8, image: 'mall8.jpg', alt: 'Tin Man', title: 'Tin Man', description: 'With more intelligence than Donald Trump the Idiot'},
+    {id: 8, image: 'mall8.jpg', alt: 'Kiepenkerl', title: 'Kiepenkerl', description: 'With more intelligence than Donald Trump the Idiot'},
     {id: 9, image: 'mall9.jpg', alt: 'Red Sculpture', title: 'Red Sculpture'},
     {id: 10, image: 'mall10.jpg', alt: 'Artwork', title: 'Artwork'},
     {id: 11, image: 'mall11.jpg', alt: 'Red Sculpture', title: 'Red Sculpture'},
@@ -452,13 +448,13 @@ export const MALLPICTURES: Picture[] = [
     {id: 20, image: 'mall21.jpg', alt: 'Washington Monument', title: 'Washington Monument'},
     {id: 21, image: 'mall22.jpg', alt: 'Smithsonian Castle', title: 'Smithsonian Castle'},
     {id: 22, image: 'mall23.jpg', alt: 'National Museum of Natural History', title: 'National Museum of Natural History'},
-    {id: 23, image: 'mall24.jpg', alt: 'Illusion House', title: 'Illusion House'},
-    {id: 24, image: 'mall25.jpg', alt: 'Another Red Sculpture', title: 'Another Red Sculpture'},
-    {id: 25, image: 'mall26.jpg', alt: 'Metallic Tree', title: 'Metallic Tree'},
+    {id: 23, image: 'mall24.jpg', alt: 'House I', title: 'House I'},
+    {id: 24, image: 'mall25.jpg', alt: 'Cheval Rouge (Red Horse)', title: 'Cheval Rouge (Red Horse)'},
+    {id: 25, image: 'mall26.jpg', alt: 'Graft', title: 'Graft'},
     {id: 26, image: 'mall27.jpg', alt: 'National Gallery of Art Sculpture Garden', title: 'National Gallery of Art Sculpture Garden'},
     {id: 27, image: 'mall28.jpg', alt: 'Adam at National Gallery of Art Sculpture Garden', title: 'Adam at National Gallery of Art Sculpture Garden'},
-    {id: 28, image: 'mall29.jpg', alt: 'Another Sculpture', title: 'Another Sculpture'},
-    {id: 39, image: 'mall30.jpg', alt: 'Pyramid', title: 'Pyramid'},
+    {id: 28, image: 'mall29.jpg', alt: 'Moondog', title: 'Moondog'},
+    {id: 39, image: 'mall30.jpg', alt: 'Four-Sided Pyramid', title: 'Four-Sided Pyramid'},
     {id: 30, image: 'mall31.jpg', alt: 'National Gallery of Art', title: 'National Gallery of Art'},
     {id: 31, image: 'mall32.jpg', alt: 'East Building', title: 'East Building'},
     {id: 32, image: 'mall33.jpg', alt: 'U.S. Capitol', title: 'U.S. Capitol'},
@@ -466,25 +462,24 @@ export const MALLPICTURES: Picture[] = [
     {id: 34, image: 'mall35.jpg', alt: 'Washington Monument', title: 'Washington Monument', description: 'And the clouds start coming in'},
     {id: 35, image: 'mall36.jpg', alt: 'National Mall', title: 'National Mall', description: 'Storm coming...'},
     {id: 36, image: 'mall37.jpg', alt: 'Washington Monument', title: 'Washington Monument', description: 'A Natural Storm, not an everlasting Trumper Tantrum that won\'t stop'},
-    {id: 37, image: 'mall38.jpg', alt: 'Washington Monument', title: 'Washington Monument', description: ''},
+    {id: 37, image: 'mall38.jpg', alt: 'Washington Monument', title: 'Washington Monument'},
     {id: 38, image: 'mall39.jpg', alt: 'Washingotn Monument', title: 'Washington Monument'},
     {id: 39, image: 'mall40.jpg', alt: 'Adam', title: 'Adam smiling with a storm coming ahead', description: 'Only because it hasn\'t started yet'},
     {id: 40, image: 'mall41.jpg', alt: 'U.S. Capitol', title: 'Unlike the worthless Republicans, a storm actually produces results'},
     {id: 41, image: 'mall42.jpg', alt: 'Storm clouds', title: 'Storm clouds'},
     {id: 42, image: 'mall43.jpg', alt: 'Storm clouds over the U.S. Capitol', title: 'Storm clouds over the U.S. Capitol'},
-    {id: 43, image: 'mall44.jpg', alt: 'Storm clouds over the Washington Monument', title: 'Storm clouds over the U.S. Capitol'},
-                             
+    {id: 43, image: 'mall44.jpg', alt: 'Storm clouds over the Washington Monument', title: 'Storm clouds over the U.S. Capitol'}
 ]
 
 export const ALIBIPICTURES: Picture[] = [
     {id: 1, image: 'alibi1.jpg', alt: 'The Alibi', title: 'The Alibi'},
-    {id: 2, image: 'alibi2.jpg', alt: 'The Alibi', title: 'My meal'},
+    {id: 2, image: 'alibi2.jpg', alt: 'The Alibi', title: 'Sausage Sandwich w/ Mac N Cheese'}
                             
 ]
 
 export const GEORGETOWNPICTURES: Picture[] = [
     {id: 1, image: 'georgetown1.jpg', alt: 'Newseum', title: 'Newseum', description: 'Because the News is important for telling the viewers the Truth, not to kiss Donald Trump\'s butt'},
-    {id: 2, image: 'georgetown2.jpg', alt: 'Constitution Avenue', title: 'Constitution Avenue', description: 'According to Donald Trump, there are over 12 Articles in the Constitution (they\'re not)'},
+    {id: 2, image: 'georgetown2.jpg', alt: 'Constitution Avenue', title: 'Constitution Avenue', description: 'According to Donald Trump, he\'ll protect Article XII of the Constitution (there\'s only VII)'},
     {id: 3, image: 'georgetown3.jpg', alt: 'Jenn in the car', title: 'Jenn in the car'},
     {id: 4, image: 'georgetown4.jpg', alt: 'Driving through D.C.', title: 'Driving through D.C.'},
     {id: 5, image: 'georgetown5.jpg', alt: 'The clouds start multiplying', title: 'The clouds start multiplying'},
@@ -494,7 +489,7 @@ export const GEORGETOWNPICTURES: Picture[] = [
     {id: 9, image: 'georgetown9.jpg', alt: 'Jenn at Sprinkles', title: 'Jenn at Sprinkles'},
     {id: 10, image: 'georgetown10.jpg', alt: 'Smile Jenn', title: 'Smile Jenn'},
     {id: 11, image: 'georgetown11.jpg', alt: 'Another nice picture Jenn', title: 'Another nice picture Jenn'},
-    {id: 12, image: 'georgetown27.jpg', alt: 'Adam with his cupcakes', title: 'Adam with his cupcakes'}   
+    {id: 12, image: 'georgetown27.jpg', alt: 'Adam with his cupcakes', title: 'Adam with his cupcakes'},  
     {id: 13, image: 'georgetown12.jpg', alt: 'Georgetown', title: 'Georgetown'},
     {id: 14, image: 'georgetown13.jpg', alt: 'Jenn and Hopper', title: 'Jenn and Hopper'},
     {id: 15, image: 'georgetown14.jpg', alt: 'Jenn holding baby Hopper', title: 'Jenn holding baby Hopper'},
@@ -509,55 +504,158 @@ export const GEORGETOWNPICTURES: Picture[] = [
     {id: 24, image: 'georgetown23.jpg', alt: '2902 1/2', title: '2902 1/2', description: 'Is this the number of lies Donald Trump has said since he stole the Presidency?  Probably too low of a number.'},
     {id: 25, image: 'georgetown24.jpg', alt: 'Georgetown Scoops', title: 'Georgetown Scoops', description: 'Home of Lavender and Kahlua Ice Cream'},
     {id: 26, image: 'georgetown25.jpg', alt: 'More Georgetown', title: 'More Georgetown'},
-    {id: 27, image: 'georgetown26.jpg', alt: 'Georgetown\'s nice', title: 'Georgetown\'s nice'},
+    {id: 27, image: 'georgetown26.jpg', alt: 'Georgetown\'s nice', title: 'Georgetown\'s nice'}
 ]
 
 export const ITHAIPICTURES: Picture[] = [
     {id: 1, image: 'ithai1.jpg', alt: 'iThai', title: 'iThai'},
     {id: 2, image: 'ithai2.jpg', alt: 'Drunken Noodle', title: 'Drunken Noodles'},
-    {id: 3, image: 'ithai3.jpg', alt: 'Laura and Jenny', title: 'Laura and Jenny', description: 'Their picture, not mine'}                         
+    {id: 3, image: 'ithai3.jpg', alt: 'Laura and Jenny', title: 'Laura and Jenny', description: 'Their picture, not mine'}
 ]
 
 export const POTOMACPICTURES: Picture[] = [
     {id: 1, image: 'potomac1.jpg', alt: '', title: ''},
     {id: 2, image: 'potomac2.jpg', alt: '', title: ''},
-    {id: 3, image: 'potomac3.jpg', alt: '', title: ''},
-    {id: 4, image: 'potomac4.jpg', alt: '', title: ''},
-    {id: 5, image: 'potomac5.jpg', alt: '', title: ''},
-    {id: 6, image: 'potomac6.jpg', alt: '', title: ''},
-    {id: 7, image: 'potomac7.jpg', alt: '', title: ''},
-    {id: 8, image: 'potomac8.jpg', alt: '', title: ''},
-    {id: 9, image: 'potomac9.jpg', alt: '', title: ''},
-    {id: 10, image: 'potomac10.jpg', alt: '', title: ''},
-    {id: 11, image: 'potomac11.jpg', alt: '', title: ''},
-    {id: 12, image: 'potomac12.jpg', alt: '', title: ''},
-    {id: 13, image: 'potomac13.jpg', alt: '', title: ''},
-    {id: 14, image: 'potomac14.jpg', alt: '', title: ''},
-    {id: 15, image: 'potomac15.jpg', alt: '', title: ''},
-    {id: 16, image: 'potomac16.jpg', alt: '', title: ''},
-    {id: 17, image: 'potomac17.jpg', alt: '', title: ''},
-    {id: 18, image: 'potomac18.jpg', alt: '', title: ''},
-    {id: 19, image: 'potomac19.jpg', alt: '', title: ''},
-    {id: 20, image: 'potomac20.jpg', alt: '', title: ''},
-    {id: 22, image: 'potomac22.jpg', alt: '', title: ''},
-    {id: 23, image: 'potomac23.jpg', alt: '', title: ''},
-    {id: 24, image: 'potomac24.jpg', alt: '', title: ''},
-    {id: 25, image: 'potomac25.jpg', alt: '', title: ''},
-    {id: 26, image: 'potomac26.jpg', alt: '', title: ''},
-    {id: 27, image: 'potomac27.jpg', alt: '', title: ''},
-    {id: 28, image: 'potomac28.jpg', alt: '', title: ''},
-    {id: 29, image: 'potomac29.jpg', alt: '', title: ''},
-    {id: 30, image: 'potomac30.jpg', alt: '', title: ''},
-    {id: 31, image: 'potomac31.jpg', alt: '', title: ''},
-    {id: 32, image: 'potomac32.jpg', alt: '', title: ''},
-    {id: 33, image: 'potomac33.jpg', alt: '', title: ''},
-    {id: 34, image: 'potomac34.jpg', alt: '', title: ''},
-    {id: 35, image: 'potomac35.jpg', alt: '', title: ''},
-    {id: 36, image: 'potomac36.jpg', alt: '', title: ''},
-    {id: 37, image: 'potomac37.jpg', alt: '', title: ''},
-    {id: 38, image: 'potomac38.jpg', alt: '', title: ''},
-    {id: 39, image: 'potomac39.jpg', alt: '', title: ''},
-    {id: 40, image: 'potomac40.jpg', alt: '', title: ''},
-    {id: 41, image: 'potomac41.jpg', alt: '', title: ''},                          
+    {id: 3, image: 'potomac3.jpg', alt: 'Jefferson Memorial', title: 'Jefferson Memorial'},
+    {id: 4, image: 'potomac4.jpg', alt: 'Potomac River', title: 'Potomac River'},
+    {id: 5, image: 'potomac5.jpg', alt: 'House Boats', title: 'House Boats'},
+    {id: 6, image: 'potomac6.jpg', alt: 'More House Boats', title: 'More House Boats'},
+    {id: 7, image: 'potomac7.jpg', alt: 'Like the Columbia River, but better', title: 'Like the Columbia River, but better'},
+    {id: 8, image: 'potomac8.jpg', alt: 'The Yacht Club', title: 'The Yacht Club'},
+    {id: 9, image: 'potomac9.jpg', alt: 'The Yacht Club', title: 'The Yacht Club'},
+    {id: 10, image: 'potomac10.jpg', alt: 'Bridge to Virginia glowing Blue', title: 'Bridge to Virginia glowing Blue'},
+    {id: 11, image: 'potomac11.jpg', alt: 'More House Boats', title: 'More House Boats'},
+    {id: 12, image: 'potomac12.jpg', alt: 'Heading down to Laura\'s Boat', title: 'Heading down to Laura\'s Boat'},
+    {id: 13, image: 'potomac13.jpg', alt: 'Boats, Boats, Boats', title: 'Boats, Boats, Boats'},
+    {id: 14, image: 'potomac14.jpg', alt: 'I see Boats', title: 'I see Boats'},
+    {id: 15, image: 'potomac15.jpg', alt: 'Lots and Lots of Boats', title: 'Lots and Lots of Boats'},
+    {id: 16, image: 'potomac16.jpg', alt: 'Walking to Laura\'s Boat', title: 'Walking to Laura\'s Boat'},
+    {id: 17, image: 'potomac17.jpg', alt: 'Tide Together', title: 'Tide Together'},
+    {id: 18, image: 'potomac18.jpg', alt: 'Never Too Many', title: 'Never Too Many'},
+    {id: 19, image: 'potomac19.jpg', alt: 'View from the Dock', title: 'View from the Dock'},
+    {id: 20, image: 'potomac20.jpg', alt: 'about time', title: 'about time'},
+    {id: 22, image: 'potomac22.jpg', alt: 'Getting closer', title: 'Getting closer'},
+    {id: 23, image: 'potomac23.jpg', alt: 'Even closer', title: 'Even closer'},
+    {id: 24, image: 'potomac24.jpg', alt: 'Almost there', title: 'Almost there'},
+    {id: 25, image: 'potomac25.jpg', alt: 'Party on Laura\'s Deck', title: 'Party on Laura\'s Deck'},
+    {id: 26, image: 'potomac26.jpg', alt: 'Potomac River', title: 'Potomac River'},
+    {id: 27, image: 'potomac27.jpg', alt: 'I see the Washington Monument', title: 'I see the Washington Monument'},
+    {id: 28, image: 'potomac28.jpg', alt: 'Potomac River', title: 'Potomac River'},
+    {id: 29, image: 'potomac29.jpg', alt: 'Potomac River', title: 'Potomac River'},
+    {id: 30, image: 'potomac30.jpg', alt: 'Potomac River', title: 'Potomac River'},
+    {id: 31, image: 'potomac31.jpg', alt: 'Amazing View', title: 'Amazing View'},
+    {id: 32, image: 'potomac32.jpg', alt: 'Adam loves the View', title: 'Adam loves the View'},
+    {id: 33, image: 'potomac33.jpg', alt: 'Trying out for the Blue Man Group', title: 'Trying out for the Blue Man Group'},
+    {id: 34, image: 'potomac34.jpg', alt: 'Adam', title: 'Adam didn\'t hear back from the Blue Man Group!'},
+    {id: 35, image: 'potomac35.jpg', alt: 'Toilet', title: 'Laura\'s Toilet'},
+    {id: 36, image: 'potomac36.jpg', alt: 'Not an Actual Wheel', title: 'Not an Actual Wheel'},
+    {id: 37, image: 'potomac37.jpg', alt: 'Heading out', title: 'Heading out'},
+    {id: 38, image: 'potomac38.jpg', alt: 'Boat taking a Piss', title: 'Boat taking a Piss', description: 'Photo edited to show Piss'},
+    {id: 39, image: 'potomac39.jpg', alt: 'Come Sail Away', title: 'Come Sail Away'},
+    {id: 40, image: 'potomac40.jpg', alt: 'Goodbye Laura', title: 'Goodbye Laura'},
+    {id: 41, image: 'potomac41.jpg', alt: 'Thanks for showing us your House Boat', title: 'Thanks for showing us your House Boat'}
+]
+
+export const CHICKFILAPICTURES: Picture[] = [
+	{id: 1, image: 'metro1.jpg', alt: 'Flight Socks?', title: 'Flight Socks?', description: 'How did that wind up in Adam\'s Suitcase?'},
+    {id: 2, image: 'chick1.jpg', alt: 'Chick-Fil-A', title: 'Chick-Fil-A'},
+    {id: 3, image: 'chick2.jpg', alt: 'Chick-Fil-A', title: 'Mor Chikin'},
+	{id: 4, image: 'metro2.jpg', alt: 'Metro', title: 'Here comes the Metro'},
+    {id: 5, image: 'metro3.jpg', alt: 'Adam', title: 'Adam\'s Crazy on the Metro'},
+    {id: 6, image: 'metro4.jpg', alt: 'Jenn', title: 'Jenn\'s pointing at Neal\'s Nose'},
+    {id: 7, image: 'metro5.jpg', alt: 'Jenn', title: 'Jenn the Nose Picker Strikes Again'},
+    {id: 8, image: 'metro6.jpg', alt: 'Jenn', title: 'One more time for Jenn the Nose Picker'},
+    {id: 9, image: 'metro7.jpg', alt: 'L\'Enfant Plaza', title: 'L\'Enfant Plaza'},
+    {id: 10, image: 'metro8.jpg', alt: 'L\'Enfant Plaza', title: 'L\'Enfant Plaza'},
+    {id: 11, image: 'metro9.jpg', alt: 'Stairway to Heaven', title: 'Stairway to Heaven', description: 'Was that D.C. or Boston?'}
+]
+
+
+export const ARLINGTONPICTURES: Picture[] = [
+    {id: 1, image: 'arlington1.jpg', alt: 'Arlington National Cemetery', title: 'Arlington National Cemetery Entrance'},
+    {id: 2, image: 'arlington2.jpg', alt: 'Arlington National Cemetery', title: 'Arlington National Cemetery Visitor Center'},
+    {id: 3, image: 'arlington3.jpg', alt: 'Along the Path', title: 'Along the Path'},
+    {id: 4, image: 'arlington4.jpg', alt: 'Gates', title: 'Gates'},
+    {id: 5, image: 'arlington5.jpg', alt: 'Graves', title: 'Graves'},
+    {id: 6, image: 'arlington6.jpg', alt: 'More Graves', title: 'More Graves'},
+    {id: 7, image: 'arlington7.jpg', alt: 'Even More Graves', title: 'Even More Graves'},
+    {id: 8, image: 'arlington8.jpg', alt: 'Walking along Graves', title: 'Walking along Graves'},
+    {id: 9, image: 'arlington9.jpg', alt: 'A Lot of Graves', title: 'A Lot of Graves'},
+    {id: 10, image: 'arlington10.jpg', alt: 'Graves and a House', title: 'Graves and a House'},
+    {id: 11, image: 'arlington11.jpg', alt: 'House over the Hill', title: 'House over the Hill'},
+    {id: 12, image: 'arlington12.jpg', alt: 'Baldwin, Fox and Phelan', title: 'Baldwin, Fox and Phelan'},
+    {id: 13, image: 'arlington13.jpg', alt: 'RFK', title: 'R.I.P. RFK'},
+    {id: 14, image: 'arlington14.jpg', alt: 'Views around the Cemetery', title: 'Views around the Cemetery'},
+    {id: 15, image: 'arlington15.jpg', alt: 'Graves down hill', title: 'Graves down hill'},
+    {id: 16, image: 'arlington16.jpg', alt: 'R.I.P. Frank Lautenburg', title: 'R.I.P. Frank Lautenburg'},
+    {id: 17, image: 'arlington17.jpg', alt: 'Patterson, Grundman and Elliott', title: 'Patterson, Grundman and Ellott'},
+    {id: 18, image: 'arlington18.jpg', alt: 'Looking up at Graves', title: 'Looking up at Graves'},
+    {id: 19, image: 'arlington19.jpg', alt: 'Older Graves', title: 'Older Graves'},
+    {id: 20, image: 'arlington20.jpg', alt: 'Reeves, Marshall et al.', title: 'Reeves, Marshall et al.'},
+    {id: 21, image: 'arlington21.jpg', alt: 'Weed Grave', title: 'Weed Grave'},
+    {id: 22, image: 'arlington22.jpg', alt: 'Forested Graves', title: 'Forested Graves'},
+    {id: 23, image: 'arlington23.jpg', alt: 'Way more Graves', title: 'Way moe Graves'},
+    {id: 24, image: 'arlington24.jpg', alt: 'Pentagon Ahead', title: 'Pentagon Ahead'},
+    {id: 25, image: 'arlington25.jpg', alt: 'R.I.P. Joseph Kennedy Jr.', title: 'R.I.P. Joseph Kennedy Jr.'},
+    {id: 26, image: 'arlington26.jpg', alt: 'R.I.P. Edward Moore Kennedy...', title: 'R.I.P. Edward Moore Kennedy...'},
+    {id: 27, image: 'arlington27.jpg', alt: 'B.K.A. Ted Kennedy', title: 'B.K.A. Ted Kennedy'},
+    {id: 28, image: 'arlington28.jpg', alt: 'John F Kennedy and the Eternal Flame', title: 'John F Kennedy and the Eternal Flame'},
+    {id: 29, image: 'arlington29.jpg', alt: 'R.I.P. JFK', title: 'R.I.P. JFK'},
+    {id: 30, image: 'arlington30.jpg', alt: 'R.I.P. Patrick Bouvier Kennedy', title: 'R.I.P. Patrick Bouvier Kennedy'},
+    {id: 31, image: 'arlington31.jpg', alt: 'The Eternal Flame', title: 'The Eternal Flame'},
+    {id: 32, image: 'arlington32.jpg', alt: 'R.I.P. Daughter', title: 'R.I.P. Daughter'},
+    {id: 33, image: 'arlington33.jpg', alt: 'R.I.P. Jacqueline Bouvier Kennedy Onassis', title: 'R.I.P. Jacqueline Bouvier Kennedy Onassis'},
+    {id: 34, image: 'arlington34.jpg', alt: 'Arlington House and the Eternal Flame', title: 'Arlington House and the Eternal Flame'},
+    {id: 35, image: 'arlington35.jpg', alt: 'Adam at Eternal Flame', title: 'Adam at Eternal Flame'},
+    {id: 36, image: 'arlington36.jpg', alt: 'Washington Monument in the Distance', title: 'Washington Monument in the Distance'}
+]
+
+export const UNKNOWNPICTURES: Picture[] = [
+    {id: 1, image: 'unknown1.jpg', alt: 'Arlington Memorial Amphitheater', title: 'Arlington Memorial Amphitheater'},
+    {id: 2, image: 'unknown2.jpg', alt: 'Arlington Memorial Amphitheater', title: 'Arlington Memorial Amphitheater'},
+    {id: 3, image: 'unknown3.jpg', alt: 'Arlington Memorial Amphitheater', title: 'Arlington Memorial Amphitheater'},
+    {id: 4, image: 'unknown4.jpg', alt: 'Adam inside Arlington Memorial Amphitheater', title: 'Adam inside Arlington Memorial Amphitheater'},
+    {id: 5, image: 'unknown5.jpg', alt: 'Arlington Memorial Amphitheater', title: 'Arlington Memorial Amphitheater'},
+    {id: 6, image: 'unknown6.jpg', alt: 'Arlington Memorial Amphitheater', title: 'Arlington Memorial Amphitheater'},
+    {id: 7, image: 'unknown7.jpg', alt: 'Washington D.C.', title: 'Washington D.C.'},
+    {id: 8, image: 'unknown8.jpg', alt: 'Washington D.C.', title: 'Washington D.C.'},
+    {id: 9, image: 'unknown9.jpg', alt: 'Tomb of the Unknown Soldier', title: 'Tomb of the Unknown Soldier'},
+    {id: 10, image: 'unknown10.jpg', alt: 'Soldier marching', title: 'Soldier marching'},
+    {id: 11, image: 'unknown11.jpg', alt: 'Tomb of the Unknown Soldier', title: 'Tomb of the Unknown Soldier'},
+    {id: 12, image: 'unknown12.jpg', alt: 'Arlington Memorial Amphitheater', title: 'Arlington Memorial Amphitheater'},
+    {id: 13, image: 'unknown13.jpg', alt: 'Arlington Memorial Amphitheater', title: 'Arlington Memorial Amphitheater'},
+    {id: 14, image: 'unknown15.jpg', alt: 'Arlington Memorial Amphitheater', title: 'Arlington Memorial Amphitheater'},
+    {id: 15, image: 'unknown16.jpg', alt: 'Adam at Arlington Memorial Amphitheater', title: 'Adam at Arlington Memorial Amphitheater'}
+]
+
+export const METROPICTURES: Picture[] = [
+    {id: 1, image: 'metro10.jpg', alt: 'Arlington', title: 'View of Arlington from Metro stop'},
+    {id: 2, image: 'metro11.jpg', alt: 'Metro', title: 'Here comes the Metro'},
+    {id: 3, image: 'metro12.jpg', alt: 'Adam', title: 'Adam made it to Greenbelt all by himself'},
+    {id: 4, image: 'metro13.jpg', alt: 'Jenn and Adam', title: 'Jenn and Adam, reunited'},
+    {id: 5, image: 'metro14.jpg', alt: 'Maryland', title: 'This is Maryland?'},
+    {id: 6, image: 'metro15.jpg', alt: 'Maryland', title: 'Looks like Oregon.'},
+    {id: 7, image: 'metro16.jpg', alt: 'Maryland', title: 'This really looks like Oregon'},
+    {id: 8, image: 'metro17.jpg', alt: 'Dark Clouds', title: 'Dark Clouds over the Honda'},
+    {id: 9, image: 'metro18.jpg', alt: 'Dark Clouds', title: 'More Dark Clouds over the Honda'},
+    {id: 10, image: 'metro19.jpg', alt: 'Dark Clouds', title: 'Another picture of dark clouds'},
+    {id: 11, image: 'metro20.jpg', alt: 'Neal', title: 'Neal to Siri - Sleep? How about dinter', description: 'Siri\'s Response - Do you mind driving to Laurel for denture center'}
+]
+
+export const SAKURAPICTURES: Picture[] = [
+    {id: 1, image: 'sakura1.jpg', alt: 'Sakura', title: 'Sakura'},
+    {id: 2, image: 'sakura2.jpg', alt: 'Love Potion #9', title: 'Love Potion #9'},
+    {id: 3, image: 'sakura3.jpg', alt: 'Neal', title: 'Neal is intrigued'},
+    {id: 4, image: 'sakura4.jpg', alt: 'Chicken Livers', title: 'Chicken Livers'},
+    {id: 5, image: 'sakura5.jpg', alt: 'Evolution of a Meal Part I', title: 'Evolution of a Meal Part I'},
+    {id: 6, image: 'sakura6.jpg', alt: 'Evolution of a Meal Part II', title: 'Evolution of a Meal Part II'},
+    {id: 7, image: 'sakura7.jpg', alt: 'Evolution of a Meal Part III', title: 'Evolution of a Meal Part III'},
+    {id: 8, image: 'sakura8.jpg', alt: 'Evolution of a Meal Part IV - The Final Meal', title: 'Evolution of a Meal Part IV - The Final Meal'},
+    {id: 9, image: 'sakura9.jpg', alt: 'Neal', title: 'I Find Your Lack of Security Disturbing'},
+    {id: 10, image: 'sakura10.jpg', alt: 'Neal', title: 'Neal is thinking of something'},
+	{id: 11, image: 'frog1.jpg', alt: 'Sweet Frog', title: 'Sweet Frog'},
+    {id: 12, image: 'frog2.jpg', alt: 'Sweet Frog', title: 'Peanut Butter & Chocolate, Yum!'},
+    {id: 13, image: 'frog3.jpg', alt: 'Sweet Frog', title: 'Creme Brulee, No Brainer!'},
+    {id: 14, image: 'frog4.jpg', alt: 'Big Bug', title: 'Big Bug at Target'}
 ]
 /*    {id: , image: '.jpg', alt: '', title: ''},*/

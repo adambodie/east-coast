@@ -1,6 +1,6 @@
 <div class="flex-container">
     <div class="flex-item">
-		<carousel>
+		<carousel [interval]="false">
 		  	<slide *ngFor="let introPicture of introPictures">
 				<figure>
 					<img src="{{link}}photos/{{introPicture.image}}" alt="{{introPicture.alt}}" class="img-responsive">
@@ -71,7 +71,7 @@
 			<p>As for the restaurant itself, it had the feel of a typical subarban restaurant; nothing too special or fancy.  Jenn wanted to try the Coconut Water, but of course, they were out of it.  She would have loved the Thai Iced Tea, but with Caffeine, she can't have it. She tried a sip of my Thai Iced Tea, which I hadn't had in years.  Jenn regretted it, since it was so tasty.  I tried the Boba within the drink, also known as the Tapioca balls.  I had never tried it before, but they were tasty and made the drink better.  Another nice way to begin our adventurous trip.</p>
 		</div>
 		<div class="flex-item">
-			<carousel>
+			<carousel [interval]="false">
 				<slide *ngFor="let kevinPicture of kevinPictures">
 				<img src="{{link}}photos/{{kevinPicture.image}}" alt="{{kevinPicture.alt}}" class="img-responsive">
 				<div class="carousel-caption">

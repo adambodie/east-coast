@@ -1,6 +1,6 @@
 <div class="flex-container">
     <div class="flex-item">
-		<carousel>
+		<carousel [interval]="false">
 		  <slide *ngFor="let capitolPicture of capitolPictures">
 				<figure>
 				<a href="{{link}}photos/{{capitolPicture.image}}">
@@ -15,8 +15,8 @@
 		</carousel>
     </div>	
 </div>
-<div class="flex-container">
-	<div class="flex-item center">
+<div class="flex-container center">
+	<div class="flex-item">
 		<h1>The Most Unexpected Ride to D.C.</h1>
 		<h4>{{date}}</h4>
 		<p>The next morning was not rushed as Neal had to take his car in and complete some job related stuff at home.  Jenn and I slept in a little and got ready for our adventure in Washington D.C.  Without a car, that meant Jenn and I go off on our own and meet Neal later.  The plan: Uber it to the Greenbelt Metro and hop on the Metro from there.  But life throws you curveballs.  Instead of going to what appeared to be a closer College Park Metro stop, we ended up at the Greenbelt stop, only for the Uber driver to be confused as to where to drop us off.  With the Uber drivers lack of understanding and our inexperience with the Metro, the Uber driver made it up to us by driving us straight to D.C., all while not charging us for the additional miles driven.  Who knew this would happen all because they use a ridiculously archaic term “Kiss and Ride” for drop offs?  Do people actually kiss their loved ones before heading off?  The big mystery in all of this.  Once we arrived in the nation’s Capital, we were dropped off at the U.S. Capitol, but first, it was time to eat.</p>
@@ -33,7 +33,7 @@
 </div>
 <div class="flex-container">
     <div class="flex-item">
-		<carousel>
+		<carousel [interval]="false">
 		  <slide *ngFor="let alibiPicture of alibiPictures">
 				<figure>
 				<a href="{{link}}photos/{{alibiPicture.image}}">
@@ -58,7 +58,7 @@
 
 <div class="flex-container">
     <div class="flex-item">
-		<carousel>
+		<carousel [interval]="false">
 		  <slide *ngFor="let mallPicture of mallPictures">
 				<figure>
 				<a href="{{link}}photos/{{mallPicture.image}}">
@@ -88,6 +88,15 @@
 	<p><span>2</span> - The number of U.S. States, Vermont and Wyoming, that have a smaller population than Washington D.C. (approximately 681,1170)</p>
 	<p><span>23</span> - The Amendment that gave Washington D.C. a right to Electoral College Votes in the Presidential Race in 1961</p>
 	<p><span>17.4</span> - The approval percentage ranking on June 19, 2017 of the Republican Controlled Congress, according to the polls of RealClearPolitics</p>
+	</div>
+</div>
+<div class="flex-container">
+	<div class="flex-item">
+		<img src="{{link}}photos/dc-walk.jpg" alt="D.C. Walk" class="img-responsive"/>
+	</div>
+	<div class="flex-item">
+		<h1>For the Exercise Buffs</h1>
+		<h4>{{date}}</h4>
 	</div>
 </div>
 <div class="flex-container">

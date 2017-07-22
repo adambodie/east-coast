@@ -1,6 +1,6 @@
 <div class="flex-container">
     <div class="flex-item">
-		<carousel>
+		<carousel [interval]="false">
 		  <slide *ngFor="let georgetownPicture of georgetownPictures">
 				<figure>
 				<a href="{{link}}photos/{{georgetownPicture.image}}">
@@ -36,7 +36,7 @@
 </div>
 <div class="flex-container">
     <div class="flex-item">
-		<carousel>
+		<carousel [interval]="false">
 		  <slide *ngFor="let iThaiPicture of iThaiPictures">
 				<figure>
 				<a href="{{link}}photos/{{iThaiPicture.image}}">
@@ -60,7 +60,7 @@
 
 <div class="flex-container">
     <div class="flex-item">
-		<carousel>
+		<carousel [interval]="false">
 		  <slide *ngFor="let potomacPicture of potomacPictures">
 				<figure>
 				<a href="{{link}}photos/{{potomacPicture.image}}">

@@ -1,6 +1,6 @@
 <div class="flex-container">
     <div class="flex-item">
-		<carousel>
+		<carousel [interval]="false">
 		  <slide *ngFor="let pennPicture of pennPictures">
 				<figure>
 				<a href="{{link}}photos/{{pennPicture.image}}">
@@ -49,7 +49,7 @@
 </div>
 <div class="flex-container">
     <div class="flex-item">
-		<carousel>
+		<carousel [interval]="false">
 		  <slide *ngFor="let continentalPicture of continentalPictures">
 				<figure>
 				<a href="{{link}}photos/{{continentalPicture.image}}">

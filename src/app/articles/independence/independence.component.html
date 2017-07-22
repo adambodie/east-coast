@@ -1,6 +1,6 @@
 <div class="flex-container">
     <div class="flex-item">
-		<carousel>
+		<carousel [interval]="false">
 		  <slide *ngFor="let independencePicture of independencePictures">
 				<figure>
 				<a href="{{link}}photos/{{independencePicture.image}}">
@@ -27,7 +27,7 @@
 	</div>
 <div class="flex-container">
     <div class="flex-item"  style="flex: 2">
-		<carousel>
+		<carousel [interval]="false">
 		  <slide *ngFor="let libertyBellPicture of libertyBellPictures">
 				<figure>
 				<a href="{{link}}photos/{{libertyBellPicture.image}}">
@@ -42,14 +42,13 @@
 		</carousel>
 		</div>
 	<div class="flex-item">
-	<h1>Liberty Bell By the Numbers</h1>
-	<p><span>1751</span> - The year in which the Liberty Bell was completed, used to alert citizens of important events</p>
-<p><span>4</span> - Number of days after July 4, 1776 that the Declaration of Independence was announced to its citizens via the ringing of the Liberty Bell</p>
-<p><span>1835</span> - The approximate year the Liberty Bell got its crack.  The exact year is unknown but popular belief is that is rung to announce the death of Chief Justice John Marshall.</p>
-<p><span>1847</span> - The year in which the Liberty Bell became famous, due to the false belief it rung on July 4, 1776</p>
-<p><span>2,080</span> - Weight, in pounds of the Liberty Bell. 70% Copper, 25% Tin and the rest consisting of various metals</p>
-<p><span>1976</span> - The year the Liberty Bell was moved from inside Independence Hall to a nearby glass pavilion.  The current Liberty Bell Center was erected in 2003.</p>
-
+		<h1>Liberty Bell By the Numbers</h1>
+		<p><span>1751</span> - The year in which the Liberty Bell was completed, used to alert citizens of important events</p>
+		<p><span>4</span> - Number of days after July 4, 1776 that the Declaration of Independence was announced to its citizens via the ringing of the Liberty Bell</p>
+		<p><span>1835</span> - The approximate year the Liberty Bell got its crack.  The exact year is unknown but popular belief is that is rung to announce the death of Chief Justice John Marshall.</p>
+		<p><span>1847</span> - The year in which the Liberty Bell became famous, due to the false belief it rung on July 4, 1776</p>
+		<p><span>2,080</span> - Weight, in pounds of the Liberty Bell. 70% Copper, 25% Tin and the rest consisting of various metals</p>
+		<p><span>1976</span> - The year the Liberty Bell was moved from inside Independence Hall to a nearby glass pavilion.  The current Liberty Bell Center was erected in 2003.</p>
 	</div>	
 </div>
 <div class="flex-container">

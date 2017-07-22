@@ -1,6 +1,6 @@
 <div class="flex-container">
     <div class="flex-item">
-		<carousel>
+		<carousel [interval]="false">
 		  <slide *ngFor="let pridePicture of pridePictures">
 				<figure>
 				<a href="{{link}}photos/{{pridePicture.image}}">
@@ -36,7 +36,6 @@
 		<p>An estimated 25,000 people attended the Philly Pride Parade, claiming its largest crowd ever.  Perhaps Heidi chose the wrong place to watch...</p>
 	</div>
 	<div class="flex-item">
-	<div class="flex-item">
 		<div class="video">
 			<video controls="controls" poster="{{link}}videos/pride.jpg" style="width:100%" title="Various Videos from Philly Pride">
 				<source src="{{link}}videos/pride.m4v" type="video/m4v" />
@@ -45,7 +44,6 @@
 			</video>
 		</div>
 	</div>	
-	</div>
 </div>
 <div class="flex-container">
 	<div class="flex-item"><button class="btn btn-primary" routerLink="/two/independence">Previous</button></div>

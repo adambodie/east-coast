@@ -1,0 +1,67 @@
+<div class="flex-container center">
+	<div class="flex-item">
+		<h1>Separated at Last?</h1>
+		<h4>{{date}}</h4>
+		<p>Heading back to Greenbelt, which was the last Metro stop and the one closest to Laurel, at least where Neal’s Honda was at, meant we came back to way we came.  But life sure does throw you curveballs.  While switching to the Green Line, and rushing to get on a crowded Metro train, the door started to close right when I got on, and since it wouldn’t open, left Jenn and Neal behind.  So I guess I did right the Metro on my own after all.  Fortunately it was me alone and not Jenn, who would’ve been lost without us.  The odd ride back by myself was nothing out of the ordinary, and thankfully we were able to text each other with directions once we were out of the tunnels.  Good news for Jenn and Neal, the next Metro was three minutes behind.</p>
+		<p>After both of us reached the Greenbelt Metro station, one more Uber ride awaited us to take us to the Honda and pick up Neal’s car.  Driving there provided something I wouldn’t expect in the area, a country like landscape.  No city life, no suburban life.  Certainly that can be expected in Portland, but not in the D.C. Metro.  Plus some very dark clouds approaching made for more interesting pictures.  Finally, we got to the Honda and Neal’s car back and well, except for the bad stench in the car of course.</p>
+	</div>	
+    <div class="flex-item">
+		<carousel [interval]="false">
+		  <slide *ngFor="let metroPicture of metroPictures">
+				<figure>
+				<a href="{{link}}photos/{{metroPicture.image}}">
+					<img src="{{link}}photos/{{metroPicture.image}}" alt="{{metroPicture.alt}}" class="img-responsive secondary-carousel">
+				</a>
+			<figcaption>
+			  <h3>{{metroPicture.title}}</h3>
+			  <p>{{metroPicture.description}}</p>   
+			</figcaption>
+			</figure>
+		  </slide>
+		</carousel>
+    </div>	
+</div>
+<div class="flex-container center">
+    <div class="flex-item">
+		<carousel [interval]="false">
+		  <slide *ngFor="let sakuraPicture of sakuraPictures">
+				<figure>
+				<a href="{{link}}photos/{{sakuraPicture.image}}">
+					<img src="{{link}}photos/{{sakuraPicture.image}}" alt="{{sakuraPicture.alt}}" class="img-responsive secondary-carousel">
+				</a>
+			<figcaption>
+			  <h3>{{sakuraPicture.title}}</h3>
+			  <p>{{sakuraPicture.description}}</p>   
+			</figcaption>
+			</figure>
+		  </slide>
+		</carousel>
+    </div>
+    <div class="flex-item">
+		<h1>Dinner and a Show at Sakura</h1>
+		<h4>{{date}}</h4>
+		<p></p>
+    </div>	
+</div>
+<div class="flex-container">
+	<div class="flex-item">
+		<h1>Fun Maryland Facts</h1>
+		<h4>{{date}}</h4>
+		<p>Laurel, Maryland was the site of the 1972 attempted assassination of Presidential candidate George Wallace.</p>
+		<p></p>
+	</div>
+	<div class="flex-item">
+		<div class="video">
+			<video controls="controls" poster="{{link}}videos/sakura.jpg" style="width:100%" title="Arlington">
+				<source src="{{link}}videos/sakura.m4v" type="video/m4v" />
+				<source src="{{link}}videos/sakura.webm" type="video/webm" />
+				<source src="{{link}}videos/sakura.ogv" type="video/ogg" />
+			</video>
+		</div>
+	</div>
+</div>
+<div class="flex-container">
+	<div class="flex-item"><button class="btn btn-primary" routerLink="/four/arlington">Previous</button></div>
+	<div class="flex-item"><button class="btn btn-primary" routerLink="/five/jersey">Next</button></div>
+</div>
+<router-outlet></router-outlet>	

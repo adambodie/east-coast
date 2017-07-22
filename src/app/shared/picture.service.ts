@@ -24,7 +24,12 @@ import {
 		ALIBIPICTURES,
 		GEORGETOWNPICTURES,
 		ITHAIPICTURES,
-		POTOMACPICTURES 
+		POTOMACPICTURES,
+		CHICKFILAPICTURES,
+		ARLINGTONPICTURES,
+		UNKNOWNPICTURES,
+		METROPICTURES,
+		SAKURAPICTURES, 
 		} from './mock-pictures';
 
 
@@ -99,5 +104,20 @@ export class PictureService {
     }
     getPotomacPictures(): Promise<Picture[]>{
         return Promise.resolve(POTOMACPICTURES);
-    }                                                
+    }
+    getChickFilAPictures(): Promise<Picture[]>{
+        return Promise.resolve(CHICKFILAPICTURES);
+    }
+    getArlingtonPictures(): Promise<Picture[]>{
+        return Promise.resolve(ARLINGTONPICTURES);
+    }
+    getUnknownPictures(): Promise<Picture[]>{
+        return Promise.resolve(UNKNOWNPICTURES);
+    }
+    getMetroPictures(): Promise<Picture[]>{
+        return Promise.resolve(METROPICTURES);
+    }
+    getSakuraPictures(): Promise<Picture[]>{
+        return Promise.resolve(SAKURAPICTURES);
+    }                                                                    
 }
