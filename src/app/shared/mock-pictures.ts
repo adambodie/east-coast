@@ -185,9 +185,8 @@ export const INDEPENDENCEPICTURES: Picture[] = [
 {id: 16, image: 'independence18.jpg',  alt: 'Independence National Historical Park', title: 'No Bigotry at the Independence National Historical Park'},
 {id: 17, image: 'independence19.jpg',  alt: 'Independence Visitor Center', title: 'Independence Visitor Center'},
 {id: 18, image: 'independence20.jpg', alt: 'Independence National Historical Park', title: 'Independence National Historical Park'},
-{id: 19, image: 'independence21.jpg',  alt: 'Independence National Historical Park', title: 'Independence National Historical Park'},
-{id: 20, image: 'philadelphia21.jpg', alt: 'A Rocky Statue', title: 'A Rocky Statue, not The Rocky Statue'},
-{id: 21, image: 'philadelphia22.jpg', alt: 'Adam', title: 'Adam with a Rocky Statue'},
+{id: 19, image: 'philadelphia21.jpg', alt: 'A Rocky Statue', title: 'A Rocky Statue, not The Rocky Statue'},
+{id: 20, image: 'philadelphia22.jpg', alt: 'Adam', title: 'Adam with a Rocky Statue'},
 ]
 
 export const LIBERTYBELLPICTURES: Picture[] = [
@@ -514,8 +513,8 @@ export const ITHAIPICTURES: Picture[] = [
 ]
 
 export const POTOMACPICTURES: Picture[] = [
-    {id: 1, image: 'potomac1.jpg', alt: '', title: ''},
-    {id: 2, image: 'potomac2.jpg', alt: '', title: ''},
+    {id: 1, image: 'potomac1.jpg', alt: 'American National Red Cross', title: 'American National Red Cross'},
+    {id: 2, image: 'potomac2.jpg', alt: 'Organization of American States', title: 'Organization of American States'},
     {id: 3, image: 'potomac3.jpg', alt: 'Jefferson Memorial', title: 'Jefferson Memorial'},
     {id: 4, image: 'potomac4.jpg', alt: 'Potomac River', title: 'Potomac River'},
     {id: 5, image: 'potomac5.jpg', alt: 'House Boats', title: 'House Boats'},

@@ -27,6 +27,7 @@ span {
 ol>li {
     color: white;
     font-weight: bold;
+    list-style: inherit;
 }
 
 .btn {
