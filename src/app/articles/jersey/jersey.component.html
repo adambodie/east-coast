@@ -1,0 +1,103 @@
+<div class="flex-container center">
+	<div class="flex-item">
+		<h1>Driving through New Jersey, the Joy of My Life</h1>
+		<h4>{{date}}</h4>
+		<p>It’s true what they say, New Jersey is the joke state.  No one takes New Jersey seriously, and most people who live there are those who can’t afford to live in New York or Philadelphia.  Driving through New Jersey was incredibly boring and lame.  It’s bad enough that they have bad and impatient drivers, but the New Jersey Turnpike, the road we drove on, was hardly scenic by any means.  Just a boring highway with trees side by side and no cities around.</p>
+		<p>Sure, there were a few minor good things about the New Jersey Turnpike.  Their rest areas are frequent and modern, with a few shops and gas station at each one.  Nothing like the rest stops they have here in Oregon.  I remember on rest stop near Hermiston so disgusting, it smelled like shit and I about wanted to puke.  Another plus for the New Jersey Turnpike is that they have an elevated road just for the big trucks.  With New Jersey drivers as bad as they are, getting the trucks out of the way and isolated is a great thing, I doubt the 100mph New Jersey drivers would have any patience with a truck going the speed limit.</p>
+	</div>	
+    <div class="flex-item">
+		<carousel [interval]="false">
+		  <slide *ngFor="let jerseyPicture of jerseyPictures">
+				<figure>
+				<a href="{{link}}photos/{{jerseyPicture.image}}">
+					<img src="{{link}}photos/{{jerseyPicture.image}}" alt="{{jerseyPicture.alt}}" class="img-responsive secondary-carousel">
+				</a>
+			<figcaption>
+			  <h3>{{jerseyPicture.title}}</h3>
+			  <p>{{jerseyPicture.description}}</p>   
+			</figcaption>
+			</figure>
+		  </slide>
+		</carousel>
+    </div>	
+</div>
+	<div class="flex-container">
+		<div class="flex-item">
+			<a href="http://grand-canyon.bodiewebdesign.com">
+				<img src="assets/grand-canyon.jpg" alt="Grand Canyon" class="img-responsive"/>
+			</a>
+		</div>
+	</div>
+<div class="flex-container">
+	<div class="flex-item">
+		<h1>New Joyzey By the Numbers</h1>
+		<p><span>12</span> - The number of rest stops on the New Jersey Turnpike, which are named for famous New Jerseyans, including Woodrow Wilson, Grover Cleveland, Vince Lombardi and Alexander Hamilton.</p>
+		<p><span>15</span> - Percentage approval rating as of June 2017 for garbage Governor Chris Christie, the lowest for any Governor in over two decades, according to the Quinnipiac poll</p>  
+		<p><span>1210</span> - Density of people per square mile in New Jersey, which ranks as the most densely populated state in the United States.  Oregon's is 41 per comparison.</p>
+		<p><span>3</span> - New Jersey was one of three Union States that did not vote for Abraham Lincoln in either election</p>
+		<p><span>56.4</span> - Estimated percentage of children under the age of 1 belonging to a racial/ethnic minority group, making it one of the most diverse states in the country</p>
+	</div>
+	<div class="flex-item">
+		<h1>Famous People from New Jersey</h1>
+		<h4>{{date}}</h4>
+		<div class="flex-container">
+			<div class="flex-item">
+				<p>There are plenty of famous people from New Jersey, some who have spent more time there than others.  Some famous people include: <strong>Buzz Aldrin</strong>: Astronaut, <strong>Jon Bon Jovi</strong>: Rock star, <strong>Whitney Houston</strong>: Singer, <strong>Jerry Lewis</strong>: Comedian, <strong>Jack Nicholson</strong>: Actor, <strong>Shaquille O'Neal</strong>: NBA Legend, <strong>Frank Sinatra</strong>: Singer, <strong>Bruce Springsteen</strong>: Rock star and <strong>John Travolta</strong>: Actor</p>
+			</div>
+			<div class="flex-item">
+				<div class="famousAl flex-container">
+					<div *ngFor="let famousJersey of famousJerseys" class="flex-item">
+						<img src="assets/{{famousJersey.image}}"/>
+						<p>{{famousJersey.name}}</p>
+					</div>		
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="flex-container center">
+	<div class="flex-item">
+		<h1>Finally, it gets interesting</h1>
+		<h4>{{date}}</h4>
+		<p>Eventually, New Jersey started to have some great views.  Not surprisingly, they're views of New York City.  My first impression of New York City was one of amazement.  It almost looked surreal, seeing nothing but tall skyscrapers lined up in  row, even though we were like 10 miles away.  The tallest building in the country, the One World Trade Center, was incredibly huge and phenomenal, even from afar.  The Empire State Building, from afar, looked every bit as beautiful as described throughout the world.</p>
+		<p>The closer we got, the bigger and more amazing the buildings looked, even the tall skyscraper in Jersey City looked nice, but only with the far bigger New York Skyline.  I could hardly contain myself as we made our way to New York City.  I just wanted in.  But with Jenn driving, we needed to make one more stop at a gas station, with a bathroom break needed as well.  Of course, New Jersey is the only other state besides Oregon that doesn't allow you to fill up your own gas, so this was the one place Jenn could feel comfortable pulling into the gas station, as she drove through most of New Jersey.  Plus Jenn could never drive in New York City, so Neal took over at that point.  When it was all said and done, a ride into the Holland Tunnel awaited, with New York City, at last, on the other side.</p>
+	</div>	
+    <div class="flex-item">
+		<carousel [interval]="false">
+		  <slide *ngFor="let jerseyCityPicture of jerseyCityPictures">
+				<figure>
+				<a href="{{link}}photos/{{jerseyCityPicture.image}}">
+					<img src="{{link}}photos/{{jerseyCityPicture.image}}" alt="{{jerseyCityPicture.alt}}" class="img-responsive secondary-carousel">
+				</a>
+			<figcaption>
+			  <h3>{{jerseyCityPicture.title}}</h3>
+			  <p>{{jerseyCityPicture.description}}</p>   
+			</figcaption>
+			</figure>
+		  </slide>
+		</carousel>
+    </div>	
+</div>
+<div class="flex-container">
+	<div class="flex-item">
+		<div class="video">
+			<video controls="controls" poster="{{link}}videos/tunnel.jpg" style="width:100%" title="Tunnel">
+				<source src="{{link}}videos/tunnel.m4v" type="video/m4v" />
+				<source src="{{link}}videos/tunnel.webm" type="video/webm" />
+				<source src="{{link}}videos/tunnel.ogv" type="video/ogg" />
+			</video>
+		</div>
+	</div>
+	<div class="flex-item">
+		<h1>Jersey City By the Numbers</h1>
+		<p><span>265,000</span> - Population of Jersey City, the second most populated city in New Jersey, behind Newark.</p>
+		<p><span>781</span> - Height of The Goldman Sachs Tower in feet, the tallest building in New Jersey.  It can be seen from all five New York Boroughs</p>
+		<p><span>8</span> - The number of people from Jersey City who were arrested for ‘celebrating’ 9/11.  A far cry from the ‘thousands and thousands of people’ that stupid Donald Trump claimed were cheering on TV, none of which was true.</p>  
+
+	</div>
+</div>
+<div class="flex-container">
+	<div class="flex-item"><button class="btn btn-primary" routerLink="/four/metro">Previous</button></div>
+	<div class="flex-item"><button class="btn btn-primary" routerLink="/five/welcome-nyc">Next</button></div>
+</div>
+<router-outlet></router-outlet>	

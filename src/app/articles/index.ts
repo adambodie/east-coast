@@ -16,3 +16,4 @@ export * from '../articles/metro/metro.component';
 export * from '../articles/day-five/day-five.component';
 export * from '../articles/day-six/day-six.component';
 export * from '../articles/outro/outro.component';
+export * from '../articles/jersey/jersey.component';

@@ -657,4 +657,42 @@ export const SAKURAPICTURES: Picture[] = [
     {id: 13, image: 'frog3.jpg', alt: 'Sweet Frog', title: 'Creme Brulee, No Brainer!'},
     {id: 14, image: 'frog4.jpg', alt: 'Big Bug', title: 'Big Bug at Target'}
 ]
+
+
+export const JERSEYPICTURES: Picture[] = [
+{id: 1, image: 'delaware13.jpg', alt: 'Delaware Memorial Bridge', title: 'Delaware Memorial Bridge, New Jersey ahead!'},
+{id: 2, image: 'jersey1.jpg', alt: 'New Jersey Turnpike', title: 'New Jersey Turnpike', description: 'Former Governor Alfred Driscoll died in 1975, but would be a more effective governor today than Chris Christie'},
+{id: 3, image: 'jersey2.jpg', alt: 'New Jersey', title: 'New Jersey', description: 'Yawn!'},
+{id: 4, image: 'jersey3.jpg', alt: 'Truck ramp', title: 'Trucks go up, cars stay down'},
+{id: 5, image: 'jersey4.jpg', alt: 'Jenn and Adam', title: 'Jenn snuck into my "I\'m in New Jersey Picture'},
+{id: 6, image: 'jersey5.jpg', alt: 'Wow, a Building!', title: 'Wow, a Building!'}
+
+]
+
+export const JERSEYCITYPICTURES: Picture[] = [
+{id: 1, image: 'jersey6.jpg', alt: 'New York City', title: 'Holy Shit!  Look at that!'},
+{id: 2, image: 'jersey7.jpg', alt: 'New York City', title: 'New York City\'s HUGE!!!'},
+{id: 3, image: 'jersey9.jpg', alt: 'New York City', title: 'Unreal'},
+{id: 4, image: 'jersey10.jpg', alt: 'New York City', title: 'Wow!  New York City Wow!', description: 'and jersey city to the left'},
+{id: 5, image: 'jersey11.jpg', alt: 'New York City', title: 'New York City ahead'},
+{id: 6, image: 'jersey14.jpg', alt: 'One World Trade Center', title: 'One World Trade Center, SO F**KIN TALL!!!'},
+{id: 7, image: 'jersey15.jpg', alt: 'New York City', title: 'Incredible!', description: 'the tall building to the left is still New Jersey'},
+{id: 8, image: 'jersey16.jpg', alt: 'New York City', title: 'All New York here'},
+{id: 9, image: 'jersey17.jpg', alt: 'Liberty Science Center', title: 'Liberty Science Center'},
+{id: 10, image: 'jersey18.jpg', alt: 'New York City', title: 'I want in NOW!!!'},
+{id: 11, image: 'jersey19.jpg', alt: 'New York City', title: 'We\'re getting closer!!!'},
+{id: 12, image: 'jersey20.jpg', alt: 'New York City', title: 'New York City, here we come!!!'},
+{id: 13, image: 'jersey22.jpg', alt: 'New York City', title: 'New York to the left, New Jersey to the right'},
+{id: 14, image: 'jersey23.jpg', alt: 'New York City', title: 'Construction, a common theme for the area'},
+{id: 15, image: 'jersey24.jpg', alt: 'Jersey City', title: 'and the view of Jersey City on the other side'},
+{id: 16, image: 'jersey25.jpg', alt: 'Empire State Building', title: 'Empire State Building, stand tall and proud'},
+{id: 17, image: 'jersey27.jpg', alt: 'New York City', title: 'Impatient, Indeed'},
+{id: 18, image: 'jersey28.jpg', alt: 'About to enter the Holland Tunnel', title: 'About to enter the Holland Tunnel'},
+{id: 19, image: 'jersey29.jpg', alt: 'Holland Tunnel', title: 'Holland Tunnel'},
+{id: 20, image: 'jersey30.jpg', alt: 'Goodbye New Jersey', title: 'Goodbye New Jersey'},
+{id: 21, image: 'jersey31.jpg', alt: 'Entering the Holland Tunnel', title: 'Entering the Holland Tunnel'},
+{id: 22, image: 'jersey32.jpg', alt: 'Holland Tunnel', title: 'New York City\'s on the other side, WOOHOO!!!!'},
+
+]
+
 /*    {id: , image: '.jpg', alt: '', title: ''},*/

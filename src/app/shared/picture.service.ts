@@ -29,7 +29,9 @@ import {
 		ARLINGTONPICTURES,
 		UNKNOWNPICTURES,
 		METROPICTURES,
-		SAKURAPICTURES, 
+		SAKURAPICTURES,
+		JERSEYPICTURES,
+		JERSEYCITYPICTURES 
 		} from './mock-pictures';
 
 
@@ -119,5 +121,11 @@ export class PictureService {
     }
     getSakuraPictures(): Promise<Picture[]>{
         return Promise.resolve(SAKURAPICTURES);
-    }                                                                    
+    }
+    getJerseyPictures(): Promise<Picture[]>{
+        return Promise.resolve(JERSEYPICTURES);
+    }
+    getJerseyCityPictures(): Promise<Picture[]>{
+        return Promise.resolve(JERSEYCITYPICTURES);
+    }                                                                                
 }
