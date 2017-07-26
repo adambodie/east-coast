@@ -695,4 +695,40 @@ export const JERSEYCITYPICTURES: Picture[] = [
 
 ]
 
+export const WELCOMENYCPICTURES: Picture[] = [
+    {id: 1, image: 'york1.jpg', alt: 'New York', title: 'New York At Last!'},
+    {id: 2, image: 'york2.jpg', alt: 'New York', title: 'Fascinating Building up Ahead'},
+    {id: 3, image: 'york3.jpg', alt: 'One World Trade Center', title: ''},
+    {id: 4, image: 'york4.jpg', alt: 'Welcome to New York', title: 'Welcome to New York'},
+    {id: 5, image: 'york5.jpg', alt: 'Welcome to Manhattan', title: 'Welcome to Manhattan'},
+    {id: 6, image: 'york6.jpg', alt: 'New York', title: '32 Avenue of the Americas', description: 'The AT&T Building, 549 feet to the top of the antenna; taller than Oregon\'s tallest'},
+    {id: 7, image: 'york7.jpg', alt: 'Driving through Tribeca', title: 'Driving through Tribeca', description: 'Tribeca: Triangle Below Canal Street'},
+    {id: 8, image: 'york8.jpg', alt: 'SoHo', title: 'SoHo'},
+    {id: 9, image: 'york9.jpg', alt: 'SoHo', title: 'SoHo'},
+    {id: 10, image: 'york11.jpg', alt: 'Subway', title: 'Subway'},
+    {id: 11, image: 'york12.jpg', alt: 'NoLita', title: 'NoLita'},
+    {id: 12, image: 'york13.jpg', alt: 'Sunshine', title: 'Sunshine'},
+    {id: 13, image: 'york14.jpg', alt: 'Lower East Side', title: 'Lower East Side'},
+    {id: 14, image: 'york15.jpg', alt: 'Lower East Side', title: 'Lower East Side'},
+    {id: 15, image: 'york16.jpg', alt: 'Adam', title: 'Adam Made It!!!'},
+    {id: 16, image: 'york17.jpg', alt: 'Lower East Side', title: 'Lower East Side'},
+    {id: 17, image: 'york18.jpg', alt: 'Russ & Daughters', title: 'Russ & Daughters'},
+    {id: 18, image: 'york19.jpg', alt: 'Got some Chocolate', title: 'Got some Chocolate'},
+    {id: 19, image: 'york20.jpg', alt: 'Lower East Side', title: 'Lower East Side'},
+    {id: 20, image: 'york21.jpg', alt: 'NYPD', title: 'Little NYPD Car, How cute!'},
+    {id: 21, image: 'york22.jpg', alt: 'Music', title: 'Random Music Performance'},
+ 
+]
+
+export const KATZPICTURES: Picture[] = [
+    {id: 1, image: 'katz1.jpg', alt: 'Katz\'s Deli', title: 'Katz\'s Deli'},
+    {id: 2, image: 'katz2.jpg', alt: 'Adam and Jenn', title: 'Adam and Jenn'},
+    {id: 3, image: 'katz3.jpg', alt: 'Adam and Jenn', title: 'Adam and Jenn'},
+    {id: 4, image: 'katz4.jpg', alt: 'Ticket', title: 'Ticket'},
+    {id: 5, image: 'katz5.jpg', alt: 'Order Food Here', title: 'Order Food Here'},
+    {id: 6, image: 'katz6.jpg', alt: 'Jenn in a very crowded crowd', title: 'Jenn in a very crowded crowd'},
+    {id: 7, image: 'katz7.jpg', alt: 'Our food', title: 'Our food'},
+    
+]
+
 /*    {id: , image: '.jpg', alt: '', title: ''},*/
