@@ -731,4 +731,16 @@ export const KATZPICTURES: Picture[] = [
     
 ]
 
+export const GATSBYPICTURES: Picture[] = [
+    {id: 1, image: 'gatsby1.jpg', alt: 'Gatsby Hotel', title: 'Gatsby Hotel'},
+    {id: 2, image: 'gatsby2.jpg', alt: 'Gatsby Hotel', title: 'Gatsby Hotel'},
+    {id: 3, image: 'gatsby3.jpg', alt: 'View from our room', title: 'View from our room'},
+    {id: 4, image: 'gatsby4.jpg', alt: 'Beds', title: 'Beds'},
+    {id: 5, image: 'gatsby5.jpg', alt: 'Jenn at the Bathroom Door', title: 'Jenn at the Bathroom Door'},
+    {id: 6, image: 'gatsby6.jpg', alt: 'Shower Head', title: 'Shower Head'},
+    {id: 7, image: 'gatsby7.jpg', alt: 'Bathroom Mirror', title: 'Bathroom Mirror'},
+    {id: 8, image: 'gatsby8.jpg', alt: 'Crooked TV', title: 'Crooked TV'},    
+]
+
+
 /*    {id: , image: '.jpg', alt: '', title: ''},*/

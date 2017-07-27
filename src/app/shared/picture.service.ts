@@ -33,7 +33,8 @@ import {
 		JERSEYPICTURES,
 		JERSEYCITYPICTURES,
 		WELCOMENYCPICTURES,
-		KATZPICTURES 
+		KATZPICTURES,
+		GATSBYPICTURES 
 		} from './mock-pictures';
 
 
@@ -135,5 +136,8 @@ export class PictureService {
     }
     getKatzPictures(): Promise<Picture[]>{
         return Promise.resolve(KATZPICTURES);
-    }                                                                                   
+    }
+    getGatsbyPictures(): Promise<Picture[]>{
+        return Promise.resolve(GATSBYPICTURES);
+    }                                                                                    
 }
