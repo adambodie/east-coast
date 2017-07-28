@@ -26,7 +26,8 @@ import { IntroComponent,
 		MetroComponent,
 		DayFiveComponent,
 		JerseyComponent,
-		WelcomeNycComponent				
+		WelcomeNycComponent,
+		EmpireComponent			
 		} from './articles';
 import { DaySixComponent } from './articles/day-six/day-six.component';
 import { OutroComponent } from './articles/outro/outro.component';
@@ -58,6 +59,7 @@ import { OutroComponent } from './articles/outro/outro.component';
     OutroComponent,
     JerseyComponent,
     WelcomeNycComponent,
+    EmpireComponent,
 
   ],
   imports: [
@@ -87,7 +89,8 @@ import { OutroComponent } from './articles/outro/outro.component';
         {   path: 'four/metro', component: MetroComponent  },
         {   path: 'five', component: DayFiveComponent  },
         {	path: 'five/jersey', component: JerseyComponent },
-        {	path: 'five/welcome-nyc', component: WelcomeNycComponent },        
+        {	path: 'five/welcome-nyc', component: WelcomeNycComponent },
+        {	path: 'five/empire', component: EmpireComponent },                 
         {   path: 'six', component: DaySixComponent  },
         {   path: 'outro', component: OutroComponent  },                                                 
 ])

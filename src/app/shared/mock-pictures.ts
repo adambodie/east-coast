@@ -742,5 +742,38 @@ export const GATSBYPICTURES: Picture[] = [
     {id: 8, image: 'gatsby8.jpg', alt: 'Crooked TV', title: 'Crooked TV'},    
 ]
 
+export const EMPIRE80PICTURES: Picture[] = [
+    {id: 1, image: 'empire1.jpg', alt: 'Empire State Building', title: 'Empire State Building'},
+    {id: 2, image: 'empire2.jpg', alt: 'Empire State Building', title: 'Jenn, look at that!'},
+    {id: 3, image: 'empire3.jpg', alt: 'Inside the Empire State Building', title: 'Inside the Empire State Building'},
+    {id: 4, image: 'empire4.jpg', alt: 'One of Many Lines', title: 'One of Many Lines'},
+    {id: 5, image: 'empire5.jpg', alt: 'Empire State Building Map', title: 'Empire State Building Map'},
+    {id: 6, image: 'empire6.jpg', alt: 'Adam and Jenn', title: 'Adam and Jenn'},
+    {id: 7, image: 'empire7.jpg', alt: 'Adam, Jenn and Neal', title: 'Adam, Jenn and Neal'},
+    {id: 8, image: 'empire8.jpg', alt: 'Elevator Door', title: 'Elevator Door'},
+    {id: 9, image: 'empire9.jpg', alt: 'Adam in a 55 Second Elevator Ride', title: 'Adam in a 55 Second Elevator Ride'},
+    {id: 10, image: 'empire10.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},
+    {id: 11, image: 'empire11.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},
+    {id: 12, image: 'empire12.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},
+    {id: 13, image: 'empire15.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},
+    {id: 14, image: 'empire16.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},
+    {id: 15, image: 'empire18.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},
+    {id: 16, image: 'empire19.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},
+    {id: 17, image: 'empire20.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},
+    {id: 18, image: 'empire21.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},
+    {id: 19, image: 'empire22.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},
+    {id: 20, image: 'empire23.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},
+    {id: 21, image: 'empire24.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},
+    {id: 22, image: 'empire25.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},
+    {id: 23, image: 'empire26.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},
+    {id: 24, image: 'empire28.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},
+    {id: 25, image: 'empire29.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},
+    {id: 26, image: 'empire30.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},
+    {id: 27, image: 'empire32.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},
+    {id: 28, image: 'empire33.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},
+    {id: 29, image: 'empire34.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},
+    {id: 30, image: 'empire35.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},
+    {id: 31, image: 'empire36.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},                        
+]
 
-/*    {id: , image: '.jpg', alt: '', title: ''},*/
+/*    {id: , image: '.jpg', alt: '', title: ''}, */

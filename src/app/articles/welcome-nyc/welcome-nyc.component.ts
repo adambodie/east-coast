@@ -10,7 +10,6 @@ import { PictureService } from '../../shared/picture.service';
 })
 export class WelcomeNycComponent implements OnInit {
 
-jerseyPictures: Picture[];
 	welcomeNycPictures: Picture[];
 	katzPictures: Picture[];
 	gatsbyPictures: Picture[];
