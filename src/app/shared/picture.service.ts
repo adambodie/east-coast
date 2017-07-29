@@ -36,6 +36,7 @@ import {
 		KATZPICTURES,
 		GATSBYPICTURES,
 		EMPIRE80PICTURES,
+		EMPIRE86PICTURES,
 		TRAMPPICTURES 
 		} from './mock-pictures';
 
@@ -145,6 +146,9 @@ export class PictureService {
     getEmpire80Pictures(): Promise<Picture[]>{
         return Promise.resolve(EMPIRE80PICTURES);
     }
+    getEmpire86Pictures(): Promise<Picture[]>{
+        return Promise.resolve(EMPIRE86PICTURES);
+    }    
     getTrampPictures(): Promise<Picture[]>{
         return Promise.resolve(TRAMPPICTURES);
     }                                                                                              
