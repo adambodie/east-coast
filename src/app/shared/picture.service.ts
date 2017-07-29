@@ -35,7 +35,8 @@ import {
 		WELCOMENYCPICTURES,
 		KATZPICTURES,
 		GATSBYPICTURES,
-		EMPIRE80PICTURES 
+		EMPIRE80PICTURES,
+		TRAMPPICTURES 
 		} from './mock-pictures';
 
 
@@ -143,5 +144,8 @@ export class PictureService {
     }
     getEmpire80Pictures(): Promise<Picture[]>{
         return Promise.resolve(EMPIRE80PICTURES);
-    }                                                                                         
+    }
+    getTrampPictures(): Promise<Picture[]>{
+        return Promise.resolve(TRAMPPICTURES);
+    }                                                                                              
 }

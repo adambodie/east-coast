@@ -27,10 +27,12 @@ import { IntroComponent,
 		DayFiveComponent,
 		JerseyComponent,
 		WelcomeNycComponent,
-		EmpireComponent			
+		EmpireComponent,
+		TrampComponent,
+		DaySixComponent			
 		} from './articles';
-import { DaySixComponent } from './articles/day-six/day-six.component';
 import { OutroComponent } from './articles/outro/outro.component';
+
 
 @NgModule({
   declarations: [
@@ -60,6 +62,7 @@ import { OutroComponent } from './articles/outro/outro.component';
     JerseyComponent,
     WelcomeNycComponent,
     EmpireComponent,
+    TrampComponent,
 
   ],
   imports: [
@@ -90,7 +93,8 @@ import { OutroComponent } from './articles/outro/outro.component';
         {   path: 'five', component: DayFiveComponent  },
         {	path: 'five/jersey', component: JerseyComponent },
         {	path: 'five/welcome-nyc', component: WelcomeNycComponent },
-        {	path: 'five/empire', component: EmpireComponent },                 
+        {	path: 'five/empire', component: EmpireComponent },
+        {	path: 'five/tramp', component: TrampComponent },                         
         {   path: 'six', component: DaySixComponent  },
         {   path: 'outro', component: OutroComponent  },                                                 
 ])

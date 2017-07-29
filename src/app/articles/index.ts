@@ -19,3 +19,4 @@ export * from '../articles/outro/outro.component';
 export * from '../articles/jersey/jersey.component';
 export * from '../articles/welcome-nyc/welcome-nyc.component';
 export * from '../articles/empire/empire.component';
+export * from '../articles/tramp/tramp.component';

@@ -776,4 +776,30 @@ export const EMPIRE80PICTURES: Picture[] = [
     {id: 31, image: 'empire36.jpg', alt: 'View from 80th Floor', title: 'View from 80th Floor'},                        
 ]
 
+
+export const TRAMPPICTURES: Picture[] = [
+    {id: 1, image: 'tramp1.jpg', alt: '', title: ''},
+    {id: 2, image: 'tramp2.jpg', alt: '', title: ''},
+    {id: 3, image: 'tramp3.jpg', alt: '', title: ''},
+    {id: 4, image: 'tramp4.jpg', alt: '', title: ''},
+    {id: 5, image: 'tramp5.jpg', alt: '', title: ''},
+    {id: 6, image: 'tramp6.jpg', alt: '', title: ''},
+    {id: 7, image: 'tramp7.jpg', alt: '', title: ''},
+    {id: 8, image: 'tramp8.jpg', alt: '', title: ''},
+    {id: 9, image: 'tramp9.jpg', alt: '', title: ''},
+    {id: 10, image: 'tramp10.jpg', alt: '', title: ''},
+    {id: 11, image: 'tramp11.jpg', alt: '', title: ''},
+    {id: 12, image: 'tramp12.jpg', alt: '', title: ''},  
+    {id: 13, image: 'tramp13.jpg', alt: '', title: ''},
+    {id: 14, image: 'tramp14.jpg', alt: '', title: ''},
+    {id: 15, image: 'tramp15.jpg', alt: '', title: ''},
+	{id: 16, image: 'tramp16.jpg', alt: '', title: ''},
+    {id: 17, image: 'tramp17.jpg', alt: '', title: ''},
+    {id: 18, image: 'tramp18.jpg', alt: '', title: ''},
+    {id: 19, image: 'tramp19.jpg', alt: '', title: ''},
+    {id: 20, image: 'tramp20.jpg', alt: '', title: ''},
+    {id: 21, image: 'tramp21.jpg', alt: '', title: ''},
+    {id: 22, image: 'tramp22.jpg', alt: '', title: ''},               
+]
+
 /*    {id: , image: '.jpg', alt: '', title: ''}, */

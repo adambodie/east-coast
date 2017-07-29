@@ -1,0 +1,45 @@
+<div class="flex-container center">
+    <div class="flex-item">
+		<carousel [interval]="false">
+		  <slide *ngFor="let trampPicture of trampPictures">
+				<figure>
+				<a href="{{link}}photos/{{trampPicture.image}}">
+					<img src="{{link}}photos/{{trampPicture.image}}" alt="{{trampPicture.alt}}" class="img-responsive secondary-carousel">
+				</a>
+			<figcaption>
+			  <h3>{{trampPicture.title}}</h3>
+			  <p>{{trampPicture.description}}</p>   
+			</figcaption>
+			</figure>
+		  </slide>
+		</carousel>
+    </div>	
+	<div class="flex-item">
+		<h1>The Lady and President Tramp</h1>
+		<h4>{{date}}</h4>
+		<p></p>
+	</div>		
+</div>
+<div class="flex-container">
+	<div class="flex-item">
+		<h1>Words That Donald J. Tramp does not know the meaning of</h1>
+		<p>Donald Tramp lives in a fantasy world.  As such, he's developed a whole bunch of "alternative" meanings for words.  As such, here are Donald Tramp's definitions</p>
+		<ol>
+			<li>Fake News - Any story that's critical of Donald J. Tramp</li>
+			<li>Sacrifice - Creating jobs</li>
+			<li>Criminal - Hillary Clinton</li>
+			<li>Truth - Anything that helps Donald J. Tramp</li>
+			<li>Health Insurance - Something that young people pay $12 a year for</li>
+			<li>Leadership - Whatever qualities Vladimir Putin has</li>
+			<li>Global Warming - A Hoax created by the Chinese to increase their business</li>
+			<li>Compromise - When Democrats agree to everything he wants</li>
+			<li>Honesty - Everything Donald J. Tramp says</li>
+			<li>Presidential - Complaining on Twitter everytime Donald J. Tramp is criticized</li>		
+		</ol>
+	</div>
+</div>
+<div class="flex-container">
+	<div class="flex-item"><button class="btn btn-primary" routerLink="/five/empire">Previous</button></div>
+	<div class="flex-item"><button class="btn btn-primary" routerLink="/six">Next</button></div>
+</div>
+<router-outlet></router-outlet>	
