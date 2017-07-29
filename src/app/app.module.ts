@@ -1,9 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 import { HttpModule } from '@angular/http';
 import { RouterModule }   from '@angular/router';
 import { CarouselModule, BsDropdownModule, ModalModule } from 'ngx-bootstrap';
+import { SelectModule } from 'ng2-select';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about';
 import { HomeComponent } from './home';
@@ -69,8 +71,10 @@ import { OutroComponent } from './articles/outro/outro.component';
     BrowserModule,
     FormsModule,
     HttpModule,
+    CommonModule,
     CarouselModule.forRoot(),
     BsDropdownModule.forRoot(),
+    SelectModule,
     ModalModule.forRoot(),
     RouterModule.forRoot([
         {	path: '', component: HomeComponent	},    
