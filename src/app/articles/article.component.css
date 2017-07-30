@@ -99,6 +99,25 @@ ol>li {
     margin: 0 auto;
     width: 100%;
 }
+
+#old-nyc {
+	position: absolute;
+	z-index: 11;
+	height: 400px;	
+	-webkit-transition: opacity 4s;
+	transition: opacity 4s;	
+}
+
+#old-nyc:hover {
+	opacity: 0;
+}
+
+#new-nyc {
+	position: absolute;
+	z-index: 10;
+	height: 400px;
+
+}
 @media screen and (min-width: 480px) {
     .flex-container {
         display: -webkit-flex;

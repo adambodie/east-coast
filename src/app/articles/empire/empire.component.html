@@ -38,6 +38,11 @@
 		<p><span>1933</span> - The year the most famous film associated with the Empire State Building was shot, King Kong.</p>
 		<p><span>1950</span> - The year which the Empire State Building became profitable.  Due to opening during the Great Depression and its poor location in terms of transportation, it was derided as the Empty State Building</p>
 	</div>
+	<div class="flex-item">
+		<h1>Evolution of a New York Skyline</h1>
+		<img src='assets/old-nyc.jpg' id="old-nyc" class="img-responsive" alt="New York City">
+		<img src='assets/new-nyc.jpg' id="new-nyc" class="img-responsive" alt="New York City">
+	  </div>
 </div>
 <div class="flex-container">
     <div class="flex-item">
@@ -60,26 +65,28 @@
 	  <div class="flex-item">
 		<h1>86th Floor</h1>
 		<h4>{{date}}</h4>
-	  </div>
-	  <div class="flex-item">
-		<h1>Evolution of a New York Skyline</h1>
 	  </div>	  
   </div>
   <div class="flex-container">
 	  <div class="flex-item">
 		<h1>Name That Feature</h1>
-		<div *ngIf="show">
-			<img src='assets/{{value.id}}.jpg' class="img-responsive" alt="value.id">
-		</div>
-		
 		<div style="width: 300px">
 		  <ng-select [allowClear]="true"
 					  [items]="items"
 					  (data)="refreshValue($event)"
 					  placeholder="Select a Feature">
 		  </ng-select>
-		<h1>{{value.text}}</h1>
+		 </div>
+		<div *ngIf="show">
+			<img src='assets/{{value.id}}.jpg' class="img-responsive" alt="value.id">
 		</div>
+		
+
+		<h1>{{value.text}}</h1>
+		
+		</div>
+		<div class="flex-item">
+			<h1>New York Features</h1>
 		</div> 
   </div>       
 <div class="flex-container">

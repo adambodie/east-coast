@@ -3,9 +3,9 @@ import { Picture } from '../../shared/picture';
 import { PictureService } from '../../shared/picture.service';
 
 const IMAGES = [
-  {'name': 'Blue 10', 'image': 'philadelphia', 'description': 'xyz'},
-  {'name': 'Blue 20', 'image': 'philadelphia2', 'description': 'xyz'},
-  {'name': 'Blue 30', 'image': 'unknown', 'description': 'xyz'},
+  {'name': '432 Park Avenue', 'image': 'empire-feature2', 'description': 'xyz'},
+  {'name': 'Central Park', 'image': 'empire-feature3', 'description': 'xyz'},
+  {'name': 'Bank of America Building', 'image': 'empire-feature4', 'description': 'xyz'},
  
 ];
 
