@@ -19,7 +19,19 @@ const IMAGES = [
 	{'name': '8 Spruce Street', 'image': 'empire-feature11', 'description': 'xyz'},
 	{'name': 'Met Life Tower', 'image': 'empire-feature51', 'description': 'xyz'},
 	{'name': 'Statue of Liberty', 'image': 'empire-feature-liberty', 'description': 'xyz'},
-  {'name': 'Ellis Island', 'image': 'empire-feature-ellis', 'description': 'xyz'},									
+	{'name': 'Ellis Island', 'image': 'empire-feature-ellis', 'description': 'xyz'},	{'name': 'United Nations Headquarters', 'image': 'empire-feature-un', 'description': 'xyz'},
+	{'name': 'H-I-J-K-L', 'image': 'empire-feature-hijkl', 'description': 'xyz'},
+	{'name': '4 Times Square', 'image': 'empire-feature21', 'description': 'xyz'},
+	{'name': 'New York Times Building', 'image': 'empire-feature7', 'description': 'xyz'},
+	{'name': 'Brooklyn', 'image': 'empire-feature-brooklyn', 'description': 'xyz'},
+	{'name': 'Goldman Sachs Tower', 'image': 'empire-feature-goldman-sachs', 'description': 'xyz'},
+	{'name': 'Staten Island', 'image': 'empire-feature-staten-island', 'description': 'xyz'},
+	{'name': 'New Jersey', 'image': 'empire-feature-new-jersey', 'description': 'xyz'},
+	{'name': 'Hudson River', 'image': 'empire-feature-hudson', 'description': 'xyz'},
+	{'name': '10 Hudson Yards', 'image': 'empire-feature14', 'description': 'xyz'},
+	{'name': 'One Penn Plaza', 'image': 'empire-feature31', 'description': 'xyz'},
+	{'name': 'Madison Square Garden', 'image': 'empire-feature-msg', 'description': 'xyz'},
+	{'name': 'Brooklyn Bridge', 'image': 'empire-feature-brooklyn-bridge', 'description': 'xyz'},								
  
 ];
 
