@@ -2,14 +2,14 @@
     <div class="flex-item">
 		<carousel [interval]="false">
 		  <slide *ngFor="let trampPicture of trampPictures">
-				<figure>
+			<figure>
 				<a href="{{link}}photos/{{trampPicture.image}}">
 					<img src="{{link}}photos/{{trampPicture.image}}" alt="{{trampPicture.alt}}" class="img-responsive secondary-carousel">
 				</a>
-			<figcaption>
-			  <h3>{{trampPicture.title}}</h3>
-			  <p>{{trampPicture.description}}</p>   
-			</figcaption>
+				<figcaption>
+				  <h3>{{trampPicture.title}}</h3>
+				  <p>{{trampPicture.description}}</p>   
+				</figcaption>
 			</figure>
 		  </slide>
 		</carousel>
