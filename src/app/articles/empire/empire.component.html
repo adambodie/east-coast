@@ -67,8 +67,7 @@
 		<h4>{{date}}</h4>
 		<p>The main prize, of course, was the main observation deck on the 86th floor.  Worthy of the price, the 86th Floor provided 360 degree views of New York City, with an outside deck for glare-less views.  Not even the Sears Tower had that.  The views were magnificent, unbelievable and heavenly, all rolled in one.  I must have walked around the deck at least twice, taking every picture of every view I could.  I could have spent hours there, but obviously, we had other things to do.  It was a little windy, so I was slightly nervous of losing my phone, but thankfully, rails covered the deck, with enough gap to sneak my iPhone in to take uninteruppted pictures.  Jenn and Neal stayed inside as Jenn didn't like being so high outside.  She found it better than being at the Space Needle, which I persumed was because the Space Needle rotates.  That would make someone sick, but with the Empire State Building over twice as tall, I was surprised Jenn didn't find it too tall.  Still, she stayed inside.</p>
 		<p>There is so many skyscrapers to see.  It amazes me that in any other state, a tower of 600 feet would be the dominating building in most states, but in New York City, only ranks 113th (as of June 2017).  Towers like 4 Times Square, the MetLife Building, and more stand out in the views, but are overshadowed by towers much much taller than them.  That's the amazing thing about New York City.  The tallest building to the north, the 432 Park Avenue, looks like an eyesore considering to the amazing architecture of classics like the Chrysler Building or 30 Rockefeller Center, but because it's much taller, it stands out even more.</p>
-		<p>Finally, I had to force myself to leave.  We had a show to go to.  As we headed back down the elevator, we stopped for souvenirs.  I found a shirt I really liked and got it.  Dad got his Father's Day gift here, a shirt and a hat.  We know how to spoil our Dad.  Finally, another 80 floor drop took us to the lobby.  A trip to Greenwich Village awaited to see a Ventriloquist and the World's Stupidest Dummy posing as a President.  An Uber ride, with the Taxis ignoring us, was all that stood between the Empire State Building and the Duplex.</p>
-	  </div>	  
+	</div>	  
   </div>
   <div class="flex-container">
 	  <div class="flex-item">
@@ -88,7 +87,30 @@
 		<div class="flex-item">
 			<h1>New York Features</h1>
 		</div> 
-  </div>       
+  </div>
+  <div class="flex-container">
+	  <div class="flex-item">
+		<h1>Goodbye Empire State Building</h1>
+		<h4>{{date}}</h4>
+		<p>Finally, I had to force myself to leave.  We had a show to go to.  As we headed back down the elevator, we stopped for souvenirs.  I found a shirt I really liked and got it.  Dad got his Father's Day gift here, a shirt and a hat.  We know how to spoil our Dad.  Finally, another 80 floor drop took us to the lobby.  A trip to Greenwich Village awaited to see a Ventriloquist and the World's Stupidest Dummy posing as a President.  An Uber ride, with the Taxis ignoring us, was all that stood between the Empire State Building and the Duplex.</p>
+
+		</div>
+		<div class="flex-item">
+		<carousel [interval]="false">
+		  <slide *ngFor="let midtownPicture of midtownPictures">
+				<figure>
+				<a href="{{link}}photos/{{midtownPicture.image}}">
+					<img src="{{link}}photos/{{midtownPicture.image}}" alt="{{midtownPicture.alt}}" class="img-responsive secondary-carousel">
+				</a>
+			<figcaption>
+			  <h3>{{midtownPicture.title}}</h3>
+			  <p>{{midtownPicture.description}}</p>   
+			</figcaption>
+			</figure>
+		  </slide>
+		</carousel>
+		</div> 
+  </div>           
 <div class="flex-container">
 	<div class="flex-item"><button class="btn btn-primary" routerLink="/five/welcome-nyc">Previous</button></div>
 	<div class="flex-item"><button class="btn btn-primary" routerLink="/five/tramp">Next</button></div>

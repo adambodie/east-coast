@@ -45,6 +45,7 @@ export class EmpireComponent implements OnInit {
 
 	empire80Pictures: Picture[];
 	empire86Pictures: Picture[];
+	midtownPictures: Picture[];
 	date = "June 21, 2017";
 	link = "https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/"; 
 	       
@@ -59,7 +60,8 @@ export class EmpireComponent implements OnInit {
 
 	getPictures(): void {
 		this.pictureService.getEmpire80Pictures().then(pictures => this.empire80Pictures = pictures);	
-		this.pictureService.getEmpire86Pictures().then(pictures => this.empire86Pictures = pictures);			
+		this.pictureService.getEmpire86Pictures().then(pictures => this.empire86Pictures = pictures);
+		this.pictureService.getMidtownPictures().then(pictures => this.midtownPictures = pictures);					
 	}
 
    ngOnInit(): void {

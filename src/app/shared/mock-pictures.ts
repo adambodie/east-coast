@@ -838,29 +838,65 @@ export const EMPIRE86PICTURES: Picture[] = [
     {id: 59, image: 'empire100.jpg', alt: 'Inside the Empire State Building', title: 'Inside the Empire State Building'}              
 ]
 
-export const TRAMPPICTURES: Picture[] = [
-    {id: 1, image: 'tramp1.jpg', alt: '', title: ''},
-    {id: 2, image: 'tramp2.jpg', alt: '', title: ''},
-    {id: 3, image: 'tramp3.jpg', alt: '', title: ''},
-    {id: 4, image: 'tramp4.jpg', alt: '', title: ''},
-    {id: 5, image: 'tramp5.jpg', alt: '', title: ''},
-    {id: 6, image: 'tramp6.jpg', alt: '', title: ''},
-    {id: 7, image: 'tramp7.jpg', alt: '', title: ''},
-    {id: 8, image: 'tramp8.jpg', alt: '', title: ''},
-    {id: 9, image: 'tramp9.jpg', alt: '', title: ''},
-    {id: 10, image: 'tramp10.jpg', alt: '', title: ''},
-    {id: 11, image: 'tramp11.jpg', alt: '', title: ''},
-    {id: 12, image: 'tramp12.jpg', alt: '', title: ''},  
-    {id: 13, image: 'tramp13.jpg', alt: '', title: ''},
-    {id: 14, image: 'tramp14.jpg', alt: '', title: ''},
-    {id: 15, image: 'tramp15.jpg', alt: '', title: ''},
-	{id: 16, image: 'tramp16.jpg', alt: '', title: ''},
-    {id: 17, image: 'tramp17.jpg', alt: '', title: ''},
-    {id: 18, image: 'tramp18.jpg', alt: '', title: ''},
-    {id: 19, image: 'tramp19.jpg', alt: '', title: ''},
-    {id: 20, image: 'tramp20.jpg', alt: '', title: ''},
-    {id: 21, image: 'tramp21.jpg', alt: '', title: ''},
-    {id: 22, image: 'tramp22.jpg', alt: '', title: ''},               
+export const MIDTOWNPICTURES: Picture[] = [
+    {id: 1, image: 'midtown1.jpg', alt: 'Midtown', title: 'Midtown'},
+    {id: 2, image: 'midtown2.jpg', alt: 'Midtown', title: 'Midtown'},
+    {id: 3, image: 'midtown3.jpg', alt: 'Midtown', title: 'Midtown'},
+    {id: 4, image: 'midtown4.jpg', alt: 'Adam and Jenn', title: 'Adam and Jenn'},
+    {id: 5, image: 'midtown5.jpg', alt: 'Empire State Building', title: 'Empire State Building'},
+    {id: 6, image: 'midtown6.jpg', alt: 'Adam, Jenn and Neal', title: 'Adam, Jenn and Neal'},
+    {id: 7, image: 'midtown7.jpg', alt: 'Taxi', title: 'Taxi'},
+    {id: 8, image: 'midtown8.jpg', alt: 'Midtown', title: 'Midtown'},
+    {id: 9, image: 'midtown9.jpg', alt: 'Midtown', title: 'Midtown'},
+    {id: 10, image: 'midtown10.jpg', alt: 'Midtown', title: 'Midtown'},
+    {id: 11, image: 'midtown11.jpg', alt: 'Midtown', title: 'Midtown'},
+    {id: 12, image: 'midtown12.jpg', alt: 'Midtown', title: 'Midtown'},
+    {id: 13, image: 'midtown13.jpg', alt: 'Midtown', title: 'Midtown'},
+    {id: 14, image: 'midtown14.jpg', alt: 'Stuck Behind Taxis', title: 'Stuck Behind Taxis'},
+    {id: 15, image: 'midtown15.jpg', alt: 'One World Trade Center', title: 'One World Trade Center'},
+	{id: 16, image: 'midtown16.jpg', alt: 'Traffic', title: 'Traffic'},
+    {id: 17, image: 'midtown17.jpg', alt: 'Stonewall', title: 'Stonewall'}
 ]
+
+
+export const TRAMPPICTURES: Picture[] = [
+    {id: 1, image: 'tramp1.jpg', alt: 'Duplex', title: 'Duplex'},
+    {id: 2, image: 'tramp2.jpg', alt: 'April', title: 'April'},
+    {id: 3, image: 'tramp3.jpg', alt: 'The Lady', title: 'The Lady'},
+    {id: 4, image: 'tramp4.jpg', alt: 'And President Tramp', title: 'And President Tramp'},
+    {id: 5, image: 'tramp5.jpg', alt: 'Donald Tramp\'s Stupid', title: 'Donald Tramp\'s Stupid'},
+    {id: 6, image: 'tramp6.jpg', alt: 'Orange is the New Black', title: 'Orange is the New Black'},
+    {id: 7, image: 'tramp7.jpg', alt: 'Kellyanne Oneway', title: 'Kellyanne Oneway', description: 'Stupid as a bitch'},
+    {id: 8, image: 'tramp8.jpg', alt: 'Tramp and Mike Dispence', title: 'Tramp and Mike Dispence'},
+    {id: 9, image: 'tramp9.jpg', alt: 'Mike Dispence is Stupid Too', title: 'Mike Dispence is Stupid too'},
+    {id: 10, image: 'tramp10.jpg', alt: 'Waiting for Vlad?', title: 'Waiting for Vlad?'},
+    {id: 11, image: 'tramp11.jpg', alt: 'New Outfit, Same Idiot', title: 'New Outfit, Same Idiot'},
+    {id: 12, image: 'tramp12.jpg', alt: 'I hear a phone ringing', title: 'I hear a phone ringing'},  
+    {id: 13, image: 'tramp13.jpg', alt: 'It\'s Vlad', title: 'It\'s Vlad', description: 'Putin on the Ritz'},
+    {id: 14, image: 'tramp14.jpg', alt: 'Mexican President Don Juan De Casanova De Gorgita', title: 'Mexican President Don Juan De Casanova De Gorgita'},
+    {id: 15, image: 'tramp15.jpg', alt: 'Two thumbs Up!', title: 'Two thumbs Up!', description: 'With bigger hands!'},
+	{id: 16, image: 'tramp16.jpg', alt: 'Tramp and Oneway', title: 'Tramp and Oneway'},
+    {id: 17, image: 'tramp17.jpg', alt: 'Basket of Deplorables', title: 'Basket of Deplorables', description: 'Deplorables are specifically described as people with racist, hateful, bigoted attitudes'},
+    {id: 18, image: 'tramp18.jpg', alt: 'Crazy Women', title: 'Crazy Women'},
+    {id: 19, image: 'tramp19.jpg', alt: 'Hillary Clifton in Hiding', title: 'Hillary Clifton in Hiding'},
+    {id: 20, image: 'tramp20.jpg', alt: 'Neal\'s on Fire', title: 'Neal\'s on Fire'},
+    {id: 21, image: 'tramp21.jpg', alt: 'Greenwich Village', title: 'Greenwich Village'},
+    {id: 22, image: 'tramp22.jpg', alt: 'Greenwich Village', title: 'Greenwich Village'},               
+]
+
+export const ITALYPICTURES: Picture[] = [
+    {id: 1, image: 'italy1.jpg', alt: 'Driving through New York', title: 'Driving through New York'},
+    {id: 2, image: 'italy2.jpg', alt: 'Neal', title: 'Neal'},
+    {id: 3, image: 'italy3.jpg', alt: 'Driving through New York', title: 'Driving through New York'},
+    {id: 4, image: 'italy4.jpg', alt: 'Spring Street', title: 'Spring Street'},
+    {id: 5, image: 'italy5.jpg', alt: 'Driving through New York', title: 'Driving through New York'},
+    {id: 6, image: 'italy6.jpg', alt: 'Welcome to Little Italy', title: 'Welcome to Little Italy'},
+    {id: 7, image: 'italy7.jpg', alt: 'Grotta Azzurra', title: 'Grotta Azzurra'},
+    {id: 8, image: 'italy8.jpg', alt: 'Grotta Azzurra', title: 'Grotta Azzurra'},
+    {id: 9, image: 'italy9.jpg', alt: 'Silly Neal', title: 'Silly Neal'},
+    {id: 10, image: 'italy10.jpg', alt: 'Nice Shirt', title: 'Nice Shirt'},
+    {id: 11, image: 'italy11.jpg', alt: 'Spaghetti with Meatballs', title: 'Spaghetti with Meatballs'},           
+]
+
 
 /*    {id: , image: '.jpg', alt: '', title: ''}, */
