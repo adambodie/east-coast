@@ -39,7 +39,9 @@ import {
 		EMPIRE86PICTURES,
 		MIDTOWNPICTURES,
 		TRAMPPICTURES,
-		ITALYPICTURES 
+		ITALYPICTURES,
+		LESPICTURES,
+		CANDYPICTURES 
 		} from './mock-pictures';
 
 
@@ -159,5 +161,11 @@ export class PictureService {
     }
     getItalyPictures(): Promise<Picture[]>{
         return Promise.resolve(ITALYPICTURES);
-    }                                                                                                     
+    }    
+    getLesPictures(): Promise<Picture[]>{
+        return Promise.resolve(LESPICTURES);
+    }
+    getCandyPictures(): Promise<Picture[]>{
+        return Promise.resolve(CANDYPICTURES);
+    }                                                                                                         
 }

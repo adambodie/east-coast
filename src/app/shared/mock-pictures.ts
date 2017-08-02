@@ -898,5 +898,50 @@ export const ITALYPICTURES: Picture[] = [
     {id: 11, image: 'italy11.jpg', alt: 'Spaghetti with Meatballs', title: 'Spaghetti with Meatballs'},           
 ]
 
+export const LESPICTURES: Picture[] = [
+    {id: 1, image: 'les1.jpg', alt: 'Lower East Side', title: 'Lower East Side'},
+    {id: 2, image: 'les2.jpg', alt: 'Sara Roosevelt Park Basketball Court', title: 'Sara Roosevelt Park Basketball Court'},
+    {id: 3, image: 'les3.jpg', alt: 'Sara Roosevelt Park Basketball Court', title: 'Sara Roosevelt Park Basketball Court'},
+    {id: 4, image: 'les4.jpg', alt: 'Lower East Side', title: 'Lower East Side'},
+    {id: 5, image: 'les5.jpg', alt: 'Lower East Side', title: 'Lower East Side'},
+    {id: 6, image: 'les6.jpg', alt: 'Lower East Side', title: 'Lower East Side'},
+    {id: 7, image: 'les7.jpg', alt: 'Lower East Side', title: 'Lower East Side'},
+    {id: 8, image: 'les8.jpg', alt: 'Empire State Building ahead', title: 'Empire State Building ahead'},
+    {id: 9, image: 'les9.jpg', alt: 'think coffee', title: 'think coffee'},
+    {id: 10, image: 'les10.jpg', alt: 'Espresso', title: 'Espresso'},
+    {id: 11, image: 'les11.jpg', alt: 'Joey Ramone', title: 'Joey Ramone'},
+    {id: 12, image: 'les12.jpg', alt: 'Lower East Side', title: 'Lower East Side'},  
+    {id: 13, image: 'les13.jpg', alt: 'One World Trade Center', title: 'One World Trade Center'},
+    {id: 14, image: 'les14.jpg', alt: 'Lower East Side', title: 'Lower East Side'},
+    {id: 15, image: 'les15.jpg', alt: 'Chabad', title: 'Chabad'},
+	{id: 16, image: 'les16.jpg', alt: 'Painting', title: 'Painting'},
+    {id: 17, image: 'les17.jpg', alt: 'Konditori', title: 'Konditori'},
+    {id: 18, image: 'les18.jpg', alt: 'Konditori', title: 'Konditori'},
+    {id: 19, image: 'les19.jpg', alt: 'Lower East Side', title: 'Lower East Side'},
+    {id: 20, image: 'les20.jpg', alt: 'Andrew Kahn', title: 'Andrew Kahn'},
+    {id: 21, image: 'les21.jpg', alt: 'Mmm...Donuts', title: 'Mmmm...Donuts'},
+    {id: 22, image: 'les22.jpg', alt: 'Lower East Side', title: 'Lower East Side'},
+    {id: 23, image: 'les23.jpg', alt: 'Lower East Side', title: 'Lower East Side'},
+    {id: 24, image: 'les24.jpg', alt: 'Lower East Side', title: 'Lower East Side'},
+    {id: 25, image: 'les25.jpg', alt: 'Lower East Side', title: 'Lower East Side'}                 
+]
+
+export const CANDYPICTURES: Picture[] = [
+    {id: 1, image: 'candy1.jpg', alt: 'Economy Candy', title: 'Economy Candy'},
+    {id: 2, image: 'candy2.jpg', alt: 'Look at all that Candy!', title: 'Look at all that Candy!'},
+    {id: 3, image: 'candy3.jpg', alt: 'Chocolate Balls', title: 'Chocolate Balls'},
+    {id: 4, image: 'candy4.jpg', alt: 'Wasabi Candy and Bacon Mints', title: 'Wasabi Candy and Bacon Mints'},
+    {id: 5, image: 'candy5.jpg', alt: 'Whatchamacallit', title: 'Whatchamacallit'},
+    {id: 6, image: 'candy6.jpg', alt: 'Choco Stars', title: 'Choco Stars'},
+    {id: 7, image: 'candy7.jpg', alt: 'Hot Dog and Pizza Candy', title: 'Hot Dog and Pizza Candy'},
+    {id: 8, image: 'candy8.jpg', alt: 'Boxes of Candy', title: 'Boxes of Candy'},
+    {id: 9, image: 'candy9.jpg', alt: 'Mallo Cups and Mary Jane', title: 'Mallo Cups and Mary Jane'},
+    {id: 10, image: 'candy10.jpg', alt: 'Turkish Taffy', title: 'Turkish Taffy'},
+    {id: 11, image: 'candy11.jpg', alt: 'Candy Candy Candy', title: 'Candy Candy Candy'},
+    {id: 12, image: 'candy12.jpg', alt: 'More Candy Candy', title: 'More Candy Candy'}, 
+    {id: 13, image: 'candy13.jpg', alt: 'Medicinal Candy', title: 'Medicinal Candy'},
+    {id: 14, image: 'candy14.jpg', alt: 'Fancy Candy', title: 'Fancy Candy'},
+              
+]
 
 /*    {id: , image: '.jpg', alt: '', title: ''}, */

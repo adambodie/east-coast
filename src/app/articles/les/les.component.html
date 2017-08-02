@@ -1,0 +1,61 @@
+<div class="flex-container">
+	<div class="flex-item">
+		<h1>A stroll through the Lower East Side</h1>
+		<h4>{{date}}</h4>
+		<p>After another late night, Jenn and Neal were wiped out and slept in late.  Me, not so much.  So instead of staying couped up in the room, I walked around the Lower East Side, the neighborhood which we were in.  Not the most exciting of New York places, but with plenty of ordinary excitement Portland could never offer.  After all, next to our hotel was a basketball park with a local tournament happening.  Only New York, where it seems everything started, could have such a place.  I made my way to a coffee shop to enjoy a nice Espresso.  I needed the kick, to say the least.  I did return to the hotel for a little bit, mainly to charge my phone battery.  Afterwards, I had another mission to go on, a candy run...</p>
+	</div>
+	<div class="flex-item">
+		<carousel [interval]="false">
+		  <slide *ngFor="let lesPicture of lesPictures">
+				<figure>
+				<a href="{{link}}photos/{{lesPicture.image}}">
+					<img src="{{link}}photos/{{lesPicture.image}}" alt="{{lesPicture.alt}}" class="img-responsive secondary-carousel">
+				</a>
+			<figcaption>
+			  <h3>{{lesPicture.title}}</h3>
+			  <p>{{lesPicture.description}}</p>   
+			</figcaption>
+			</figure>
+		  </slide>
+		</carousel>
+	</div>
+</div>
+<div class="flex-container">
+		<div class="flex-item">
+			<a href="http://nama.bodiewebdesign.com">
+				<img src="assets/nama.jpg" alt="Nama" class="img-responsive"/>
+			</a>
+		</div>
+</div>
+<div class="flex-container">
+	<div class="flex-item">
+		<carousel [interval]="false">
+		  <slide *ngFor="let candyPicture of candyPictures">
+				<figure>
+				<a href="{{link}}photos/{{candyPicture.image}}">
+					<img src="{{link}}photos/{{candyPicture.image}}" alt="{{candyPicture.alt}}" class="img-responsive secondary-carousel">
+				</a>
+			<figcaption>
+			  <h3>{{candyPicture.title}}</h3>
+			  <p>{{candyPicture.description}}</p>   
+			</figcaption>
+			</figure>
+		  </slide>
+		</carousel>
+	</div>
+	<div class="flex-item">
+		<h1>Candy Run</h1>
+		<h4>{{date}}</h4>
+		<p>Nothing makes a sweet trip more sweet than a bunch of candy.  So I sought out a candy shop.  My internet research led me to the nearby Economy Candy, open since 1937.  Inside was nothing but candy, candy and candy.  Candy everywhere.  Fun candy, rich candy, silly candy, weird candy.  All the candy anyone could want.</p>
+		<p>I went to the candy shop looking for candy to share with my work peeps.  I couldn't top the candy I had from my co-worker's trip to Japan in May, but candy is candy.  It's the thought that counts.  Plus they had Green Tea flavored Kit-Kats at Economy Candy as well.  I guess it's not solely a Japanese thing.  I was close to finding the perfect candy for my team.  They had Basketball, Soccer and Football wrapped chocolates.  If they only had beach-ball themed chocolates, I would have been immediately sold.  But the perfect candy was not in the bags.</p>
+		<p>After an exhausting search, I settled for a mixed bag of candies, three for $10.00.  Perfect for my co-workers, and plenty for everyone.  ***Flash forward to the future*** I got the right amount!  As for me, I needed some candy for myself.  I ended up getting the following candies: Bacon Candy, Whatchamacallit (which I haven't seen since I was little), a Mallo Cup, Mary Jane (not the weed kind), and Tabasco Brand Chocolates.  It worked out perfectly, and with my big bag of candy, I headed back to the hotel.  It was time to see the Statue of Liberty.</p>
+	</div>	
+</div>
+
+<div class="flex-container">
+	<div class="flex-item"><button class="btn btn-primary" routerLink="/five/tramp">Previous</button></div>
+	<div class="flex-item"><button class="btn btn-primary" routerLink="/six/wtc">Next</button></div>
+</div>
+<router-outlet></router-outlet>	
+
+
