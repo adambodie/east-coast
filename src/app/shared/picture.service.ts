@@ -41,7 +41,8 @@ import {
 		TRAMPPICTURES,
 		ITALYPICTURES,
 		LESPICTURES,
-		CANDYPICTURES 
+		CANDYPICTURES,
+		WTCPICTURES 
 		} from './mock-pictures';
 
 
@@ -167,5 +168,8 @@ export class PictureService {
     }
     getCandyPictures(): Promise<Picture[]>{
         return Promise.resolve(CANDYPICTURES);
-    }                                                                                                         
+    }
+    getWtcPictures(): Promise<Picture[]>{
+        return Promise.resolve(WTCPICTURES);
+    }                                                                                                              
 }

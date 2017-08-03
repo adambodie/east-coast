@@ -944,4 +944,54 @@ export const CANDYPICTURES: Picture[] = [
               
 ]
 
+
+export const WTCPICTURES: Picture[] = [
+    {id: 1, image: 'wtc1.jpg', alt: '', title: ''},
+    {id: 2, image: 'wtc2.jpg', alt: '', title: ''},
+    {id: 3, image: 'wtc3.jpg', alt: '', title: ''},
+    {id: 4, image: 'wtc4.jpg', alt: '', title: ''},
+    {id: 5, image: 'wtc5.jpg', alt: '', title: ''},
+    {id: 6, image: 'wtc6.jpg', alt: '', title: ''},
+    {id: 7, image: 'wtc7.jpg', alt: '', title: ''},
+    {id: 8, image: 'wtc8.jpg', alt: '', title: ''},
+    {id: 9, image: 'wtc9.jpg', alt: '', title: ''},
+    {id: 10, image: 'wtc10.jpg', alt: '', title: ''},
+    {id: 11, image: 'wtc11.jpg', alt: '', title: ''},
+    {id: 12, image: 'wtc12.jpg', alt: '', title: ''},
+    {id: 13, image: 'wtc13.jpg', alt: '', title: ''},
+    {id: 14, image: 'wtc14.jpg', alt: '', title: ''},
+    {id: 15, image: 'wtc15.jpg', alt: '', title: ''},
+    {id: 16, image: 'wtc16.jpg', alt: '', title: ''},
+    {id: 17, image: 'wtc17.jpg', alt: '', title: ''},
+    {id: 18, image: 'wtc18.jpg', alt: '', title: ''},
+    {id: 19, image: 'wtc19.jpg', alt: '', title: ''},
+    {id: 20, image: 'wtc20.jpg', alt: '', title: ''},
+    {id: 21, image: 'wtc21.jpg', alt: '', title: ''},
+    {id: 22, image: 'wtc22.jpg', alt: '', title: ''},
+    {id: 23, image: 'wtc23.jpg', alt: '', title: ''},
+    {id: 24, image: 'wtc24.jpg', alt: '', title: ''},
+    {id: 25, image: 'wtc25.jpg', alt: '', title: ''},
+    {id: 26, image: 'wtc26.jpg', alt: '', title: ''},
+    {id: 27, image: 'wtc27.jpg', alt: '', title: ''},
+    {id: 28, image: 'wtc28.jpg', alt: '', title: ''},
+    {id: 29, image: 'wtc29.jpg', alt: '', title: ''},
+    {id: 30, image: 'wtc30.jpg', alt: '', title: ''},
+    {id: 31, image: 'wtc31.jpg', alt: '', title: ''},
+    {id: 32, image: 'wtc32.jpg', alt: '', title: ''},
+    {id: 33, image: 'wtc33.jpg', alt: '', title: ''},
+    {id: 34, image: 'wtc34.jpg', alt: '', title: ''},
+    {id: 35, image: 'wtc35.jpg', alt: '', title: ''},
+    {id: 36, image: 'wtc36.jpg', alt: '', title: ''},
+    {id: 37, image: 'wtc37.jpg', alt: '', title: ''},
+    {id: 38, image: 'wtc38.jpg', alt: '', title: ''},
+    {id: 39, image: 'wtc39.jpg', alt: '', title: ''},
+    {id: 40, image: 'wtc40.jpg', alt: '', title: ''},
+    {id: 41, image: 'wtc41.jpg', alt: '', title: ''},
+    {id: 42, image: 'wtc42.jpg', alt: '', title: ''},
+    {id: 43, image: 'wtc43.jpg', alt: '', title: ''},
+    {id: 44, image: 'wtc44.jpg', alt: '', title: ''},
+    {id: 45, image: 'wtc45.jpg', alt: '', title: ''}
+]
+
+
 /*    {id: , image: '.jpg', alt: '', title: ''}, */

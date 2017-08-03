@@ -21,3 +21,4 @@ export * from '../articles/welcome-nyc/welcome-nyc.component';
 export * from '../articles/empire/empire.component';
 export * from '../articles/tramp/tramp.component';
 export * from '../articles/les/les.component';
+export * from '../articles/wtc/wtc.component';

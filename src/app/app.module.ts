@@ -32,7 +32,8 @@ import { IntroComponent,
 		EmpireComponent,
 		TrampComponent,
 		DaySixComponent,
-		LesComponent			
+		LesComponent,
+		WtcComponent			
 		} from './articles';
 import { OutroComponent } from './articles/outro/outro.component';
 
@@ -66,7 +67,8 @@ import { OutroComponent } from './articles/outro/outro.component';
     WelcomeNycComponent,
     EmpireComponent,
     TrampComponent,
-	LesComponent
+	LesComponent,
+	WtcComponent
   ],
   imports: [
     BrowserModule,
@@ -101,7 +103,8 @@ import { OutroComponent } from './articles/outro/outro.component';
         {	path: 'five/empire', component: EmpireComponent },
         {	path: 'five/tramp', component: TrampComponent },                         
         {   path: 'six', component: DaySixComponent  },
-        {   path: 'six/les', component: LesComponent  },        
+        {   path: 'six/les', component: LesComponent  },  
+        {   path: 'six/wtc', component: WtcComponent  },        
         {   path: 'outro', component: OutroComponent  },                                                 
 ])
   ],

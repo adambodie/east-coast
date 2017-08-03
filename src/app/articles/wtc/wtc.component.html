@@ -1,0 +1,22 @@
+<div class="flex-container">
+    <div class="flex-item">
+		<carousel [interval]="false">
+		  <slide *ngFor="let wtcPicture of wtcPictures">
+				<figure>
+				<a href="{{link}}photos/{{wtcPicture.image}}">
+					<img src="{{link}}photos/{{wtcPicture.image}}" alt="{{wtcPicture.alt}}" class="img-responsive primary-carousel">
+				</a>
+			<figcaption>
+			  <h3>{{wtcPicture.title}}</h3>
+			  <p>{{wtcPicture.description}}</p>   
+			</figcaption>
+			</figure>
+		  </slide>
+		</carousel>
+    </div>
+  </div>
+<div class="flex-container">
+	<div class="flex-item"><button class="btn btn-primary" routerLink="/five/tramp">Previous</button></div>
+	<div class="flex-item"><button class="btn btn-primary" routerLink="/six/wtc">Next</button></div>
+</div>
+<router-outlet></router-outlet>	
