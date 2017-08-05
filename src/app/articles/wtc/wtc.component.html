@@ -39,9 +39,29 @@
 				<img src="assets/art-showcase.jpg" alt="Adam's Art Showcase" class="img-responsive"/>
 			</a>
 		</div>
-	</div>	
+	</div>
 <div class="flex-container">
-	<div class="flex-item"><button class="btn btn-primary" routerLink="/five/les">Previous</button></div>
+    <div class="flex-item">
+		<carousel [interval]="false">
+		  <slide *ngFor="let goToBatteryPicture of goToBatteryPictures">
+				<figure>
+				<a href="{{link}}photos/{{goToBatteryPicture.image}}">
+					<img src="{{link}}photos/{{goToBatteryPicture.image}}" alt="{{goToBatteryPicture.alt}}" class="img-responsive secondary-carousel">
+				</a>
+			<figcaption>
+			  <h3>{{goToBatteryPicture.title}}</h3>
+			  <p>{{goToBatteryPicture.description}}</p>   
+			</figcaption>
+			</figure>
+		  </slide>
+		</carousel>
+    </div>
+    <div class="flex-item">
+		<h1>Text</h1>
+    </div>
+  </div>		
+<div class="flex-container">
+	<div class="flex-item"><button class="btn btn-primary" routerLink="/six/les">Previous</button></div>
 	<div class="flex-item"><button class="btn btn-primary" routerLink="/six/liberty">Next</button></div>
 </div>
 <router-outlet></router-outlet>	

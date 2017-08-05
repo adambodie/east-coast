@@ -42,7 +42,16 @@ import {
 		ITALYPICTURES,
 		LESPICTURES,
 		CANDYPICTURES,
-		WTCPICTURES 
+		WTCPICTURES,
+		GOTOBATTERYPICTURES,
+		BATTERYPICTURES,
+		LIBERTYPICTURES,
+		SKYLINEPICTURES,
+		ELLISPICTURES,
+		AFTERNOONPICTURES,
+		NIGHTPICTURES,
+		JOHNSPICTURES,
+		TIMESPICTURES 
 		} from './mock-pictures';
 
 
@@ -171,5 +180,32 @@ export class PictureService {
     }
     getWtcPictures(): Promise<Picture[]>{
         return Promise.resolve(WTCPICTURES);
-    }                                                                                                              
+    }
+    getGoToBatteryPictures(): Promise<Picture[]>{
+        return Promise.resolve(GOTOBATTERYPICTURES);
+    }
+    getBatteryPictures(): Promise<Picture[]>{
+        return Promise.resolve(BATTERYPICTURES);
+    }
+    getLibertyPictures(): Promise<Picture[]>{
+        return Promise.resolve(LIBERTYPICTURES);
+    }
+    getSkylinePictures(): Promise<Picture[]>{
+        return Promise.resolve(SKYLINEPICTURES);
+    }
+    getEllisPictures(): Promise<Picture[]>{
+        return Promise.resolve(ELLISPICTURES);
+    }
+    getAfternoonPictures(): Promise<Picture[]>{
+        return Promise.resolve(AFTERNOONPICTURES);
+    }
+    getNightPictures(): Promise<Picture[]>{
+        return Promise.resolve(NIGHTPICTURES);
+    }
+    getJohnsPictures(): Promise<Picture[]>{
+        return Promise.resolve(JOHNSPICTURES);
+    }
+    getTimesPictures(): Promise<Picture[]>{
+        return Promise.resolve(TIMESPICTURES);
+    }                                                                                                                                           
 }

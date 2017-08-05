@@ -994,4 +994,54 @@ export const WTCPICTURES: Picture[] = [
 ]
 
 
+export const GOTOBATTERYPICTURES: Picture[] = [
+    {id: 1, image: 'battery1.jpg', alt: '', title: ''},
+    {id: 2, image: 'battery2.jpg', alt: '', title: ''},
+    {id: 3, image: 'battery3.jpg', alt: 'One World Trade Center', title: 'One World Trade Center'},
+    {id: 4, image: 'battery4.jpg', alt: 'One World Trade Center', title: 'One World Trade Center'},
+    {id: 5, image: 'battery5.jpg', alt: '', title: ''},
+    {id: 6, image: 'battery6.jpg', alt: 'Rat', title: 'Rat'},
+    {id: 7, image: 'battery8.jpg', alt: '', title: ''},
+    {id: 8, image: 'battery9.jpg', alt: '', title: ''},
+    {id: 9, image: 'battery10.jpg', alt: '', title: ''},
+    {id: 10, image: 'battery11.jpg', alt: '', title: ''},
+    {id: 11, image: 'battery12.jpg', alt: '', title: ''}, 
+    {id: 12, image: 'battery13.jpg', alt: '', title: ''},
+    {id: 13, image: 'battery15.jpg', alt: 'Brooklyn Battery Tunnel', title: 'Brooklyn Battery Tunnel'}
+              
+]
+
+export const BATTERYPICTURES: Picture[] = [
+
+]
+
+export const LIBERTYPICTURES: Picture[] = [
+
+]
+
+export const SKYLINEPICTURES: Picture[] = [
+
+]
+
+export const ELLISPICTURES: Picture[] = [
+
+]
+
+export const AFTERNOONPICTURES: Picture[] = [
+
+]
+
+export const NIGHTPICTURES: Picture[] = [
+
+]
+
+export const JOHNSPICTURES: Picture[] = [
+
+]
+
+export const TIMESPICTURES: Picture[] = [
+
+]
+
+
 /*    {id: , image: '.jpg', alt: '', title: ''}, */

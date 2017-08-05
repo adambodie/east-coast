@@ -33,10 +33,11 @@ import { IntroComponent,
 		TrampComponent,
 		DaySixComponent,
 		LesComponent,
-		WtcComponent			
+		WtcComponent,
+		LibertyComponent,
+		TimesComponent,
+		OutroComponent			
 		} from './articles';
-import { OutroComponent } from './articles/outro/outro.component';
-
 
 @NgModule({
   declarations: [
@@ -68,7 +69,9 @@ import { OutroComponent } from './articles/outro/outro.component';
     EmpireComponent,
     TrampComponent,
 	LesComponent,
-	WtcComponent
+	WtcComponent,
+	LibertyComponent,
+	TimesComponent
   ],
   imports: [
     BrowserModule,
@@ -104,7 +107,9 @@ import { OutroComponent } from './articles/outro/outro.component';
         {	path: 'five/tramp', component: TrampComponent },                         
         {   path: 'six', component: DaySixComponent  },
         {   path: 'six/les', component: LesComponent  },  
-        {   path: 'six/wtc', component: WtcComponent  },        
+        {   path: 'six/wtc', component: WtcComponent  },
+        {   path: 'six/liberty', component: LibertyComponent  },  
+        {   path: 'six/times', component: TimesComponent  },                  
         {   path: 'outro', component: OutroComponent  },                                                 
 ])
   ],
