@@ -118,6 +118,10 @@ ol>li {
 	height: 400px;
 
 }
+
+.new-york-list {
+    text-align: center;
+}
 @media screen and (min-width: 480px) {
     .flex-container {
         display: -webkit-flex;

@@ -39,6 +39,7 @@ import { IntroComponent,
 		OutroComponent			
 		} from './articles';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -71,7 +72,7 @@ import { IntroComponent,
 	LesComponent,
 	WtcComponent,
 	LibertyComponent,
-	TimesComponent
+	TimesComponent,
   ],
   imports: [
     BrowserModule,

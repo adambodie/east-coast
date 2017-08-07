@@ -11,8 +11,8 @@ import { PictureService } from '../../shared/picture.service';
 export class LibertyComponent implements OnInit {
 
 	batteryPictures: Picture[];
+	ferryPictures: Picture[];
 	libertyPictures: Picture[];
-	skylinePictures: Picture[];
 	ellisPictures: Picture[];
 	date = "June 22, 2017";
 	link = "https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/"; 
@@ -20,9 +20,9 @@ export class LibertyComponent implements OnInit {
 	constructor(private pictureService: PictureService) { }
 
 	getPictures(): void {
-		this.pictureService.getBatteryPictures().then(pictures => this.batteryPictures = pictures);	
+		this.pictureService.getBatteryPictures().then(pictures => this.batteryPictures = pictures);
+		this.pictureService.getFerryPictures().then(pictures => this.ferryPictures = pictures);
 		this.pictureService.getLibertyPictures().then(pictures => this.libertyPictures = pictures);	
-		this.pictureService.getSkylinePictures().then(pictures => this.skylinePictures = pictures);	
 		this.pictureService.getEllisPictures().then(pictures => this.ellisPictures = pictures);						
 	}
 

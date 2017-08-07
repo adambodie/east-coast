@@ -34,7 +34,8 @@ import {
 		JERSEYCITYPICTURES,
 		WELCOMENYCPICTURES,
 		KATZPICTURES,
-		GATSBYPICTURES,
+        GATSBYPICTURES,
+        SUBWAYPICTURES,
 		EMPIRE80PICTURES,
 		EMPIRE86PICTURES,
 		MIDTOWNPICTURES,
@@ -44,14 +45,16 @@ import {
 		CANDYPICTURES,
 		WTCPICTURES,
 		GOTOBATTERYPICTURES,
-		BATTERYPICTURES,
+        BATTERYPICTURES,
+        FERRYPICTURES,
 		LIBERTYPICTURES,
-		SKYLINEPICTURES,
 		ELLISPICTURES,
 		AFTERNOONPICTURES,
 		NIGHTPICTURES,
 		JOHNSPICTURES,
-		TIMESPICTURES 
+        TIMESPICTURES,
+        JUNIORPICTURES,
+        OUTROPICTURES 
 		} from './mock-pictures';
 
 
@@ -157,6 +160,9 @@ export class PictureService {
     getGatsbyPictures(): Promise<Picture[]>{
         return Promise.resolve(GATSBYPICTURES);
     }
+    getSubwayPictures(): Promise<Picture[]>{
+        return Promise.resolve(SUBWAYPICTURES);
+    }    
     getEmpire80Pictures(): Promise<Picture[]>{
         return Promise.resolve(EMPIRE80PICTURES);
     }
@@ -187,12 +193,14 @@ export class PictureService {
     getBatteryPictures(): Promise<Picture[]>{
         return Promise.resolve(BATTERYPICTURES);
     }
+    getFerryPictures(): Promise<Picture[]>{
+        return Promise.resolve(FERRYPICTURES);
+    }
+
     getLibertyPictures(): Promise<Picture[]>{
         return Promise.resolve(LIBERTYPICTURES);
     }
-    getSkylinePictures(): Promise<Picture[]>{
-        return Promise.resolve(SKYLINEPICTURES);
-    }
+   
     getEllisPictures(): Promise<Picture[]>{
         return Promise.resolve(ELLISPICTURES);
     }
@@ -207,5 +215,11 @@ export class PictureService {
     }
     getTimesPictures(): Promise<Picture[]>{
         return Promise.resolve(TIMESPICTURES);
-    }                                                                                                                                           
+    }
+    getJuniorPictures(): Promise<Picture[]>{
+        return Promise.resolve(JUNIORPICTURES);
+    }
+    getOutroPictures(): Promise<Picture[]>{
+        return Promise.resolve(OUTROPICTURES);
+    }                                                                                                                                                     
 }

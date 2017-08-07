@@ -43,6 +43,7 @@ const IMAGES = [
 })
 export class EmpireComponent implements OnInit {
 
+	subwayPictures: Picture[];
 	empire80Pictures: Picture[];
 	empire86Pictures: Picture[];
 	midtownPictures: Picture[];
@@ -59,6 +60,7 @@ export class EmpireComponent implements OnInit {
 	}
 
 	getPictures(): void {
+		this.pictureService.getSubwayPictures().then(pictures => this.subwayPictures = pictures);	
 		this.pictureService.getEmpire80Pictures().then(pictures => this.empire80Pictures = pictures);	
 		this.pictureService.getEmpire86Pictures().then(pictures => this.empire86Pictures = pictures);
 		this.pictureService.getMidtownPictures().then(pictures => this.midtownPictures = pictures);					
