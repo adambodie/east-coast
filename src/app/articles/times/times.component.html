@@ -1,3 +1,108 @@
-<p>
-  times works!
-</p>
+<div class="flex-container center">
+	<div class="flex-item">
+		<h1>Title</h1>
+		<h4>{{date}}</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec enim eu lorem faucibus dignissim. Suspendisse potenti. Mauris tincidunt felis urna. Aenean tincidunt placerat libero in pellentesque. Mauris accumsan, lorem vitae ornare blandit, velit diam blandit arcu, sed vulputate tellus odio in velit. Nulla a enim enim. Proin non massa eget sapien pellentesque dapibus id at mauris. Integer varius lacus vulputate turpis rhoncus, a dictum tortor tincidunt. Cras efficitur nec est in congue. Curabitur tristique ex et euismod sollicitudin. Cras ornare augue at diam volutpat ultrices. Suspendisse fringilla pharetra lacus molestie volutpat.</p>
+		<p>Sed eu sem orci. Duis nunc eros, molestie eu bibendum sit amet, sagittis ut tellus. In luctus elementum nunc ut euismod. Praesent fermentum scelerisque volutpat. Quisque vel eleifend orci. Sed volutpat sollicitudin magna eu feugiat. Sed gravida eget ipsum nec ultrices. Integer congue, elit a mollis facilisis, elit odio lacinia nulla, vitae accumsan turpis nibh ac eros.</p>
+		<p>Sed consequat lacus vitae sapien commodo fringilla. Aliquam erat volutpat. Aenean suscipit dignissim eros id feugiat. Vivamus molestie purus sit amet orci aliquam aliquet. Vivamus quis turpis vel felis condimentum porttitor vel et tellus. Duis eget augue ac odio luctus ullamcorper quis vel enim. Pellentesque mollis tellus nec blandit elementum. Sed sed urna eu sem tincidunt volutpat. Integer quis libero massa.</p>
+	</div>	
+    <div class="flex-item">
+		<carousel [interval]="false">
+		  <slide *ngFor="let afternoonPicture of afternoonPictures">
+				<figure>
+				<a href="{{link}}photos/{{afternoonPicture.image}}">
+					<img src="{{link}}photos/{{afternoonPicture.image}}" alt="{{afternoonPicture.alt}}" class="img-responsive secondary-carousel">
+				</a>
+			<figcaption>
+			  <h3>{{afternoonPicture.title}}</h3>
+			  <p>{{afternoonPicture.description}}</p>   
+			</figcaption>
+			</figure>
+		  </slide>
+		</carousel>
+    </div>		
+</div>
+<div class="flex-container">
+	<div class="flex-item">
+		<img src="{{link}}photos/afternoon4.jpg" alt="Jenn's in awe" class="img-responsive">
+	</div>
+	<div class="flex-item">
+		<div class="video">
+			<video controls="controls" poster="{{link}}videos/subway.jpg" style="width:100%" title="Everyone's Safe Subway Dancers">
+				<source src="{{link}}videos/subway.m4v" type="video/m4v" />
+				<source src="{{link}}videos/subway.webm" type="video/webm" />
+				<source src="{{link}}videos/subway.ogv" type="video/ogg" />
+			</video>
+		</div>
+	</div>
+</div>
+<div class="flex-container center">
+	<div class="flex-item">
+		<h1>Title</h1>
+		<h4>{{date}}</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec enim eu lorem faucibus dignissim. Suspendisse potenti. Mauris tincidunt felis urna. Aenean tincidunt placerat libero in pellentesque. Mauris accumsan, lorem vitae ornare blandit, velit diam blandit arcu, sed vulputate tellus odio in velit. Nulla a enim enim. Proin non massa eget sapien pellentesque dapibus id at mauris. Integer varius lacus vulputate turpis rhoncus, a dictum tortor tincidunt. Cras efficitur nec est in congue. Curabitur tristique ex et euismod sollicitudin. Cras ornare augue at diam volutpat ultrices. Suspendisse fringilla pharetra lacus molestie volutpat.</p>
+		<p>Sed eu sem orci. Duis nunc eros, molestie eu bibendum sit amet, sagittis ut tellus. In luctus elementum nunc ut euismod. Praesent fermentum scelerisque volutpat. Quisque vel eleifend orci. Sed volutpat sollicitudin magna eu feugiat. Sed gravida eget ipsum nec ultrices. Integer congue, elit a mollis facilisis, elit odio lacinia nulla, vitae accumsan turpis nibh ac eros.</p>
+		<p>Sed consequat lacus vitae sapien commodo fringilla. Aliquam erat volutpat. Aenean suscipit dignissim eros id feugiat. Vivamus molestie purus sit amet orci aliquam aliquet. Vivamus quis turpis vel felis condimentum porttitor vel et tellus. Duis eget augue ac odio luctus ullamcorper quis vel enim. Pellentesque mollis tellus nec blandit elementum. Sed sed urna eu sem tincidunt volutpat. Integer quis libero massa.</p>
+	</div>	
+    <div class="flex-item">
+		<carousel [interval]="false">
+		  <slide *ngFor="let nightPicture of nightPictures">
+				<figure>
+				<a href="{{link}}photos/{{nightPicture.image}}">
+					<img src="{{link}}photos/{{nightPicture.image}}" alt="{{nightPicture.alt}}" class="img-responsive secondary-carousel">
+				</a>
+			<figcaption>
+			  <h3>{{nightPicture.title}}</h3>
+			  <p>{{nightPicture.description}}</p>   
+			</figcaption>
+			</figure>
+		  </slide>
+		</carousel>
+    </div>		
+</div>
+<div class="flex-container center">
+	<div class="flex-item">
+		<h1>Title</h1>
+		<h4>{{date}}</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec enim eu lorem faucibus dignissim. Suspendisse potenti. Mauris tincidunt felis urna. Aenean tincidunt placerat libero in pellentesque. Mauris accumsan, lorem vitae ornare blandit, velit diam blandit arcu, sed vulputate tellus odio in velit. Nulla a enim enim. Proin non massa eget sapien pellentesque dapibus id at mauris. Integer varius lacus vulputate turpis rhoncus, a dictum tortor tincidunt. Cras efficitur nec est in congue. Curabitur tristique ex et euismod sollicitudin. Cras ornare augue at diam volutpat ultrices. Suspendisse fringilla pharetra lacus molestie volutpat.</p>
+		<p>Sed eu sem orci. Duis nunc eros, molestie eu bibendum sit amet, sagittis ut tellus. In luctus elementum nunc ut euismod. Praesent fermentum scelerisque volutpat. Quisque vel eleifend orci. Sed volutpat sollicitudin magna eu feugiat. Sed gravida eget ipsum nec ultrices. Integer congue, elit a mollis facilisis, elit odio lacinia nulla, vitae accumsan turpis nibh ac eros.</p>
+		<p>Sed consequat lacus vitae sapien commodo fringilla. Aliquam erat volutpat. Aenean suscipit dignissim eros id feugiat. Vivamus molestie purus sit amet orci aliquam aliquet. Vivamus quis turpis vel felis condimentum porttitor vel et tellus. Duis eget augue ac odio luctus ullamcorper quis vel enim. Pellentesque mollis tellus nec blandit elementum. Sed sed urna eu sem tincidunt volutpat. Integer quis libero massa.</p>
+	</div>	
+    <div class="flex-item">
+		<carousel [interval]="false">
+		  <slide *ngFor="let johnsPicture of johnsPictures">
+				<figure>
+				<a href="{{link}}photos/{{johnsPicture.image}}">
+					<img src="{{link}}photos/{{johnsPicture.image}}" alt="{{johnsPicture.alt}}" class="img-responsive secondary-carousel">
+				</a>
+			<figcaption>
+			  <h3>{{johnsPicture.title}}</h3>
+			  <p>{{johnsPicture.description}}</p>   
+			</figcaption>
+			</figure>
+		  </slide>
+		</carousel>
+    </div>		
+</div>
+<div class="flex-container center">
+    <div class="flex-item">
+		<carousel [interval]="false">
+		  <slide *ngFor="let timesPicture of timesPictures">
+				<figure>
+				<a href="{{link}}photos/{{timesPicture.image}}">
+					<img src="{{link}}photos/{{timesPicture.image}}" alt="{{timesPicture.alt}}" class="img-responsive primary-carousel">
+				</a>
+			<figcaption>
+			  <h3>{{timesPicture.title}}</h3>
+			  <p>{{timesPicture.description}}</p>   
+			</figcaption>
+			</figure>
+		  </slide>
+		</carousel>
+    </div>		
+</div>
+<div class="flex-container">
+	<div class="flex-item"><button class="btn btn-primary" routerLink="/six/liberty">Previous</button></div>
+	<div class="flex-item"><button class="btn btn-primary" routerLink="/outro">Next</button></div>
+</div>
+<router-outlet></router-outlet>	
