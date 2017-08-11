@@ -13,7 +13,8 @@ export class TimesComponent implements OnInit {
 	afternoonPictures: Picture[];
 	nightPictures: Picture[];
 	johnsPictures: Picture[];
-	timesPictures: Picture[];	
+	timesPictures: Picture[];
+	juniorPictures: Picture[];		
 	date = "June 22, 2017";
 	link = "https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/"; 
 	       
@@ -23,7 +24,8 @@ export class TimesComponent implements OnInit {
 		this.pictureService.getAfternoonPictures().then(pictures => this.afternoonPictures = pictures);	
 		this.pictureService.getNightPictures().then(pictures => this.nightPictures = pictures);	
 		this.pictureService.getJohnsPictures().then(pictures => this.johnsPictures = pictures);	
-		this.pictureService.getTimesPictures().then(pictures => this.timesPictures = pictures);						
+		this.pictureService.getTimesPictures().then(pictures => this.timesPictures = pictures);
+		this.pictureService.getJuniorPictures().then(pictures => this.juniorPictures = pictures);								
 	}
 
    ngOnInit(): void {
