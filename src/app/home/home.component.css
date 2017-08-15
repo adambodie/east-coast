@@ -1,3 +1,11 @@
+a {
+	color: white;
+}
+a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
 .flex-item {
 	padding: 20px;
 }
@@ -20,7 +28,7 @@ form {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 h1 {
-  color: #FFF;
+  color: #F5D15D;
   font-family: 'Abril Fatface', cursive;
   font-size: 250%;
 }

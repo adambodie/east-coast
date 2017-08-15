@@ -79,6 +79,20 @@
 	</div>		
 </div>
 <div class="flex-container">
+		<div class="flex-item">
+		<h1>Famous people from New York</h1>
+		<p>Not surprisingly, there are way too many people from New York City that could be considered famous.  So in lieu of listing them all, I am presenting 26 famous people from New York City, one for each letter of the Alphabet.</p>
+		<div class="new-york-list">
+		<carousel [interval]="false">
+				<slide *ngFor="let famousNewYork of famousNewYorks">
+						<img src="assets/{{famousNewYork.image}}" alt="{{famousNewYork.name}}" />
+						<h1>{{famousNewYork.letter}}</h1>
+						<p>{{famousNewYork.name}}: {{famousNewYork.description}}</p>	
+				</slide>
+		</carousel> 
+	</div> 
+</div>
+<div class="flex-container">
 	<div class="flex-item">
 			<h1>New York by the Numbers</h1>
 			<p><span>8,537,673</span> - Approximate population of New York City per 2016 Census estimate</p>
@@ -90,20 +104,13 @@
 			<p><span>6</span> - Number of United States Presidents who hailed from New York: Martin Van Buren, Millard Fillmore, Grover Cleveland, Chester A. Arthur, Theodore Roosevelt and Franklin D. Roosevelt</p>
 			<p><span>1</span> - Number of United States Presidents from New York whose legitimacy was questioned: Chester A. Arthur, who some allege was born in Canada</p>
 			<p><span>0</span> - The number of current legitimate Presidents the United States has.  Donald Trump is not my President.</p>
-			<p><span>130</span> - The number of completed buildings in New York City that are currently taller than Oregon’s tallest building, the Wells Fargo Center (546 feet)</p>
 	</div>
 	<div class="flex-item">
-		<h1>Famous people from New York</h1>
-		<p>Not surprisingly, there are way too many people from New York City that could be considered famous.  So in lieu of listing them all, I am presenting 26 famous people from New York City, one for each letter of the Alphabet.</p>
-		<div class="new-york-list">
-		<carousel [interval]="false">
-				<slide *ngFor="let famousNewYork of famousNewYorks">
-						<img src="assets/{{famousNewYork.image}}" alt="{{famousNewYork.name}}" />
-						<h1>{{famousNewYork.letter}}</h1>
-						<p>{{famousNewYork.name}}: {{famousNewYork.description}}</p>	
-				</slide>
-		</carousel> 
-			</div> 
+		<h1>Houston, We Have a Problem</h1>
+		<h4>{{date}}</h4>
+		<p>The main street we drove on in the Lower East Side, and where our hotel was, is Houston Street.  A major street that runs the whole width of Manhattan, aside from the obvious streets of Manhattan, Broadway, Wall Street, etc., this was the street I found myself associating New York with the most on a personal experience.  But yet, there was something I didn't expect.  The big surprise to me is that is it doesn't rhyme with Cue-ston, it rhymes with Cow-ston.  But how can that be?</p>
+		<p>Unlike the big city of Houston, Texas, named after historical politician Sam Houston, who helped bring Texas into the United States, New York's Houston Street, with no connection to Sam Houston, is named after William Houstoun, a lawyer from colonial Georgia, whose father-in-law owned an estate in Manhattan.  Houston, of course, is an alternate spelling for Houstoun.  Houston, Howston, we have a problem.  It's hard to remember which name to pronounce it.</p>
+	</div>
 </div>
 	</div>
 <div class="flex-container">
