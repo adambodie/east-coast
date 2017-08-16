@@ -1,6 +1,37 @@
-<p>
-  outro works!
-</p>
+<div class="flex-container center">
+    <div class="flex-item">
+		<carousel [interval]="false">
+		  	<slide *ngFor="let outroPicture of outroPictures">
+				<figure>
+					<img src="{{link}}photos/{{outroPicture.image}}" alt="{{outroPicture.alt}}" class="img-responsive secondary-carousel">
+					<figcaption>
+			  			<h3>{{outroPicture.title}}</h3>
+			  			<p>{{outroPicture.description}}</p>   
+					</figcaption>
+				</figure>
+		  	</slide>
+		</carousel>
+    </div>
+    <div class="flex-item">
+		<h1>I Need to Get Away from this One</h1>
+		<h4>{{date}}</h4>
+		<p>At last, it was time to go home.  Of course, that meant making the drive from New York to Baltimore.  Unfortunately, Neal was not feeling too well from the Cheesecake he ate at Junior's, so that slowed us down a little.  Fortunately, Jenn was able to assist with driving outside New York City.  After getting Neal's car from the parking garage, we said our goodbyes to New York City, and made our way down to Baltimore.</p>
+		<p>Neal suggested we leave at 9:00 so we could make our 3:00 flight.  But despite all this, we arrived with little traffic.  Neal was amazed, mockingly suggesting we have some additional fun so we could barely make or miss our flight.  We weren't going to do that, so we got to the early with plenty of time to relax at the Airport.  We certainly needed it.  Neal certainly needed it.</p>
+		<p>Looking back at our trip, it was an experience I'll never forget.  The nightlife of Baltimore, the unexpected trip to Philly, all the crazy happenings in D.C., and most of all, the insane, one-of-a-kind experience of New York City that no other place in the United States has.  There was no exact highlight for me, as I witnessed plenty of great experiences, many of which opened my eyes to a world I'd never truly seen before.</p>
+      </div>   
+</div>
+    <div class="flex-container top">
+		<div class="flex-item">
+			<h1>After the Trip: 4:44 Review</h1>
+			<p></p>
+		</div>
+		<div class="flex-item">		
+			<h1>Flight to PDX</h1>
+			<h4>{{date}}</h4>
+			<p>The flight to Baltimore was mostly easy.  Thanks to advances in phone photography, pictures taken from a plane can be located thanks to GPS.  As such, I can make an approximate path taken.  Not surprisingly, there's a large chunk of time spent in big and wide Montana.  We did fly above the town of Bozeman, among other places.  There was a massive cloud cover in what likely was South Dakota before reaching the south edge of Chicagoland, though we didn't fly over Chicago itself.  The flight managed to fly over north of Columbus, Ohio, before crossing over Wheeling, West Virginia, easily identifiable due to the island in between the Ohio River.  Finally, we reached the big town of Uniontown, Pennsylvania, south of Pittsburgh, before reaching Baltimore.</p>
+			<img src="assets/flight-to-bwi.jpg" alt="Flight to BWI" class="img-responsive"/>
+		</div>			
+	</div>
 <div class="flex-container">
 	<div class="flex-item"><button class="btn btn-primary" routerLink="/six/times">Previous</button></div>
 	<div class="flex-item"><button class="btn btn-primary" routerLink="/">Next</button></div>
