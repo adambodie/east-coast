@@ -9,7 +9,6 @@ export class HomeComponent {
 
 constructor(private cdr: ChangeDetectorRef) {}
   link = 'https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/';
-  photo = 'https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/photos/art4.jpg';
   name: string = "";
   location: string = "";
   items: string = '';
@@ -35,13 +34,13 @@ constructor(private cdr: ChangeDetectorRef) {}
 			title: "Intro", 
 			link: "/intro", 
 			image: "intro4.jpg", 
-			paragraph: "The trip from Maryland to Philadelphia is a two hour drive.  Naturally, getting there is half the battle.  Also apparent is that the quickest route to Philadelphia involves entering Delaware.  Click the link below to read about the journey through Northern Maryland and Delaware before culminating into Pennsylvania."
+			paragraph: "The first part of the trip is always the most anxious.  You're so excited and anticipating of the events ahead.  Check out the best moments from our flight to Baltimore and first thoughts of Maryland by clicking the link below."
 		},  
 		{	
 			title: "Baltimore", 
 			link: "/one", 
 			image: "baltimore10.jpg", 
-			paragraph: "The trip from Maryland to Philadelphia is a two hour drive.  Naturally, getting there is half the battle.  Also apparent is that the quickest route to Philadelphia involves entering Delaware.  Click the link below to read about the journey through Northern Maryland and Delaware before culminating into Pennsylvania."
+			paragraph: "The first night in Maryland was not one to rest.  So we went to Baltimore and visited the Harbor during the night.  A different experience from my first trip to Baltimore in the snow, click the link to have fun in the night in Baltimore."
 		},
 		{	
 			title: "Wait, What?", 
@@ -154,27 +153,29 @@ constructor(private cdr: ChangeDetectorRef) {}
 			title: "Outro", 
 			link: "/outro", 
 			image: "outro25.jpg", 
-			paragraph: "The trip from Maryland to Philadelphia is a two hour drive.  Naturally, getting there is half the battle.  Also apparent is that the quickest route to Philadelphia involves entering Delaware.  Click the link below to read about the journey through Northern Maryland and Delaware before culminating into Pennsylvania."
+			paragraph: "Flying home is the least exciting part of any trip.  You're finished and just want to relax from a long and exciting trip.  Check out the last pictures of the trip by clicking the link below."
 		}, 		
 ]
     numberFour = Math.floor(Math.random() * this.features.length);
     numberFive = Math.floor(Math.random() * this.features.length);
     numberSix = Math.floor(Math.random() * this.features.length);
 	numberSeven = Math.floor(Math.random() * this.features.length);
-  ngAfterViewInit() {
-    let places = ['Washington D.C.', 'Baltimore', 'New York', 'Arlington', 'Laurel', 'Philadelphia', 'Delaware', 'New Jersey'];
-    let numberOne = Math.floor(Math.random() * places.length);
-    let numberTwo = Math.floor(Math.random() * places.length);
-    while (numberOne === numberTwo) {
-      numberTwo = Math.floor(Math.random() * places.length);
-    }
-    let numberThree = Math.floor(Math.random() * places.length);
-    while (numberOne === numberThree || numberTwo === numberThree) {
-      numberThree = Math.floor(Math.random() * places.length);
-    }
-           
-    this.items = `${places[numberOne]}, ${places[numberTwo]}, ${places[numberThree]} and more...`;
-    this.cdr.detectChanges();
+	
+
+	
+	ngAfterViewInit() {
+		let places = ['Washington D.C.', 'Baltimore', 'New York', 'Arlington', 'Laurel', 'Philadelphia', 'Delaware', 'New Jersey'];
+		let numberOne = Math.floor(Math.random() * places.length);
+		let numberTwo = Math.floor(Math.random() * places.length);
+		while (numberOne === numberTwo) {
+		  numberTwo = Math.floor(Math.random() * places.length);
+		}
+		let numberThree = Math.floor(Math.random() * places.length);
+		while (numberOne === numberThree || numberTwo === numberThree) {
+		  numberThree = Math.floor(Math.random() * places.length);
+		}
+		this.items = `${places[numberOne]}, ${places[numberTwo]}, ${places[numberThree]} and more...`;
+		this.cdr.detectChanges();
     
     
   }

@@ -12,6 +12,8 @@ a:hover {
 
 button {
   margin-top: 10px;
+  display: block;
+  margin: 0 auto;
 }
 
 .ng-valid[required], .ng-valid.required  {
@@ -70,7 +72,9 @@ figcaption {
   right: 0;
 }
 
-
+.image p {
+	margin-top: 20px;
+}
 @media screen and (min-width: 480px) {
 
 .flex-container {
