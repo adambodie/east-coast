@@ -497,11 +497,11 @@ export const GEORGETOWNPICTURES: Picture[] = [
     {id: 18, image: 'georgetown17.jpg', alt: 'Galvin\'s', title: 'Galvin\'s'},
     {id: 19, image: 'georgetown18.jpg', alt: 'Walking around Georgetown', title: 'Walking around Georgetown'},
     {id: 20, image: 'georgetown19.jpg', alt: 'Another Georgetown Picture', title: 'Another Georgetown Picture'},
-    {id: 21, image: 'georgetown20.jpg', alt: 'Nighttime at Georgetown', title: 'Nighttime at Georgetown'},
+    {id: 21, image: 'georgetown20.jpg', alt: 'Nighttime at Georgetown', title: 'Nighttime at Georgetown, where Neal dances off Gas'},
     {id: 22, image: 'georgetown21.jpg', alt: 'Sprinkles', title: 'Sprinkles'},
-    {id: 23, image: 'georgetown22.jpg', alt: 'Another Georgetown Picture', title: 'Another Georgetown Picture'},
+    {id: 23, image: 'georgetown22.jpg', alt: 'Another Georgetown Picture', title: 'Gassy Boys - Neal\'s Version of Nasty Boy'},
     {id: 24, image: 'georgetown23.jpg', alt: '2902 1/2', title: '2902 1/2', description: 'Is this the number of lies Donald Trump has said since he stole the Presidency?  Probably too low of a number.'},
-    {id: 25, image: 'georgetown24.jpg', alt: 'Georgetown Scoops', title: 'Georgetown Scoops', description: 'Home of Lavender and Kahlua Ice Cream'},
+    {id: 25, image: 'georgetown24.jpg', alt: 'Georgetown Scoops', title: 'Georgetown Scoops', description: 'Home of Lavender and Kahlua Ice Cream, along with Jenn\'s 2 Forks and No Spoons'},
     {id: 26, image: 'georgetown25.jpg', alt: 'More Georgetown', title: 'More Georgetown'},
     {id: 27, image: 'georgetown26.jpg', alt: 'Georgetown\'s nice', title: 'Georgetown\'s nice'}
 ]
@@ -518,7 +518,7 @@ export const POTOMACPICTURES: Picture[] = [
     {id: 3, image: 'potomac3.jpg', alt: 'Jefferson Memorial', title: 'Jefferson Memorial'},
     {id: 4, image: 'potomac4.jpg', alt: 'Potomac River', title: 'Potomac River'},
     {id: 5, image: 'potomac5.jpg', alt: 'House Boats', title: 'House Boats'},
-    {id: 6, image: 'potomac6.jpg', alt: 'More House Boats', title: 'More House Boats'},
+    {id: 6, image: 'potomac6.jpg', alt: 'More House Boats', title: 'More House Boats', description: 'According to Neal: Matury - The act of writing something more mature'},
     {id: 7, image: 'potomac7.jpg', alt: 'Like the Columbia River, but better', title: 'Like the Columbia River, but better'},
     {id: 8, image: 'potomac8.jpg', alt: 'The Yacht Club', title: 'The Yacht Club'},
     {id: 9, image: 'potomac9.jpg', alt: 'The Yacht Club', title: 'The Yacht Club'},
@@ -903,9 +903,9 @@ export const ITALYPICTURES: Picture[] = [
     {id: 5, image: 'italy5.jpg', alt: 'Driving through New York', title: 'Driving through New York'},
     {id: 6, image: 'italy6.jpg', alt: 'Welcome to Little Italy', title: 'Welcome to Little Italy'},
     {id: 7, image: 'italy7.jpg', alt: 'Grotta Azzurra', title: 'Grotta Azzurra'},
-    {id: 8, image: 'italy8.jpg', alt: 'Grotta Azzurra', title: 'Grotta Azzurra'},
+    {id: 8, image: 'italy8.jpg', alt: 'Grotta Azzurra', title: 'Grotta Azzurra, where Jenn got asked about her flatulence'},
     {id: 9, image: 'italy9.jpg', alt: 'Silly Neal', title: 'Silly Neal'},
-    {id: 10, image: 'italy10.jpg', alt: 'Nice Shirt', title: 'Nice Shirt'},
+    {id: 10, image: 'italy10.jpg', alt: 'Nice Shirt', title: 'Nice Shirt, is that Creamy Cow Juice?'},
     {id: 11, image: 'italy11.jpg', alt: 'Spaghetti with Meatballs', title: 'Spaghetti with Meatballs'},           
 ]
 
