@@ -71,7 +71,12 @@ figcaption {
   left: 0;
   right: 0;
 }
-
+.image {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+	margin: 20px;
+	background-color: #5b52c5;
+	padding: 20px;
+}
 .image p {
 	margin-top: 20px;
 }
@@ -85,17 +90,12 @@ figcaption {
     flex-wrap: wrap;    
 }
 
-.featured {
-	width: 100%;
+.flex-item {
+  -webkit-flex: 1;
+  flex: 1;
+  padding: 20px;
 }
-.image {
-    -webkit-flex: 1;
-    flex: 1;
-}
-.paragraph {
-    -webkit-flex: 1;
-    flex: 1;  
-}
+
 .ad  h1 {
   display: block;
   font-family: 'Abril Fatface', cursive;

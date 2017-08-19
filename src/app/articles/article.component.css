@@ -118,7 +118,14 @@ ol>li {
 	height: 400px;
 
 }
-
+blockquote {
+    color: #F5D15D;
+    font-family: 'Abril Fatface', cursive;
+}
+footer {
+    text-align: right;
+    color: white;
+}
 .new-york-list {
     text-align: center;
 }

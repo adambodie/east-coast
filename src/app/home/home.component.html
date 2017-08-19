@@ -1,5 +1,5 @@
-<div class="flex-container center">
-    <div class="flex-item paragraph">
+<div class="flex-container top">
+    <div class="flex-item">
         <div [hidden]="submitted"><h1>Welcome!</h1></div>
         <div [hidden]="!submitted"><h1>Welcome {{name}} from {{location}}!</h1></div>        
 		<p>Welcome to Never a Dull Moment 2: The Infamous.  From June 17th to June 23rd, my sister Jenn and I travelled to the East Coast to visit our friend Neal in Maryland.  Like the last trip we made out there, there truly was never a dull moment.  Excitement is always around the corner when visiting the hustle and bustle of the East Coast.  Here you will see our pictures and videos during our crazy trip.  Feel free to explore pictures individually view them in chronological order.  There are plenty of places and adventures to see, from places including {{items}}  To begin the show, click <a routerLink="/intro">here</a></p>   
@@ -23,7 +23,7 @@
             </div>
         </form>            
     </div>
-    <div class="flex-item image">
+    <div class="flex-item">
     <figure>
         <img src="{{link}}photos/{{features[numberSeven].image}}" alt="cover" class="img-responsive"/>
         <figcaption>{{features[numberSeven].title}}</figcaption>
@@ -38,12 +38,14 @@
     </div>
     
 <div class="flex-container">
-	<div class="flex-item featured">
-	    <h1>Featured articles</h1>
-	</div>
+    <div class="flex-item">
+        <h1>Featured articles</h1>
+    </div>
+</div>    
+<div class="flex-container">
 	<div class="flex-item image">
 		<figure>
-			<img src="{{link}}photos/{{features[numberFour].image}}" alt="placehold"  class="img-responsive"/>
+			<img src="{{link}}photos/{{features[numberFour].image}}" alt="{{features[numberFour].title}}"  class="img-responsive"/>
 			<figcaption>{{features[numberFour].title}}</figcaption>
 		</figure>
 		<p>{{features[numberFour].paragraph}}</p>   
@@ -51,7 +53,7 @@
     </div>
 	    <div class="flex-item image">
 		<figure>
-			<img src="{{link}}photos/{{features[numberFive].image}}" alt="placehold"  class="img-responsive"/>
+			<img src="{{link}}photos/{{features[numberFive].image}}" alt="{{features[numberFour].title}}"  class="img-responsive"/>
 			<figcaption>{{features[numberFive].title}}</figcaption>
 		</figure>
 		<p>{{features[numberFive].paragraph}}</p>   
@@ -59,7 +61,7 @@
     </div>
 	    <div class="flex-item image">
 		<figure>
-			<img src="{{link}}photos/{{features[numberSix].image}}" alt="placehold"  class="img-responsive"/>
+			<img src="{{link}}photos/{{features[numberSix].image}}" alt="{{features[numberFour].title}}"  class="img-responsive"/>
 			<figcaption>{{features[numberSix].title}}</figcaption>
 		</figure>
 		<p>{{features[numberSix].paragraph}}</p>   
