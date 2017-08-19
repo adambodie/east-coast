@@ -38,6 +38,7 @@ import { IntroComponent,
 		TimesComponent,
 		OutroComponent			
 		} from './articles';
+import { AdComponent } from './ad/ad.component';
 
 
 @NgModule({
@@ -73,6 +74,7 @@ import { IntroComponent,
 	WtcComponent,
 	LibertyComponent,
 	TimesComponent,
+	AdComponent,
   ],
   imports: [
     BrowserModule,
