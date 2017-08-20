@@ -1,0 +1,19 @@
+@media screen and (min-width: 480px) {
+    .flex-container {
+        display: -webkit-flex;
+        display: flex;
+        padding: 20px;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .flex-item {
+        -webkit-flex: 1;
+        flex: 1;
+        padding: 20px;
+    }
+    .center {
+        -webkit-align-items: center;
+        align-items: center;
+    }
+                  
+  }

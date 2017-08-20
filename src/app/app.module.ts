@@ -39,6 +39,7 @@ import { IntroComponent,
 		OutroComponent			
 		} from './articles';
 import { AdComponent } from './ad/ad.component';
+import { ExtraComponent } from './extra/extra.component';
 
 
 @NgModule({
@@ -75,6 +76,7 @@ import { AdComponent } from './ad/ad.component';
 	LibertyComponent,
 	TimesComponent,
 	AdComponent,
+	ExtraComponent,
   ],
   imports: [
     BrowserModule,
@@ -86,11 +88,12 @@ import { AdComponent } from './ad/ad.component';
     SelectModule,
     ModalModule.forRoot(),
     RouterModule.forRoot([
-        {	path: '', component: HomeComponent	},    
-        {	path: 'about', component: AboutComponent  },
+        {	  path: '', component: HomeComponent	},    
+        {	  path: 'about', component: AboutComponent  },
+        {	  path: 'extra', component: ExtraComponent  },        
         {   path: 'intro', component: IntroComponent  },
         { 	path: 'one', component: DayOneComponent  },
-        {	path: 'two', component: DayTwoComponent  },
+        {	  path: 'two', component: DayTwoComponent  },
         {   path: 'two/delaware', component: DelawareComponent  },
         {   path: 'two/independence', component: IndependenceComponent },        
         {   path: 'two/pride', component: PrideComponent  },
@@ -104,10 +107,10 @@ import { AdComponent } from './ad/ad.component';
         {   path: 'four/arlington', component: ArlingtonComponent  },
         {   path: 'four/metro', component: MetroComponent  },
         {   path: 'five', component: DayFiveComponent  },
-        {	path: 'five/jersey', component: JerseyComponent },
-        {	path: 'five/welcome-nyc', component: WelcomeNycComponent },
-        {	path: 'five/empire', component: EmpireComponent },
-        {	path: 'five/tramp', component: TrampComponent },                         
+        {	  path: 'five/jersey', component: JerseyComponent },
+        {	  path: 'five/welcome-nyc', component: WelcomeNycComponent },
+        {	  path: 'five/empire', component: EmpireComponent },
+        {	  path: 'five/tramp', component: TrampComponent },                         
         {   path: 'six', component: DaySixComponent  },
         {   path: 'six/les', component: LesComponent  },  
         {   path: 'six/wtc', component: WtcComponent  },
