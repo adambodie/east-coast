@@ -15,16 +15,13 @@ export class PennComponent implements OnInit {
 	link = "https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/";
 	date = "June 18, 2017";
 	famousPhiladelphians = [
-		{name:'Benjamin Franklin', image: 'benjamin-franklin.jpg'},
+		{name: 'Benjamin Franklin', image: 'benjamin-franklin.jpg'},
 		{name: 'Dick Clark', image: 'dick-clark.jpg'},
 		{name: 'Wilt Chamberlin', image: 'chamberlain.jpg'},
-		{name: 'Noam Chomsky', image: 'chomsky.jpg'},
 		{name: 'Bill Cosby', image: 'cosby.jpg'},
-		{name: 'Bradley Cooper', image: 'bradley-cooper.jpg'},
 		{name: 'Kobe Bryant', image: 'kobe.jpg'},
 		{name: 'Reggie Jackson', image: 'reggie-jackson.jpg'},
 		{name: 'Will Smith', image: 'will-smith.jpg'},
-		{name: 'Richard Gere', image: 'gere.jpg'},
 		{name: 'The Roots', image: 'roots.jpg'},    
 		{name: 'Betsy Ross', image: 'ross.jpg'}
     ];

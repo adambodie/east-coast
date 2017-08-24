@@ -45,6 +45,13 @@ ol>li {
     max-width:1920px;
 }
 
+.side-image {
+	float: right;
+	padding: 10px;
+	margin: 10px;
+	clear: both;
+}
+
 /* Comment CSS 
 -------------------------------*/
 label {
@@ -61,10 +68,10 @@ form {
     background-color: #5b52c5;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
 }
-/* Famous Al CSS
+/* Famous CSS
 ------------------------*/
 
-.famousAl {
+.famous {
     width: 300px;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -75,18 +82,15 @@ form {
     float: right;   
 }
 
-.famousAl > .flex-item {
+.famous > .flex-item {
     padding: 0;
 }
 
-.famousAl p {
+.famous p {
     text-align: center;
     font-size: 0.8em;
 }
 
-.alParagraph {
-    text-align: justify;
-}
 
 /* Features CSS
 --------------------------------------------*/
@@ -183,15 +187,7 @@ footer {
     .secondary-carousel {
         max-width: 400px;
         max-height: 300px;       
-    }
-    .center {
-        -webkit-align-items: center;
-        align-items: center;
-    }
-    .top {
-        -webkit-align-items: flex-start;
-        align-items: flex-start;
-    }                  
+    }                
 }
 
 @media screen and (min-width: 768px) {
