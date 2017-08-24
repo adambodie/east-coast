@@ -1,3 +1,4 @@
+export * from './article-comment.component';
 export * from '../articles/intro/intro.component';
 export * from '../articles/day-one/day-one.component';
 export * from '../articles/day-two/day-two.component';

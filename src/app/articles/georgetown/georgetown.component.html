@@ -1,103 +1,136 @@
 <div class="flex-container">
+    <div class="flex-item" style="flex: 3">
+        <article>
+            <div class="flex-item">
+                <carousel [interval]="false">
+                    <slide *ngFor="let georgetownPicture of georgetownPictures">
+                        <figure>
+                            <a href="{{link}}photos/{{georgetownPicture.image}}">
+                                <img src="{{link}}photos/{{georgetownPicture.image}}" alt="{{georgetownPicture.alt}}" class="img-responsive main-carousel">
+                            </a>
+                            <figcaption>
+                                 <h3>{{georgetownPicture.title}}</h3>
+                                <p>{{georgetownPicture.description}}</p>
+                            </figcaption>
+                        </figure>
+                    </slide>
+                </carousel>
+            </div>
+            <div class="flex-item">
+                	<h1>Mad Dash to Georgetown</h1>
+                	<h4>{{date}}</h4>
+                <p>No Neal Car meant another Uber ride to Georgetown, home of Jenn’s favorite cupcake place, Sprinkles. Unfortunately, we got stuck with a clueless Uber driver who laughed at us for our destination and lacked the decency of respect. Thankfully,
+                    the rainstorm coming waited until we got in the car to start raining buckets. Coincidentally, or not coincidentally, Mother Nature kept me from seeing the home of the worst person in the world, a place I’ve seen twice before and didn’t
+                    need to see run by an Idiot; The White House. While The U.S. Capitol is home of the worst group of Politicians ever, the Republicans, the White House is occupied by a bad person. But I digress, rain storms are much more fascinating
+                    than they are in Portland, where we have plenty of rainy days, but not big sudden rain storms. The important thing is that you’re not walking in them. I got lucky Jenn told me to get back when I did. Sometimes I can’t stop myself.
+                    Finally we reached Sprinkles.</p>
+                <p>Conveniently we hung out at Sprinkles while we waited for Neal to lead us to way to Galvin’s. Jenn, unfortunately, had too much Cupcakes, as it made her feel shaky. I had a Cinnamon Sugar and Salty Caramel Cupcakes; both of which were
+                    absolutely amazing. The rain was off and on, but perfect for us to be inside and charge up our phones. Thank god for the portable charger. I would have struggled to get all the pictures I did without it. Of course, Neal ended up being
+                    closer to Galvin’s from the Metro, so another Uber Ride was in our future.</p>
+                <p>Of course, we had one great Uber Driver taking us to D.C., and two bad Uber Drivers in D.C. Who had no clue. Granted, the destination was confusing, but the Uber driver was impatient and rude. Not our problem we didn’t know where we were
+                    going. But with Neal’s help, we found Galvin’s condo hidden in an alley. There we got to see their Condo, meet some of Neal’s other friends and his girlfriend. Jenn’s grand prize, despite her insistence of not wanting a child, was
+                    Galvin’s three month old Hopper. Jenn looked natural holding little Hopper, but she got worn out in the end.</p>
+                <p>Finding a place for dinner was a bit of a hassle, since every exotic place we stumbled upon seemed to be full of spicy food. Thankfully, it wasn’t raining so walking this time around wasn’t too excruciating. Finally, we found a Thai restaurant
+                    which “wasn’t too spicy,” a nice little place called i Thai.</p>
+            </div>
+            <div class="flex-item">
+                <div class="video">
+                    <video controls="controls" poster="{{link}}videos/rain.jpg" style="width:100%" title="Carousel">
+                        <source src="{{link}}videos/rain.m4v" type="video/m4v" />
+                        <source src="{{link}}videos/rain.webm" type="video/webm" />
+                        <source src="{{link}}videos/rain.ogv" type="video/ogg" />
+                    </video>
+                </div>
+            </div>
+            <div class="flex-item">
+                <app-article-comment></app-article-comment>
+            </div>
+        </article>
+        <div class="flex-item">
+            <a href="http://grand-canyon.bodiewebdesign.com">
+                <img src="assets/grand-canyon.jpg" alt="Grand Canyon" class="img-responsive" />
+            </a>
+        </div>
+        <article>
+            <div class="flex-item">
+                <carousel [interval]="false">
+                    <slide *ngFor="let iThaiPicture of iThaiPictures">
+                        <figure>
+                            <a href="{{link}}photos/{{iThaiPicture.image}}">
+                                <img src="{{link}}photos/{{iThaiPicture.image}}" alt="{{iThaiPicture.alt}}" class="img-responsive secondary-carousel">
+                            </a>
+                            <figcaption>
+                                 <h3>{{iThaiPicture.title}}</h3>
+                                <p>{{iThaiPicture.description}}</p>
+                            </figcaption>
+                        </figure>
+                    </slide>
+                </carousel>
+            </div>
+            <div class="flex-item">
+                	<h1>iThai</h1>
+                	<h4>{{date}}</h4>
+                <p>What looked like a cutsy bubble tea shop upon entering the place, turned into a moderately classy Thai restaurant on the second floor. It wasn’t too big of a place, so it was the perfect place for Neal to act a fool, with girlfriend Jenny
+                    mixing wasabi, soy sauce and ginger for Neal to eat as a joke. For me, I did my best to be adventurous, passing up the classic Pad Thai in exchange of the Drunken Noodles, which was spicy and filling. I might have had too much appetizers,
+                    which made me not as hungry. But it was delicious nonetheless. After seeing Neal burn his tongue with spice, another adventure was in store, but first, we stopped for dessert at an Ice Cream shop. Jenn had Lavender ice cream, while
+                    I had the Kahlua ice cream. We headed back to Galvin’s, as Jenny agreed to take all of us back to our places in her car.</p>
+            </div>
+            <div class="flex-item">
+                <app-article-comment></app-article-comment>
+            </div>
+        </article>
+
+
+        <article>
+            <div class="flex-item">
+                <carousel [interval]="false">
+                    <slide *ngFor="let potomacPicture of potomacPictures">
+                        <figure>
+                            <a href="{{link}}photos/{{potomacPicture.image}}">
+                                <img src="{{link}}photos/{{potomacPicture.image}}" alt="{{potomacPicture.alt}}" class="img-responsive main-carousel">
+                            </a>
+                            <figcaption>
+                                 <h3>{{potomacPicture.title}}</h3>
+                                <p>{{potomacPicture.description}}</p>
+                            </figcaption>
+                        </figure>
+                    </slide>
+                </carousel>
+            </div>
+            <div class="flex-item">
+                	<h1>Lifestyles of the Boat and Famous</h1>
+                	<h4>{{date}}</h4>
+                <p>The first place we needed to go was to drop off Laura, Neal’s friend with the Houseboat. Naturally, when she asked if any of us wanted to see, I said "Sure," not wanting to pass up a great photo opportunity. I’d never been on a houseboat,
+                    at least not in recent memory. Jenn had been to her old houseboat, so she hadn’t seen it either. So with that, we embarked on the trail to Laura’s houseboat.</p>
+                <p>After a brief stop at the local Yacht Club where all the houseboaters live, we made our way down the docks and eventually found Laura’s houseboat. Once getting on, which was admittedly weird, we first went up on the deck, complete with
+                    blue lights and a great view of the Potomac River, with Washington Monument visible. It was as if I could play my sudden dream of being part of the Blue Man Group. Also visiting were her two dogs. For some reason, Jenn remembered the
+                    wrong dog. Then we went inside and viewed all the rooms, from the small bathroom with the funny sign on the toilet seat, to the living room and kitchen that can make anyone wish they too had a houseboat. Of course, once it’s raining
+                    and stormy, one might want to reconsider. We hung out on the couches for a few minutes; for some reason, I was asked to voice my opinion of an outfit to for Laura to wear the next day. Nice of her to ask, but I barely know her, they
+                    all looked fine to me.</p>
+                <p>Once that was done, it was time to head back to our hotel. Just outside the docks was a building that had its alarms going off, sending the authorities over to investigate. Not the sight I typically see. Once that excitement was over,
+                    Jenn, always the one wanting to film Neal dancing in the car, attempted to during the drive but it was too dark to record anything worthwhile. That was the end of that chapter.</p>
+            </div>
+            <div class="flex-item">
+                <app-article-comment></app-article-comment>
+            </div>
+        </article>
+        <div class="flex-item">
+            <div style="position:relative;height:0;padding-bottom:56.25%">
+                <iframe src="https://www.youtube.com/embed/WkZ5e94QnWk?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
     <div class="flex-item">
-		<carousel [interval]="false">
-		  <slide *ngFor="let georgetownPicture of georgetownPictures">
-				<figure>
-				<a href="{{link}}photos/{{georgetownPicture.image}}">
-					<img src="{{link}}photos/{{georgetownPicture.image}}" alt="{{georgetownPicture.alt}}" class="img-responsive main-carousel">
-				</a>
-			<figcaption>
-			  <h3>{{georgetownPicture.title}}</h3>
-			  <p>{{georgetownPicture.description}}</p>   
-			</figcaption>
-			</figure>
-		  </slide>
-		</carousel>
-    </div>	
+        <div style="border: 1px solid black; background-color: black; opacity: 0.1; height: 100%; padding: 0"></div>
+    </div>
 </div>
-<div class="flex-container center">
-	<div class="flex-item">
-		<h1>Mad Dash to Georgetown</h1>
-		<h4>{{date}}</h4>
-		<p>No Neal Car meant another Uber ride to Georgetown, home of Jenn’s favorite cupcake place, Sprinkles.  Unfortunately, we got stuck with a clueless Uber driver who laughed at us for our destination and lacked the decency of respect.  Thankfully, the rainstorm coming waited until we got in the car to start raining buckets.  Coincidentally, or not coincidentally, Mother Nature kept me from seeing the home of the worst person in the world, a place I’ve seen twice before and didn’t need to see run by an Idiot; The White House.  While The U.S. Capitol is home of the worst group of Politicians ever, the Republicans, the White House is occupied by a bad person.  But I digress, rain storms are much more fascinating than they are in Portland, where we have plenty of rainy days, but not big sudden rain storms.  The important thing is that you’re not walking in them.  I got lucky Jenn told me to get back when I did.  Sometimes I can’t stop myself.  Finally we reached Sprinkles.</p>
-		<p>Conveniently we hung out at Sprinkles while we waited for Neal to lead us to way to Galvin’s.  Jenn, unfortunately, had too much Cupcakes, as it made her feel shaky.  I had a Cinnamon Sugar and Salty Caramel Cupcakes; both of which were absolutely amazing.  The rain was off and on, but perfect for us to be inside and charge up our phones.  Thank god for the portable charger.  I would have struggled to get all the pictures I did without it.  Of course, Neal ended up being closer to Galvin’s from the Metro, so another Uber Ride was in our future.</p>
-		<p>Of course, we had one great Uber Driver taking us to D.C., and two bad Uber Drivers in D.C. Who had no clue.  Granted, the destination was confusing, but the Uber driver was impatient and rude.  Not our problem we didn’t know where we were going.  But with Neal’s help, we found Galvin’s condo hidden in an alley.  There we got to see their Condo, meet some of Neal’s other friends and his girlfriend.  Jenn’s grand prize, despite her insistence of not wanting a child, was Galvin’s three month old Hopper.  Jenn looked natural holding little Hopper, but she got worn out in the end.</p>
-		<p>Finding a place for dinner was a bit of a hassle, since every exotic place we stumbled upon seemed to be full of spicy food.  Thankfully, it wasn’t raining so walking this time around wasn’t too excruciating.  Finally, we found a Thai restaurant which “wasn’t too spicy,” a nice little place called i Thai.</p>
-	</div>
-	<div class="flex-item">
-		<div class="video">
-			<video controls="controls" poster="{{link}}videos/rain.jpg" style="width:100%" title="Carousel">
-				<source src="{{link}}videos/rain.m4v" type="video/m4v" />
-				<source src="{{link}}videos/rain.webm" type="video/webm" />
-				<source src="{{link}}videos/rain.ogv" type="video/ogg" />
-			</video>
-		</div>
-	</div>
-</div>
-	<div class="flex-container">
-		<div class="flex-item">
-			<a href="http://grand-canyon.bodiewebdesign.com">
-				<img src="assets/grand-canyon.jpg" alt="Grand Canyon" class="img-responsive"/>
-			</a>
-		</div>
-	</div>
 <div class="flex-container">
     <div class="flex-item">
-		<carousel [interval]="false">
-		  <slide *ngFor="let iThaiPicture of iThaiPictures">
-				<figure>
-				<a href="{{link}}photos/{{iThaiPicture.image}}">
-					<img src="{{link}}photos/{{iThaiPicture.image}}" alt="{{iThaiPicture.alt}}" class="img-responsive secondary-carousel">
-				</a>
-			<figcaption>
-			  <h3>{{iThaiPicture.title}}</h3>
-			  <p>{{iThaiPicture.description}}</p>   
-			</figcaption>
-			</figure>
-		  </slide>
-		</carousel>
+        <button class="btn btn-primary" routerLink="/three/capitol">Previous</button>
     </div>
     <div class="flex-item">
-		<h1>iThai</h1>
-		<h4>{{date}}</h4>
-		<p>What looked like a cutsy bubble tea shop upon entering the place, turned into a moderately classy Thai restaurant on the second floor.  It wasn’t too big of a place, so it was the perfect place for Neal to act a fool, with girlfriend Jenny mixing wasabi, soy sauce and ginger for Neal to eat as a joke.  For me, I did my best to be adventurous, passing up the classic Pad Thai in exchange of the Drunken Noodles, which was spicy and filling.  I might have had too much appetizers, which made me not as hungry.  But it was delicious nonetheless.  After seeing Neal burn his tongue with spice, another adventure was in store, but first, we stopped for dessert at an Ice Cream shop.  Jenn had Lavender ice cream, while I had the Kahlua ice cream.  We headed back to Galvin’s, as Jenny agreed to take all of us back to our places in her car.</p>
-    </div>	
+        <button class="btn btn-primary" routerLink="/four/arlington">Next</button>
+    </div>
 </div>
-
-
-<div class="flex-container">
-    <div class="flex-item">
-		<carousel [interval]="false">
-		  <slide *ngFor="let potomacPicture of potomacPictures">
-				<figure>
-				<a href="{{link}}photos/{{potomacPicture.image}}">
-					<img src="{{link}}photos/{{potomacPicture.image}}" alt="{{potomacPicture.alt}}" class="img-responsive main-carousel">
-				</a>
-			<figcaption>
-			  <h3>{{potomacPicture.title}}</h3>
-			  <p>{{potomacPicture.description}}</p>   
-			</figcaption>
-			</figure>
-		  </slide>
-		</carousel>
-    </div>	
-</div>
-<div class="flex-container center">
-	<div class="flex-item">
-		<h1>Lifestyles of the Boat and Famous</h1>
-		<h4>{{date}}</h4>
-		<p>The first place we needed to go was to drop off Laura, Neal’s friend with the Houseboat.  Naturally, when she asked if any of us wanted to see, I said "Sure," not wanting to pass up a great photo opportunity.  I’d never been on a houseboat, at least not in recent memory.  Jenn had been to her old houseboat, so she hadn’t seen it either.  So with that, we embarked on the trail to Laura’s houseboat.</p>
-		<p>After a brief stop at the local Yacht Club where all the houseboaters live, we made our way down the docks and eventually found Laura’s houseboat.  Once getting on, which was admittedly weird, we first went up on the deck, complete with blue lights and a great view of the Potomac River, with Washington Monument visible.  It was as if I could play my sudden dream of being part of the Blue Man Group.  Also visiting were her two dogs.  For some reason, Jenn remembered the wrong dog.  Then we went inside and viewed all the rooms, from the small bathroom with the funny sign on the toilet seat, to the living room and kitchen that can make anyone wish they too had a houseboat.  Of course, once it’s raining and stormy, one might want to reconsider.  We hung out on the couches for a few minutes; for some reason, I was asked to voice my opinion of an outfit to for Laura to wear the next day.  Nice of her to ask, but I barely know her, they all looked fine to me.</p>
-		<p>Once that was done, it was time to head back to our hotel.  Just outside the docks was a building that had its alarms going off, sending the authorities over to investigate.  Not the sight I typically see.  Once that excitement was over, Jenn, always the one wanting to film Neal dancing in the car, attempted to during the drive but it was too dark to record anything worthwhile.  That was the end of that chapter.</p>
-	</div>
-	<div class="flex-item">
-		<div style="position:relative;height:0;padding-bottom:56.25%">
-			<iframe src="https://www.youtube.com/embed/WkZ5e94QnWk?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe>
-		</div>
-	</div>
-</div>
-<div class="flex-container">
-	<div class="flex-item"><button class="btn btn-primary" routerLink="/three/capitol">Previous</button></div>
-	<div class="flex-item"><button class="btn btn-primary" routerLink="/four/arlington">Next</button></div>
-</div>
-<router-outlet></router-outlet>	
+<router-outlet></router-outlet>

@@ -1,47 +1,87 @@
-<div class="flex-container center">
-    <div class="flex-item">
-		<carousel [interval]="false">
-		  	<slide *ngFor="let outroPicture of outroPictures">
-				<figure>
-					<img src="{{link}}photos/{{outroPicture.image}}" alt="{{outroPicture.alt}}" class="img-responsive secondary-carousel">
-					<figcaption>
-			  			<h3>{{outroPicture.title}}</h3>
-			  			<p>{{outroPicture.description}}</p>   
-					</figcaption>
-				</figure>
-		  	</slide>
-		</carousel>
-    </div>
-    <div class="flex-item">
-		<h1>I Need to Get Away from this One</h1>
-		<h4>{{date}}</h4>
-		<p>At last, it was time to go home.  Of course, that meant making the drive from New York to Baltimore.  Unfortunately, Neal was not feeling too well from the Cheesecake he ate at Junior's, so that slowed us down a little.  Fortunately, Jenn was able to assist with driving outside New York City.  After getting Neal's car from the parking garage, we said our goodbyes to New York City, and made our way down to Baltimore.</p>
-		<p>Neal suggested we leave at 9:00 so we could make our 3:00 flight.  But despite all this, we arrived with little traffic.  Neal was amazed, mockingly suggesting we have some additional fun so we could barely make or miss our flight.  We weren't going to do that, so we got to the early with plenty of time to relax at the Airport.  We certainly needed it.  Neal certainly needed it.</p>
-		<p>Looking back at our trip, it was an experience I'll never forget.  The nightlife of Baltimore, the unexpected trip to Philly, all the crazy happenings in D.C., and most of all, the insane, one-of-a-kind experience of New York City that no other place in the United States has.  There was no exact highlight for me, as I witnessed plenty of great experiences, many of which opened my eyes to a world I'd never truly seen before.</p>
-      </div>   
-</div>
-    <div class="flex-container top">		
-		<div class="flex-item">		
-			<h1>Flight to PDX</h1>
-			<h4>{{date}}</h4>
-			<p>Flying back home was a little more challenging, but not too challenging, than it was to fly to Baltimore.  As expected, it took a little longer to fly West than to fly East.  As you can see from the map, based off the pictures I took, we ended up taking a more northern trajectory than flying here.  For example, we flew near Chicago going there, but going back, we were up in Northern Wisconsin coming back.  There were clouds between Baltimore and Lake Michigan, so we couldn't totally project that part of the flight.  Flying Northern also took us through North Dakota, where we passed the Bismarck area.  Then another long time over Montana, as I told Jenn, "Montana's a large state."  Finally we headed into Idaho and Washington, heading over Walla Walla, before reaching Oregon, where the weather was beautiful and the views of Mt. Hood were amazing as can be.</p>
-			<img src="assets/flight-to-pdx.jpg" alt="Flight to PDX" class="img-responsive"/>
+<div class="flex-container">
+		<div class="flex-item" style="flex: 3">
+			<article>
+				<div class="flex-item">
+					<carousel [interval]="false">
+						<slide *ngFor="let outroPicture of outroPictures">
+							<figure>
+								<img src="{{link}}photos/{{outroPicture.image}}" alt="{{outroPicture.alt}}" class="img-responsive secondary-carousel">
+								<figcaption>
+										<h3>{{outroPicture.title}}</h3>
+									<p>{{outroPicture.description}}</p>
+								</figcaption>
+							</figure>
+						</slide>
+					</carousel>
+				</div>
+				<div class="flex-item">
+						<h1>I Need to Get Away from this One</h1>
+						<h4>{{date}}</h4>
+					<p>At last, it was time to go home. Of course, that meant making the drive from New York to Baltimore. Unfortunately, Neal was not feeling too well from the Cheesecake he ate at Junior's, so that slowed us down a little. Fortunately, Jenn
+						was able to assist with driving outside New York City. After getting Neal's car from the parking garage, we said our goodbyes to New York City, and made our way down to Baltimore.</p>
+					<p>Neal suggested we leave at 9:00 so we could make our 3:00 flight. But despite all this, we arrived with little traffic. Neal was amazed, mockingly suggesting we have some additional fun so we could barely make or miss our flight. We weren't
+						going to do that, so we got to the early with plenty of time to relax at the Airport. We certainly needed it. Neal certainly needed it.</p>
+					<p>Looking back at our trip, it was an experience I'll never forget. The nightlife of Baltimore, the unexpected trip to Philly, all the crazy happenings in D.C., and most of all, the insane, one-of-a-kind experience of New York City that
+						no other place in the United States has. There was no exact highlight for me, as I witnessed plenty of great experiences, many of which opened my eyes to a world I'd never truly seen before.</p>
+				</div>
+				<div class="flex-item">
+					<app-article-comment></app-article-comment>
+				</div>
+			</article>
+			<article>
+				<div class="flex-item">
+						<h1>Flight to PDX</h1>
+						<h4>{{date}}</h4>
+					<p>Flying back home was a little more challenging, but not too challenging, than it was to fly to Baltimore. As expected, it took a little longer to fly West than to fly East. As you can see from the map, based off the pictures I took, we
+						ended up taking a more northern trajectory than flying here. For example, we flew near Chicago going there, but going back, we were up in Northern Wisconsin coming back. There were clouds between Baltimore and Lake Michigan, so we
+						couldn't totally project that part of the flight. Flying Northern also took us through North Dakota, where we passed the Bismarck area. Then another long time over Montana, as I told Jenn, "Montana's a large state." Finally we headed
+						into Idaho and Washington, heading over Walla Walla, before reaching Oregon, where the weather was beautiful and the views of Mt. Hood were amazing as can be.</p>
+					<img src="assets/flight-to-pdx.jpg" alt="Flight to PDX" class="img-responsive" />
+				</div>
+				<div class="flex-item">
+					<app-article-comment></app-article-comment>
+				</div>
+			</article>
+			<article>
+				<div class="flex-item">
+						<h1>After the Trip: 4:44 Review</h1>
+					<figure style="float: right; margin: 20px">
+						<img src="assets/444.png" alt="4:44" class="img-responsive" />
+					</figure>
+					<p>While in New York, I saw plenty of ads promoting JAY-Z's upcoming album, 4:44. Labeled at the time a Tidal/Sprint exclusive (for those of you who don't know, Tidal is JAY-Z's music streaming service), I had no intention of buying the album.
+						I figured it would eventually be released on other platforms and available to purchase, not stream, on iTunes. He did similar with his previous album, Magna Carta Holy Grail, an album I couldn't get into. A week after June 30th, JAY-Z
+						followed through and released his album for all.</p>
+					<p>After previewing the album, and reading about the early reviews, I gave JAY-Z a second chance. Magna Carta Holy Grail seemed uninteresting and too artsy. JAY-Z had reached billionaire status and had nothing to fight for. He was enjoying
+						the high light with no conflict. A far cry from Reasonable Doubt and The Blueprint. But as we saw in the past couple of years in JAY-Z's life, being at the top is hard to maintain. With among other things, a public spat with his wife
+						Beyonce's accusations of infidelity, JAY-Z had something to struggle with, to fight for.</p>
+					<p>4:44, JAY-Z's 13th album, is his first album with production credits from one producer. That producer is No I.D., who among other things, was behind Common's early works. A more soulful producer than JAY-Z's accustomed to, JAY-Z finds
+						himself with a far different outlook on life than with previous works.</p>
+					<p>That is true on the first single, and arguably the standout of the album, "The Story of O.J.", where JAY-Z finds himself rapping about being rich as an African American. Over a bluesy beat, JAY-Z couldn't find himself in a more non-JAY-Z
+						like beat, but manages to spit rhymes as fresh as those from Reasonable Doubt. JAY-Z, who admitted he intended to rhyme about subjects never mentioned before, spits on the title track (4:44) about his infidelity, apologizing for it
+						and fighting to win the love of Beyonce and daughter Blue. A grown man is able to admit their mistakes, and JAY-Z uses this album to do so. He also takes the opportunity to showcase his appreciation for the LGBT community with the
+						help of his mother, Gloria, who came out of the closet on the track "Smile."</p>
+					<p>JAY-Z still has the capability of coming hard on a track. That much is shown on the first song, Kill JAY-Z, where he subliminally disses former friend Kanye West, and "Caught Their Eyes", where he takes aim at Prince's manager for reneging
+						on a music deal he had with Prince before his passing. Mixed in the album is JAY-Z flexing his lyrical muscles, while flaunting his abilities to rhyme "with no pen."</p>
+					<p>JAY-Z had seen his up and downs in his career, from his mafioso influenced debut Reasonable Doubt, to his more pop-oriented albums like Vol. 2 Hard Knock Life. But after 21 years in the game, JAY-Z has proven he can still be a master lyricist.
+						No matter what path JAY-Z has taken, he still remains clearly above his peers in not only his lyrics, but his business savvy that has kept him above most. It's true, I wrote him off after Magna Carta Holy Grail, but JAY-Z proved me
+						wrong. He can still experience emotional pain and rhyme about it with such precision, all while providing the perfect backdrop to his madness. In all, 4:44 showcases JAY-Z in a different light, a human being, and that makes this one
+						of his better albums. JAY-Z knows how to prove people wrong, and he certainly did that here.</p>
+				</div>
+				<div class="flex-item">
+					<app-article-comment></app-article-comment>
+				</div>
+			</article>
 		</div>
 		<div class="flex-item">
-			<h1>After the Trip: 4:44 Review</h1>
-			<figure  style="float: right; margin: 20px">  
-				<img src="assets/444.png"  alt="4:44" class="img-responsive"/>
-			</figure>
-			<p>While in New York, I saw plenty of ads promoting JAY-Z's upcoming album, 4:44.  Labeled at the time a Tidal/Sprint exclusive (for those of you who don't know, Tidal is JAY-Z's music streaming service), I had no intention of buying the album.  I figured it would eventually be released on other platforms and available to purchase, not stream, on iTunes.  He did similar with his previous album, Magna Carta Holy Grail, an album I couldn't get into.  A week after June 30th, JAY-Z followed through and released his album for all.</p>
-			<p>After previewing the album, and reading about the early reviews, I gave JAY-Z a second chance.  Magna Carta Holy Grail seemed uninteresting and too artsy.  JAY-Z had reached billionaire status and had nothing to fight for.  He was enjoying the high light with no conflict.  A far cry from Reasonable Doubt and The Blueprint.  But as we saw in the past couple of years in JAY-Z's life, being at the top is hard to maintain.  With among other things, a public spat with his wife Beyonce's accusations of infidelity, JAY-Z had something to struggle with, to fight for.</p>
-			<p>4:44, JAY-Z's 13th album, is his first album with production credits from one producer.  That producer is No I.D., who among other things, was behind Common's early works.  A more soulful producer than JAY-Z's accustomed to, JAY-Z finds himself with a far different outlook on life than with previous works.</p>
-			<p>That is true on the first single, and arguably the standout of the album, "The Story of O.J.", where JAY-Z finds himself rapping about being rich as an African American. Over a bluesy beat, JAY-Z couldn't find himself in a more non-JAY-Z like beat, but manages to spit rhymes as fresh as those from Reasonable Doubt.  JAY-Z, who admitted he intended to rhyme about subjects never mentioned before, spits on the title track (4:44) about his infidelity, apologizing for it and fighting to win the love of Beyonce and daughter Blue.  A grown man is able to admit their mistakes, and JAY-Z uses this album to do so.  He also takes the opportunity to showcase his appreciation for the LGBT community with the help of his mother, Gloria, who came out of the closet on the track "Smile."</p>
-			<p>JAY-Z still has the capability of coming hard on a track.  That much is shown on the first song, Kill JAY-Z, where he subliminally disses former friend Kanye West, and "Caught Their Eyes", where he takes aim at Prince's manager for reneging on a music deal he had with Prince before his passing.  Mixed in the album is JAY-Z flexing his lyrical muscles, while flaunting his abilities to rhyme "with no pen."</p>
-			<p>JAY-Z had seen his up and downs in his career, from his mafioso influenced debut Reasonable Doubt, to his more pop-oriented albums like Vol. 2 Hard Knock Life.  But after 21 years in the game, JAY-Z has proven he can still be a master lyricist.  No matter what path JAY-Z has taken, he still remains clearly above his peers in not only his lyrics, but his business savvy that has kept him above most.  It's true, I wrote him off after Magna Carta Holy Grail, but JAY-Z proved me wrong.  He can still experience emotional pain and rhyme about it with such precision, all while providing the perfect backdrop to his madness.  In all, 4:44 showcases JAY-Z in a different light, a human being, and that makes this one of his better albums.  JAY-Z knows how to prove people wrong, and he certainly did that here.</p>
-		</div>			
+			<div style="border: 1px solid black; background-color: black; opacity: 0.1; height: 100%; padding: 0"></div>
+		</div>
 	</div>
-<div class="flex-container">
-	<div class="flex-item"><button class="btn btn-primary" routerLink="/six/times">Previous</button></div>
-	<div class="flex-item"><button class="btn btn-primary" routerLink="/">Next</button></div>
-</div>
-<router-outlet></router-outlet>	
+	<div class="flex-container">
+		<div class="flex-item">
+			<button class="btn btn-primary" routerLink="/six/times">Previous</button>
+		</div>
+		<div class="flex-item">
+			<button class="btn btn-primary" routerLink="/">Next</button>
+		</div>
+	</div>
+	<router-outlet></router-outlet>

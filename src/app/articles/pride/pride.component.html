@@ -1,52 +1,70 @@
 <div class="flex-container">
-    <div class="flex-item">
-		<carousel [interval]="false">
-		  <slide *ngFor="let pridePicture of pridePictures">
-				<figure>
-				<a href="{{link}}photos/{{pridePicture.image}}">
-					<img src="{{link}}photos/{{pridePicture.image}}" alt="{{pridePicture.alt}}" class="img-responsive main-carousel">
-				</a>
-			<figcaption>
-			  <h3>{{pridePicture.title}}</h3>
-			  <p>{{pridePicture.description}}</p>   
-			</figcaption>
-			</figure>
-		  </slide>
-		</carousel>
-    </div>	
-</div>
-<div class="flex-container center">
-	<div class="flex-item">
-		<img src="/assets/pride.png" alt="Philly Pride" class="img-responsive">	
-	</div>
-	<div class="flex-item" style="flex:2">
-		<h1>Philly Pride</h1>
-		<h4>{{date}}</h4>
-		<p>This was my first Pride Parade I'd ever attended, so with that in mind, I watched as many types of people of all sexual orientations cheered, marched and celebrated being who they are and who they love.  The location we chose was perfect, at the Independence Historical Park with Independence Hall and the Liberty Bell, along with the National Museum of American Jewish History, complete with a banner quoting George Washington denouncing bigotry.  Also perfect was the cafe across the street that Jenn hung at inside, since the humidity was unbearable for Jenn.  She got to see a little part of the action, so she didn't completely miss out.</p>
-		<p>Not surprisingly, this year's Pride Parade had plenty of reason to protest the open bigotry of Donald Trump and anti-gay Mike Pence.  Certainly, neither one would ever attend a Pride Parade, since they didn't recognize June as LGBT Pride Month like Obama did.  There was one Gay Trump supporter wearing a Hillary Clinton Mask.  Not sure why the mask, but everyone has their right to express themselves.</p>
-		<p>There was a mix of participants, from those riding motorcycles, to parade floats, automobiles, and those who simply marched in support.  The group that caught my eye the most was the flag group, the Flaggots.  With rainbow colored flags and a well choreographed performance, the Flaggots got a well deserved applause.  Though I didn't watch the entire parade as I wanted to visit the surrounding sites, I was glad to be there and watch.  Adventures await no matter how far you are or how last minute they are planned.</p>
-	</div>
-</div>
-<div class="flex-container">
-	<div class="flex-item">
-		<h1>Facts About Philly Pride</h1>
-		<p>The first Gay Pride Parade was held on June 28, 1970 in New York City, to honor the one year anniversary of the Stonewall Riots.</p>
-		<p>Philadelphia held its first Pride Parade in 1988, making this year the 29th Parade.</p>
-		<p>Philadelphia was the site of the first Outfest, an annual National Coming Out Day event.</p>
-		<p>An estimated 25,000 people attended the Philly Pride Parade, claiming its largest crowd ever.  Perhaps Heidi chose the wrong place to watch...</p>
-	</div>
-	<div class="flex-item">
-		<div class="video">
-			<video controls="controls" poster="{{link}}videos/pride.jpg" style="width:100%" title="Various Videos from Philly Pride">
-				<source src="{{link}}videos/pride.m4v" type="video/m4v" />
-				<source src="{{link}}videos/pride.webm" type="video/webm" />
-				<source src="{{link}}videos/pride.ogv" type="video/ogg" />
-			</video>
+		<div class="flex-item" style="flex: 3">
+	
+			<article>
+				<div class="flex-item">
+					<carousel [interval]="false">
+						<slide *ngFor="let pridePicture of pridePictures">
+							<figure>
+								<a href="{{link}}photos/{{pridePicture.image}}">
+									<img src="{{link}}photos/{{pridePicture.image}}" alt="{{pridePicture.alt}}" class="img-responsive main-carousel">
+								</a>
+								<figcaption>
+										<h3>{{pridePicture.title}}</h3>
+									<p>{{pridePicture.description}}</p>
+								</figcaption>
+							</figure>
+						</slide>
+					</carousel>
+				</div>
+				<div class="flex-item">
+					<img src="/assets/pride.png" alt="Philly Pride" class="img-responsive">
+				</div>
+				<div class="flex-item">
+						<h1>Philly Pride</h1>
+						<h4>{{date}}</h4>
+					<p>This was my first Pride Parade I'd ever attended, so with that in mind, I watched as many types of people of all sexual orientations cheered, marched and celebrated being who they are and who they love. The location we chose was perfect,
+						at the Independence Historical Park with Independence Hall and the Liberty Bell, along with the National Museum of American Jewish History, complete with a banner quoting George Washington denouncing bigotry. Also perfect was the cafe
+						across the street that Jenn hung at inside, since the humidity was unbearable for Jenn. She got to see a little part of the action, so she didn't completely miss out.</p>
+					<p>Not surprisingly, this year's Pride Parade had plenty of reason to protest the open bigotry of Donald Trump and anti-gay Mike Pence. Certainly, neither one would ever attend a Pride Parade, since they didn't recognize June as LGBT Pride
+						Month like Obama did. There was one Gay Trump supporter wearing a Hillary Clinton Mask. Not sure why the mask, but everyone has their right to express themselves.</p>
+					<p>There was a mix of participants, from those riding motorcycles, to parade floats, automobiles, and those who simply marched in support. The group that caught my eye the most was the flag group, the Flaggots. With rainbow colored flags
+						and a well choreographed performance, the Flaggots got a well deserved applause. Though I didn't watch the entire parade as I wanted to visit the surrounding sites, I was glad to be there and watch. Adventures await no matter how far
+						you are or how last minute they are planned.</p>
+				</div>
+				<div class="flex-item">
+					<app-article-comment></app-article-comment>
+				</div>
+			</article>
+			<article>
+				<div class="flex-item">
+						<h1>Facts About Philly Pride</h1>
+					<p>The first Gay Pride Parade was held on June 28, 1970 in New York City, to honor the one year anniversary of the Stonewall Riots.</p>
+					<p>Philadelphia held its first Pride Parade in 1988, making this year the 29th Parade.</p>
+					<p>Philadelphia was the site of the first Outfest, an annual National Coming Out Day event.</p>
+					<p>An estimated 25,000 people attended the Philly Pride Parade, claiming its largest crowd ever. Perhaps Heidi chose the wrong place to watch...</p>
+				</div>
+				<div class="flex-item">
+					<div class="video">
+						<video controls="controls" poster="{{link}}videos/pride.jpg" style="width:100%" title="Various Videos from Philly Pride">
+							<source src="{{link}}videos/pride.m4v" type="video/m4v" />
+							<source src="{{link}}videos/pride.webm" type="video/webm" />
+							<source src="{{link}}videos/pride.ogv" type="video/ogg" />
+						</video>
+					</div>
+				</div>
+			</article>
 		</div>
-	</div>	
-</div>
-<div class="flex-container">
-	<div class="flex-item"><button class="btn btn-primary" routerLink="/two/independence">Previous</button></div>
-	<div class="flex-item"><button class="btn btn-primary" routerLink="/two/penn">Next</button></div>
-</div>
-<router-outlet></router-outlet>	
+		<div class="flex-item">
+			<div style="border: 1px solid black; background-color: black; opacity: 0.1; height: 100%; padding: 0"></div>
+		</div>
+	</div>
+	<div class="flex-container">
+		<div class="flex-item">
+			<button class="btn btn-primary" routerLink="/two/independence">Previous</button>
+		</div>
+		<div class="flex-item">
+			<button class="btn btn-primary" routerLink="/two/penn">Next</button>
+		</div>
+	</div>
+	<router-outlet></router-outlet>

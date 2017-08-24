@@ -1,4 +1,6 @@
-<div class="flex-container center">
+<div class="flex-container">
+		<div class="flex-item" style="flex: 3">
+<article>
 	<div class="flex-item">
 		<h1>The Calm Before the Storm</h1>
 		<h4>{{date}}</h4>
@@ -21,9 +23,12 @@
 			</figure>
 		  </slide>
 		</carousel>
-    </div>	
-</div>
-<div class="flex-container">
+		</div>
+		<div class="flex-item">
+				<app-article-comment></app-article-comment>
+			</div>	
+	</article>
+<article>
     <div class="flex-item">
 		<carousel [interval]="false">
 		  <slide *ngFor="let arlingtonPicture of arlingtonPictures">
@@ -39,8 +44,6 @@
 		  </slide>
 		</carousel>
     </div>
-</div>
-<div class="flex-container">
 	<div class="flex-item">
 		<h1>A Somber Afternoon at the Arlington National Cemetery</h1>
 		<h4>{{date}}</h4>
@@ -60,12 +63,15 @@
 			<p><span>35</span> - The 35th President, John F. Kennedy is perhaps the most famous person buried here, whose grave site is marked with an “eternal flame”. His family members also reside at his grave site.</p>
 			<p><span>5</span> - The number of compliments Neal received for his Shirt</p>
 	</div>
-</div>
-	<div class="flex-container">
+	<div class="flex-item">
+			<app-article-comment></app-article-comment>
+		</div>
+	</article>
+	<div class="flex-item">
 		<img src="assets/unknown.jpg" class="img-responsive" alt="Unknown" id="philadelphia"/>
 	</div>
-<div class="flex-container center">
-    <div class="flex-item" style="flex: 2">
+<article>
+    <div class="flex-item">
 		<carousel [interval]="false">
 		  <slide *ngFor="let unknownPicture of unknownPictures">
 				<figure>
@@ -85,8 +91,8 @@
 		<h4>{{date}}</h4>
 		<p>I knew I had reached the preferred spot at the Cemetery when I first laid eyes on the marble Amphitheatre.  Perfectly built like many Ancient Roman buildings, the amphitheatre felt almost surreal.  As I walked around it inside, it felt like I was back in time where the Ancient Romans played.  It almost brought me back to Italy, where I had been ten years prior.  I reached the stage and proceed to walk out where I could hear the bells going off at 4:00.  There I could see the Tomb of the Unknown Soldier, along with hillside views of Washington D.C. in the background.  A perfect place to watch the Armed Soldiers marching to protect the Tomb.  It was very peaceful, as signs requesting complete and utter silence were visible.  With many people watching, and the Military deserving every bit of respect needed, I remained silent while recording and taking pictures of the routine.  I didn’t have too much time to watch, as I needed to get back to the Visitor’s Center at the soft deadline of 4:40, so we could get back to Laurel and retrieve Neal’s car, as repairs were finished.  But I took in the experience and felt proud.  After making my rounds with the Amphitheater, I went back to right my wrong, to see the entire Kennedy gravesite.</p>
     </div>	
-</div>
-<div class="flex-container">
+	</article>
+<article>
 	<div class="flex-item">
 		<h1>For the Exercise Buffs</h1>
 		<h4>{{date}}</h4>
@@ -97,13 +103,14 @@
 	<div class="flex-item">
 		<img src="{{link}}photos/arlington-walk.jpg" alt="Arlington Walk" class="img-responsive"/>
 	</div>
-</div>
-<div class="flex-container">
+	<div class="flex-item">
+			<app-article-comment></app-article-comment>
+		</div>
+</article>
 		<div class="flex-item">
 			<app-ad></app-ad>
 		</div>
-	</div>
-<div class="flex-container">
+<article>
 	<div class="flex-item">
 	<h1>Another Mad Dash</h1>
 	<h4>{{date}}</h4>
@@ -118,8 +125,15 @@
 			</video>
 		</div>
 	</div>
+<div class="flex-item">
+		<app-article-comment></app-article-comment>
+	</div>
+</article>
 </div>
-
+<div class="flex-item">
+		<div style="border: 1px solid black; background-color: black; opacity: 0.1; height: 100%; padding: 0"></div>
+	</div>
+</div>
 <div class="flex-container">
 	<div class="flex-item"><button class="btn btn-primary" routerLink="/three/georgetown">Previous</button></div>
 	<div class="flex-item"><button class="btn btn-primary" routerLink="/four/metro">Next</button></div>

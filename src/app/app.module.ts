@@ -40,6 +40,7 @@ import { IntroComponent,
 		} from './articles';
 import { AdComponent } from './ad/ad.component';
 import { ExtraComponent } from './extra/extra.component';
+import { ArticleCommentComponent } from './articles/article-comment.component';
 
 
 @NgModule({
@@ -71,12 +72,13 @@ import { ExtraComponent } from './extra/extra.component';
     WelcomeNycComponent,
     EmpireComponent,
     TrampComponent,
-	LesComponent,
-	WtcComponent,
-	LibertyComponent,
-	TimesComponent,
-	AdComponent,
-	ExtraComponent,
+    LesComponent,
+    WtcComponent,
+    LibertyComponent,
+    TimesComponent,
+    AdComponent,
+    ExtraComponent,
+    ArticleCommentComponent,
   ],
   imports: [
     BrowserModule,

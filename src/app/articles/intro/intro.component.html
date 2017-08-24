@@ -1,86 +1,126 @@
-<div class="flex-container center">
-    <div class="flex-item">
-		<carousel [interval]="false">
-		  	<slide *ngFor="let introPicture of introPictures">
-				<figure>
-					<img src="{{link}}photos/{{introPicture.image}}" alt="{{introPicture.alt}}" class="img-responsive">
-					<figcaption>
-			  			<h3>{{introPicture.title}}</h3>
-			  			<p>{{introPicture.description}}</p>   
-					</figcaption>
-				</figure>
-		  	</slide>
-		</carousel>
-    </div>
-    <div class="flex-item">
-		<h1>You Can Call Me Al</h1>
-			<h4>{{date}}</h4>
-			<div class="famousAl flex-container">
-					<div *ngFor="let famousAl of famousAls" class="flex-item">
-					<img src="assets/{{famousAl.image}}"/>
-					<p>{{famousAl.name}}</p>
+<div class="flex-container">
+		<div class="flex-item" style="flex: 3">
+			<article>
+				<div class="flex-item">
+					<carousel [interval]="false">
+						<slide *ngFor="let introPicture of introPictures">
+							<figure>
+								<img src="{{link}}photos/{{introPicture.image}}" alt="{{introPicture.alt}}" class="img-responsive">
+								<figcaption>
+										<h3>{{introPicture.title}}</h3>
+									<p>{{introPicture.description}}</p>
+								</figcaption>
+							</figure>
+						</slide>
+					</carousel>
+				</div>
+				<div class="flex-item">
+						<h1>You Can Call Me Al</h1>
+						<h4>{{date}}</h4>
+					<div class="famousAl flex-container">
+						<div *ngFor="let famousAl of famousAls" class="flex-item">
+							<img src="assets/{{famousAl.image}}" />
+							<p>{{famousAl.name}}</p>
+						</div>
+					</div>
+					<div class="alParagraph">
+						<p>Back in the day, You Can Call Me Al was a song performed by Paul Simon, made famous with a video containing Chevy Chase lip-synching the lyrics. Of course, anyone heading to the D.C.-Baltimore region should know that Chevy Chase is
+							also the name of a Washington D.C. suburb. So it was only fitting that on the way to the airport, this song got brought up in the car and stuck in my head. Thanks Mom for playing it in the car... So what exactly is this song about,
+							the very song I played drums when I was just 2 years old?</p>
+						<p>Extensive Research led me to find this out: The song, written by Paul Simon, appears to be about a man in a midlife crisis. Simon was inspired to write this song after making a trip to South Africa, which led him to make the Graceland
+							album which this song is featured as a single. As for the names in the some, Al and Betty, Paul Simon came up with those names from a party which him and his wife Peggy were mistaken for Al and Betty. Famous Al's include: <strong>Al Green:</strong> Soul
+							singer, <strong>Al Roker:</strong> TV personality of NBC's Today Show, <strong>Al Pacino:</strong> Actor of many films, including The Godfather series and Scarface, <strong>Al Gore:</strong> Vice President under Bill Clinton and Environmental
+							Activist, <strong>Big Gay Al:</strong> Character from South Park, <strong>"Weird Al" Yankovic</strong> Musician known for humorous parodies of popular songs, <strong>Al Capone:</strong> Notorious Gangster during the Prohibition Era, <strong>Al Franken:</strong> TV
+							writer, comedian and current U.S. Senator from Minnesota and <strong>Al Davis:</strong> Former owner of the NFL's Oakland Raiders.
 					</div>
 				</div>
-				<div class="alParagraph">
-        			<p>Back in the day, You Can Call Me Al was a song performed by Paul Simon, made famous with a video containing Chevy Chase lip-synching the lyrics.  Of course, anyone heading to the D.C.-Baltimore region should know that Chevy Chase is also the name of a Washington D.C. suburb.  So it was only fitting that on the way to the airport, this song got brought up in the car and stuck in my head.  Thanks Mom for playing it in the car...  So what exactly is this song about, the very song I played drums when I was just 2 years old?</p>
-        			<p>Extensive Research led me to find this out: The song, written by Paul Simon, appears to be about a man in a midlife crisis.  Simon was inspired to write this song after making a trip to South Africa, which led him to make the Graceland album which this song is featured as a single.  As for the names in the some, Al and Betty, Paul Simon came up with those names from a party which him and his wife Peggy were mistaken for Al and Betty. Famous Al's include: <strong>Al Green:</strong> Soul singer, <strong>Al Roker:</strong> TV personality of NBC's Today Show, <strong>Al Pacino:</strong> Actor of many films, including The Godfather series and Scarface, <strong>Al Gore:</strong> Vice President under Bill Clinton and Environmental Activist, <strong>Big Gay Al:</strong> Character from South Park, <strong>"Weird Al" Yankovic</strong> Musician known for humorous parodies of popular songs, <strong>Al Capone:</strong> Notorious Gangster during the Prohibition Era, <strong>Al Franken:</strong> TV writer, comedian and current U.S. Senator from Minnesota and <strong>Al Davis:</strong> Former owner of the NFL's Oakland Raiders.					
-        </div>
-      </div>   
-</div>
-    <div class="flex-container top">
-		<div class="flex-item article">
-			<h1>So We Made it to Maryland</h1>
-			<h4>{{date}}</h4>
-			<p>After our uneventful flight, we arrived at BWI where the first thing we noticed was how hot and muggy it was; much muggier than Portland ever gets.  Thankfully, Neal showed up not too long after, though we had to wait a little bit because our flight (unfortunately, as the humorous Pilot put it) arrived early.  He had a new car than from the last time I was in Maryland, and it was slick, but one thing that struck me was the bad stench to Neal's car.  I've smelled worse, but it was noticeable enough.  Other than that, the car was nice and modern, with the now standard back-up camera, as well as the optional lane change camera.</p>
-			<p>We headed down to our hotel in Laurel, the Holiday Inn Express.  I'd only stayed in one Holiday Inn before this one; in Venice.  My first Holiday Inn in the United States.  Whooppee!  The place wasn't bad, a typical chain hotel.  We stayed in Room 319, which Jenn whined out when saying its name.  Then we ate our "Dinner" at Pho Kevin, even though it felt like our lunch.  That's the joys of time change.  See the "dinner" review below.</p>
-			<p>After a much needed meal, and picking up a few necessary items at the grocery store next door, it was back to the hotel.  Though Jenn and I were tired, it was Neal who appeared to be in the worst physical shape, as Jenn gave him an unorthodox chiropractic message, which Jenn dubbed: Two Deaths and a Chiropractic Treatment.  Even though it was late and we were tired, we weren't there to sleep.  We were there to have fun.  So began the real fun, starting with some night time fun in Baltimore.</p>
+				<div class="flex-item">
+					<app-article-comment></app-article-comment>
+				</div>
+			</article>
+			<article>
+				<div class="flex-item">
+						<h1>Flight to BWI</h1>
+						<h4>{{date}}</h4>
+					<p>The flight to Baltimore was mostly easy. Thanks to advances in phone photography, pictures taken from a plane can be located thanks to GPS. As such, I can make an approximate path taken. Not surprisingly, there's a large chunk of time
+						spent in big and wide Montana. We did fly above the town of Bozeman, among other places. There was a massive cloud cover in what likely was South Dakota before reaching the south edge of Chicagoland, though we didn't fly over Chicago
+						itself. The flight managed to fly over north of Columbus, Ohio, before crossing over Wheeling, West Virginia, easily identifiable due to the island in between the Ohio River. Finally, we reached the big town of Uniontown, Pennsylvania,
+						south of Pittsburgh, before reaching Baltimore.</p>
+					<img src="assets/flight-to-bwi.jpg" alt="Flight to BWI" class="img-responsive" />
+				</div>
+				<div class="flex-item">
+					<app-article-comment></app-article-comment>
+				</div>
+			</article>
+			<article>
+				<div class="flex-item">
+						<h1>So We Made it to Maryland</h1>
+						<h4>{{date}}</h4>
+					<p>After our uneventful flight, we arrived at BWI where the first thing we noticed was how hot and muggy it was; much muggier than Portland ever gets. Thankfully, Neal showed up not too long after, though we had to wait a little bit because
+						our flight (unfortunately, as the humorous Pilot put it) arrived early. He had a new car than from the last time I was in Maryland, and it was slick, but one thing that struck me was the bad stench to Neal's car. I've smelled worse,
+						but it was noticeable enough. Other than that, the car was nice and modern, with the now standard back-up camera, as well as the optional lane change camera.</p>
+					<p>We headed down to our hotel in Laurel, the Holiday Inn Express. I'd only stayed in one Holiday Inn before this one; in Venice. My first Holiday Inn in the United States. Whooppee! The place wasn't bad, a typical chain hotel. We stayed
+						in Room 319, which Jenn whined out when saying its name. Then we ate our "Dinner" at Pho Kevin, even though it felt like our lunch. That's the joys of time change. See the "dinner" review below.</p>
+					<p>After a much needed meal, and picking up a few necessary items at the grocery store next door, it was back to the hotel. Though Jenn and I were tired, it was Neal who appeared to be in the worst physical shape, as Jenn gave him an unorthodox
+						chiropractic message, which Jenn dubbed: Two Deaths and a Chiropractic Treatment. Even though it was late and we were tired, we weren't there to sleep. We were there to have fun. So began the real fun, starting with some night time
+						fun in Baltimore.</p>
+				</div>
+				<div class="flex-item">
+					<app-article-comment></app-article-comment>
+				</div>
+			</article>
+			<div class="flex-item">
+				<a href="http://fortune-cookie.bodiewebdesign.com">
+					<img src="assets/fortune.jpg" alt="Read Your Fortune Cookie" class="img-responsive" />
+				</a>
+			</div>
+			<article>
+				<div class="flex-item">
+					<carousel [interval]="false">
+						<slide *ngFor="let kevinPicture of kevinPictures">
+							<img src="{{link}}photos/{{kevinPicture.image}}" alt="{{kevinPicture.alt}}" class="img-responsive">
+							<div class="carousel-caption">
+									<h3>{{kevinPicture.title}}</h3>
+								<p>{{kevinPicture.description}}</p>
+							</div>
+						</slide>
+					</carousel>
+				</div>
+				<div class="flex-item">
+						<h1>How to Eat Pho by Neal Pitts, a Review of Pho Kevin</h1>
+						<h4>{{date}}</h4>
+					<p>Our first night in Maryland led us to try Vietnamese food, particularly their Pho, Vietnamese noodle soup that's considered a specialty. But making Pho, like a bicycle, requires multiple steps to achieve its tastiness and unique flavors.
+						With that said, here were the instructions Neal gave us for preparing our Pho.</p>
+					<ol>
+						<li>Give Adam all the White Onions. If you don't like onions, don't order them in your Pho. Otherwise, I’d be glad to add their rich, crisp flavor into my Pho.</li>
+						<li>Sprinkle two leaves of cilantro into small pieces into the Pho.</li>
+						<li>Squeeze Lime Juice into the Pho.</li>
+						<li>Add a chunk of sprouts on top for texture.</li>
+						<li>Add a dash of plum sauce and/or sriracha for flavor and spice. Plum sauce isn't spicy, but Sriracha clearly is.</li>
+						<li>Drop jalapeños if you like it super hot. Warning, don't bite into it unless you want your tongue to burn.</li>
+						<li>Scoop with spoon, using chopsticks to hold noodles closely with the broth in spoon.</li>
+						<li>Move your mouth close to the spoon and enjoy.</li>
+						<li>Repeat steps seven and eight until your meal is done.</li>
+					</ol>
+					<p>As for the restaurant itself, it had the feel of a typical subarban restaurant; nothing too special or fancy. Jenn wanted to try the Coconut Water, but of course, they were out of it. She would have loved the Thai Iced Tea, but with Caffeine,
+						she can't have it. She tried a sip of my Thai Iced Tea, which I hadn't had in years. Jenn regretted it, since it was so tasty. I tried the Boba within the drink, also known as the Tapioca balls. I had never tried it before, but they
+						were tasty and made the drink better. Another nice way to begin our adventurous trip.</p>
+				</div>
+				<div class="flex-item">
+					<app-article-comment></app-article-comment>
+				</div>
+			</article>
 		</div>
-		<div class="flex-item">		
-			<h1>Flight to BWI</h1>
-			<h4>{{date}}</h4>
-			<p>The flight to Baltimore was mostly easy.  Thanks to advances in phone photography, pictures taken from a plane can be located thanks to GPS.  As such, I can make an approximate path taken.  Not surprisingly, there's a large chunk of time spent in big and wide Montana.  We did fly above the town of Bozeman, among other places.  There was a massive cloud cover in what likely was South Dakota before reaching the south edge of Chicagoland, though we didn't fly over Chicago itself.  The flight managed to fly over north of Columbus, Ohio, before crossing over Wheeling, West Virginia, easily identifiable due to the island in between the Ohio River.  Finally, we reached the big town of Uniontown, Pennsylvania, south of Pittsburgh, before reaching Baltimore.</p>
-			<img src="assets/flight-to-bwi.jpg" alt="Flight to BWI" class="img-responsive"/>
-		</div>			
+		<div class="flex-item">
+			<div style="border: 1px solid black; background-color: black; opacity: 0.1; height: 100%; padding: 0"></div>
+		</div>
 	</div>
 	<div class="flex-container">
 		<div class="flex-item">
-			<a href="http://fortune-cookie.bodiewebdesign.com">
-				<img src="assets/fortune.jpg" alt="Read Your Fortune Cookie" class="img-responsive"/>
-			</a>
-		</div>
-	</div>	
-	<div class="flex-container center">
-		<div class="flex-item">
-			<h1>How to Eat Pho by Neal Pitts, a Review of Pho Kevin</h1>
-			<h4>{{date}}</h4>
-			<p>Our first night in Maryland led us to try Vietnamese food, particularly their Pho, Vietnamese noodle soup that's considered a specialty.  But making Pho, like a bicycle, requires multiple steps to achieve its tastiness and unique flavors.  With that said, here were the instructions Neal gave us for preparing our Pho.</p>
-			<ol>
-				<li>Give Adam all the White Onions.  If you don't like onions, don't order them in your Pho.  Otherwise, I’d be glad to add their rich, crisp flavor into my Pho.</li>
-				<li>Sprinkle two leaves of cilantro into small pieces into the Pho.</li>
-				<li>Squeeze Lime Juice into the Pho.</li>
-				<li>Add a chunk of sprouts on top for texture.</li>
-				<li>Add a dash of plum sauce and/or sriracha for flavor and spice.  Plum sauce isn't spicy, but Sriracha clearly is.</li>
-				<li>Drop jalapeños if you like it super hot.  Warning, don't bite into it unless you want your tongue to burn.</li>
-				<li>Scoop with spoon, using chopsticks to hold noodles closely with the broth in spoon.</li>
-				<li>Move your mouth close to the spoon and enjoy.</li>
-				<li>Repeat steps seven and eight until your meal is done.</li>
-			</ol>
-			<p>As for the restaurant itself, it had the feel of a typical subarban restaurant; nothing too special or fancy.  Jenn wanted to try the Coconut Water, but of course, they were out of it.  She would have loved the Thai Iced Tea, but with Caffeine, she can't have it. She tried a sip of my Thai Iced Tea, which I hadn't had in years.  Jenn regretted it, since it was so tasty.  I tried the Boba within the drink, also known as the Tapioca balls.  I had never tried it before, but they were tasty and made the drink better.  Another nice way to begin our adventurous trip.</p>
+			<button class="btn btn-primary" routerLink="/">Previous</button>
 		</div>
 		<div class="flex-item">
-			<carousel [interval]="false">
-				<slide *ngFor="let kevinPicture of kevinPictures">
-				<img src="{{link}}photos/{{kevinPicture.image}}" alt="{{kevinPicture.alt}}" class="img-responsive">
-				<div class="carousel-caption">
-					<h3>{{kevinPicture.title}}</h3>
-					<p>{{kevinPicture.description}}</p>   
-				</div>
-				</slide>
-			</carousel>
+			<button class="btn btn-primary" routerLink="/one">Next</button>
 		</div>
-		</div>
-		<div class="flex-container">
-		<div class="flex-item"><button class="btn btn-primary" routerLink="/">Previous</button></div>
-		<div class="flex-item"><button class="btn btn-primary" routerLink="/one">Next</button></div>
 	</div>
 	<router-outlet></router-outlet>

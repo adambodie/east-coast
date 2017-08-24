@@ -1,113 +1,162 @@
 <div class="flex-container">
-	<div class="flex-item">
-		<h1>A stroll through the Lower East Side</h1>
-		<h4>{{date}}</h4>
-		<p>After another late night, Jenn and Neal were wiped out and slept in late.  Me, not so much.  So instead of staying couped up in the room, I walked around the Lower East Side, the neighborhood which we were in.  Not the most exciting of New York places, but with plenty of ordinary excitement Portland could never offer.  After all, next to our hotel was a basketball park with a local tournament happening.  Only New York, where it seems everything started, could have such a place.  I made my way to a coffee shop to enjoy a nice Espresso.  I needed the kick, to say the least.  I did return to the hotel for a little bit, mainly to charge my phone battery.  Afterwards, I had another mission to go on, a candy run...</p>
-	</div>
-	<div class="flex-item">
-		<carousel [interval]="false">
-		  <slide *ngFor="let lesPicture of lesPictures">
-				<figure>
-				<a href="{{link}}photos/{{lesPicture.image}}">
-					<img src="{{link}}photos/{{lesPicture.image}}" alt="{{lesPicture.alt}}" class="img-responsive secondary-carousel">
+		<div class="flex-item" style="flex: 3">
+			<article>
+				<div class="flex-item">
+						<h1>A stroll through the Lower East Side</h1>
+						<h4>{{date}}</h4>
+					<p>After another late night, Jenn and Neal were wiped out and slept in late. Me, not so much. So instead of staying couped up in the room, I walked around the Lower East Side, the neighborhood which we were in. Not the most exciting of New
+						York places, but with plenty of ordinary excitement Portland could never offer. After all, next to our hotel was a basketball park with a local tournament happening. Only New York, where it seems everything started, could have such
+						a place. I made my way to a coffee shop to enjoy a nice Espresso. I needed the kick, to say the least. I did return to the hotel for a little bit, mainly to charge my phone battery. Afterwards, I had another mission to go on, a candy
+						run...
+					</p>
+				</div>
+				<div class="flex-item">
+					<carousel [interval]="false">
+						<slide *ngFor="let lesPicture of lesPictures">
+							<figure>
+								<a href="{{link}}photos/{{lesPicture.image}}">
+									<img src="{{link}}photos/{{lesPicture.image}}" alt="{{lesPicture.alt}}" class="img-responsive secondary-carousel">
+								</a>
+								<figcaption>
+									 <h3>{{lesPicture.title}}</h3>
+									<p>{{lesPicture.description}}</p>
+								</figcaption>
+							</figure>
+						</slide>
+					</carousel>
+				</div>
+				<div class="flex-item">
+					<app-article-comment></app-article-comment>
+				</div>
+			</article>
+			<div class="flex-item">
+				<a href="http://nama.bodiewebdesign.com">
+					<img src="assets/nama.jpg" alt="Nama" class="img-responsive" />
 				</a>
-			<figcaption>
-			  <h3>{{lesPicture.title}}</h3>
-			  <p>{{lesPicture.description}}</p>   
-			</figcaption>
-			</figure>
-		  </slide>
-		</carousel>
-	</div>
-</div>
-<div class="flex-container">
-		<div class="flex-item">
-			<a href="http://nama.bodiewebdesign.com">
-				<img src="assets/nama.jpg" alt="Nama" class="img-responsive"/>
-			</a>
+			</div>
+			<article>
+				<div class="flex-item">
+					<carousel [interval]="false">
+						<slide *ngFor="let candyPicture of candyPictures">
+							<figure>
+								<a href="{{link}}photos/{{candyPicture.image}}">
+									<img src="{{link}}photos/{{candyPicture.image}}" alt="{{candyPicture.alt}}" class="img-responsive secondary-carousel">
+								</a>
+								<figcaption>
+									 <h3>{{candyPicture.title}}</h3>
+									<p>{{candyPicture.description}}</p>
+								</figcaption>
+							</figure>
+						</slide>
+					</carousel>
+				</div>
+				<div class="flex-item">
+						<h1>Candy Run</h1>
+						<h4>{{date}}</h4>
+					<p>Nothing makes a sweet trip more sweet than a bunch of candy. So I sought out a candy shop. My internet research led me to the nearby Economy Candy, open since 1937. Inside was nothing but candy, candy and candy. Candy everywhere. Fun candy,
+						rich candy, silly candy, weird candy. All the candy anyone could want.</p>
+					<p>I went to the candy shop looking for candy to share with my work peeps. I couldn't top the candy I had from my co-worker's trip to Japan in May, but candy is candy. It's the thought that counts. Plus they had Green Tea flavored Kit-Kats
+						at Economy Candy as well. I guess it's not solely a Japanese thing. I was close to finding the perfect candy for my team. They had Basketball, Soccer and Football wrapped chocolates. If they only had beach-ball themed chocolates, I
+						would have been immediately sold. But the perfect candy was not in the bags.</p>
+					<p>After an exhausting search, I settled for a mixed bag of candies, three for $10.00. Perfect for my co-workers, and plenty for everyone. ***Flash forward to the future*** I got the right amount! As for me, I needed some candy for myself.
+						I ended up getting the following candies: Bacon Candy, Whatchamacallit (which I haven't seen since I was little), a Mallo Cup, Mary Jane (not the weed kind), and Tabasco Brand Chocolates. It worked out perfectly, and with my big bag
+						of candy, I headed back to the hotel. It was time to see the Statue of Liberty.</p>
+				</div>
+				<div class="flex-item">
+					<app-article-comment></app-article-comment>
+				</div>
+			</article>
+			<article>
+				<div class="flex-item">
+	
+					
+	<h1>An Ode to the Birthplace of Hip-Hop</h1>
+	
+					
+	<h4>{{date}}</h4>
+	
+					<figure style="float: right; margin: 20px">
+						<img src="assets/action-bronson.jpg" class="img-responsive" />
+						<figcaption>
+							<p>Action Bronson</p>
+						</figcaption>
+					</figure>
+					<p>Being in New York for the very first time made me feel proud of being a real hip-hop fan. Of course, it all started in New York. Many of the finest rappers ever to hold the mic come from one of the five boroughs of New York: Manhattan,
+						Brooklyn, Queens, The Bronx, and Staten Island. I would estimate that 50% of all my hip-hop catalog features New York rappers. There are way too many MC's from New York that occupy my catalog. So it was only fitting when we first entered
+						New York City that Neal picked Jay-Z’s Empire State of Mind to bump in our ride. One of the finest songs about New York ever.</p>
+	
+					<figure style="float: left; margin: 20px">
+						<img src="assets/joey-badass.jpg" class="img-responsive" />
+						<figcaption>
+							<p>Joey Bada$$</p>
+						</figcaption>
+					</figure>
+					<p>Of course, the timing of my visit was marked with sadness, due to the death of one of the realest poets from New York, Mobb Deep’s Prodigy, who passed away the day before entering New York from accidental choking. One of the grimiest rappers
+						in the mid-90s, no rapper represented the harsh realities of the streets of New York better than Prodigy. To this day, I consider Shook Ones Part II, off their classic album, The Infamous, one of the best hip-hop songs of all time.
+						It’s hard to make a list, but that song would definitely be on there. Because it’s true, there’s no such thing as a halfway crook.</p>
+	
+					<figure style="float: right; margin: 20px">
+						<img src="assets/flatbush-zombies.jpg" class="img-responsive" />
+						<figcaption>
+							<p>Flatbush Zombies</p>
+						</figcaption>
+					</figure>
+					<blockquote>If skills sold, Truth be told, I'd probably be, Lyrically, Talib Kweli
+						<footer>Jay-Z, off the song "Moment of Clarity"</footer>
+					</blockquote>
+					<p>There are plenty of elite rappers and rap groups hailing from New York, some of the best ever. A short list, for me, would include The Notorious B.I.G., Jay-Z, Nas, the Wu-Tang Clan as a whole, and A Tribe Called Quest. There are plenty
+						of others out there, but this would represent a great starting point. Songs like Big Poppa, the aforementioned Empire State of Mind, The World Is Yours, C.R.E.A.M. and Scenario are only a small sampling of everything New York has to
+						offer. Today, there are still rappers from New York holding the torch, but with the game diversifying so much, New York rap isn’t as dominant as it seems. The popular acts aren’t representative of the old days. Today, I find myself
+						digging the sounds of Joey Bada$$, Action Bronson and the Flatbush Zombies.</p>
+					<figure style="float: left; margin: 20px">
+						<img src="assets/talib-kweli.jpg" class="img-responsive" />
+						<figcaption>
+							<p>Reflection Eternal</p>
+						</figcaption>
+					</figure>
+					<p>No hip-hop discussion would be complete without the rapper most discussed about during our trip, Talib Kweli. To me, he’s a thoughtful rapper who speaks out about injustices in the world. To Neal, he was a kid he spent a year of school
+						with in Connecticut, a young kid who wore a Q-Tip in his ear and didn’t know how to truly pronounce his name until someone told him he was saying it wrong. Talib Kweli is not a household name like Jay-Z, who once rapped he would spit
+						lyrics like him if he wasn’t in it for the cash. But he’s managed to stay strong since he began his career in the late 90s rhyming with Mos Def as part of the group Blackstar or rapping with producer DJ Hi-Tek in the group Reflection
+						Eternal.
+					</p>
+				</div>
+				<div class="flex-item">
+					<app-article-comment></app-article-comment>
+				</div>
+			</article>
+			<article>
+				<div class="flex-item">
+						<h1>Talib Kweli Playlist</h1>
+					<p>Talib Kweli has been around for years, starting in 1996 before hooking up with Mos Def to form the group Black Star, for their first and only album, Mos Def & Talib Kweli Are Black Star, in 1998. Since then, Talib Kweli has made multiple
+						albums, mixtapes, singles and guest appearances, working with a variety of producers and rappers. Here are a sample of a few songs I would recommend. Click the play button to sample the songs.</p>
+					<ul class="talib-playlist">
+						<li *ngFor="let talibSong of talibSongs" class="flex-container center">
+							<div class="flex-item" style="flex: 5; padding: 0">
+								<p><strong>{{talibSong.title}}</strong> - {{talibSong.artist}}</p>
+							</div>
+							<div class="flex-item" style="padding: 0">
+								<a href="{{talibSong.link}}">
+									<img src="assets/play.png" />
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="flex-item">
+					<app-article-comment></app-article-comment>
+				</div>
+			</article>
 		</div>
-</div>
-<div class="flex-container">
-	<div class="flex-item">
-		<carousel [interval]="false">
-		  <slide *ngFor="let candyPicture of candyPictures">
-				<figure>
-				<a href="{{link}}photos/{{candyPicture.image}}">
-					<img src="{{link}}photos/{{candyPicture.image}}" alt="{{candyPicture.alt}}" class="img-responsive secondary-carousel">
-				</a>
-			<figcaption>
-			  <h3>{{candyPicture.title}}</h3>
-			  <p>{{candyPicture.description}}</p>   
-			</figcaption>
-			</figure>
-		  </slide>
-		</carousel>
+		<div class="flex-item">
+			<div style="border: 1px solid black; background-color: black; opacity: 0.1; height: 100%; padding: 0"></div>
+		</div>
 	</div>
-	<div class="flex-item">
-		<h1>Candy Run</h1>
-		<h4>{{date}}</h4>
-		<p>Nothing makes a sweet trip more sweet than a bunch of candy.  So I sought out a candy shop.  My internet research led me to the nearby Economy Candy, open since 1937.  Inside was nothing but candy, candy and candy.  Candy everywhere.  Fun candy, rich candy, silly candy, weird candy.  All the candy anyone could want.</p>
-		<p>I went to the candy shop looking for candy to share with my work peeps.  I couldn't top the candy I had from my co-worker's trip to Japan in May, but candy is candy.  It's the thought that counts.  Plus they had Green Tea flavored Kit-Kats at Economy Candy as well.  I guess it's not solely a Japanese thing.  I was close to finding the perfect candy for my team.  They had Basketball, Soccer and Football wrapped chocolates.  If they only had beach-ball themed chocolates, I would have been immediately sold.  But the perfect candy was not in the bags.</p>
-		<p>After an exhausting search, I settled for a mixed bag of candies, three for $10.00.  Perfect for my co-workers, and plenty for everyone.  ***Flash forward to the future*** I got the right amount!  As for me, I needed some candy for myself.  I ended up getting the following candies: Bacon Candy, Whatchamacallit (which I haven't seen since I was little), a Mallo Cup, Mary Jane (not the weed kind), and Tabasco Brand Chocolates.  It worked out perfectly, and with my big bag of candy, I headed back to the hotel.  It was time to see the Statue of Liberty.</p>
-	</div>	
-</div>
-<div class="flex-container">
-	<div class="flex-item">
-<h1>An Ode to the Birthplace of Hip-Hop</h1>
-<h4>{{date}}</h4>
-
-<figure  style="float: right; margin: 20px">  
-		<img src="assets/action-bronson.jpg" class="img-responsive"/>
-			<figcaption>
-				<p>Action Bronson</p>
-			</figcaption>
-	</figure>
-<p>Being in New York for the very first time made me feel proud of being a real hip-hop fan.  Of course, it all started in New York.  Many of the finest rappers ever to hold the mic come from one of the five boroughs of New York: Manhattan, Brooklyn, Queens, The Bronx, and Staten Island.  I would estimate that 50% of all my hip-hop catalog features New York rappers.  There are way too many MC's from New York that occupy my catalog.  So it was only fitting when we first entered New York City that Neal picked Jay-Z’s Empire State of Mind to bump in our ride.  One of the finest songs about New York ever.</p>
-
-<figure  style="float: left; margin: 20px">  
-		<img src="assets/joey-badass.jpg" class="img-responsive"/>
-			<figcaption>
-				<p>Joey Bada$$</p>
-			</figcaption>
-	</figure>
-<p>Of course, the timing of my visit was marked with sadness, due to the death of one of the realest poets from New York, Mobb Deep’s Prodigy, who passed away the day before entering New York from accidental choking.  One of the grimiest rappers in the mid-90s, no rapper represented the harsh realities of the streets of New York better than Prodigy.  To this day, I consider Shook Ones Part II, off their classic album, The Infamous, one of the best hip-hop songs of all time.  It’s hard to make a list, but that song would definitely be on there.  Because it’s true, there’s no such thing as a halfway crook.</p>
-
-<figure  style="float: right; margin: 20px">  
-		<img src="assets/flatbush-zombies.jpg" class="img-responsive"/>
-			<figcaption>
-				<p>Flatbush Zombies</p>
-			</figcaption>
-	</figure>
-	<blockquote>If skills sold, Truth be told, I'd probably be, Lyrically, Talib Kweli<footer>Jay-Z, off the song "Moment of Clarity"</footer></blockquote>
-<p>There are plenty of elite rappers and rap groups hailing from New York, some of the best ever.  A short list, for me, would include The Notorious B.I.G., Jay-Z, Nas, the Wu-Tang Clan as a whole, and A Tribe Called Quest.  There are plenty of others out there, but this would represent a great starting point.  Songs like Big Poppa, the aforementioned Empire State of Mind, The World Is Yours, C.R.E.A.M. and Scenario are only a small sampling of everything New York has to offer.  Today, there are still rappers from New York holding the torch, but with the game diversifying so much, New York rap isn’t as dominant as it seems.  The popular acts aren’t representative of the old days.  Today, I find myself digging the sounds of Joey Bada$$, Action Bronson and the Flatbush Zombies.</p> 
-<figure  style="float: left; margin: 20px">  
-		<img src="assets/talib-kweli.jpg" class="img-responsive"/>
-			<figcaption>
-				<p>Reflection Eternal</p>
-			</figcaption>
-	</figure>
-<p>No hip-hop discussion would be complete without the rapper most discussed about during our trip, Talib Kweli.  To me, he’s a thoughtful rapper who speaks out about injustices in the world.  To Neal, he was a kid he spent a year of school with in Connecticut, a young kid who wore a Q-Tip in his ear and didn’t know how to truly pronounce his name until someone told him he was saying it wrong.  Talib Kweli is not a household name like Jay-Z, who once rapped he would spit lyrics like him if he wasn’t in it for the cash.  But he’s managed to stay strong since he began his career in the late 90s rhyming with Mos Def as part of the group Blackstar or rapping with producer DJ Hi-Tek in the group Reflection Eternal.</p>
+	<div class="flex-container">
+		<div class="flex-item">
+			<button class="btn btn-primary" routerLink="/five/tramp">Previous</button>
+		</div>
+		<div class="flex-item">
+			<button class="btn btn-primary" routerLink="/six/wtc">Next</button>
+		</div>
 	</div>
-	<div class="flex-item">
-		<h1>Talib Kweli Playlist</h1>
-		<p>Talib Kweli has been around for years, starting in 1996 before hooking up with Mos Def to form the group Black Star, for their first and only album, Mos Def & Talib Kweli Are Black Star, in 1998.  Since then, Talib Kweli has made multiple albums, mixtapes, singles and guest appearances, working with a variety of producers and rappers.  Here are a sample of a few songs I would recommend.  Click the play button to sample the songs.</p>
-		<ul class="talib-playlist">
-				<li *ngFor="let talibSong of talibSongs" class="flex-container center">
-						<div class="flex-item" style="flex: 5; padding: 0">
-							<p><strong>{{talibSong.title}}</strong> - {{talibSong.artist}}</p></div>
-						<div class="flex-item" style="padding: 0">
-							<a href="{{talibSong.link}}">
-								<img src="assets/play.png"/>
-							</a>
-						</div>
-				</li>
-		</ul>
-	</div>
-</div>
-<div class="flex-container">
-	<div class="flex-item"><button class="btn btn-primary" routerLink="/five/tramp">Previous</button></div>
-	<div class="flex-item"><button class="btn btn-primary" routerLink="/six/wtc">Next</button></div>
-</div>
-<router-outlet></router-outlet>	
-
-
+	<router-outlet></router-outlet>

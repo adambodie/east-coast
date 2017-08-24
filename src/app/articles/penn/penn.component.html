@@ -1,58 +1,57 @@
 <div class="flex-container">
-    <div class="flex-item">
-		<carousel [interval]="false">
-		  <slide *ngFor="let pennPicture of pennPictures">
-				<figure>
-				<a href="{{link}}photos/{{pennPicture.image}}">
-					<img src="{{link}}photos/{{pennPicture.image}}" alt="{{pennPicture.alt}}" class="img-responsive main-carousel">
-				</a>
-			<figcaption>
-			  <h3>{{pennPicture.title}}</h3>
-			  <p>{{pennPicture.description}}</p>   
-			</figcaption>
-			</figure>
-		  </slide>
-		</carousel>
-    </div>	
-</div>
-<div class="flex-container">
-	<div class="flex-item">
-		<h1>After the Pride</h1>
-		<h4>{{date}}</h4>
-		<p>After the Pride and after lunch (see below), I briefly walked around Penn’s Landing, a park on the edge of the Delaware River, close to the Continental.  As Neal had been complaining that no rain had yet come as projected, drops of rain finally showed up, but none too bad.  The views from Penn’s Landing were expansive, with the river and Camden, New Jersey on one side, and a view of the city from the other side, complete with historical buildings in between.  There was a Festival in conjunction with the Pride Parade being held here, but we didn’t feel the need to go see it.  We saw plenty of action at the Parade itself.  With plenty of time and one major stop on my list of things I really wanted to see in Philadelphia, we headed west to the Philadelphia Museum of Art via Uber.</p>
-	</div>
-	<div class="flex-item">
-	<h1>Famous Philadelphians</h1>
-			<div class="flex-container famousAl">
-			<div *ngFor="let famousPhiladelphian of famousPhiladelphians" class="flex-item">
-				<img src="assets/{{famousPhiladelphian.image}}"/>
-				<p>{{famousPhiladelphian.name}}</p>
-			</div>
-		</div>
-	<p>There are plenty of famous people from Philadelphia, from the Historical figures to the modern day entertainers.  The list includes:</p>
-	<ul>
-		<li><strong>Benjamin Franklin:</strong> Founding Father of the United States and Inventor of the Lightning Rod</li>
-		<li><strong>Dick Clark:</strong> Radio and TV Personality</li>
-		<li><strong>Wilt Chamberlain:</strong> NBA Legend</li>
-		<li><strong>Noam Chomsky:</strong> Considered the Father of Modern Linguistics</li>
-		<li><strong>Bill Cosby:</strong> Actor and Comedian</li>
-		<li><strong>Bradley Cooper:</strong> Actor</li>
-		<li><strong>Kobe Bryant:</strong> NBA Legend</li>
-		<li><strong>Reggie Jackson:</strong> MLB legend</li>
-		<li><strong>Will Smith:</strong> Actor and Rapper</li>
-		<li><strong>Richard Gere:</strong> Actor</li>
-		<li><strong>The Roots:</strong> Hip-hop band</li>
-		<li><strong>Betsy Ross:</strong> Designer of the original American Flag</li>
-						
-	</ul>
-	</div>
-</div>
-	<div class="flex-container">
+		<div class="flex-item" style="flex: 3">
+				<article>
+    				<div class="flex-item">
+								<carousel [interval]="false">
+									<slide *ngFor="let pennPicture of pennPictures">
+										<figure>
+										<a href="{{link}}photos/{{pennPicture.image}}">
+											<img src="{{link}}photos/{{pennPicture.image}}" alt="{{pennPicture.alt}}" class="img-responsive main-carousel">
+										</a>
+									<figcaption>
+										<h3>{{pennPicture.title}}</h3>
+										<p>{{pennPicture.description}}</p>   
+									</figcaption>
+									</figure>
+									</slide>
+								</carousel>
+    				</div>	
+						<div class="flex-item">
+							<h1>After the Pride</h1>
+							<h4>{{date}}</h4>
+							<p>After the Pride and after lunch (see below), I briefly walked around Penn’s Landing, a park on the edge of the Delaware River, close to the Continental.  As Neal had been complaining that no rain had yet come as projected, drops of rain finally showed up, but none too bad.  The views from Penn’s Landing were expansive, with the river and Camden, New Jersey on one side, and a view of the city from the other side, complete with historical buildings in between.  There was a Festival in conjunction with the Pride Parade being held here, but we didn’t feel the need to go see it.  We saw plenty of action at the Parade itself.  With plenty of time and one major stop on my list of things I really wanted to see in Philadelphia, we headed west to the Philadelphia Museum of Art via Uber.</p>
+						</div>
+				</article>
+				<article>
+				<div class="flex-item">
+							<h1>Famous Philadelphians</h1>
+									<div class="flex-container famousAl">
+											<div *ngFor="let famousPhiladelphian of famousPhiladelphians" class="flex-item">
+														<img src="assets/{{famousPhiladelphian.image}}"/>
+														<p>{{famousPhiladelphian.name}}</p>
+											</div>
+								</div>
+							<p>There are plenty of famous people from Philadelphia, from the Historical figures to the modern day entertainers.  The list includes:</p>
+							<ul>
+								<li><strong>Benjamin Franklin:</strong> Founding Father of the United States and Inventor of the Lightning Rod</li>
+								<li><strong>Dick Clark:</strong> Radio and TV Personality</li>
+								<li><strong>Wilt Chamberlain:</strong> NBA Legend</li>
+								<li><strong>Noam Chomsky:</strong> Considered the Father of Modern Linguistics</li>
+								<li><strong>Bill Cosby:</strong> Actor and Comedian</li>
+								<li><strong>Bradley Cooper:</strong> Actor</li>
+								<li><strong>Kobe Bryant:</strong> NBA Legend</li>
+								<li><strong>Reggie Jackson:</strong> MLB legend</li>
+								<li><strong>Will Smith:</strong> Actor and Rapper</li>
+								<li><strong>Richard Gere:</strong> Actor</li>
+								<li><strong>The Roots:</strong> Hip-hop band</li>
+								<li><strong>Betsy Ross:</strong> Designer of the original American Flag</li>						
+							</ul>
+						</div>
+					</article>
 		<div class="flex-item">
 			<app-ad></app-ad>
 		</div>
-	</div>
-<div class="flex-container">
+	<article>
     <div class="flex-item">
 		<carousel [interval]="false">
 		  <slide *ngFor="let continentalPicture of continentalPictures">
@@ -72,8 +71,16 @@
     <h1>Continental Review</h1>
     <h4>{{date}}</h4>
     		<p>After the Pride Parade finished, stomachs started growling as it was time for lunch.  Naturally, the best direction to go was to head back towards our car.  So with that in mind,  seeking adventure and flair, the four of us went to the Continental, a fun restaurant with a variety of interesting items on the menu.  For me, it was the Korean Tacos which caught my eye.  More of an appetizer than a full course meal, but nonetheless quite tasty.  Of course, the humidity had made my shirt real sweaty and heavy.  It felt like I had gained 10 pounds simply for the shirt.</p>
-    </div>	
+		</div>
+		<div class="flex-item">
+				<app-article-comment></app-article-comment>
+			</div>
+		</article>	
 </div>
+<div class="flex-item">
+		<div style="border: 1px solid black; background-color: black; opacity: 0.1; height: 100%; padding: 0"></div>
+	</div>
+</div>	
 <div class="flex-container">
 	<div class="flex-item"><button class="btn btn-primary" routerLink="/two/pride">Previous</button></div>
 	<div class="flex-item"><button class="btn btn-primary" routerLink="/two/art">Next</button></div>
