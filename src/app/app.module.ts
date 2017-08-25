@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { HttpModule } from '@angular/http';
 import { RouterModule }   from '@angular/router';
-import { CarouselModule, BsDropdownModule, ModalModule } from 'ngx-bootstrap';
+import { CarouselModule, BsDropdownModule, ModalModule, AccordionModule } from 'ngx-bootstrap';
 import { SelectModule } from 'ng2-select';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about';
@@ -89,6 +89,7 @@ import { ArticleCommentComponent } from './articles/article-comment.component';
     BsDropdownModule.forRoot(),
     SelectModule,
     ModalModule.forRoot(),
+    AccordionModule.forRoot(),
     RouterModule.forRoot([
         {	  path: '', component: HomeComponent	},    
         {	  path: 'about', component: AboutComponent  },

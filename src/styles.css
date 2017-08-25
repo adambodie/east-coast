@@ -63,10 +63,8 @@ figcaption {
     right: 0;
 }
 
-
-@media screen and (min-width: 480px) {
-  .center {
-      -webkit-align-items: center;
-      align-items: center;
-  }              
+.panel-body {
+    padding: 0px;
+    background-color: #5b52c5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
 }
