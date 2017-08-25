@@ -6,7 +6,7 @@
                     <slide *ngFor="let empire80Picture of empire80Pictures">
                         <figure>
                             <a href="{{link}}photos/{{empire80Picture.image}}">
-                                <img src="{{link}}photos/{{empire80Picture.image}}" alt="{{empire80Picture.alt}}" class="img-responsive secondary-carousel">
+                                <img src="{{link}}photos/{{empire80Picture.image}}" alt="{{empire80Picture.alt}}" class="img-responsive main-carousel">
                             </a>
                             <figcaption>
                                  <h3>{{empire80Picture.title}}</h3>
@@ -48,7 +48,7 @@
             </div>
         </article>
         <article>
-            <div class="flex-item">
+            <div class="flex-item" style="height: 700px">
                 	<h1>Evolution of a New York Skyline</h1>
                 	<h4>{{date}}</h4>
                 <p>When my Mom was 10, she visited New York City with her Mom and Ed Sherman. She visited the Empire State Building too. As you can see, the views have evolved in the past 50 years. Hover over the picture below to see just how much time has
@@ -57,7 +57,7 @@
                 <img src='assets/new-nyc.jpg' id="new-nyc" class="img-responsive" alt="New York City">
             </div>
         </article>
-        <div class="flex-item" style="margin-top: 400px">
+        <div class="flex-item">
             <img src="assets/empire-state-building.jpg" class="img-responsive" />
         </div>
         <article>
@@ -125,7 +125,7 @@
                     <slide *ngFor="let midtownPicture of midtownPictures">
                         <figure>
                             <a href="{{link}}photos/{{midtownPicture.image}}">
-                                <img src="{{link}}photos/{{midtownPicture.image}}" alt="{{midtownPicture.alt}}" class="img-responsive secondary-carousel">
+                                <img src="{{link}}photos/{{midtownPicture.image}}" alt="{{midtownPicture.alt}}" class="img-responsive main-carousel">
                             </a>
                             <figcaption>
                                  <h3>{{midtownPicture.title}}</h3>

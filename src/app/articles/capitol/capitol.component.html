@@ -39,7 +39,11 @@
         </article>
 
         <article>
+
             <div class="flex-item">
+                	<h1>The Alibi</h1>
+                	<h4>{{date}}</h4>
+            <div style="float: left">
                 <carousel [interval]="false">
                     <slide *ngFor="let alibiPicture of alibiPictures">
                         <figure>
@@ -54,9 +58,6 @@
                     </slide>
                 </carousel>
             </div>
-            <div class="flex-item">
-                	<h1>The Alibi</h1>
-                	<h4>{{date}}</h4>
                 <p>With neither of us certain of where to eat, and not much options readily visible, we found the nearest place on the map, a British Pub called the Alibi, which had the feel of a British Pub, but unfortunately, didn't have very good service,
                     as they were too slow, especially for “cranky from not eating anything” Jenn. I unfortunately got the brunt of the crankiness. As for the food, it was decent pub food. I had a sausage sandwich with fries. But Jenn’s crankiness set
                     a bad mood and I simply wanted to get out of there A.S.A.P. due to it. Plus I wanted to visit D.C., since we were suddenly on a time crunch to see Galvin.</p>

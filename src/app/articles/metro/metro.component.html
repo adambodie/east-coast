@@ -2,6 +2,21 @@
     <div class="flex-item" style="flex: 3">
         <article>
             <div class="flex-item">
+                <carousel [interval]="false">
+                    <slide *ngFor="let metroPicture of metroPictures">
+                        <figure>
+                            <a href="{{link}}photos/{{metroPicture.image}}">
+                                <img src="{{link}}photos/{{metroPicture.image}}" alt="{{metroPicture.alt}}" class="img-responsive main-carousel">
+                            </a>
+                            <figcaption>
+                                 <h3>{{metroPicture.title}}</h3>
+                                <p>{{metroPicture.description}}</p>
+                            </figcaption>
+                        </figure>
+                    </slide>
+                </carousel>
+            </div>			
+            <div class="flex-item">
                 	<h1>Separated at Last?</h1>
                 	<h4>{{date}}</h4>
                 <p>Heading back to Greenbelt, which was the last Metro stop and the one closest to Laurel, at least where Neal’s Honda was at, meant we came back to way we came. But life sure does throw you curveballs. While switching to the Green Line,
@@ -11,21 +26,6 @@
                 <p>After both of us reached the Greenbelt Metro station, one more Uber ride awaited us to take us to the Honda and pick up Neal’s car. Driving there provided something I wouldn’t expect in the area, a country like landscape. No city life,
                     no suburban life. Certainly that can be expected in Portland, but not in the D.C. Metro. Plus some very dark clouds approaching made for more interesting pictures. Finally, we got to the Honda and Neal’s car back and well, except for
                     the bad stench in the car of course.</p>
-            </div>
-            <div class="flex-item">
-                <carousel [interval]="false">
-                    <slide *ngFor="let metroPicture of metroPictures">
-                        <figure>
-                            <a href="{{link}}photos/{{metroPicture.image}}">
-                                <img src="{{link}}photos/{{metroPicture.image}}" alt="{{metroPicture.alt}}" class="img-responsive secondary-carousel">
-                            </a>
-                            <figcaption>
-                                 <h3>{{metroPicture.title}}</h3>
-                                <p>{{metroPicture.description}}</p>
-                            </figcaption>
-                        </figure>
-                    </slide>
-                </carousel>
             </div>
             <div class="flex-item">
                 	<h1>Maryland By The Numbers</h1>
@@ -53,7 +53,7 @@
                     <slide *ngFor="let sakuraPicture of sakuraPictures">
                         <figure>
                             <a href="{{link}}photos/{{sakuraPicture.image}}">
-                                <img src="{{link}}photos/{{sakuraPicture.image}}" alt="{{sakuraPicture.alt}}" class="img-responsive secondary-carousel">
+                                <img src="{{link}}photos/{{sakuraPicture.image}}" alt="{{sakuraPicture.alt}}" class="img-responsive main-carousel">
                             </a>
                             <figcaption>
                                  <h3>{{sakuraPicture.title}}</h3>

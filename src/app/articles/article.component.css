@@ -2,7 +2,8 @@
 -------------------------*/
 article {
     padding: 5px;
-    margin: 10px;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .main-carousel {
     display: block;
@@ -13,8 +14,8 @@ article {
 .secondary-carousel {
     display: block;
     margin: 0 auto;
-    max-width: 375px;
-    max-height: 280px;       
+    max-width: 300px;
+    max-height: 225px;       
 }
 
 h3 {
@@ -186,8 +187,8 @@ footer {
         max-height: 450px;
     }
     .secondary-carousel {
-        max-width: 400px;
-        max-height: 300px;       
+        max-width: 300px;
+        max-height: 225px;       
     }                
 }
 
@@ -198,7 +199,7 @@ footer {
     }
 
     .secondary-carousel {
-        max-width: 600px;
-        max-height: 450px;       
+        max-width: 300px;
+        max-height: 225px;       
     }   
 }

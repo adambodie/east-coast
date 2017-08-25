@@ -6,7 +6,7 @@
 						<slide *ngFor="let baltimorePicture of baltimorePictures">
 							<figure>
 								<a href="{{link}}photos/{{baltimorePicture.image}}">
-									<img src="{{link}}photos/{{baltimorePicture.image}}" alt="{{baltimorePicture.alt}}" class="img-responsive secondary-carousel">
+									<img src="{{link}}photos/{{baltimorePicture.image}}" alt="{{baltimorePicture.alt}}" class="img-responsive primary-carousel">
 								</a>
 								<figcaption>
 										<h3>{{baltimorePicture.title}}</h3>
@@ -36,7 +36,7 @@
 						<slide *ngFor="let pierPicture of pierPictures">
 							<figure>
 								<a href="{{link}}photos/{{pierPicture.image}}">
-									<img src="{{link}}photos/{{pierPicture.image}}" alt="{{pierPicture.alt}}" class="img-responsive secondary-carousel" />
+									<img src="{{link}}photos/{{pierPicture.image}}" alt="{{pierPicture.alt}}" class="img-responsive primary-carousel" />
 								</a>
 								<figcaption>
 										<h3>{{pierPicture.title}}</h3>
@@ -95,29 +95,30 @@
 				</div>
 			</article>
 			<article>
-				<div class="flex-item">
-					<carousel [interval]="false">
-						<slide *ngFor="let dinerPicture of dinerPictures">
-							<figure>
-								<img src="{{link}}photos/{{dinerPicture.image}}" alt="{{dinerPicture.alt}}" class="img-responsive secondary-carousel" />
-								<figcaption>
-										<h3>{{dinerPicture.title}}</h3>
-									<p>{{dinerPicture.description}}</p>
-								</figcaption>
-							</figure>
-						</slide>
-					</carousel>
-				</div>
-				<div class="flex-item">
-						<h1>Silver Diner Review</h1>
-						<h4>June 18, 2017</h4>
-					<p>Looking for a place to eat, but not wanting to stay in Baltimore, we headed back towards Laurel to the Silver Diner. But that location closed down, so we went to one in Greenbelt instead, which was the closest Silver Diner to Laurel. Of
-						course, it was past Laurel, so extra driving was involved. But eating at 1:00 am, although basically unprecedented for me, felt more natural since it only seemed like 1:00 am.</p>
-					<p>Similar to the retro 50's cafes like Johnny Rockets, or Guenther Toody's in Denver, you'll feel back in time with the jukeboxes and old time music. But the menu does not have that feeling at all, as they have many interesting food and
-						drink item combinations. Jenn continued her adventerous streak by trying the Guava Mint Ginger Ale. An interesting combo, but Jenn enjoyed it. As for me, I also took an adventure and had the Wasabi Fresh Atlantic Salmon Sliders. Served
-						with a fruit salad, it came with two sliders, and since I wasn't too hungry, I didn't mind. The sliders themselves weren't bad. I didn't taste enough Wasabi, but other than that, I enjoyed them. I also had some of Jenn's fries in exchange
-						for the salad that I didn't really want.</p>
-				</div>
+					<div class="flex-item">
+							<h1>Silver Diner Review</h1>
+							<h4>June 18, 2017</h4>
+					<div style="float: right">
+						<carousel [interval]="false">
+							<slide *ngFor="let dinerPicture of dinerPictures">
+								<figure>
+									<img src="{{link}}photos/{{dinerPicture.image}}" alt="{{dinerPicture.alt}}" class="img-responsive secondary-carousel" />
+									<figcaption>
+											<h3>{{dinerPicture.title}}</h3>
+										<p>{{dinerPicture.description}}</p>
+									</figcaption>
+								</figure>
+							</slide>
+						</carousel>
+					</div>	
+						<p>Looking for a place to eat, but not wanting to stay in Baltimore, we headed back towards Laurel to the Silver Diner. But that location closed down, so we went to one in Greenbelt instead, which was the closest Silver Diner to Laurel. Of
+							course, it was past Laurel, so extra driving was involved. But eating at 1:00 am, although basically unprecedented for me, felt more natural since it only seemed like 1:00 am.</p>
+						<p>Similar to the retro 50's cafes like Johnny Rockets, or Guenther Toody's in Denver, you'll feel back in time with the jukeboxes and old time music. But the menu does not have that feeling at all, as they have many interesting food and
+							drink item combinations. Jenn continued her adventerous streak by trying the Guava Mint Ginger Ale. An interesting combo, but Jenn enjoyed it. As for me, I also took an adventure and had the Wasabi Fresh Atlantic Salmon Sliders. Served
+							with a fruit salad, it came with two sliders, and since I wasn't too hungry, I didn't mind. The sliders themselves weren't bad. I didn't taste enough Wasabi, but other than that, I enjoyed them. I also had some of Jenn's fries in exchange
+							for the salad that I didn't really want.</p>
+					</div>
+
 				<div class="flex-item">
 					<app-article-comment></app-article-comment>
 				</div>

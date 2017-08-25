@@ -2,20 +2,11 @@
     <div class="flex-item" style="flex: 3">
         <article>
             <div class="flex-item">
-                	<h1>Driving through New Jersey, the Joy of My Life</h1>
-                	<h4>{{date}}</h4>
-                <p>It’s true what they say, New Jersey is the joke state. No one takes New Jersey seriously, and most people who live there are those who can’t afford to live in New York or Philadelphia. Driving through New Jersey was incredibly boring and
-                    lame. It’s bad enough that they have bad and impatient drivers, but the New Jersey Turnpike, the road we drove on, was hardly scenic by any means. Just a boring highway with trees side by side and no cities around.</p>
-                <p>Sure, there were a few minor good things about the New Jersey Turnpike. Their rest areas are frequent and modern, with a few shops and gas station at each one. Nothing like the rest stops they have here in Oregon. I remember on rest stop
-                    near Hermiston so disgusting, it smelled like shit and I about wanted to puke. Another plus for the New Jersey Turnpike is that they have an elevated road just for the big trucks. With New Jersey drivers as bad as they are, getting
-                    the trucks out of the way and isolated is a great thing, I doubt the 100mph New Jersey drivers would have any patience with a truck going the speed limit.</p>
-            </div>
-            <div class="flex-item">
                 <carousel [interval]="false">
                     <slide *ngFor="let jerseyPicture of jerseyPictures">
                         <figure>
                             <a href="{{link}}photos/{{jerseyPicture.image}}">
-                                <img src="{{link}}photos/{{jerseyPicture.image}}" alt="{{jerseyPicture.alt}}" class="img-responsive secondary-carousel">
+                                <img src="{{link}}photos/{{jerseyPicture.image}}" alt="{{jerseyPicture.alt}}" class="img-responsive main-carousel">
                             </a>
                             <figcaption>
                                  <h3>{{jerseyPicture.title}}</h3>
@@ -24,6 +15,15 @@
                         </figure>
                     </slide>
                 </carousel>
+            </div>			
+            <div class="flex-item">
+                	<h1>Driving through New Jersey, the Joy of My Life</h1>
+                	<h4>{{date}}</h4>
+                <p>It’s true what they say, New Jersey is the joke state. No one takes New Jersey seriously, and most people who live there are those who can’t afford to live in New York or Philadelphia. Driving through New Jersey was incredibly boring and
+                    lame. It’s bad enough that they have bad and impatient drivers, but the New Jersey Turnpike, the road we drove on, was hardly scenic by any means. Just a boring highway with trees side by side and no cities around.</p>
+                <p>Sure, there were a few minor good things about the New Jersey Turnpike. Their rest areas are frequent and modern, with a few shops and gas station at each one. Nothing like the rest stops they have here in Oregon. I remember on rest stop
+                    near Hermiston so disgusting, it smelled like shit and I about wanted to puke. Another plus for the New Jersey Turnpike is that they have an elevated road just for the big trucks. With New Jersey drivers as bad as they are, getting
+                    the trucks out of the way and isolated is a great thing, I doubt the 100mph New Jersey drivers would have any patience with a truck going the speed limit.</p>
             </div>
             <div class="flex-item">
                 <app-article-comment></app-article-comment>
@@ -53,9 +53,18 @@
                 	<h4>{{date}}</h4>
                 <div class="flex-container">
                     <div class="flex-item">
-                        <p>There are plenty of famous people from New Jersey, some who have spent more time there than others. Some famous people include: <strong>Buzz Aldrin</strong>: Astronaut, <strong>Jon Bon Jovi</strong>: Rock star, <strong>Whitney Houston</strong>:
-                            Singer, <strong>Jerry Lewis</strong>: Comedian, <strong>Jack Nicholson</strong>: Actor, <strong>Shaquille O'Neal</strong>: NBA Legend, <strong>Frank Sinatra</strong>: Singer, <strong>Bruce Springsteen</strong>: Rock star and <strong>John Travolta</strong>:
-                            Actor</p>
+                        <p>There are plenty of famous people from New Jersey, some who have spent more time there than others. Some famous people include:</p>
+                            <ul>
+								<li><strong>Buzz Aldrin:</strong> Astronaut, one of the first humans to walk on the Moon</li>
+								<li><strong>Jon Bon Jovi:</strong> Musician, frontman for the rock group Bon Jovi</li>
+								<li><strong>Whitney Houston:</strong> R&B Singer and Actress</li>
+								<li><strong>Jerry Lewis:</strong> Actor and Comedian, host of the Muscular Dystrophy Association Telethons</li>
+								<li><strong>Jack Nicholson:</strong> Academy Award winning Actor, most nominated Actor in Academy Award history.</li>
+								<li><strong>Shaquille O'Neal:</strong> Hall of Fame Basketball Player for the Los Angeles Lakers and other teams</li>
+								<li><strong>Frank Sintra:</strong> Singer, Actor and Producer, one of the most influential artists in the 20th Century</li>
+								<li><strong>Bruce Springsteen:</strong> Singer-songwriter of the E Street Band known as "The Boss"</li>
+								<li><strong>John Travolta:</strong> Academy Award nominated Actor, dancer, singer</li>						
+							</ul>
                     </div>
                     <div class="flex-item">
                         <div class="famous flex-container">
@@ -73,6 +82,21 @@
         </article>
         <article>
             <div class="flex-item">
+                <carousel [interval]="false">
+                    <slide *ngFor="let jerseyCityPicture of jerseyCityPictures">
+                        <figure>
+                            <a href="{{link}}photos/{{jerseyCityPicture.image}}">
+                                <img src="{{link}}photos/{{jerseyCityPicture.image}}" alt="{{jerseyCityPicture.alt}}" class="img-responsive main-carousel">
+                            </a>
+                            <figcaption>
+                                 <h3>{{jerseyCityPicture.title}}</h3>
+                                <p>{{jerseyCityPicture.description}}</p>
+                            </figcaption>
+                        </figure>
+                    </slide>
+                </carousel>
+            </div>			
+            <div class="flex-item">
                 	<h1>Finally, it gets interesting</h1>
                 	<h4>{{date}}</h4>
                 <p>Eventually, New Jersey started to have some great views. Not surprisingly, they're views of New York City. My first impression of New York City was one of amazement. It almost looked surreal, seeing nothing but tall skyscrapers lined up
@@ -82,21 +106,6 @@
                     I just wanted in. But with Jenn driving, we needed to make one more stop at a gas station, with a bathroom break needed as well. Of course, New Jersey is the only other state besides Oregon that doesn't allow you to fill up your own
                     gas, so this was the one place Jenn could feel comfortable pulling into the gas station, as she drove through most of New Jersey. Plus Jenn could never drive in New York City, so Neal took over at that point. When it was all said and
                     done, a ride into the Holland Tunnel awaited, with New York City, at last, on the other side.</p>
-            </div>
-            <div class="flex-item">
-                <carousel [interval]="false">
-                    <slide *ngFor="let jerseyCityPicture of jerseyCityPictures">
-                        <figure>
-                            <a href="{{link}}photos/{{jerseyCityPicture.image}}">
-                                <img src="{{link}}photos/{{jerseyCityPicture.image}}" alt="{{jerseyCityPicture.alt}}" class="img-responsive secondary-carousel">
-                            </a>
-                            <figcaption>
-                                 <h3>{{jerseyCityPicture.title}}</h3>
-                                <p>{{jerseyCityPicture.description}}</p>
-                            </figcaption>
-                        </figure>
-                    </slide>
-                </carousel>
             </div>
             <div class="flex-item">
                 <app-article-comment></app-article-comment>
