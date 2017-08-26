@@ -115,7 +115,7 @@ form {
 }
 
 #old-nyc {
-	position: absolute;
+	position: relative;
 	z-index: 11;
 	height: 400px;	
 	-webkit-transition: opacity 4s;
@@ -127,9 +127,10 @@ form {
 }
 
 #new-nyc {
-	position: absolute;
+	position: relative;
 	z-index: 10;
-	height: 400px;
+    height: 400px;
+    margin-top: -400px;
 
 }
 blockquote {
