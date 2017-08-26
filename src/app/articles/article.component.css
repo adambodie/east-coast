@@ -184,8 +184,8 @@ footer {
         display: block!important;
     }
     .main-carousel {
-        max-width: 600px;
-        max-height: 450px;
+        max-width: 400px;
+        max-height: 300px;
     }
     .secondary-carousel {
         max-width: 300px;
@@ -195,8 +195,8 @@ footer {
 
 @media screen and (min-width: 768px) {
     .main-carousel {
-        max-width: 800px;
-        max-height: 600px;
+        max-width: 600px;
+        max-height: 450px;
     }
 
     .secondary-carousel {

@@ -3,7 +3,7 @@
 			<article>
 				<div class="flex-item">
 					<figure>
-						<img src="{{link}}photos/maryland2.jpg" alt="Susquehanna River" class="img-responsive" />
+						<img src="{{link}}photos/maryland2.jpg" alt="Susquehanna River" class="img-responsive main-carousel" />
 						<figcaption>
 								<h3>Over the Susquehanna River in Havre de Grace</h3> 
 						</figcaption>
@@ -36,7 +36,7 @@
 					<carousel [interval]="false">
 						<slide *ngFor="let delawarePicture of delawarePictures">
 							<figure>
-								<img src="{{link}}photos/{{delawarePicture.image}}" alt="{{delawarePicture.alt}}" class="img-responsive primary-carousel" />
+								<img src="{{link}}photos/{{delawarePicture.image}}" alt="{{delawarePicture.alt}}" class="img-responsive main-carousel" />
 								<figcaption>
 										<h3>{{delawarePicture.title}}</h3>
 									<p>{{delawarePicture.description}}</p>
@@ -69,7 +69,7 @@
 						<slide *ngFor="let philadelphiaPicture of philadelphiaPictures">
 							<figure>
 								<a href="{{link}}photos/{{philadelphiaPicture.image}}">
-									<img src="{{link}}photos/{{philadelphiaPicture.image}}" alt="{{philadelphiaPicture.alt}}" class="img-responsive primary-carousel">
+									<img src="{{link}}photos/{{philadelphiaPicture.image}}" alt="{{philadelphiaPicture.alt}}" class="img-responsive main-carousel">
 								</a>
 								<figcaption>
 										<h3>{{philadelphiaPicture.title}}</h3>
