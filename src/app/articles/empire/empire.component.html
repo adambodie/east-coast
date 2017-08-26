@@ -58,7 +58,7 @@
             </div>
         </article>
         <div class="flex-item">
-            <img src="assets/empire-state-building.jpg" class="img-responsive" />
+            <img src="assets/empire-state-building.jpg" class="img-responsive" id="painting"/>
         </div>
         <article>
             <div class="flex-item">
@@ -66,7 +66,7 @@
                     <slide *ngFor="let empire86Picture of empire86Pictures">
                         <figure>
                             <a href="{{link}}photos/{{empire86Picture.image}}">
-                                <img src="{{link}}photos/{{empire86Picture.image}}" alt="{{empire86Picture.alt}}" class="img-responsive primary-carousel">
+                                <img src="{{link}}photos/{{empire86Picture.image}}" alt="{{empire86Picture.alt}}" class="img-responsive main-carousel">
                             </a>
                             <figcaption>
                                  <h3>{{empire86Picture.title}}</h3>
@@ -113,14 +113,6 @@
         </article>
         <article>
             <div class="flex-item">
-                	<h1>Goodbye Empire State Building</h1>
-                	<h4>{{date}}</h4>
-                <p>Finally, I had to force myself to leave. We had a show to go to. As we headed back down the elevator, we stopped for souvenirs. I found a shirt I really liked and got it. Dad got his Father's Day gift here, a shirt and a hat. We know how
-                    to spoil our Dad. Finally, another 80 floor drop took us to the lobby. A trip to Greenwich Village awaited to see a Ventriloquist and the World's Stupidest Dummy posing as a President. An Uber ride, with the Taxis ignoring us, was
-                    all that stood between the Empire State Building and the Duplex.</p>
-
-            </div>
-            <div class="flex-item">
                 <carousel [interval]="false">
                     <slide *ngFor="let midtownPicture of midtownPictures">
                         <figure>
@@ -134,6 +126,14 @@
                         </figure>
                     </slide>
                 </carousel>
+            </div>
+            <div class="flex-item">
+                	<h1>Goodbye Empire State Building</h1>
+                	<h4>{{date}}</h4>
+                <p>Finally, I had to force myself to leave. We had a show to go to. As we headed back down the elevator, we stopped for souvenirs. I found a shirt I really liked and got it. Dad got his Father's Day gift here, a shirt and a hat. We know how
+                    to spoil our Dad. Finally, another 80 floor drop took us to the lobby. A trip to Greenwich Village awaited to see a Ventriloquist and the World's Stupidest Dummy posing as a President. An Uber ride, with the Taxis ignoring us, was
+                    all that stood between the Empire State Building and the Duplex.</p>
+
             </div>
             <div class="flex-item">
                 <app-article-comment></app-article-comment>

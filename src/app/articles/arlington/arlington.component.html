@@ -1,6 +1,21 @@
 <div class="flex-container scroll">
 		<div class="flex-item" style="flex: 3">
 <article>
+    <div class="flex-item">
+				<carousel [interval]="false">
+					<slide *ngFor="let chickFilAPicture of chickFilAPictures">
+						<figure>
+						<a href="{{link}}photos/{{chickFilAPicture.image}}">
+							<img src="{{link}}photos/{{chickFilAPicture.image}}" alt="{{chickFilAPicture.alt}}" class="img-responsive main-carousel">
+						</a>
+					<figcaption>
+						<h3>{{chickFilAPicture.title}}</h3>
+						<p>{{chickFilAPicture.description}}</p>   
+					</figcaption>
+					</figure>
+					</slide>
+				</carousel>
+				</div>	
 	<div class="flex-item">
 		<h1>The Calm Before the Storm</h1>
 		<h4>{{date}}</h4>
@@ -9,21 +24,7 @@
 		<p>I’ve had Chick-Fil-A before, many times while at school at the University of Minnesota.  But the Chick-Fil-A wasn’t at a restaurant, it was at the school’s Coffman Memorial Union at a stand.  That was the only Chick-Fil-A in the state of Minnesota.  I had their chicken sandwiches before, and I enjoyed them.  So it was a welcomed experience to get the whole chicken experience at their actual restaurant.</p>
 		<p>Chick-Fil-A looks and feels like your typical fast food joint, complete with a play pen.  Their menu was like any fast food burger joint, with obviously, more and more chicken items.  I had the Spicy Deluxe with the Garlic & Herb dipping sauce, along with the fries.  A nice fast food meal, with good fast food chicken.  Basically what I had expected from my previous times eating Chick-Fil-A.</p>
 	</div>	
-    <div class="flex-item">
-		<carousel [interval]="false">
-		  <slide *ngFor="let chickFilAPicture of chickFilAPictures">
-				<figure>
-				<a href="{{link}}photos/{{chickFilAPicture.image}}">
-					<img src="{{link}}photos/{{chickFilAPicture.image}}" alt="{{chickFilAPicture.alt}}" class="img-responsive main-carousel">
-				</a>
-			<figcaption>
-			  <h3>{{chickFilAPicture.title}}</h3>
-			  <p>{{chickFilAPicture.description}}</p>   
-			</figcaption>
-			</figure>
-		  </slide>
-		</carousel>
-		</div>
+
 		<div class="flex-item">
 				<app-article-comment></app-article-comment>
 			</div>	
@@ -68,7 +69,7 @@
 		</div>
 	</article>
 	<div class="flex-item">
-		<img src="assets/unknown.jpg" class="img-responsive" alt="Unknown" id="philadelphia"/>
+		<img src="assets/unknown.jpg" class="img-responsive" alt="Unknown" id="painting"/>
 	</div>
 <article>
     <div class="flex-item">

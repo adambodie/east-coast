@@ -2,15 +2,6 @@
 		<div class="flex-item" style="flex: 3">
 			<article>
 				<div class="flex-item">
-						<h1>A stroll through the Lower East Side</h1>
-						<h4>{{date}}</h4>
-					<p>After another late night, Jenn and Neal were wiped out and slept in late. Me, not so much. So instead of staying couped up in the room, I walked around the Lower East Side, the neighborhood which we were in. Not the most exciting of New
-						York places, but with plenty of ordinary excitement Portland could never offer. After all, next to our hotel was a basketball park with a local tournament happening. Only New York, where it seems everything started, could have such
-						a place. I made my way to a coffee shop to enjoy a nice Espresso. I needed the kick, to say the least. I did return to the hotel for a little bit, mainly to charge my phone battery. Afterwards, I had another mission to go on, a candy
-						run...
-					</p>
-				</div>
-				<div class="flex-item">
 					<carousel [interval]="false">
 						<slide *ngFor="let lesPicture of lesPictures">
 							<figure>
@@ -24,6 +15,15 @@
 							</figure>
 						</slide>
 					</carousel>
+				</div>
+				<div class="flex-item">
+						<h1>A stroll through the Lower East Side</h1>
+						<h4>{{date}}</h4>
+					<p>After another late night, Jenn and Neal were wiped out and slept in late. Me, not so much. So instead of staying couped up in the room, I walked around the Lower East Side, the neighborhood which we were in. Not the most exciting of New
+						York places, but with plenty of ordinary excitement Portland could never offer. After all, next to our hotel was a basketball park with a local tournament happening. Only New York, where it seems everything started, could have such
+						a place. I made my way to a coffee shop to enjoy a nice Espresso. I needed the kick, to say the least. I did return to the hotel for a little bit, mainly to charge my phone battery. Afterwards, I had another mission to go on, a candy
+						run...
+					</p>
 				</div>
 				<div class="flex-item">
 					<app-article-comment></app-article-comment>

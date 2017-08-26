@@ -66,15 +66,6 @@
         </article>
         <article>
             <div class="flex-item">
-                	<h1>Escape to Little Italy</h1>
-                	<h4>{{date}}</h4>
-                <p>Once we were done with the show, it was time to eat. So, of course, we had another Uber ride in our future. This ride took us to Little Italy, or at least what Megan thought was Little Italy. We were actually a few blocks away, as clear
-                    as the sign which stated "Little Italy." Once we got to the heart of Little Italy, we picked the closest restaurant, Grotta Azzurra. It was late and the weather was much more pleasant than we had seen in D.C. and Philly, so we ate
-                    outside. As Megan copied my drink earlier, I did the same and had the Chianti, but not with liver or fava beans, *cue the Hannibal Lecter reference *</p>
-                <p>The classic Spaghetti and Meatballs was, as expected, delicious, and the ambience definitely felt Italian, or at least an Americanized version of Italy. Having been to Italy, I would argue it's much more different than here. After a night
-                    of Anti-Baby Farters and Creamy Cow Juice, it was late and Jenn and I were quite pooped.</p>
-            </div>
-            <div class="flex-item">
                 <carousel [interval]="false">
                     <slide *ngFor="let italyPicture of italyPictures">
                         <figure>
@@ -89,6 +80,15 @@
                     </slide>
                 </carousel>
             </div>
+            <div class="flex-item">
+                	<h1>Escape to Little Italy</h1>
+                	<h4>{{date}}</h4>
+                <p>Once we were done with the show, it was time to eat. So, of course, we had another Uber ride in our future. This ride took us to Little Italy, or at least what Megan thought was Little Italy. We were actually a few blocks away, as clear
+                    as the sign which stated "Little Italy." Once we got to the heart of Little Italy, we picked the closest restaurant, Grotta Azzurra. It was late and the weather was much more pleasant than we had seen in D.C. and Philly, so we ate
+                    outside. As Megan copied my drink earlier, I did the same and had the Chianti, but not with liver or fava beans, *cue the Hannibal Lecter reference *</p>
+                <p>The classic Spaghetti and Meatballs was, as expected, delicious, and the ambience definitely felt Italian, or at least an Americanized version of Italy. Having been to Italy, I would argue it's much more different than here. After a night
+                    of Anti-Baby Farters and Creamy Cow Juice, it was late and Jenn and I were quite pooped.</p>
+            </div>            
             <div class="flex-item">
                 <app-article-comment></app-article-comment>
             </div>
