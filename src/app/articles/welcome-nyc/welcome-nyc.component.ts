@@ -12,7 +12,8 @@ export class WelcomeNycComponent implements OnInit {
 
 	welcomeNycPictures: Picture[];
 	katzPictures: Picture[];
-	gatsbyPictures: Picture[];
+  gatsbyPictures: Picture[];
+  subwayPictures: Picture[];
 	date = "June 21, 2017";
 	link = "https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/"; 
 
@@ -51,7 +52,8 @@ export class WelcomeNycComponent implements OnInit {
 	getPictures(): void {
 		this.pictureService.getWelcomeNycPictures().then(pictures => this.welcomeNycPictures = pictures);
 		this.pictureService.getKatzPictures().then(pictures => this.katzPictures = pictures);
-		this.pictureService.getGatsbyPictures().then(pictures => this.gatsbyPictures = pictures);		
+    this.pictureService.getGatsbyPictures().then(pictures => this.gatsbyPictures = pictures);
+    this.pictureService.getSubwayPictures().then(pictures => this.subwayPictures = pictures);			
 	}
 
   ngOnInit(): void {

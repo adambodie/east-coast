@@ -125,6 +125,19 @@
             </div>
         </article>
         <article>
+                <div class="flex-item">
+                        <carousel [interval]="false">
+                            <slide *ngFor="let subwayPicture of subwayPictures">
+                                <figure class="main-carousel">
+                                    <img src="{{link}}photos/{{subwayPicture.image}}" alt="{{subwayPicture.alt}}" class="img-responsive main-carousel">
+                                    <figcaption>
+                                         <h3>{{subwayPicture.title}}</h3>
+                                        <p>{{subwayPicture.description}}</p>
+                                    </figcaption>
+                                </figure>
+                            </slide>
+                        </carousel>
+                    </div>
             <div class="flex-item">
                 	<h1>Houston, We Have a Problem</h1>
                 	<h4>{{date}}</h4>
@@ -133,7 +146,10 @@
                     that be?</p>
                 <p>Unlike the big city of Houston, Texas, named after historical politician Sam Houston, who helped bring Texas into the United States, New York's Houston Street, with no connection to Sam Houston, is named after William Houstoun, a lawyer
                     from colonial Georgia, whose father-in-law owned an estate in Manhattan. Houston, of course, is an alternate spelling for Houstoun. Houston, Howston, we have a problem. It's hard to remember which name to pronounce it.</p>
-            </div>
+                    <p>Our first sight to see was the Empire State Building. It was pointless to drive and park, so our first Subway ride was in store, with a line near us with direct access. It felt like every TV show or movie I've seen regarding the NY Subway,
+                            but to see it in person made it felt more hectic, from the weird turnstiles to the long trips just to find the exit. Getting on the Subway was just as crazy as the Metro, except I was able to keep the door open just enough for Jenn
+                            to scream her way onto the Subway like a little girl. Some people laughed, but I politely explained to them what had happened on the Metro the day before. Other than that, it was a typical Subway ride. Just like the movies.</p>
+                </div>
             <div class="flex-item">
                 <app-article-comment></app-article-comment>
             </div>

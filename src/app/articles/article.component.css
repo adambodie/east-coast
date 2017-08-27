@@ -2,25 +2,27 @@
 -------------------------*/
 article {
     padding: 5px;
-    margin: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .main-carousel {
     display: block;
     margin: 0 auto;
-    max-width: 400px;
-    max-height: 300px;
+    max-width: 250px;
+    max-height: 188px;
 }
 .secondary-carousel {
     display: block;
     margin: 0 auto;
-    max-width: 300px;
-    max-height: 225px;       
+    max-width: 250px;
+    max-height: 188px;       
 }
-
+a {
+    color: black;
+}
 
 h3 {
     color: white;
+    font-size: 16px;
 }
 
 span {
@@ -44,7 +46,8 @@ ol>li {
 
 .video {
     position:relative;
-    max-width:1920px;
+    padding: 10px;
+    width: 350px;
 }
 
 .side-image {
@@ -53,7 +56,13 @@ ol>li {
 	margin: 10px;
 	clear: both;
 }
-
+.scroll {
+	width: 95%; 
+	max-height: 90vh; 
+	overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+}
 /* Comment CSS 
 -------------------------------*/
 label {
@@ -102,7 +111,7 @@ form {
 ------------------------*/
 
 .famous {
-    width: 300px;
+    width: 150px;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     padding: 0!important;
@@ -144,7 +153,7 @@ form {
 #old-nyc {
 	position: relative;
 	z-index: 11;
-	height: 400px;	
+	height: 200px;	
 	-webkit-transition: opacity 4s;
 	transition: opacity 4s;	
 }
@@ -156,8 +165,8 @@ form {
 #new-nyc {
 	position: relative;
 	z-index: 10;
-    height: 400px;
-    margin-top: -400px;
+    height: 200px;
+    margin-top: -200px;
 
 }
 blockquote {
@@ -188,10 +197,15 @@ footer {
     margin: 5px;
     border-radius: 10px;
     color: black;
-    font-size: 1.2em;
+    text-align: center;
+    font-size: 0.8em;
 }
 .talib-playlist p {
     color: black;
+}
+.talib-playlist img {
+    width: 20px;
+    height: 20px;
 }
 .talib-playlist img:hover {
     opacity: 0.8;
@@ -219,10 +233,42 @@ footer {
     .secondary-carousel {
         max-width: 300px;
         max-height: 225px;       
-    }                    
+    }
+    #old-nyc {
+        height: 300px;	
+    }
+    
+    #new-nyc {
+        height: 300px;
+        margin-top: -300px;
+    
+    } 
+    .famous {
+        width: 200px;
+    }  
+    
 }
 
 @media screen and (min-width: 768px) {
+    .talib-playlist li {
+        font-size: 1.2em;
+    }
+    .talib-playlist img {
+        width: 40px;
+        height: 40px;
+    }
+
+    article {
+        margin: 30px;
+    }
+    .video {
+        position:relative;
+        padding: 10px;
+        width: 850px;
+    }
+    h3 {
+        font-size: 22px;
+    }
     .main-carousel {
         max-width: 600px;
         max-height: 450px;
@@ -232,16 +278,37 @@ footer {
         max-width: 300px;
         max-height: 225px;       
     }
+
 .scroll {
 	width: 80%; 
-	max-height: 90vh; 
-	overflow-x: hidden;
-	padding: 0;
-	margin: 0;
 }
 
 .link {
 	padding: 0;
 	margin: 0;
-}       
+}
+#old-nyc {
+	height: 400px;	
+}
+
+
+#new-nyc {
+    height: 400px;
+    margin-top: -400px;
+
+}
+
+.famous {
+    width: 300px;  
+}
+
+.famous > .flex-item {
+    padding: 0;
+}
+
+.famous p {
+    text-align: center;
+    font-size: 0.8em;
+}
+
 }

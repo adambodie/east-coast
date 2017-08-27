@@ -41,10 +41,10 @@
             <div class="flex-item">
                 	<h1>The Alibi</h1>
                 	<h4>{{date}}</h4>
-            <div style="float: left">
+            <div style="float: right">
                 <carousel [interval]="false">
                     <slide *ngFor="let alibiPicture of alibiPictures">
-                        <figure class="main-carousel">
+                        <figure>
                                 <img src="{{link}}photos/{{alibiPicture.image}}" alt="{{alibiPicture.alt}}" class="img-responsive secondary-carousel">
                             <figcaption>
                                  <h3>{{alibiPicture.title}}</h3>

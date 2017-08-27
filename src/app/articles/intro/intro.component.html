@@ -24,8 +24,7 @@
 							<img src="assets/{{famousAl.image}}" />
 							<p>{{famousAl.name}}</p>
 						</div>
-					</div>
-					<div class="alParagraph">
+					</div>					
 						<p>Back in the day, You Can Call Me Al was a song performed by Paul Simon, made famous with a video containing Chevy Chase lip-synching the lyrics. Of course, anyone heading to the D.C.-Baltimore region should know that Chevy Chase is
 							also the name of a Washington D.C. suburb. So it was only fitting that on the way to the airport, this song got brought up in the car and stuck in my head. Thanks Mom for playing it in the car... So what exactly is this song about,
 							the very song I played drums when I was just 2 years old?</p>
@@ -42,7 +41,6 @@
 							<li><strong>Al Franken:</strong> TV writer, comedian and current U.S. Senator from Minnesota</li>
 							<li><strong>Al Davis:</strong> Former NFL coach and owner of the Oakland Raiders</li>
 							</ul>
-					</div>
 				</div>
 				<div class="flex-item">
 					<app-article-comment></app-article-comment>
@@ -89,19 +87,20 @@
 				<div class="flex-item">
 						<h1>How to Eat Pho by Neal Pitts, a Review of Pho Kevin</h1>
 						<h4>{{date}}</h4>
+						<div style="float: right">
+								<carousel [interval]="false">
+									<slide *ngFor="let kevinPicture of kevinPictures">
+										<img src="{{link}}photos/{{kevinPicture.image}}" alt="{{kevinPicture.alt}}" class="img-responsive secondary-carousel">
+										<div class="carousel-caption">
+												<h3>{{kevinPicture.title}}</h3>
+											<p>{{kevinPicture.description}}</p>
+										</div>
+									</slide>
+								</carousel>
+							</div>						
 					<p>Our first night in Maryland led us to try Vietnamese food, particularly their Pho, Vietnamese noodle soup that's considered a specialty. But making Pho, like a bicycle, requires multiple steps to achieve its tastiness and unique flavors.
 						With that said, here were the instructions Neal gave us for preparing our Pho.</p>
-										<div style="float: right">
-					<carousel [interval]="false">
-						<slide *ngFor="let kevinPicture of kevinPictures">
-							<img src="{{link}}photos/{{kevinPicture.image}}" alt="{{kevinPicture.alt}}" class="img-responsive secondary-carousel">
-							<div class="carousel-caption">
-									<h3>{{kevinPicture.title}}</h3>
-								<p>{{kevinPicture.description}}</p>
-							</div>
-						</slide>
-					</carousel>
-				</div>
+
 					<ol>
 						<li>Give Adam all the White Onions. If you don't like onions, don't order them in your Pho. Otherwise, I’d be glad to add their rich, crisp flavor into my Pho.</li>
 						<li>Sprinkle two leaves of cilantro into small pieces into the Pho.</li>

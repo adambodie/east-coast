@@ -9,8 +9,6 @@ export class HomeComponent {
 
 constructor(private cdr: ChangeDetectorRef) {}
   link = 'https://s3-us-west-2.amazonaws.com/nadm2.bodiewebdesign.com/';
-  name: string = "";
-  location: string = "";
   items: string = '';
   submitted = false;
   imageFour: string = '';
@@ -27,21 +25,6 @@ constructor(private cdr: ChangeDetectorRef) {}
   linkSix: string = '';
   imageSeven: string = '';
   titleSeven: string = '';             
-  onSubmit() {
-    if (this.name.length <= 1 || this.location.length <=4) {
-      alert("Please try again"); 
-    } else {
-      this.submitted = true; 
-    }
-  }
-
-  onClear() {
-    this.name =  "";
-    this.location =  "";
-    this.submitted = false;
-  }
-
-
 	
 	ngAfterViewInit() {
 		let places = ['Washington D.C.', 'Baltimore', 'New York', 'Arlington', 'Laurel', 'Philadelphia', 'Delaware', 'New Jersey'];

@@ -6,7 +6,7 @@ p {
 h1 {
   color: #F5D15D;
   font-family: 'Abril Fatface', cursive;
-  font-size: 250%;
+  font-size: 24px;
   margin: 20px;
 }
 h4 {
@@ -33,12 +33,15 @@ figcaption {
   background-color: rgba(0,0,0,0.5);
   color: #fff;
   font-size: 1.2em;
-  padding: 10px;
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
   text-align: center;
+}
+
+figcaption p {
+  font-size: 12px;
 }
 .carousel-control.left {
   background-image: none;
@@ -79,4 +82,17 @@ figcaption {
 }
 .slick-next {
   right: 0;
+}
+
+@media screen and (min-width: 768px) {
+
+  h1 {
+    font-size: 250%;
+  }
+  figcaption {
+    padding: 10px;
+  }
+  figcaption p {
+    font-size: 18px;
+  }
 }

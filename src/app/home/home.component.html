@@ -1,27 +1,7 @@
 <div class="flex-container top">
     <div class="flex-item">
-        <div [hidden]="submitted"><h1>Welcome!</h1></div>
-        <div [hidden]="!submitted"><h1>Welcome {{name}} from {{location}}!</h1></div>        
-		<p>Welcome to Never a Dull Moment 2: The Infamous.  From June 17th to June 23rd, my sister Jenn and I travelled to the East Coast to visit our friend Neal in Maryland.  Like the last trip we made out there, there truly was never a dull moment.  Excitement is always around the corner when visiting the hustle and bustle of the East Coast.  Here you will see our pictures and videos during our crazy trip.  Feel free to explore pictures individually view them in chronological order.  There are plenty of places and adventures to see, from places including {{items}}  To begin the show, click <a routerLink="/intro">here</a></p>   
-        <form [hidden]="submitted" (submit)="onSubmit()" novalidate>
-            <h2>Tell us a Little About Yourself</h2>
-            <div>
-                <label for="name">What's your name?</label><br>
-                <input type="text" id="name" name="name" class="form-control" [(ngModel)]="name" required minlength="2" #nameField="ngModel" >
-                <label for="location">Where are you from?</label><br>
-                <input type="text" id="location" name="location" class="form-control" [(ngModel)]="location" required minlength="5" #locationField="ngModel"/>              
-            </div>
-            <div>
-                <button class="btn btn-primary">Submit</button>
-            </div>
-
-        </form>
-        
-        <form [hidden]="!submitted" (submit)="onClear()">
-            <div>
-                <button class="btn btn-primary">Clear</button>
-            </div>
-        </form>            
+        <div><h1>Welcome!</h1></div>      
+		<p>Welcome to Never a Dull Moment 2: The Infamous.  From June 17th to June 23rd, my sister Jenn and I travelled to the East Coast to visit our friend Neal in Maryland.  Like the last trip we made out there, there truly was never a dull moment.  Excitement is always around the corner when visiting the hustle and bustle of the East Coast.  Here you will see our pictures and videos during our crazy trip.  Feel free to explore pictures individually view them in chronological order.  There are plenty of places and adventures to see, from places including {{items}}  To begin the show, click <a routerLink="/intro">here</a></p>            
     </div>
     <div class="flex-item">
     <figure class="main-carousel">
