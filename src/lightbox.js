@@ -1,6 +1,6 @@
 $( document ).ready(function() {
-    $('#slick-demo').slick();
-    $('#slick-demo').slickLightbox({
+    $('.slick-carousel').slick();
+    $('.slick-carousel').slickLightbox({
     src: 'src',
     itemSelector: '.item img'
     });
