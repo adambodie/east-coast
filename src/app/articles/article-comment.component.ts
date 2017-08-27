@@ -1,6 +1,4 @@
-import { Component, OnInit, EventEmitter, Input, Output, ViewChild } from '@angular/core';
-import { Comment } from '../shared/comments.model';
-import { NgForm } from '@angular/forms';
+import { Component, ChangeDetectorRef } from '@angular/core';
 
 @Component({
   selector: 'app-article-comment',
@@ -9,11 +7,24 @@ import { NgForm } from '@angular/forms';
 })
 
 export class ArticleCommentComponent {
-  @Input() comment: Comment;
 
+  constructor(private cdr: ChangeDetectorRef) {}
+  name: string = "";
+  comment: string = "";
+  time: Date = new Date(Date.now());
   submitted = false;
-    
+
   onSubmit() {
-    this.submitted = true;
+    if (this.name.length <= 1 || this.comment.length <=4) {
+      alert("Please try again"); 
+    } else {
+      this.submitted = true;
+    }
+  }
+
+  onClear() {
+    this.name =  "";
+    this.comment =  "";
+    this.submitted = false;
   }
 }

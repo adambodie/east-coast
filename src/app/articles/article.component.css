@@ -67,10 +67,37 @@ textarea {
 
 form {
     padding: 20px;
-    
 }
 
+.btn-success {
+    padding: 0;
+    min-width: 30px!important;
+    min-height: 30px!important;
+    margin-right: 0;
+}
 
+.comments {
+    background-color: white;
+    margin: 20px;
+}
+.comments>.flex-item {
+    padding: 0;
+}
+.comments h3 {
+    color: black;
+}
+.comments p {
+    color: black;
+}
+.comments h6 {
+    color: black;
+}
+.submit {
+    margin-top: 10px;
+}
+.form-control {
+    width: 30%;
+}
 /* Famous CSS
 ------------------------*/
 
