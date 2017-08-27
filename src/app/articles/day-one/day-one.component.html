@@ -35,9 +35,7 @@
 					<carousel [interval]="false">
 						<slide *ngFor="let pierPicture of pierPictures">
 							<figure>
-								<a href="{{link}}photos/{{pierPicture.image}}">
-									<img src="{{link}}photos/{{pierPicture.image}}" alt="{{pierPicture.alt}}" class="img-responsive main-carousel" />
-								</a>
+								<img src="{{link}}photos/{{pierPicture.image}}" alt="{{pierPicture.alt}}" class="img-responsive main-carousel" />
 								<figcaption>
 										<h3>{{pierPicture.title}}</h3>
 									<p>{{pierPicture.description}}</p>

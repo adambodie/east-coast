@@ -5,9 +5,7 @@
                 <carousel [interval]="false">
                     <slide *ngFor="let trampPicture of trampPictures">
                         <figure>
-                            <a href="{{link}}photos/{{trampPicture.image}}">
-                                <img src="{{link}}photos/{{trampPicture.image}}" alt="{{trampPicture.alt}}" class="img-responsive main-carousel">
-                            </a>
+                            <img src="{{link}}photos/{{trampPicture.image}}" alt="{{trampPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{trampPicture.title}}</h3>
                                 <p>{{trampPicture.description}}</p>
@@ -69,9 +67,7 @@
                 <carousel [interval]="false">
                     <slide *ngFor="let italyPicture of italyPictures">
                         <figure>
-                            <a href="{{link}}photos/{{italyPicture.image}}">
-                                <img src="{{link}}photos/{{italyPicture.image}}" alt="{{italyPicture.alt}}" class="img-responsive main-carousel">
-                            </a>
+                            <img src="{{link}}photos/{{italyPicture.image}}" alt="{{italyPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{italyPicture.title}}</h3>
                                 <p>{{italyPicture.description}}</p>

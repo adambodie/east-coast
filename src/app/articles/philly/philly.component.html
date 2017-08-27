@@ -5,9 +5,7 @@
                 <carousel [interval]="false">
                     <slide *ngFor="let phillyPicture of phillyPictures">
                         <figure>
-                            <a href="{{link}}photos/{{phillyPicture.image}}">
-                                <img src="{{link}}photos/{{phillyPicture.image}}" alt="{{phillyPicture.alt}}" class="img-responsive main-carousel">
-                            </a>
+                            <img src="{{link}}photos/{{phillyPicture.image}}" alt="{{phillyPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                 	<h3>{{phillyPicture.title}}</h3>
                                 <p>{{phillyPicture.description}}</p>
@@ -61,13 +59,11 @@
             <div class="flex-item">
                 	<h1>Chido's Review</h1>
                 	<h4>{{date}}</h4>
-                	            <div style="float: right">
+                <div style="float: right">
                 <carousel [interval]="false">
                     <slide *ngFor="let chidoPicture of chidoPictures">
                         <figure>
-                            <a href="{{link}}photos/{{chidoPicture.image}}">
                                 <img src="{{link}}photos/{{chidoPicture.image}}" alt="{{chidoPicture.alt}}" class="img-responsive secondary-carousel">
-                            </a>
                             <figcaption>
                                  <h3>{{chidoPicture.title}}</h3>
                                 <p>{{chidoPicture.description}}</p>

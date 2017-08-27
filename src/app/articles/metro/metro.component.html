@@ -5,9 +5,7 @@
                 <carousel [interval]="false">
                     <slide *ngFor="let metroPicture of metroPictures">
                         <figure>
-                            <a href="{{link}}photos/{{metroPicture.image}}">
-                                <img src="{{link}}photos/{{metroPicture.image}}" alt="{{metroPicture.alt}}" class="img-responsive main-carousel">
-                            </a>
+                            <img src="{{link}}photos/{{metroPicture.image}}" alt="{{metroPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{metroPicture.title}}</h3>
                                 <p>{{metroPicture.description}}</p>
@@ -52,9 +50,7 @@
                 <carousel [interval]="false">
                     <slide *ngFor="let sakuraPicture of sakuraPictures">
                         <figure>
-                            <a href="{{link}}photos/{{sakuraPicture.image}}">
-                                <img src="{{link}}photos/{{sakuraPicture.image}}" alt="{{sakuraPicture.alt}}" class="img-responsive main-carousel">
-                            </a>
+                            <img src="{{link}}photos/{{sakuraPicture.image}}" alt="{{sakuraPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{sakuraPicture.title}}</h3>
                                 <p>{{sakuraPicture.description}}</p>

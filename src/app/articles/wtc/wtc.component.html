@@ -6,9 +6,7 @@
                 <carousel [interval]="false">
                     <slide *ngFor="let wtcPicture of wtcPictures">
                         <figure>
-                            <a href="{{link}}photos/{{wtcPicture.image}}">
-                                <img src="{{link}}photos/{{wtcPicture.image}}" alt="{{wtcPicture.alt}}" class="img-responsive main-carousel">
-                            </a>
+                            <img src="{{link}}photos/{{wtcPicture.image}}" alt="{{wtcPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{wtcPicture.title}}</h3>
                                 <p>{{wtcPicture.description}}</p>
@@ -45,9 +43,7 @@
                 <carousel [interval]="false">
                     <slide *ngFor="let goToBatteryPicture of goToBatteryPictures">
                         <figure>
-                            <a href="{{link}}photos/{{goToBatteryPicture.image}}">
-                                <img src="{{link}}photos/{{goToBatteryPicture.image}}" alt="{{goToBatteryPicture.alt}}" class="img-responsive main-carousel">
-                            </a>
+                            <img src="{{link}}photos/{{goToBatteryPicture.image}}" alt="{{goToBatteryPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{goToBatteryPicture.title}}</h3>
                                 <p>{{goToBatteryPicture.description}}</p>

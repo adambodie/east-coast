@@ -6,9 +6,7 @@
                 <carousel [interval]="false">
                     <slide *ngFor="let artPicture of artPictures">
                         <figure>
-                            <a href="{{link}}photos/{{artPicture.image}}">
                                 <img src="{{link}}photos/{{artPicture.image}}" alt="{{artPicture.alt}}" class="img-responsive main-carousel">
-                            </a>
                             <figcaption>
                                  <h3>{{artPicture.title}}</h3>
                                 <p>{{artPicture.description}}</p>
@@ -45,9 +43,7 @@
             <carousel [interval]="false">
                 <slide *ngFor="let dancePicture of dancePictures">
                     <figure>
-                        <a href="{{link}}photos/{{dancePicture.image}}">
-                            <img src="{{link}}photos/{{dancePicture.image}}" alt="{{dancePicture.alt}}" class="img-responsive main-carousel">
-                        </a>
+                     <img src="{{link}}photos/{{dancePicture.image}}" alt="{{dancePicture.alt}}" class="img-responsive main-carousel">
                         <figcaption>
                              <h3>{{dancePicture.title}}</h3>
                             <p>{{dancePicture.description}}</p>

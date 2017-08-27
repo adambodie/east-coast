@@ -5,9 +5,7 @@
                 <carousel [interval]="false">
                     <slide *ngFor="let capitolPicture of capitolPictures">
                         <figure>
-                            <a href="{{link}}photos/{{capitolPicture.image}}">
-                                <img src="{{link}}photos/{{capitolPicture.image}}" alt="{{capitolPicture.alt}}" class="img-responsive main-carousel">
-                            </a>
+                            <img src="{{link}}photos/{{capitolPicture.image}}" alt="{{capitolPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                 	<h3>{{capitolPicture.title}}</h3>
                                 <p>{{capitolPicture.description}}</p>
@@ -47,9 +45,7 @@
                 <carousel [interval]="false">
                     <slide *ngFor="let alibiPicture of alibiPictures">
                         <figure>
-                            <a href="{{link}}photos/{{alibiPicture.image}}">
                                 <img src="{{link}}photos/{{alibiPicture.image}}" alt="{{alibiPicture.alt}}" class="img-responsive secondary-carousel">
-                            </a>
                             <figcaption>
                                  <h3>{{alibiPicture.title}}</h3>
                                 <p>{{alibiPicture.description}}</p>
@@ -78,9 +74,8 @@
                 <carousel [interval]="false">
                     <slide *ngFor="let mallPicture of mallPictures">
                         <figure>
-                            <a href="{{link}}photos/{{mallPicture.image}}">
                                 <img src="{{link}}photos/{{mallPicture.image}}" alt="{{mallPicture.alt}}" class="img-responsive main-carousel">
-                            </a>
+
                             <figcaption>
                                  <h3>{{mallPicture.title}}</h3>
                                 <p>{{mallPicture.description}}</p>

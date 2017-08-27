@@ -5,9 +5,7 @@
                 <carousel [interval]="false">
                     <slide *ngFor="let jerseyPicture of jerseyPictures">
                         <figure>
-                            <a href="{{link}}photos/{{jerseyPicture.image}}">
-                                <img src="{{link}}photos/{{jerseyPicture.image}}" alt="{{jerseyPicture.alt}}" class="img-responsive main-carousel">
-                            </a>
+                            <img src="{{link}}photos/{{jerseyPicture.image}}" alt="{{jerseyPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{jerseyPicture.title}}</h3>
                                 <p>{{jerseyPicture.description}}</p>
@@ -85,9 +83,7 @@
                 <carousel [interval]="false">
                     <slide *ngFor="let jerseyCityPicture of jerseyCityPictures">
                         <figure>
-                            <a href="{{link}}photos/{{jerseyCityPicture.image}}">
-                                <img src="{{link}}photos/{{jerseyCityPicture.image}}" alt="{{jerseyCityPicture.alt}}" class="img-responsive main-carousel">
-                            </a>
+                            <img src="{{link}}photos/{{jerseyCityPicture.image}}" alt="{{jerseyCityPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{jerseyCityPicture.title}}</h3>
                                 <p>{{jerseyCityPicture.description}}</p>

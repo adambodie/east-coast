@@ -2,19 +2,17 @@
 		<div class="flex-item">
 				<article>
     				<div class="flex-item">
-								<carousel [interval]="false">
-									<slide *ngFor="let pennPicture of pennPictures">
-										<figure>
-										<a href="{{link}}photos/{{pennPicture.image}}">
-											<img src="{{link}}photos/{{pennPicture.image}}" alt="{{pennPicture.alt}}" class="img-responsive main-carousel">
-										</a>
+						<carousel [interval]="false">
+							<slide *ngFor="let pennPicture of pennPictures">
+								<figure>
+									<img src="{{link}}photos/{{pennPicture.image}}" alt="{{pennPicture.alt}}" class="img-responsive main-carousel">
 									<figcaption>
 										<h3>{{pennPicture.title}}</h3>
 										<p>{{pennPicture.description}}</p>   
 									</figcaption>
-									</figure>
-									</slide>
-								</carousel>
+								</figure>
+							</slide>
+						</carousel>
     				</div>	
 						<div class="flex-item">
 							<h1>After the Pride</h1>
@@ -57,9 +55,7 @@
 		<carousel [interval]="false">
 		  <slide *ngFor="let continentalPicture of continentalPictures">
 				<figure>
-				<a href="{{link}}photos/{{continentalPicture.image}}">
-					<img src="{{link}}photos/{{continentalPicture.image}}" alt="{{continentalPicture.alt}}" class="img-responsive secondary-carousel">
-				</a>
+				<img src="{{link}}photos/{{continentalPicture.image}}" alt="{{continentalPicture.alt}}" class="img-responsive secondary-carousel">
 			<figcaption>
 			  <h3>{{continentalPicture.title}}</h3>
 			  <p>{{continentalPicture.description}}</p>   

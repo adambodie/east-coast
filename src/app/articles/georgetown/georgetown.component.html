@@ -5,9 +5,7 @@
                 <carousel [interval]="false">
                     <slide *ngFor="let georgetownPicture of georgetownPictures">
                         <figure>
-                            <a href="{{link}}photos/{{georgetownPicture.image}}">
-                                <img src="{{link}}photos/{{georgetownPicture.image}}" alt="{{georgetownPicture.alt}}" class="img-responsive main-carousel">
-                            </a>
+                            <img src="{{link}}photos/{{georgetownPicture.image}}" alt="{{georgetownPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{georgetownPicture.title}}</h3>
                                 <p>{{georgetownPicture.description}}</p>
@@ -56,9 +54,7 @@
                 <carousel [interval]="false">
                     <slide *ngFor="let iThaiPicture of iThaiPictures">
                         <figure>
-                            <a href="{{link}}photos/{{iThaiPicture.image}}">
                                 <img src="{{link}}photos/{{iThaiPicture.image}}" alt="{{iThaiPicture.alt}}" class="img-responsive main-carousel">
-                            </a>
                             <figcaption>
                                  <h3>{{iThaiPicture.title}}</h3>
                                 <p>{{iThaiPicture.description}}</p>
@@ -86,9 +82,7 @@
                 <carousel [interval]="false">
                     <slide *ngFor="let potomacPicture of potomacPictures">
                         <figure>
-                            <a href="{{link}}photos/{{potomacPicture.image}}">
-                                <img src="{{link}}photos/{{potomacPicture.image}}" alt="{{potomacPicture.alt}}" class="img-responsive main-carousel">
-                            </a>
+                            <img src="{{link}}photos/{{potomacPicture.image}}" alt="{{potomacPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{potomacPicture.title}}</h3>
                                 <p>{{potomacPicture.description}}</p>

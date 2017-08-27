@@ -5,9 +5,8 @@
                 <carousel [interval]="false">
                     <slide *ngFor="let empire80Picture of empire80Pictures">
                         <figure>
-                            <a href="{{link}}photos/{{empire80Picture.image}}">
                                 <img src="{{link}}photos/{{empire80Picture.image}}" alt="{{empire80Picture.alt}}" class="img-responsive main-carousel">
-                            </a>
+
                             <figcaption>
                                  <h3>{{empire80Picture.title}}</h3>
                                 <p>{{empire80Picture.description}}</p>
@@ -65,9 +64,7 @@
                 <carousel [interval]="false">
                     <slide *ngFor="let empire86Picture of empire86Pictures">
                         <figure>
-                            <a href="{{link}}photos/{{empire86Picture.image}}">
                                 <img src="{{link}}photos/{{empire86Picture.image}}" alt="{{empire86Picture.alt}}" class="img-responsive main-carousel">
-                            </a>
                             <figcaption>
                                  <h3>{{empire86Picture.title}}</h3>
                                 <p>{{empire86Picture.description}}</p>
@@ -121,9 +118,7 @@
                 <carousel [interval]="false">
                     <slide *ngFor="let midtownPicture of midtownPictures">
                         <figure>
-                            <a href="{{link}}photos/{{midtownPicture.image}}">
                                 <img src="{{link}}photos/{{midtownPicture.image}}" alt="{{midtownPicture.alt}}" class="img-responsive main-carousel">
-                            </a>
                             <figcaption>
                                  <h3>{{midtownPicture.title}}</h3>
                                 <p>{{midtownPicture.description}}</p>
