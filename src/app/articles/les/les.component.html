@@ -4,7 +4,7 @@
 				<div class="flex-item">
 					<carousel [interval]="false">
 						<slide *ngFor="let lesPicture of lesPictures">
-							<figure>
+							<figure class="main-carousel">
 								<a href="{{link}}photos/{{lesPicture.image}}">
 									<img src="{{link}}photos/{{lesPicture.image}}" alt="{{lesPicture.alt}}" class="img-responsive main-carousel">
 								</a>
@@ -38,7 +38,7 @@
 				<div class="flex-item">
 					<carousel [interval]="false">
 						<slide *ngFor="let candyPicture of candyPictures">
-							<figure>
+							<figure class="main-carousel">
 								<a href="{{link}}photos/{{candyPicture.image}}">
 									<img src="{{link}}photos/{{candyPicture.image}}" alt="{{candyPicture.alt}}" class="img-responsive main-carousel">
 								</a>
@@ -123,7 +123,7 @@
 							</figcaption>
 						</figure>
 						<h1>Talib Kweli Playlist</h1>
-					<p>Talib Kweli has been around for years, starting in 1996 before hooking up with Mos Def to form the group Black Star, for their first and only album, Mos Def & Talib Kweli Are Black Star, in 1998. Since then, Talib Kweli has made multiple
+					<p>Talib Kweli has been around for years, starting in 1996 before hooking up with Mos Def to form the group Black Star, for their first and only album, Mos Def &amp; Talib Kweli Are Black Star, in 1998. Since then, Talib Kweli has made multiple
 						albums, mixtapes, singles and guest appearances, working with a variety of producers and rappers. Here are a sample of a few songs I would recommend. Click the play button to sample the songs.</p>
 					<ul class="talib-playlist" style="margin-top: 50px">
 						<li *ngFor="let talibSong of talibSongs" class="flex-container">
@@ -131,7 +131,7 @@
 								<p><strong>{{talibSong.title}}</strong> - {{talibSong.artist}}</p>
 							</div>
 							<div class="flex-item" style="padding: 0">
-								<a href="{{talibSong.link}}">
+								<a href="{{talibSong.link}}" target="_blank">
 									<img src="assets/play.png" />
 								</a>
 							</div>

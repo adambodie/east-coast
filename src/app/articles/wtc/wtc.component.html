@@ -5,7 +5,7 @@
             <div class="flex-item">
                 <carousel [interval]="false">
                     <slide *ngFor="let wtcPicture of wtcPictures">
-                        <figure>
+                        <figure class="main-carousel">
                             <img src="{{link}}photos/{{wtcPicture.image}}" alt="{{wtcPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{wtcPicture.title}}</h3>
@@ -16,7 +16,7 @@
                 </carousel>
             </div>
             <div class="flex-item">
-                	<h1>A Somber Trip to the National September 11 Memorial & Museum</h1>
+                	<h1>A Somber Trip to the National September 11 Memorial &amp; Museum</h1>
                 	<h4>{{date}}</h4>
                 <p>One of the worst days in America during my lifetime was 9/11. A cruel attack on all of America, 9/11, to me, will be a day anyone around will never forget. As the Memorial was on the way to the Statue of Liberty, we decided to walk around
                     and see the place for ourselves. We didn't have a whole lot of time, due to Neal not being ready until 11, but we didn't need to spend too much time here, so in the end, everything worked out.</p>
@@ -42,7 +42,7 @@
             <div class="flex-item">
                 <carousel [interval]="false">
                     <slide *ngFor="let goToBatteryPicture of goToBatteryPictures">
-                        <figure>
+                        <figure class="main-carousel">
                             <img src="{{link}}photos/{{goToBatteryPicture.image}}" alt="{{goToBatteryPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{goToBatteryPicture.title}}</h3>
@@ -53,7 +53,7 @@
                 </carousel>
             </div>
             <div class="flex-item">
-                	<h1>National September 11 Memorial & Museum by the Numbers</h1>
+                	<h1>National September 11 Memorial &amp; Museum by the Numbers</h1>
                 <p><span>10</span> - Years after the attack that the Memorial opened, the tenth anniversary to the victims, one day later for the public</p>
                 <p><span>6</span> - The number of World Trade Center's that are planned to be part of the World Trade Center complex, 1,2,3,4,5 and 7</p>
                 <p><span>3</span> - The number of those building, 1, 4 and 7, that are officially completed</p>

@@ -4,7 +4,7 @@
             <div class="flex-item">
                 <carousel [interval]="false">
                     <slide *ngFor="let phillyPicture of phillyPictures">
-                        <figure>
+                        <figure class="main-carousel">
                             <img src="{{link}}photos/{{phillyPicture.image}}" alt="{{phillyPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                 	<h3>{{phillyPicture.title}}</h3>
@@ -62,7 +62,7 @@
                 <div style="float: right">
                 <carousel [interval]="false">
                     <slide *ngFor="let chidoPicture of chidoPictures">
-                        <figure>
+                        <figure class="main-carousel">
                                 <img src="{{link}}photos/{{chidoPicture.image}}" alt="{{chidoPicture.alt}}" class="img-responsive secondary-carousel">
                             <figcaption>
                                  <h3>{{chidoPicture.title}}</h3>

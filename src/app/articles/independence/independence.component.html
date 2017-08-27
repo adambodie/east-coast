@@ -5,7 +5,7 @@
 				<div class="flex-item">
 					<carousel [interval]="false">
 						<slide *ngFor="let independencePicture of independencePictures">
-							<figure>
+							<figure class="main-carousel">
 								<a href="{{link}}photos/{{independencePicture.image}}">
 									<img src="{{link}}photos/{{independencePicture.image}}" alt="{{independencePicture.alt}}" class="img-responsive main-carousel">
 								</a>
@@ -51,7 +51,7 @@
 				<div class="flex-item">
 					<carousel [interval]="false">
 						<slide *ngFor="let libertyBellPicture of libertyBellPictures">
-							<figure>
+							<figure class="main-carousel">
 								<a href="{{link}}photos/{{libertyBellPicture.image}}">
 									<img src="{{link}}photos/{{libertyBellPicture.image}}" alt="{{libertyBellPicture.alt}}" class="img-responsive main-carousel">
 								</a>

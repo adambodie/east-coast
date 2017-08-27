@@ -4,7 +4,7 @@
             <div class="flex-item">
                 <carousel [interval]="false">
                     <slide *ngFor="let capitolPicture of capitolPictures">
-                        <figure>
+                            <figure class="main-carousel">
                             <img src="{{link}}photos/{{capitolPicture.image}}" alt="{{capitolPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                 	<h3>{{capitolPicture.title}}</h3>
@@ -44,7 +44,7 @@
             <div style="float: left">
                 <carousel [interval]="false">
                     <slide *ngFor="let alibiPicture of alibiPictures">
-                        <figure>
+                        <figure class="main-carousel">
                                 <img src="{{link}}photos/{{alibiPicture.image}}" alt="{{alibiPicture.alt}}" class="img-responsive secondary-carousel">
                             <figcaption>
                                  <h3>{{alibiPicture.title}}</h3>
@@ -73,7 +73,7 @@
             <div class="flex-item">
                 <carousel [interval]="false">
                     <slide *ngFor="let mallPicture of mallPictures">
-                        <figure>
+                        <figure class="main-carousel">
                                 <img src="{{link}}photos/{{mallPicture.image}}" alt="{{mallPicture.alt}}" class="img-responsive main-carousel">
 
                             <figcaption>

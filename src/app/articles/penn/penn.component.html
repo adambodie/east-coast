@@ -4,7 +4,7 @@
     				<div class="flex-item">
 						<carousel [interval]="false">
 							<slide *ngFor="let pennPicture of pennPictures">
-								<figure>
+								<figure class="main-carousel">
 									<img src="{{link}}photos/{{pennPicture.image}}" alt="{{pennPicture.alt}}" class="img-responsive main-carousel">
 									<figcaption>
 										<h3>{{pennPicture.title}}</h3>
@@ -54,7 +54,7 @@
  <div style="float: left">
 		<carousel [interval]="false">
 		  <slide *ngFor="let continentalPicture of continentalPictures">
-				<figure>
+				<figure class="main-carousel">
 				<img src="{{link}}photos/{{continentalPicture.image}}" alt="{{continentalPicture.alt}}" class="img-responsive secondary-carousel">
 			<figcaption>
 			  <h3>{{continentalPicture.title}}</h3>

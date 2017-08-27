@@ -4,7 +4,7 @@
 					<div class="flex-item">
 							<carousel [interval]="false">
 								<slide *ngFor="let introPicture of introPictures">
-									<figure>
+									<figure class="main-carousel">
 										<a href="{{link}}photos/{{introPicture.image}}">
 											<img src="{{link}}photos/{{introPicture.image}}" alt="{{introPicture.alt}}" class="img-responsive main-carousel">
 										</a>

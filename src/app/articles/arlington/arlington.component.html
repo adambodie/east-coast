@@ -4,7 +4,7 @@
     <div class="flex-item">
 				<carousel [interval]="false">
 					<slide *ngFor="let chickFilAPicture of chickFilAPictures">
-						<figure>
+						<figure class="main-carousel">
 						<a href="{{link}}photos/{{chickFilAPicture.image}}">
 							<img src="{{link}}photos/{{chickFilAPicture.image}}" alt="{{chickFilAPicture.alt}}" class="img-responsive main-carousel">
 						</a>
@@ -22,7 +22,7 @@
 		<p>With one day before our trip to New York, we had seen most everything we had set out to see, from the expected D.C. trip to the Philadelphia surprise.  That left one place on the agenda; Arlington, Virginia.  Home of the Arlington National Cemetery, I had never really gotten to visit a place in Virginia, other than driving to the god awful Dulles Airport and a chance to see the kids at the Reston Zoo.  There are other things to see in Virginia, I imagine, but the Arlington National Cemetery was the natural place to stop.  Problem was, Neal’s car was still in the shop.  At least Neal took care of his car issues before a big trip.  Jenn and I wish we had someone like that in Alabama.  The morning was spent relaxing, so the afternoon was ours to explore.  But first, lunch…</p>
 		<p>Near our hotel, within walking distance, was Chick-Fil-A.  A famous fast food restaurant known for chicken, chicken, and more chicken.  Or should I say, mor chikin.  Only recently did a Chick-Fil-A open in our lovely, health conscious state of Oregon, but Jenn and I haven’t made the trip out to 185th and Highway 26.  Poor us, a fifteen minute drive in rush hour.  But this is our first time in a Chick-Fil-A restaurant.</p>
 		<p>I’ve had Chick-Fil-A before, many times while at school at the University of Minnesota.  But the Chick-Fil-A wasn’t at a restaurant, it was at the school’s Coffman Memorial Union at a stand.  That was the only Chick-Fil-A in the state of Minnesota.  I had their chicken sandwiches before, and I enjoyed them.  So it was a welcomed experience to get the whole chicken experience at their actual restaurant.</p>
-		<p>Chick-Fil-A looks and feels like your typical fast food joint, complete with a play pen.  Their menu was like any fast food burger joint, with obviously, more and more chicken items.  I had the Spicy Deluxe with the Garlic & Herb dipping sauce, along with the fries.  A nice fast food meal, with good fast food chicken.  Basically what I had expected from my previous times eating Chick-Fil-A.</p>
+		<p>Chick-Fil-A looks and feels like your typical fast food joint, complete with a play pen.  Their menu was like any fast food burger joint, with obviously, more and more chicken items.  I had the Spicy Deluxe with the Garlic &amp; Herb dipping sauce, along with the fries.  A nice fast food meal, with good fast food chicken.  Basically what I had expected from my previous times eating Chick-Fil-A.</p>
 	</div>	
 
 		<div class="flex-item">
@@ -33,7 +33,7 @@
     <div class="flex-item">
 		<carousel [interval]="false">
 		  <slide *ngFor="let arlingtonPicture of arlingtonPictures">
-				<figure>
+				<figure class="main-carousel">
 				<a href="{{link}}photos/{{arlingtonPicture.image}}">
 					<img src="{{link}}photos/{{arlingtonPicture.image}}" alt="{{arlingtonPicture.alt}}" class="img-responsive main-carousel">
 				</a>
@@ -75,7 +75,7 @@
     <div class="flex-item">
 		<carousel [interval]="false">
 		  <slide *ngFor="let unknownPicture of unknownPictures">
-				<figure>
+					<figure class="main-carousel">
 				<a href="{{link}}photos/{{unknownPicture.image}}">
 					<img src="{{link}}photos/{{unknownPicture.image}}" alt="{{unknownPicture.alt}}" class="img-responsive main-carousel">
 				</a>

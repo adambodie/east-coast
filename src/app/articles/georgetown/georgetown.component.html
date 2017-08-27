@@ -4,7 +4,7 @@
             <div class="flex-item">
                 <carousel [interval]="false">
                     <slide *ngFor="let georgetownPicture of georgetownPictures">
-                        <figure>
+                        <figure class="main-carousel">
                             <img src="{{link}}photos/{{georgetownPicture.image}}" alt="{{georgetownPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{georgetownPicture.title}}</h3>
@@ -53,7 +53,7 @@
             <div class="flex-item">
                 <carousel [interval]="false">
                     <slide *ngFor="let iThaiPicture of iThaiPictures">
-                        <figure>
+                        <figure class="main-carousel">
                                 <img src="{{link}}photos/{{iThaiPicture.image}}" alt="{{iThaiPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{iThaiPicture.title}}</h3>
@@ -81,7 +81,7 @@
             <div class="flex-item">
                 <carousel [interval]="false">
                     <slide *ngFor="let potomacPicture of potomacPictures">
-                        <figure>
+                        <figure class="main-carousel">
                             <img src="{{link}}photos/{{potomacPicture.image}}" alt="{{potomacPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{potomacPicture.title}}</h3>

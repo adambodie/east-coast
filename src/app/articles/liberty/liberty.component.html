@@ -4,7 +4,7 @@
             <div class="flex-item">
                 <carousel [interval]="false">
                     <slide *ngFor="let batteryPicture of batteryPictures">
-                        <figure>
+                        <figure class="main-carousel">
                             <img src="{{link}}photos/{{batteryPicture.image}}" alt="{{batteryPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{batteryPicture.title}}</h3>
@@ -41,7 +41,7 @@
             <div class="flex-item">
                 <carousel [interval]="false">
                     <slide *ngFor="let ferryPicture of ferryPictures">
-                        <figure>
+                        <figure class="main-carousel">
                             <img src="{{link}}photos/{{ferryPicture.image}}" alt="{{ferryPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{ferryPicture.title}}</h3>
@@ -71,7 +71,7 @@
             <div class="flex-item">
                 <carousel [interval]="false">
                     <slide *ngFor="let libertyPicture of libertyPictures">
-                        <figure>
+                        <figure class="main-carousel">
                             <img src="{{link}}photos/{{libertyPicture.image}}" alt="{{libertyPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{libertyPicture.title}}</h3>
@@ -131,7 +131,7 @@
             <div class="flex-item">
                 <carousel [interval]="false">
                     <slide *ngFor="let ellisPicture of ellisPictures">
-                        <figure>
+                        <figure class="main-carousel">
                             <img src="{{link}}photos/{{ellisPicture.image}}" alt="{{ellisPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{ellisPicture.title}}</h3>

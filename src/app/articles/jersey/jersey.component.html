@@ -4,7 +4,7 @@
             <div class="flex-item">
                 <carousel [interval]="false">
                     <slide *ngFor="let jerseyPicture of jerseyPictures">
-                        <figure>
+                        <figure class="main-carousel">
                             <img src="{{link}}photos/{{jerseyPicture.image}}" alt="{{jerseyPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{jerseyPicture.title}}</h3>
@@ -55,7 +55,7 @@
                             <ul>
 								<li><strong>Buzz Aldrin:</strong> Astronaut, one of the first humans to walk on the Moon</li>
 								<li><strong>Jon Bon Jovi:</strong> Musician, frontman for the rock group Bon Jovi</li>
-								<li><strong>Whitney Houston:</strong> R&B Singer and Actress</li>
+								<li><strong>Whitney Houston:</strong> R&amp;B Singer and Actress</li>
 								<li><strong>Jerry Lewis:</strong> Actor and Comedian, host of the Muscular Dystrophy Association Telethons</li>
 								<li><strong>Jack Nicholson:</strong> Academy Award winning Actor, most nominated Actor in Academy Award history.</li>
 								<li><strong>Shaquille O'Neal:</strong> Hall of Fame Basketball Player for the Los Angeles Lakers and other teams</li>
@@ -82,7 +82,7 @@
             <div class="flex-item">
                 <carousel [interval]="false">
                     <slide *ngFor="let jerseyCityPicture of jerseyCityPictures">
-                        <figure>
+                        <figure class="main-carousel">
                             <img src="{{link}}photos/{{jerseyCityPicture.image}}" alt="{{jerseyCityPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{jerseyCityPicture.title}}</h3>

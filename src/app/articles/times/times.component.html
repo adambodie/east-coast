@@ -4,7 +4,7 @@
                 <div class="flex-item">
                         <carousel [interval]="false">
                             <slide *ngFor="let afternoonPicture of afternoonPictures">
-                                <figure>
+                                <figure class="main-carousel">
                                     <img src="{{link}}photos/{{afternoonPicture.image}}" alt="{{afternoonPicture.alt}}" class="img-responsive main-carousel">
                                     <figcaption>
                                          <h3>{{afternoonPicture.title}}</h3>
@@ -57,7 +57,7 @@
                 <div class="flex-item">
                         <carousel [interval]="false">
                             <slide *ngFor="let nightPicture of nightPictures">
-                                <figure>
+                                <figure class="main-carousel">
                                     <img src="{{link}}photos/{{nightPicture.image}}" alt="{{nightPicture.alt}}" class="img-responsive main-carousel">
                                     <figcaption>
                                          <h3>{{nightPicture.title}}</h3>
@@ -87,7 +87,7 @@
                 <div class="flex-item">
                         <carousel [interval]="false">
                             <slide *ngFor="let johnsPicture of johnsPictures">
-                                <figure>
+                                <figure class="main-carousel">
                                     <img src="{{link}}photos/{{johnsPicture.image}}" alt="{{johnsPicture.alt}}" class="img-responsive main-carousel">
                                     <figcaption>
                                          <h3>{{johnsPicture.title}}</h3>
@@ -127,7 +127,7 @@
             <div class="flex-item">
                 <carousel [interval]="false">
                     <slide *ngFor="let timesPicture of timesPictures">
-                        <figure>
+                        <figure class="main-carousel">
                             <img src="{{link}}photos/{{timesPicture.image}}" alt="{{timesPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{timesPicture.title}}</h3>
@@ -176,7 +176,7 @@
             <div class="flex-item">
                 <carousel [interval]="false">
                     <slide *ngFor="let juniorPicture of juniorPictures">
-                        <figure>
+                        <figure class="main-carousel">
                             <img src="{{link}}photos/{{juniorPicture.image}}" alt="{{juniorPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{juniorPicture.title}}</h3>

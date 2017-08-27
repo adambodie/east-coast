@@ -2,7 +2,7 @@
 		<div class="flex-item">
 			<article>
 				<div class="flex-item">
-					<figure>
+					<figure class="main-carousel">
 						<img src="{{link}}photos/maryland2.jpg" alt="Susquehanna River" class="img-responsive main-carousel" />
 						<figcaption>
 								<h3>Over the Susquehanna River in Havre de Grace</h3> 
@@ -35,7 +35,7 @@
 				<div class="flex-item">
 					<carousel [interval]="false">
 						<slide *ngFor="let delawarePicture of delawarePictures">
-							<figure>
+							<figure class="main-carousel">
 								<img src="{{link}}photos/{{delawarePicture.image}}" alt="{{delawarePicture.alt}}" class="img-responsive main-carousel" />
 								<figcaption>
 										<h3>{{delawarePicture.title}}</h3>
@@ -67,7 +67,7 @@
 				<div class="flex-item">
 					<carousel [interval]="false">
 						<slide *ngFor="let philadelphiaPicture of philadelphiaPictures">
-							<figure>
+							<figure class="main-carousel">
 								<a href="{{link}}photos/{{philadelphiaPicture.image}}">
 									<img src="{{link}}photos/{{philadelphiaPicture.image}}" alt="{{philadelphiaPicture.alt}}" class="img-responsive main-carousel">
 								</a>

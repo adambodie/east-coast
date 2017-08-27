@@ -4,7 +4,7 @@
 				<div class="flex-item">
 					<carousel [interval]="false">
 						<slide *ngFor="let baltimorePicture of baltimorePictures">
-							<figure>
+							<figure class="main-carousel">
 								<a href="{{link}}photos/{{baltimorePicture.image}}">
 									<img src="{{link}}photos/{{baltimorePicture.image}}" alt="{{baltimorePicture.alt}}" class="img-responsive main-carousel">
 								</a>
@@ -34,7 +34,7 @@
 				<div class="flex-item">
 					<carousel [interval]="false">
 						<slide *ngFor="let pierPicture of pierPictures">
-							<figure>
+							<figure class="main-carousel">
 								<img src="{{link}}photos/{{pierPicture.image}}" alt="{{pierPicture.alt}}" class="img-responsive main-carousel" />
 								<figcaption>
 										<h3>{{pierPicture.title}}</h3>
@@ -49,9 +49,9 @@
 						<h4>{{date}}</h4>
 					<p>The Inner Harbor is full of fun places to visit. The National Aquarium is one the more obvious places; it's ranked as one of the World's Best Aquariums. The World Trade Center stands out in the middle of the Harbor. And further down, there
 						are a few fun places, like Ripley's Believe it or Not Odditorium. But one particular visually striking place that always catches my eye is the restaurants/businesses at Pier 4.</p>
-					<p>The center of Pier 4 is the Barnes & Noble. The least interesting place of the bunch, as it is just your typical chain bookstore. Since we visited at night, it was closed. Clearly, no action was happening then. But the restaurants are
+					<p>The center of Pier 4 is the Barnes &amp; Noble. The least interesting place of the bunch, as it is just your typical chain bookstore. Since we visited at night, it was closed. Clearly, no action was happening then. But the restaurants are
 						what brings the heart and soul of the Pier. To the left is a seafood restaurant named Phillips. Looks like a fancy place, and with outdoor seating on the harbor itself, it would be a great summer hangout to sit back and relax. To the
-						right of the Barnes & Noble is the Hard Rock Cafe. More fun than Phillips, the Hard Rock Cafe was the place to hang out at night, as a live band was performing outdoor along the Harbor. Covering famous songs including Prince's classic
+						right of the Barnes &amp; Noble is the Hard Rock Cafe. More fun than Phillips, the Hard Rock Cafe was the place to hang out at night, as a live band was performing outdoor along the Harbor. Covering famous songs including Prince's classic
 						Purple Rain, there's always plenty of action at the Hard Rock Cafe. Unfortunately, we would have been better off showing up earlier in the evening. By the time we got there, the kitchen had already closed. Still fun to walk around
 						the area.</p>
 					<p>Those are the big three businesses at the Pier, but other ones hide themselves well. One place I found was Dick's Last Resort, which had a tropic theme. Sitting outside was a grumpy looking statue, whom I'm assuming is Dick, wearing a
@@ -99,7 +99,7 @@
 					<div style="float: right">
 						<carousel [interval]="false">
 							<slide *ngFor="let dinerPicture of dinerPictures">
-								<figure>
+								<figure class="main-carousel">
 									<img src="{{link}}photos/{{dinerPicture.image}}" alt="{{dinerPicture.alt}}" class="img-responsive secondary-carousel" />
 									<figcaption>
 											<h3>{{dinerPicture.title}}</h3>

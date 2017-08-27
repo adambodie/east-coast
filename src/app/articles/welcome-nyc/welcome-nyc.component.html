@@ -4,7 +4,7 @@
             <div class="flex-item">
                 <carousel [interval]="false">
                     <slide *ngFor="let welcomeNycPicture of welcomeNycPictures">
-                        <figure>
+                        <figure class="main-carousel">
                                 <img src="{{link}}photos/{{welcomeNycPicture.image}}" alt="{{welcomeNycPicture.alt}}" class="img-responsive main-carousel">
 
                             <figcaption>
@@ -37,7 +37,7 @@
             <div class="flex-item">
                 <carousel [interval]="false">
                     <slide *ngFor="let katzPicture of katzPictures">
-                        <figure>
+                        <figure class="main-carousel">
                             <img src="{{link}}photos/{{katzPicture.image}}" alt="{{katzPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{katzPicture.title}}</h3>
@@ -61,7 +61,7 @@
                 <p>As for the food itself, the sandwiches were extremely stacked with meat. Tasty, but too frustrated to really enjoy our meal. Furthermore, the pastrami was a bit too chewy to enjoy. The pickles were tasty. At one point, Jenn asked me why
                     they were two different colors. The answer: The darker color pickles were cucumbers. The matzo ball soup was typical, but our Mom sweetens her, so it didn't have the taste she makes her Matzo Balls.</p>
                 <p>By the time lunch was done, Jenn and I wanted to get the hell out. We didn't bother getting any dessert. We were admittedly anxious, but despite Neal asking whether this was too much, we weren't ready to quit after lunch. With that said
-                    and done, we stopped for some chocolate at Russ & Daughters, then headed back to Neal's car to figure out the most important part of the trip: Finding a hotel to stay.</p>
+                    and done, we stopped for some chocolate at Russ &amp; Daughters, then headed back to Neal's car to figure out the most important part of the trip: Finding a hotel to stay.</p>
             </div>
             <div class="flex-item">
                 <app-article-comment></app-article-comment>
@@ -71,7 +71,7 @@
             <div class="flex-item">
                 <carousel [interval]="false">
                     <slide *ngFor="let gatsbyPicture of gatsbyPictures">
-                        <figure>
+                        <figure class="main-carousel">
                             <img src="{{link}}photos/{{gatsbyPicture.image}}" alt="{{gatsbyPicture.alt}}" class="img-responsive main-carousel">
                             <figcaption>
                                  <h3>{{gatsbyPicture.title}}</h3>
