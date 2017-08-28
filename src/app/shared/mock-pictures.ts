@@ -261,7 +261,7 @@ export const PRIDEPICTURES: Picture[] = [
 {id: 39, image: 'pride39.jpg', alt: 'Gays 4 Trump', title: 'Gays 4 Trump', description: 'Ironically wearing a mask of Hillary Clinton, who actually supports the LGBTQ unlike Trump who only pretended to like them for vote pandering'},
 {id: 40, image: 'pride40.jpg', alt: 'Neal', title: 'While I was walking around and Jenn was couped up inside, Neal and Heidi stayed at their one spot the entire time'},
 {id: 41, image: 'pride41.jpg', alt: 'Refuse Facism', title: 'Refuse Fascism, Drive out Trump & Pence', description: 'Neal took this picture, I didn\'t even see this sign.  But it\'s 100% true.'},
-{id: 42, image: 'pennsylvania23.jpg', alt: 'Jenn', title: 'Jenn was staying cool inside during the parade'}
+{id: 42, image: 'philadelphia23.jpg', alt: 'Jenn', title: 'Jenn was staying cool inside during the parade'}
 ]
 
 export const PENNPICTURES: Picture[] = [
@@ -297,7 +297,7 @@ export const ARTPICTURES: Picture[] = [
 {id: 5, image: 'art5.jpg', alt: 'Philadephia Museum of Art', title: 'Philadelphia Museum of Art'},
 {id: 6, image: 'art6.jpg', alt: 'Philadelphia Skyline', title: 'Philadelphia Skyline'},
 {id: 7, image: 'art37.jpg', alt: 'Jenn doesn\'t want her picture taken', title: 'Jenn doesn\'t want her picture taken'},
-{id: 8, image: 'art38.jpg', alt: 'Jenn really doesn\'t want her picture taken', title: 'Jenn really doesn\'t want her picture taken'},
+{id: 8, image: 'art38.jpg', alt: 'Jenn really doesn\'t want her picture taken', title: 'Jenn really doesn\'t want her picture taken', description: 'Philly Style: Hot and Sweaty'},
 {id: 9, image: 'art7.jpg', alt: 'Philadelphia Museum of Art', title: 'Philadelphia Museum of Art after the Rocky Run'},
 {id: 10, image: 'art8.jpg', alt: 'Philadelphia Skyline', title: 'Philadelphia Skyline'},
 {id: 11, image: 'art9.jpg', alt: 'Adam', title: 'Adam Heart Philly'},
