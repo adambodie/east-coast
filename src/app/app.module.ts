@@ -41,6 +41,7 @@ import { IntroComponent,
 import { AdComponent } from './ad/ad.component';
 import { ExtraComponent } from './extra/extra.component';
 import { ArticleCommentComponent } from './articles/article-comment.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 
 @NgModule({
@@ -79,6 +80,7 @@ import { ArticleCommentComponent } from './articles/article-comment.component';
     AdComponent,
     ExtraComponent,
     ArticleCommentComponent,
+    SidebarComponent,
   ],
   imports: [
     BrowserModule,

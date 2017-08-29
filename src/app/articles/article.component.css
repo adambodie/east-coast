@@ -56,13 +56,7 @@ ol>li {
 	margin: 10px;
 	clear: both;
 }
-.scroll {
-	width: 95%; 
-	max-height: 90vh; 
-	overflow-x: hidden;
-	padding: 0;
-	margin: 0;
-}
+
 /* Comment CSS 
 -------------------------------*/
 label {
@@ -210,6 +204,9 @@ footer {
 .talib-playlist img:hover {
     opacity: 0.8;
 }
+.flex-container {
+    padding: 5px;
+}
 @media screen and (min-width: 480px) {
     .flex-container {
         display: -webkit-flex;
@@ -279,9 +276,6 @@ footer {
         max-height: 225px;       
     }
 
-.scroll {
-	width: 80%; 
-}
 
 .link {
 	padding: 0;

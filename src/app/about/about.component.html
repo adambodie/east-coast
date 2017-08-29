@@ -1,11 +1,21 @@
 <h1>About this Project</h1>
-<div class="flex-container" style="width: 50%">
-    <div class="flex-item paragraph">
-    <p>This project has been built using the Angular (2) framework.  Previously working in AngularJS, the first Angular framework, this is my first foray into the Angular (2) framework.  Making individual pages as Components and introducing a PictureService to access my Pictures via a TypeScript file, this also marks my first time using TypeScript, a strongly typed version of JavaScript, which combines the strong types of Java and the functions of JavaScript.</p>
+<div class="flex-container">
+    <div class="flex-item scroll-major">
+        <div class="flex-container">
+            <div class="flex-item paragraph">
+                <p>This project was built using the Angular 2 framework.  Previously working in AngularJS, the original Angular framework, this was my first foray using Angular 2.  Like any JavaScript based framework, there were plenty of pros and cons to using Angular 2, as opposed to using AngularJS, React, or dare I say it, Ember.  One positive to Angular 2 is the organization of its components.  That helped organize my project.  On the downside, I felt at times that connecting components to each other was somewhat difficult, React has a better system for that.  As this is my introduction to Angular 2, there are certain aspects to this project I have yet to complete.  The one area for me is the Comments section, which is more of a display and showcase of posting a piece of data than a true Comments section.  Plus on-line Comments sections are filled with hate-filled Trolls.  I'm Anti-Troll.  One of these days, I will update this, but until then, enjoy what you see.</p>
+                <p>Another feature of Angular 2 is the usage of TypeScript, as opposed to regular JavaScript.  This was also my first foray into TypeScript.  Similar to JavaScript, but more strongly typed like Java, I found TypeScript to be a perfect mix of the two similarly named but very different programming languages.  Having first learned Java, there are times I would prefer variable types to be of a specific type, rather than loosely typed, like with JavaScript.  That, to me, made TypeScript easier to work with, despite having to learn the syntax of TypeScript.</p>
+                <p>On the presentation side, rather than sticking primarily with my Bootstrap layout, I primarily used Flexbox make my design more mobile-friendly and flexible.  I did have Bootstrap installed for design purposes, but mostly focused on Flexbox.  It was a challenge for someone who considers himself a Bootstrap Fanatic, but learning new styles is important for any developer.</p>
+                <p>As for the content itself, like with many of my projects, I try to inject historical facts, beautiful pictures, entertaining videos and my Bodie sense of humor.  It's important to know that you don't have to agree with everything I say, but I stand by my opinions, and my historical facts are as accurate as can be.  With that said, please enjoy the presentation.</p>
+            </div>
+            <div class="flex-item">
+            <figure>
+                <img src="{{photo}}" alt="Adam" class="img-responsive"/>
+            </figure>
+            </div>
+        </div>
     </div>
-    <div class="flex-item">
-    <figure>
-        <img src="{{photo}}" alt="Adam" class="img-responsive"/>
-    </figure>
+    <div class="flex-item scroll-minor">
+        <app-sidebar></app-sidebar>
     </div>
 </div>

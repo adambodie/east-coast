@@ -1,0 +1,98 @@
+<accordion [closeOthers]="oneAtATime">
+    <accordion-group heading="Maryland">
+        <ul>
+        <li>
+            <a routerLink="/one">Baltimore</a>
+        </li>
+        <li>
+            <a routerLink="/four/metro">Metro</a>
+        </li> 
+        </ul>
+    </accordion-group>
+    <accordion-group heading="Washington D.C.">
+        <ul>
+        <li>
+            <a routerLink="/three/capitol">Capitol Mall</a>
+        </li>
+        <li>
+            <a routerLink="/three/georgetown">Georgetown</a>
+        </li>
+        </ul>
+    </accordion-group>
+    <accordion-group heading="Virginia">
+        <ul>
+        <li>
+            <a routerLink="/four/arlington">Arlington</a>
+        </li>
+        </ul>
+    </accordion-group>
+    <accordion-group heading="Delaware">
+        <ul>
+        <li>
+            <a routerLink="/two/delaware">Delaware</a>
+        </li>
+        </ul>
+    </accordion-group> 
+    <accordion-group heading="Pennsylvania">
+        <ul>
+        <li>
+            <a routerLink="/two/independence">Independence Hall</a>
+        </li>
+        <li>
+            <a routerLink="/two/pride">Pride Parade</a>
+        </li>
+        <li>
+            <a routerLink="/two/penn">Penn's Landing</a>
+        </li>
+        <li>
+            <a routerLink="/two/art">Art Museum</a>
+        </li>
+        <li>
+            <a routerLink="/two/philly">Goodbye Philadelphia</a>
+        </li>
+        </ul>
+    </accordion-group>
+    <accordion-group heading="New Jersey">
+        <ul>
+        <li>
+            <a routerLink="/five/jersey">New Jersey</a>
+        </li>
+        </ul>
+    </accordion-group>
+    <accordion-group heading="New York">
+        <ul>
+        <li>
+            <a routerLink="/five/welcome-nyc">Welcome to New York City</a>
+        </li>
+        <li>
+            <a routerLink="/five/empire">Empire State Building</a>
+        </li>
+        <li>
+            <a routerLink="/five/tramp">The Lady and President Tramp</a>
+        </li>
+        <li>
+            <a routerLink="/six/les">Lower East Side</a>
+        </li>
+        <li>
+            <a routerLink="/six/wtc">September 11th Memorial</a>
+        </li>
+        <li>
+            <a routerLink="/six/liberty">Statue of Liberty</a>
+        </li>
+        <li>
+            <a routerLink="/six/times">Times Square</a>
+        </li>
+        </ul>
+    </accordion-group>
+    <accordion-group heading="Other">
+        <ul>
+        <li>
+            <a routerLink="/intro">Intro</a>
+        </li>
+        <li>
+            <a routerLink="/outro">Outro</a>
+        </li>
+        </ul>
+    </accordion-group>
+</accordion>
+<router-outlet></router-outlet>

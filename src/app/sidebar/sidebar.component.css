@@ -1,0 +1,12 @@
+a {
+    color: white;
+}
+p {
+    font-weight: bold;
+}
+li {
+    list-style-type: circle; 
+}
+ul {
+    margin-top: 10px;
+}
