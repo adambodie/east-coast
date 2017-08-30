@@ -1,4 +1,14 @@
 
+.scroll-major {
+	width: 95%; 
+	max-height: 90vh; 
+	overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+}
+.scroll-minor { 
+    display: none;
+}
 
 @media screen and (min-width: 480px) {
 
@@ -19,4 +29,10 @@
     flex: 2;
     padding: 20px;  
 }
+.scroll-major {
+    flex: 4; 
+  }
+  .scroll-minor {
+      display: block;
+  }
 }

@@ -10,3 +10,20 @@ li {
 ul {
     margin-top: 10px;
 }
+/*.panel-default>.panel-heading {
+    background: transparent!important;
+    }
+    
+    .panel {
+      background: transparent;
+    }
+    
+    .panel-title {
+      font-weight: bold;
+      color: white;
+    }
+    
+    .panel-group .panel {
+      border: none;
+    }
+  */  

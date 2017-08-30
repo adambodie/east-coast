@@ -4,18 +4,7 @@ article {
     padding: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.main-carousel {
-    display: block;
-    margin: 0 auto;
-    max-width: 250px;
-    max-height: 188px;
-}
-.secondary-carousel {
-    display: block;
-    margin: 0 auto;
-    max-width: 250px;
-    max-height: 188px;       
-}
+
 a {
     color: black;
 }
@@ -37,6 +26,35 @@ ol>li {
     list-style: inherit;
 }
 
+blockquote {
+    color: #F5D15D;
+    font-family: 'Abril Fatface', cursive;
+}
+
+footer {
+    text-align: right;
+    color: white;
+}
+
+/* Class CSS
+-----------------------------*/
+.main-carousel {
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+    max-height: 188px;
+}
+.secondary-carousel {
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+    max-height: 188px;       
+}
+
+.flex-container {
+    padding: 5px;
+}
+
 .btn {
     min-width: 100px;
     min-height: 50px;
@@ -56,6 +74,54 @@ ol>li {
 	margin: 10px;
 	clear: both;
 }
+
+
+.scroll-major {
+	width: 95%; 
+	max-height: 90vh; 
+	overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+}
+.scroll-minor { 
+    display: none;
+}
+
+.new-york-list {
+    text-align: center;
+}
+
+.talib-playlist {
+    background-color: black;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.80);
+}
+
+.talib-playlist li {
+    background: green; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(green, #004000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(green, #004000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(green, #004000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(green, #004000); /* Standard syntax */
+    margin: 5px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    font-size: 0.8em;
+}
+.talib-playlist p {
+    color: black;
+    text-align: left;
+}
+.talib-playlist img {
+    width: 20px;
+    height: 20px;
+}
+.talib-playlist img:hover {
+    opacity: 0.8;
+}
+
+
 
 /* Comment CSS 
 -------------------------------*/
@@ -138,6 +204,9 @@ form {
 	color: #F5D15D;
 }
 
+
+/*ID CSS
+--------------------------*/
 #painting {
     display: block;
     margin: 0 auto;
@@ -163,50 +232,10 @@ form {
     margin-top: -200px;
 
 }
-blockquote {
-    color: #F5D15D;
-    font-family: 'Abril Fatface', cursive;
-}
 
-footer {
-    text-align: right;
-    color: white;
-}
-.new-york-list {
-    text-align: center;
-}
 
-.talib-playlist {
-    background-color: black;
-    padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.80);
-}
-
-.talib-playlist li {
-    background: green; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(green, #004000); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(green, #004000); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(green, #004000); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(green, #004000); /* Standard syntax */
-    margin: 5px;
-    border-radius: 10px;
-    color: black;
-    text-align: center;
-    font-size: 0.8em;
-}
-.talib-playlist p {
-    color: black;
-}
-.talib-playlist img {
-    width: 20px;
-    height: 20px;
-}
-.talib-playlist img:hover {
-    opacity: 0.8;
-}
-.flex-container {
-    padding: 5px;
-}
+/*Query CSS
+--------------------------------*/
 @media screen and (min-width: 480px) {
     .flex-container {
         display: -webkit-flex;
@@ -305,4 +334,11 @@ footer {
     font-size: 0.8em;
 }
 
+
+.scroll-major {
+    flex: 4; 
+  }
+  .scroll-minor {
+      display: block;
+  }
 }

@@ -9,6 +9,11 @@ h1 {
   font-size: 24px;
   margin: 20px;
 }
+h3 {
+  color: #F5D15D;
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+}
 h4 {
   color: white;
   text-align: right;
@@ -43,6 +48,9 @@ figcaption {
 figcaption p {
   font-size: 12px;
 }
+
+/* Carousel CSS
+----------------------------*/
 .carousel-control.left {
   background-image: none;
 }
@@ -71,18 +79,7 @@ figcaption p {
     background-color: #5b52c5;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
 }
-.ad-banner:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
-}
-.slick-lightbox {
-  background: black!important;
-}
-.slick-prev {
-  left: 0;
-}
-.slick-next {
-  right: 0;
-}
+
 .scroll-major {
 	width: 95%; 
 	max-height: 90vh; 
@@ -93,6 +90,15 @@ figcaption p {
 .scroll-minor { 
     display: none;
 }
+
+/* AD CSS
+-----------------------------*/
+.ad-banner:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
+
+
+
 @media screen and (min-width: 768px) {
 
   h1 {
