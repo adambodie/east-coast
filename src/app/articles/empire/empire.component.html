@@ -94,11 +94,11 @@
                 <div class="flex-container">
                     <div class="flex-item">
                 	    <h1>Name That Feature</h1>
-                        <div style="width: 300px">
+                        <div>
                             <ng-select [items]="items" (data)="refreshValue($event)" placeholder="Select a Feature"></ng-select>
                         </div>
                     </div>
-                    <div class="flex-item">
+                    <div class="flex-item" style="flex:3">
                         <div *ngIf="show">
                             <img src='assets/{{value.id}}.jpg' class="img-responsive" alt="value.id">
                         </div>
