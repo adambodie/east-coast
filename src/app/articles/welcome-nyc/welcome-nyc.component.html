@@ -100,12 +100,13 @@
         <div class="flex-item">
             	<h1>Famous people from New York</h1>
             <p>Not surprisingly, there are way too many people from New York City that could be considered famous. So in lieu of listing them all, I am presenting 26 famous people from New York City, one for each letter of the Alphabet.</p>
-            <div class="new-york-list">
+            <div class="famous-list">
                 <carousel [interval]="false">
                     <slide *ngFor="let famousNewYork of famousNewYorks">
                         <img src="assets/{{famousNewYork.image}}" alt="{{famousNewYork.name}}" />
-                        	<h1>{{famousNewYork.letter}}</h1>
-                        <p>{{famousNewYork.name}}: {{famousNewYork.description}}</p>
+                            <h1>{{famousNewYork.letter}}</h1>
+                            <h3>{{famousNewYork.name}}</h3>
+                        <p>{{famousNewYork.description}}</p>
                     </slide>
                 </carousel>
             </div>

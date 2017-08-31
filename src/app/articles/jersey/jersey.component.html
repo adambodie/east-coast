@@ -34,7 +34,7 @@
         </div>
         <article>
             <div class="flex-item">
-                	<h1>New Joyzey By the Numbers</h1>
+                <h1>New Joyzey By the Numbers</h1>
                 <p><span>12</span> - The number of rest stops on the New Jersey Turnpike, which are named for famous New Jerseyans, including Woodrow Wilson, Grover Cleveland, Vince Lombardi and Alexander Hamilton.</p>
                 <p><span>15</span> - Percentage approval rating as of June 2017 for garbage Governor Chris Christie, the lowest for any Governor in over two decades, according to the Quinnipiac poll</p>
                 <p><span>1210</span> - Density of people per square mile in New Jersey, which ranks as the most densely populated state in the United States. Oregon's is 41 per comparison.</p>
@@ -49,28 +49,16 @@
             <div class="flex-item">
                 	<h1>Famous People from New Jersey</h1>
                     <h4>{{date}}</h4>
-                    <div class="flex-item">
-                            <div class="famous flex-container">
-                                <div *ngFor="let famousJersey of famousJerseys" class="flex-item">
-                                    <img src="assets/{{famousJersey.image}}" />
-                                    <p>{{famousJersey.name}}</p>
-                                </div>
-                            </div>
-                        </div>
-                    <div class="flex-item">
                         <p>There are plenty of famous people from New Jersey, some who have spent more time there than others. Some who are more embracing of their New Jersey ties than others.  Some famous people include:</p>
-                            <ul>
-								<li><strong>Buzz Aldrin:</strong> Astronaut, one of the first humans to walk on the Moon</li><br>
-								<li><strong>Jon Bon Jovi:</strong> Musician, frontman for the rock group Bon Jovi</li><br>
-								<li><strong>Whitney Houston:</strong> R&amp;B Singer and Actress</li><br>
-								<li><strong>Jerry Lewis:</strong> Actor and Comedian, host of the Muscular Dystrophy Association Telethons</li><br>
-								<li><strong>Jack Nicholson:</strong> Academy Award winning Actor, most nominated Actor in Academy Award history.</li><br>
-								<li><strong>Shaquille O'Neal:</strong> Hall of Fame Basketball Player for the Los Angeles Lakers and other teams</li><br>
-								<li><strong>Frank Sintra:</strong> Singer, Actor and Producer, one of the most influential artists in the 20th Century</li><br>
-								<li><strong>Bruce Springsteen:</strong> Singer-songwriter of the E Street Band known as "The Boss"</li><br>
-								<li><strong>John Travolta:</strong> Academy Award nominated Actor, dancer, singer</li><br>						
-							</ul>
-                </div>
+                        <div class="famous-list">
+                                <carousel [interval]="false">
+                                    <slide *ngFor="let famousJersey of famousJerseys">
+                                        <img src="assets/{{famousJersey.image}}" alt="{{famousJersey.name}}" />
+                                        <h3>{{famousJersey.name}}</h3>
+                                        <p>{{famousJersey.description}}</p>
+                                    </slide>
+                                </carousel>
+                            </div>
             </div>
             <div class="flex-item">
                 <app-article-comment></app-article-comment>

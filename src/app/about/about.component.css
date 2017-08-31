@@ -1,6 +1,20 @@
 
+blockquote {
+    color: #F5D15D;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.5em;
+}
+
+#photo {
+    border-radius: 100%;
+}
+footer {
+    text-align: right;
+    color: white;
+    font-size: 0.8em;
+}
+
 .scroll-major {
-	width: 95%; 
 	max-height: 90vh; 
 	overflow-x: hidden;
 	padding: 0;
@@ -17,7 +31,9 @@
     display: flex;
     padding: 20px;
     -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    align-items: center;    
 }
 
 .image {
@@ -30,7 +46,7 @@
     padding: 20px;  
 }
 .scroll-major {
-    flex: 4; 
+    flex: 3; 
   }
   .scroll-minor {
       display: block;

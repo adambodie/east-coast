@@ -18,29 +18,21 @@
 						</div>
 				<div class="flex-item">
 						<h1>You Can Call Me Al</h1>
-						<h4>{{date}}</h4>
-					<div class="famous flex-container">
-						<div *ngFor="let famousAl of famousAls" class="flex-item">
-							<img src="assets/{{famousAl.image}}" />
-							<p>{{famousAl.name}}</p>
-						</div>
-					</div>					
+						<h4>{{date}}</h4>			
 						<p>Back in the day, You Can Call Me Al was a song performed by Paul Simon, made famous with a video containing Chevy Chase lip-synching the lyrics. Of course, anyone heading to the D.C.-Baltimore region should know that Chevy Chase is
 							also the name of a Washington D.C. suburb. So it was only fitting that on the way to the airport, this song got brought up in the car and stuck in my head. Thanks Mom for playing it in the car... So what exactly is this song about,
 							the very song I played drums when I was just 2 years old?</p>
 						<p>Extensive Research led me to find this out: The song, written by Paul Simon, appears to be about a man in a midlife crisis. Simon was inspired to write this song after making a trip to South Africa, which led him to make the Graceland
 							album which this song is featured as a single. As for the names in the some, Al and Betty, Paul Simon came up with those names from a party which him and his wife Peggy were mistaken for Al and Betty. Famous Al's include: </p>
-							<ul>
-							<li><strong>Al Green:</strong> Soul singer, songwriter and producer</li>
-							<li><strong>Al Roker:</strong> TV personality of NBC's Today Show</li>
-							<li><strong>Al Pacino:</strong> Academy Award winning Actor</li>
-							<li><strong>Al Gore:</strong> Vice President of the United States under Bill Clinton and Environmental Activist</li>
-							<li><strong>Big Gay Al:</strong> Flamboyantly gay character from South Park</li>
-							<li><strong>"Weird Al" Yankovic</strong> Singer, songwriter, parodist of many popular songs</li>
-							<li><strong>Al Capone:</strong> Notorious Gangster during the Prohibition Era</li>
-							<li><strong>Al Franken:</strong> TV writer, comedian and current U.S. Senator from Minnesota</li>
-							<li><strong>Al Davis:</strong> Former NFL coach and owner of the Oakland Raiders</li>
-							</ul>
+						<div class="famous-list">
+							<carousel [interval]="false">
+								<slide *ngFor="let famousAl of famousAls">
+									<img src="assets/{{famousAl.image}}" alt="{{famousAl.name}}" />
+									<h3>{{famousAl.name}}</h3> 
+										<p>{{famousAl.description}}</p>
+								</slide>
+							</carousel>
+						</div>	
 				</div>
 				<div class="flex-item">
 					<app-article-comment></app-article-comment>

@@ -51,10 +51,23 @@ footer {
     max-height: 188px;       
 }
 
-.flex-container {
-    padding: 5px;
+.link {
+    display: -webkit-flex;
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
-
+.link>.flex-item {
+    flex: 1;
+}
+.flex-container {
+    margin: 5px;
+}
+.flex-item {
+    margin: 5px;
+}
 .btn {
     min-width: 100px;
     min-height: 50px;
@@ -65,7 +78,6 @@ footer {
 .video {
     position:relative;
     padding: 10px;
-    width: 350px;
 }
 
 .side-image {
@@ -77,17 +89,17 @@ footer {
 
 
 .scroll-major {
-	width: 95%; 
 	max-height: 90vh; 
 	overflow-x: hidden;
 	padding: 0;
-	margin: 0;
+    margin: 0;
+
 }
 .scroll-minor { 
     display: none;
 }
 
-.new-york-list {
+.famous-list {
     text-align: center;
 }
 
@@ -167,28 +179,6 @@ form {
 .form-control {
     width: 30%;
 }
-/* Famous CSS
-------------------------*/
-
-.famous {
-    width: 150px;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding: 0!important;
-    display: block;
-    margin: 0 auto; 
-    margin-left: 10px;
-    float: right;   
-}
-
-.famous > .flex-item {
-    padding: 0;
-}
-
-.famous p {
-    text-align: center;
-    font-size: 0.8em;
-}
 
 
 /* Features CSS
@@ -233,6 +223,9 @@ form {
 
 }
 
+#name-feature {
+    display: none;
+}
 
 /*Query CSS
 --------------------------------*/
@@ -269,13 +262,25 @@ form {
         margin-top: -300px;
     
     } 
-    .famous {
-        width: 200px;
-    }  
+
     
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
+    .flex-container {
+        display: -webkit-flex;
+        display: flex;
+        padding: 10px;
+        margin: 5px;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .flex-item {
+        -webkit-flex: 1;
+        flex: 1;
+        margin: 5px;
+        padding: 10px;
+    }
     .talib-playlist li {
         font-size: 1.2em;
     }
@@ -290,7 +295,6 @@ form {
     .video {
         position:relative;
         padding: 10px;
-        width: 850px;
     }
     h3 {
         font-size: 22px;
@@ -308,7 +312,8 @@ form {
 
 .link {
 	padding: 0;
-	margin: 0;
+    margin: 0;
+    border-top: 1px solid black;
 }
 #old-nyc {
 	height: 400px;	
@@ -321,24 +326,17 @@ form {
 
 }
 
-.famous {
-    width: 300px;  
-}
-
-.famous > .flex-item {
-    padding: 0;
-}
-
-.famous p {
-    text-align: center;
-    font-size: 0.8em;
-}
-
 
 .scroll-major {
-    flex: 4; 
+    flex: 4;
+    padding-bottom: 0;
+    margin-bottom: 0; 
   }
   .scroll-minor {
       display: block;
+      margin-right: 10px;
   }
+    #name-feature {
+        display: block;
+    }
 }

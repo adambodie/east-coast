@@ -25,26 +25,18 @@
 				</article>
 				<article>
 				<div class="flex-item">
-							<h1>Famous Philadelphians</h1>
-									<div class="flex-container famous">
-											<div *ngFor="let famousPhiladelphian of famousPhiladelphians" class="flex-item">
-														<img src="assets/{{famousPhiladelphian.image}}"/>
-														<p>{{famousPhiladelphian.name}}</p>
-											</div>
-								</div>
+					<h1>Famous Philadelphians</h1>
 							<p>There are plenty of famous people from Philadelphia, from the Historical figures to the modern day entertainers.  There are plenty of people with origins from Philly.  The list includes:</p><br>
-							<ul>
-								<li><strong>Benjamin Franklin:</strong> Founding Father of the United States and Inventor of the Lightning Rod</li><br>
-								<li><strong>Dick Clark:</strong> Radio and TV Personality famous for hosting the New Year's Ball</li><br>
-								<li><strong>Wilt Chamberlain:</strong> Hall of Fame Basketball Player for the Philadelphia Warriors/76ers and Los Angeles Laker</li><br>
-								<li><strong>Bill Cosby:</strong> Actor and Comedian, star of The Cosby Show</li><br>
-								<li><strong>Kobe Bryant:</strong> (Future) Hall of Fame Basketball Player for the Los Angeles Lakers</li><br>
-								<li><strong>Reggie Jackson:</strong> Hall of Fame Professional Baseball Player for the New York Yankees</li><br>
-								<li><strong>Will Smith:</strong> Academy Award nominated Actor and Grammy Award Winning Rapper</li><br>
-								<li><strong>The Roots:</strong> Grammy Award winning Hip-hop band and house band for The Jimmy Fallon Show</li><br>
-								<li><strong>Betsy Ross:</strong> Designer of the original American Flag</li><br>						
-							</ul>
-						</div>
+							<div class="famous-list">
+									<carousel [interval]="false">
+										<slide *ngFor="let famousPhiladelphian of famousPhiladelphians">
+											<img src="assets/{{famousPhiladelphian.image}}" alt="{{famousPhiladelphian.name}}" />
+											<h3>{{famousPhiladelphian.name}}</h3>
+											<p>{{famousPhiladelphian.description}}</p>
+										</slide>
+									</carousel>
+								</div>
+					</div>
 					</article>
 		<div class="flex-item">
 			<app-ad></app-ad>
