@@ -30,7 +30,7 @@
         </article>
         <div class="flex-item">
             <a href="http://nama.bodiewebdesign.com" target="_blank">
-                <img src="assets/nama.jpg" alt="Nama" class="img-responsive ad-banner" />
+                <img src="{{link}}photos/nama.jpg" alt="Nama" class="img-responsive ad-banner" />
             </a>
         </div>
         <article>
@@ -103,7 +103,7 @@
             <div class="famous-list">
                 <carousel [interval]="false">
                     <slide *ngFor="let famousNewYork of famousNewYorks">
-                        <img src="assets/{{famousNewYork.image}}" alt="{{famousNewYork.name}}" />
+                        <img src="{{link}}photos/{{famousNewYork.image}}" alt="{{famousNewYork.name}}" />
                             <h1>{{famousNewYork.letter}}</h1>
                             <h3>{{famousNewYork.name}}</h3>
                         <p>{{famousNewYork.description}}</p>

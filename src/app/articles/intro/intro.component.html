@@ -27,7 +27,7 @@
 						<div class="famous-list">
 							<carousel [interval]="false">
 								<slide *ngFor="let famousAl of famousAls">
-									<img src="assets/{{famousAl.image}}" alt="{{famousAl.name}}" />
+									<img src="{{link}}photos/{{famousAl.image}}" alt="{{famousAl.name}}" />
 									<h3>{{famousAl.name}}</h3> 
 										<p>{{famousAl.description}}</p>
 								</slide>
@@ -42,7 +42,7 @@
 				<div class="flex-item">
 						<h1>Flight to BWI</h1>
 						<h4>{{date}}</h4>
-						<img src="assets/flight-to-bwi.jpg" alt="Flight to BWI" class="img-responsive side-image" width="50%"/>	
+						<img src="{{link}}photos/flight-to-bwi.jpg" alt="Flight to BWI" class="img-responsive side-image" width="50%"/>	
 					<p>The flight to Baltimore was mostly easy. Thanks to advances in phone photography, pictures taken from a plane can be located thanks to GPS. As such, I can make an approximate path taken. Not surprisingly, there's a large chunk of time
 						spent in big and wide Montana. We did fly above the town of Bozeman, among other places. There was a massive cloud cover in what likely was South Dakota before reaching the south edge of Chicagoland, though we didn't fly over Chicago
 						itself. The flight managed to fly over north of Columbus, Ohio, before crossing over Wheeling, West Virginia, easily identifiable due to the island in between the Ohio River. Finally, we reached the big town of Uniontown, Pennsylvania,
@@ -72,7 +72,7 @@
 			</article>
 			<div class="flex-item">
 				<a href="http://fortune-cookie.bodiewebdesign.com" target="_blank">
-					<img src="assets/fortune.jpg" alt="Read Your Fortune Cookie" class="img-responsive ad-banner" />
+					<img src="{{link}}photos/fortune.jpg" alt="Read Your Fortune Cookie" class="img-responsive ad-banner" />
 				</a>
 			</div>
 			<article>

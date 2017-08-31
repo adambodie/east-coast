@@ -30,7 +30,7 @@
 							<div class="famous-list">
 									<carousel [interval]="false">
 										<slide *ngFor="let famousPhiladelphian of famousPhiladelphians">
-											<img src="assets/{{famousPhiladelphian.image}}" alt="{{famousPhiladelphian.name}}" />
+											<img src="{{link}}photos/{{famousPhiladelphian.image}}" alt="{{famousPhiladelphian.name}}" />
 											<h3>{{famousPhiladelphian.name}}</h3>
 											<p>{{famousPhiladelphian.description}}</p>
 										</slide>

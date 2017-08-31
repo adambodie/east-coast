@@ -49,12 +49,12 @@
                 	<h4>{{date}}</h4>
                 <p>When my Mom was 10, she visited New York City with her Mom and Ed Sherman. Like Jenn and I, it was my Mom's visit, so she ended up seeing the sames spots as we did, the Empire State Building and the Statue of Liberty.  As you can see, the views have evolved in the past 50 years. Yet in this example, the primary object of affection is still prominent, the Chrysler Building. Hover over the picture below to see just how much time has
                     changed in New York City.</p>
-                <img src='assets/old-nyc.jpg' id="old-nyc" class="img-responsive" alt="New York City">
-                <img src='assets/new-nyc.jpg' id="new-nyc" class="img-responsive" alt="New York City">
+                <img src='{{link}}photos/old-nyc.jpg' id="old-nyc" class="img-responsive" alt="New York City">
+                <img src='{{link}}photos/new-nyc.jpg' id="new-nyc" class="img-responsive" alt="New York City">
             </div>
         </article>
         <div class="flex-item">
-            <img src="assets/empire-state-building.jpg" class="img-responsive" id="painting"/>
+            <img src="{{link}}photos/empire-state-building.jpg" class="img-responsive" id="painting"/>
         </div>
         <article>
             <div class="flex-item">
@@ -73,7 +73,7 @@
             <div class="flex-item">
                 	<h1>86th Floor</h1>
                 	<h4>{{date}}</h4>
-                	<img src="assets/empire-state-diagram.jpg" class="img-responsive side-image" />
+                	<img src="{{link}}photos/empire-state-diagram.jpg" class="img-responsive side-image" />
                 <p>The main prize, of course, was the main observation deck on the 86th floor. Worthy of the price, the 86th Floor provided 360 degree views of New York City, with an outside deck for glare-less views. Not even the Sears Tower had that. The
                     views were magnificent, unbelievable and heavenly, all rolled in one. I must have walked around the deck at least twice, taking every picture of every view I could. I could have spent hours there, but obviously, we had other things
                     to do. It was a little windy, so I was slightly nervous of losing my phone, but thankfully, rails covered the deck, with enough gap to sneak my iPhone in to take uninteruppted pictures. Jenn and Neal stayed inside as Jenn didn't like
@@ -100,7 +100,7 @@
                     </div>
                     <div class="flex-item" style="flex:3">
                         <div *ngIf="show">
-                            <img src='assets/{{value.id}}.jpg' class="img-responsive" alt="value.id">
+                            <img src='{{link}}photos/{{value.id}}.jpg' class="img-responsive" alt="value.id">
                         </div>
                         <h1>{{value.text}}</h1>
                     </div>

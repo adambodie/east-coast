@@ -29,7 +29,7 @@
         </article>
         <div class="flex-item">
             <a href="http://grand-canyon.bodiewebdesign.com" target="_blank">
-                <img src="assets/grand-canyon.jpg" alt="Grand Canyon" class="img-responsive ad-banner" />
+                <img src="{{link}}photos/grand-canyon.jpg" alt="Grand Canyon" class="img-responsive ad-banner" />
             </a>
         </div>
         <article>
@@ -53,7 +53,7 @@
                         <div class="famous-list">
                                 <carousel [interval]="false">
                                     <slide *ngFor="let famousJersey of famousJerseys">
-                                        <img src="assets/{{famousJersey.image}}" alt="{{famousJersey.name}}" />
+                                        <img src="{{link}}photos/{{famousJersey.image}}" alt="{{famousJersey.name}}" />
                                         <h3>{{famousJersey.name}}</h3>
                                         <p>{{famousJersey.description}}</p>
                                     </slide>
