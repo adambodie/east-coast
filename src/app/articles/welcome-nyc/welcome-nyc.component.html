@@ -1,0 +1,171 @@
+<div class="flex-container">
+    <div class="flex-item scroll-major">
+        <article>
+            <div class="flex-item">
+                <carousel [interval]="false">
+                    <slide *ngFor="let welcomeNycPicture of welcomeNycPictures">
+                        <figure class="main-carousel">
+                                <img src="{{link}}photos/{{welcomeNycPicture.image}}" alt="{{welcomeNycPicture.alt}}" class="img-responsive main-carousel">
+
+                            <figcaption>
+                                 <h3>{{welcomeNycPicture.title}}</h3>
+                                <p>{{welcomeNycPicture.description}}</p>
+                            </figcaption>
+                        </figure>
+                    </slide>
+                </carousel>
+            </div>
+            <div class="flex-item">
+                	<h1>Our Empire State of Mind</h1>
+                	<h4>{{date}}</h4>
+                <p>Entering New York City was a big shock. Surrounded by tall buildings everywhere, as we drove down the street, we could see people everywhere. There was no spot devoid of any action. The exact type of place you wouldn't go for peace and
+                    quiet, nor the type of place you'd go if you're agoraphobic. It reminded me of my first trip to Chicago, but much much bigger. Seeing a variety of culture everywhere we went. It's great to see diversity and liveliness everywhere.</p>
+                <p>Naturally, we listened to Jay-Z's classic song about New York, Empire State of Mind. Being in the birthplace of Hip-Hop made it all the more empowering, from one of the best hip-hop songs of the past 15 years. We saw plenty of fascinating
+                    architecture along the way to lunch at Katz's Delicatessen. Of course, driving through New York City and being in the crowd in New York City proved to provide a very different feeling. Jenn and I were about to find that out the hard
+                    way...</p>
+            </div>
+            <div class="flex-item">
+                <app-article-comment></app-article-comment>
+            </div>
+        </article>
+        <div class="flex-item">
+            <a href="http://nama.bodiewebdesign.com" target="_blank">
+                <img src="{{link}}photos/nama.jpg" alt="Nama" class="img-responsive ad-banner" />
+            </a>
+        </div>
+        <article>
+            <div class="flex-item">
+                <carousel [interval]="false">
+                    <slide *ngFor="let katzPicture of katzPictures">
+                        <figure class="main-carousel">
+                            <img src="{{link}}photos/{{katzPicture.image}}" alt="{{katzPicture.alt}}" class="img-responsive main-carousel">
+                            <figcaption>
+                                 <h3>{{katzPicture.title}}</h3>
+                                <p>{{katzPicture.description}}</p>
+                            </figcaption>
+                        </figure>
+                    </slide>
+                </carousel>
+            </div>
+            <div class="flex-item">
+                	<h1>Katz's Delicatessen: The First New York Stop</h1>
+                	<h4>{{date}}</h4>
+                <p>New York City is home of the biggest Jewish population in the world outside of Israel. So of course, Jenn and I wanted to go to a Jewish Deli while we were in New York. So we picked the famous Katz's Deli. As we entered inside, we realized
+                    that it was a complete mad house. People everywhere, tons of lines to pick up food, and plenty of people waiting for the sit-down option. Neal opted self-serve as I didn't care either way and Jenn was talking to Dad on the phone, who
+                    called Jenn to tell her about Charmin's Mobile Toilet in town that week.</p>
+                <p>Getting in a line for a Sandwich, I knew I was in New York when I looked at the prices, $22.00 for a Pastrami Sandwich. Only in New York. Jenn was overwhelmed trying to figure out how to order food and what to order. Even worse, she didn't
+                    really want Rye bread, which seemed to be the only type of bread they had. So I ordered the sandwiches, while Jenn ordered some sides in another line. Of course, the rude employees laughed at us out-of-towners. So New York, right?</p>
+                <p>By the time we were done ordering food, we were spent both physically and emotionally. Katz's Deli is definitely not a good place to introduce New York to someone with anxiety. The New York experience, sure. But too much was too much.
+                    Jenn didn't even bother getting any additional sides aside from the Matzo Ball Soup running out of patience. Furthermore, Jenn had a terrible bathroom experience being pushed around for space. Too much for laid back Oregon folk with
+                    anxiousness to handle.</p>
+                <p>As for the food itself, the sandwiches were extremely stacked with meat. Tasty, but too frustrated to really enjoy our meal. Furthermore, the pastrami was a bit too chewy to enjoy. The pickles were tasty. At one point, Jenn asked me why
+                    they were two different colors. The answer: The darker color pickles were cucumbers. The matzo ball soup was typical, but our Mom sweetens her, so it didn't have the taste she makes her Matzo Balls.</p>
+                <p>By the time lunch was done, Jenn and I wanted to get the hell out. We didn't bother getting any dessert. We were admittedly anxious, but despite Neal asking whether this was too much, we weren't ready to quit after lunch. With that said
+                    and done, we stopped for some chocolate at Russ &amp; Daughters, then headed back to Neal's car to figure out the most important part of the trip: Finding a hotel to stay.</p>
+            </div>
+            <div class="flex-item">
+                <app-article-comment></app-article-comment>
+            </div>
+        </article>
+        <article>
+            <div class="flex-item">
+                <carousel [interval]="false">
+                    <slide *ngFor="let gatsbyPicture of gatsbyPictures">
+                        <figure class="main-carousel">
+                            <img src="{{link}}photos/{{gatsbyPicture.image}}" alt="{{gatsbyPicture.alt}}" class="img-responsive main-carousel">
+                            <figcaption>
+                                 <h3>{{gatsbyPicture.title}}</h3>
+                                <p>{{gatsbyPicture.description}}</p>
+                            </figcaption>
+                        </figure>
+                    </slide>
+                </carousel>
+            </div>
+            <div class="flex-item">
+                	<h1>Where to Stay: The Big Conundrum</h1>
+                	<h4>{{date}}</h4>
+                <p>No multi day trip to New York is complete without a place to stay. We hadn't picked a hotel in advanced, a very un-Adam like way of life, but a very Neal-like way of life. Back in the car, we looked up hotels at a decent price, a foreign
+                    concept in New York City. Neal looked up places, and managed to find one available at the Gatsby Hotel. Having recognized the name Gatsby and seeing the hotel on the way there, I instantly knew we were only a few blocks away and pointed
+                    it out to Neal. So we walked to the Hotel to make sure there was a room available.</p>
+                <p>Inside the hotel was a small quaint lobby, with the hotel clerk being very nice and helpful. Considering how expensive hotels are in New York, and with Neal quoting a price he got off a hotel site, the clerk agreed to lower the price from
+                    the original quote. Even better was an even lower price for the following night as Thursday rates were even lower than Wednesday's. When it was all said and done, I thanked the clerk for being kind and helpful. Being so stressed from
+                    lunch, I really meant it. I would never give up after finding a place close to where we were. I considered luck on our side.</p>
+                <p>The rooms weren't huge, but we didn't need a huge room either. The place had a modern feel, and thankfully, a fan in the bathroom, which the hotel in Laurel, and our hotel in L.A. for Connor's Bar Mitzvah, did not have. We didn't have
+                    too much time to relax, and in New York, why would we ever relax? With that said, it was on to our first adventure in New York, a trip to the incredible Empire State Building.</p>
+            </div>
+            <div class="flex-item">
+                <app-article-comment></app-article-comment>
+            </div>
+        </article>
+        <div class="flex-item">
+            	<h1>Famous people from New York</h1>
+            <p>Not surprisingly, there are way too many people from New York City that could be considered famous. So in lieu of listing them all, I am presenting 26 famous people from New York City, one for each letter of the Alphabet.</p>
+            <div class="famous-list">
+                <carousel [interval]="false">
+                    <slide *ngFor="let famousNewYork of famousNewYorks">
+                        <img src="{{link}}photos/{{famousNewYork.image}}" alt="{{famousNewYork.name}}" />
+                            <h1>{{famousNewYork.letter}}</h1>
+                            <h3>{{famousNewYork.name}}</h3>
+                        <p>{{famousNewYork.description}}</p>
+                    </slide>
+                </carousel>
+            </div>
+        </div>
+        <article>
+            <div class="flex-item">
+                	<h1>New York by the Numbers</h1>
+                <p><span>8,537,673</span> - Approximate population of New York City per 2016 Census estimate</p>
+                <p><span>302.6</span> - Square miles for the land area in New York City</p>
+                <p><span>23,689,255</span> - Approximate population of The New York Metro, known as the Tri-State Area, stretching from New Jersey to Connecticut</p>
+                <p><span>1624</span> - The year in which the foundation of New York City began as a trading post for the Dutch, who settled in Lower Manhattan.</p>
+                <p><span>800</span> - Estimated number of languages spoken in New York City, making it one of the most linguistically diverse cities in the world</p>
+                <p><span>5</span> - Number of Boroughs: Manhattan, Brooklyn, Queens, The Bronx and Staten Island</p>
+                <p><span>6</span> - Number of United States Presidents who hailed from New York: Martin Van Buren, Millard Fillmore, Grover Cleveland, Chester A. Arthur, Theodore Roosevelt and Franklin D. Roosevelt</p>
+                <p><span>1</span> - Number of United States Presidents from New York whose legitimacy was questioned: Chester A. Arthur, who some allege was born in Canada</p>
+                <p><span>0</span> - The number of current legitimate Presidents the United States has. Donald Trump is not my President.</p>
+            </div>
+        </article>
+        <article>
+                <div class="flex-item">
+                        <carousel [interval]="false">
+                            <slide *ngFor="let subwayPicture of subwayPictures">
+                                <figure class="main-carousel">
+                                    <img src="{{link}}photos/{{subwayPicture.image}}" alt="{{subwayPicture.alt}}" class="img-responsive main-carousel">
+                                    <figcaption>
+                                         <h3>{{subwayPicture.title}}</h3>
+                                        <p>{{subwayPicture.description}}</p>
+                                    </figcaption>
+                                </figure>
+                            </slide>
+                        </carousel>
+                    </div>
+            <div class="flex-item">
+                	<h1>Houston, We Have a Problem</h1>
+                	<h4>{{date}}</h4>
+                <p>The main street we drove on in the Lower East Side, and where our hotel was, is Houston Street. A major street that runs the whole width of Manhattan, aside from the obvious streets of Manhattan, Broadway, Wall Street, etc., this was the
+                    street I found myself associating New York with the most on a personal experience. But yet, there was something I didn't expect. The big surprise to me is that is it doesn't rhyme with Cue-ston, it rhymes with Cow-ston. But how can
+                    that be?</p>
+                <p>Unlike the big city of Houston, Texas, named after historical politician Sam Houston, who helped bring Texas into the United States, New York's Houston Street, with no connection to Sam Houston, is named after William Houstoun, a lawyer
+                    from colonial Georgia, whose father-in-law owned an estate in Manhattan. Houston, of course, is an alternate spelling for Houstoun. Houston, Howston, we have a problem. It's hard to remember which name to pronounce it.</p>
+                    <p>Our first sight to see was the Empire State Building. It was pointless to drive and park, so our first Subway ride was in store, with a line near us with direct access. It felt like every TV show or movie I've seen regarding the NY Subway,
+                            but to see it in person made it felt more hectic, from the weird turnstiles to the long trips just to find the exit. Getting on the Subway was just as crazy as the Metro, except I was able to keep the door open just enough for Jenn
+                            to scream her way onto the Subway like a little girl. Some people laughed, but I politely explained to them what had happened on the Metro the day before. Other than that, it was a typical Subway ride. Just like the movies.</p>
+                </div>
+            <div class="flex-item">
+                <app-article-comment></app-article-comment>
+            </div>
+        </article>
+    </div>
+    <div class="flex-item scroll-minor">
+            <app-sidebar></app-sidebar>
+        </div>
+</div>
+<div class="flex-container link">
+    <div class="flex-item">
+        <button class="btn btn-primary" routerLink="/five/jersey">Previous</button>
+    </div>
+    <div class="flex-item">
+        <button class="btn btn-primary" routerLink="/five/empire">Next</button>
+    </div>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,342 @@
+/* Basic CSS
+-------------------------*/
+article {
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+    color: black;
+}
+
+h3 {
+    color: white;
+    font-size: 16px;
+}
+
+span {
+	font-weight: bold;
+    font-size: 2em;
+    color: #F5D15D;	
+}
+
+ol>li {
+    color: white;
+    font-weight: bold;
+    list-style: inherit;
+}
+
+blockquote {
+    color: #F5D15D;
+    font-family: 'Abril Fatface', cursive;
+}
+
+footer {
+    text-align: right;
+    color: white;
+}
+
+/* Class CSS
+-----------------------------*/
+.main-carousel {
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+    max-height: 188px;
+}
+.secondary-carousel {
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+    max-height: 188px;       
+}
+
+.link {
+    display: -webkit-flex;
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.link>.flex-item {
+    flex: 1;
+}
+.flex-container {
+    margin: 5px;
+}
+.flex-item {
+    margin: 5px;
+}
+.btn {
+    min-width: 100px;
+    min-height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.video {
+    position:relative;
+    padding: 10px;
+}
+
+.side-image {
+	float: right;
+	padding: 10px;
+	margin: 10px;
+	clear: both;
+}
+
+
+.scroll-major {
+	max-height: 90vh; 
+	overflow-x: hidden;
+	padding: 0;
+    margin: 0;
+
+}
+.scroll-minor { 
+    display: none;
+}
+
+.famous-list {
+    text-align: center;
+}
+
+.talib-playlist {
+    background-color: black;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.80);
+}
+
+.talib-playlist li {
+    background: green; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(green, #004000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(green, #004000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(green, #004000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(green, #004000); /* Standard syntax */
+    margin: 5px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    font-size: 0.8em;
+}
+.talib-playlist p {
+    color: black;
+    text-align: left;
+}
+.talib-playlist img {
+    width: 20px;
+    height: 20px;
+}
+.talib-playlist img:hover {
+    opacity: 0.8;
+}
+
+
+
+/* Comment CSS 
+-------------------------------*/
+label {
+    color: #F5D15D;	 
+}
+
+textarea {
+    width: 80%;
+    height: 200px;
+}
+
+form {
+    padding: 20px;
+}
+
+.btn-success {
+    padding: 0;
+    min-width: 30px!important;
+    min-height: 30px!important;
+    margin-right: 0;
+}
+
+.comments {
+    background-color: white;
+    margin: 20px;
+}
+.comments>.flex-item {
+    padding: 0;
+}
+.comments h3 {
+    color: black;
+}
+.comments p {
+    color: black;
+}
+.comments h6 {
+    color: black;
+}
+.submit {
+    margin-top: 10px;
+}
+.form-control {
+    width: 30%;
+}
+
+
+/* Features CSS
+--------------------------------------------*/
+.features {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+	margin: 20px;
+	background-color: #5b52c5;
+	padding: 20px;
+}
+
+.features h1 {
+	color: #F5D15D;
+}
+
+
+/*ID CSS
+--------------------------*/
+#painting {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#old-nyc {
+	position: relative;
+	z-index: 11;
+	height: 200px;	
+	-webkit-transition: opacity 4s;
+	transition: opacity 4s;	
+}
+
+#old-nyc:hover {
+	opacity: 0;
+}
+
+#new-nyc {
+	position: relative;
+	z-index: 10;
+    height: 200px;
+    margin-top: -200px;
+
+}
+
+#name-feature {
+    display: none;
+}
+
+/*Query CSS
+--------------------------------*/
+@media screen and (min-width: 480px) {
+    .flex-container {
+        display: -webkit-flex;
+        display: flex;
+        padding: 20px;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .flex-item {
+        -webkit-flex: 1;
+        flex: 1;
+        padding: 20px;
+    }
+    .carousel-indicators {
+        display: block!important;
+    }
+    .main-carousel {
+        max-width: 400px;
+        max-height: 300px;
+    }
+    .secondary-carousel {
+        max-width: 300px;
+        max-height: 225px;       
+    }
+    #old-nyc {
+        height: 300px;	
+    }
+    
+    #new-nyc {
+        height: 300px;
+        margin-top: -300px;
+    
+    } 
+
+    
+}
+
+@media screen and (min-width: 769px) {
+    .flex-container {
+        display: -webkit-flex;
+        display: flex;
+        padding: 10px;
+        margin: 5px;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .flex-item {
+        -webkit-flex: 1;
+        flex: 1;
+        margin: 5px;
+        padding: 10px;
+    }
+    .talib-playlist li {
+        font-size: 1.2em;
+    }
+    .talib-playlist img {
+        width: 40px;
+        height: 40px;
+    }
+
+    article {
+        margin: 30px;
+    }
+    .video {
+        position:relative;
+        padding: 10px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    .main-carousel {
+        max-width: 600px;
+        max-height: 450px;
+    }
+
+    .secondary-carousel {
+        max-width: 300px;
+        max-height: 225px;       
+    }
+
+
+.link {
+	padding: 0;
+    margin: 0;
+    border-top: 1px solid black;
+}
+#old-nyc {
+	height: 400px;	
+}
+
+
+#new-nyc {
+    height: 400px;
+    margin-top: -400px;
+
+}
+
+
+.scroll-major {
+    flex: 4;
+    padding-bottom: 0;
+    margin-bottom: 0; 
+  }
+  .scroll-minor {
+      display: block;
+      margin-right: 10px;
+  }
+    #name-feature {
+        display: block;
+    }
+}

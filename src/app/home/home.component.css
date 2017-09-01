@@ -1,0 +1,76 @@
+h1 {
+  color: #F5D15D;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 250%;
+}
+
+a {
+	color: white;
+}
+a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* Form CSS
+--------------------------*/
+.ng-valid[required], .ng-valid.required  {
+  border-left: 5px solid #42A948; /* green */
+}
+.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+figure {
+  margin: 0;
+  position: relative;
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2), 0 18px 60px 0 rgba(255, 255, 255, 0.19);
+}
+figcaption {
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  font-size: 1.2em;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.image {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+	margin: 20px;
+	background-color: #5b52c5;
+	padding: 20px;
+}
+.image p {
+	margin-top: 20px;
+}
+@media screen and (min-width: 480px) {
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    padding: 20px;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;    
+}
+
+.flex-item {
+  -webkit-flex: 1;
+  flex: 1;
+  padding: 20px;
+}
+}

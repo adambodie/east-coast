@@ -1,0 +1,98 @@
+<div class="flex-container">
+    <div class="flex-item scroll-major">
+        <article>
+            <div class="flex-item">
+                <carousel [interval]="false">
+                    <slide *ngFor="let trampPicture of trampPictures">
+                        <figure class="main-carousel">
+                            <img src="{{link}}photos/{{trampPicture.image}}" alt="{{trampPicture.alt}}" class="img-responsive main-carousel">
+                            <figcaption>
+                                 <h3>{{trampPicture.title}}</h3>
+                                <p>{{trampPicture.description}}</p>
+                            </figcaption>
+                        </figure>
+                    </slide>
+                </carousel>
+            </div>
+            <div class="flex-item">
+                	<h1>The Lady and President Tramp</h1>
+                	<h4>{{date}}</h4>
+                <p>I hate Donald Trump. He is a worthless, idiotic, narcissistic piece of sh*t and hasn't accomplished a thing since him and his Russian friends rigged the election. So with that said, when Neal's New York friend Megan offered Jenn and I
+                    a chance to watch a ventriloquist act featuring her friend April perform The Lady and President Tramp, we both agreed to it. After all, if Donald Trump has made the United States the biggest laughingstock in the world, we can certainly
+                    watch an Off-Broadway New York show making fun of him as well, even though he can't handle the SLIGHTEST criticism.</p>
+                <p>The show was at the Duplex, a club in the Gay Greenwich District, next to the Stonewall Inn, where the Stonewall Riots occurred in 1969, which helped spurred the Gay Rights movement. We showed up a little after 7:00 when the show started,
+                    so we made our way upstairs. With a two-drink minimum, I ordered a Dark 'n' Stormy, a classic. Megan liked my choice and ordered one as well. Then the show started, with April perfectly mimicing the likes of idiots Donald Trump, Mike
+                    Pence, Kellyanne Conway, Vladimir Putin and more. The ventriloquist act was impressive as well, though we sat in the back, it was harder to see the lack of mouth movement for the dummies. Still, the jokes were funny 'Orange is the
+                    New Black,' 'Putin on the Ritz' and everyone was laughing.</p>
+                <p>Afterwards, we headed up to the bar and plenty of gay-friendly music blasted, from Cher to Whitney Houston, so on and so forth. We complimented April on the wonderful performance and hung out for a few minutes. It seems April draws people
+                    towards her, so some of the people visiting looked even more out of place than typical. At least us Portlanders weren't the only one. Of course, Jenn and I were starving, and being in New York, we wanted Italian. So a trip to Little
+                    Italy was the perfect place to go for Italian food.</p>
+            </div>
+            <div class="flex-item">
+                <app-article-comment></app-article-comment>
+            </div>
+        </article>
+        <article>
+                <div class="flex-item">
+                        <div class="video">
+                            <video controls="controls" poster="{{link}}videos/tramp.jpg" style="width:100%" title="The Lady and President Tramp">
+                                <source src="{{link}}videos/tramp.m4v" type="video/m4v" />
+                                <source src="{{link}}videos/tramp.webm" type="video/webm" />
+                                <source src="{{link}}videos/tramp.ogv" type="video/ogg" />
+                            </video>
+                        </div>
+                    </div>
+            <div class="flex-item">
+                <h1>Donald J. Tramp by the Numbers</h1>
+                <p><span>492</span> - The number of outright <a href="https://www.washingtonpost.com/graphics/politics/trump-claims/?utm_term=.a850efb300c2" target="_blank"><strong>lies</strong></a>, according to the Washington Post, that Donald J. Tramp has told in the first 100 days of his sham Presidency</p>
+                <p><span>0</span> - The number of major bills Donald J. Tramp has passed at this time</p>
+                <p><span>2,868,691</span> - The number of popular votes Hillary Clinton won the popular vote by</p>
+                <p><span>38.6</span> - Average approval rating according to RealClearPolitics of Donald J. Tramp during the time we were in New York</p>
+                <p><span>56.5</span> - Average approval rating according to RealClearPolitics of Barack Obama during his first year as President</p>
+                <p><span>19</span> - The number of people on Tramp's campaign (not including himself), according to the Washington Post, that have connections with <a href="https://www.washingtonpost.com/graphics/national/trump-russia/?utm_term=.a6a5882e7c50" target="_blank"><strong>Russia</strong></a> (as of August 10, 2017)</p>    
+            </div>
+            <div class="flex-item">
+                <app-article-comment></app-article-comment>
+            </div>
+        </article>
+        <article>
+            <div class="flex-item">
+                <carousel [interval]="false">
+                    <slide *ngFor="let italyPicture of italyPictures">
+                        <figure class="main-carousel">
+                            <img src="{{link}}photos/{{italyPicture.image}}" alt="{{italyPicture.alt}}" class="img-responsive main-carousel">
+                            <figcaption>
+                                 <h3>{{italyPicture.title}}</h3>
+                                <p>{{italyPicture.description}}</p>
+                            </figcaption>
+                        </figure>
+                    </slide>
+                </carousel>
+            </div>
+            <div class="flex-item">
+                	<h1>Escape to Little Italy - Grotta Azzurra</h1>
+                	<h4>{{date}}</h4>
+                <p>Once we were done with the show, it was time to eat. So, of course, we had another Uber ride in our future. This ride took us to Little Italy, or at least what Megan thought was Little Italy. We were actually a few blocks away, as clear
+                    as the sign which stated "Little Italy." Once we got to the heart of Little Italy, we picked the closest restaurant, Grotta Azzurra. It was late and the weather was much more pleasant than we had seen in D.C. and Philly, so we ate
+                    outside. As Megan copied my drink earlier, I did the same and had the Chianti, but not with liver or fava beans, *cue the Hannibal Lecter reference *</p>
+                <p>The classic Spaghetti and Meatballs was, as expected, delicious, and the ambience definitely felt Italian, or at least an Americanized version of Italy. Having been to Italy, I would argue it's much more different than here. After a night
+                    of Anti-Baby Farters and Creamy Cow Juice, it was late and Jenn and I were quite pooped.</p>
+            </div>            
+            <div class="flex-item">
+                <app-article-comment></app-article-comment>
+            </div>
+        </article>
+    </div>
+    <div class="flex-item scroll-minor">
+            <app-sidebar></app-sidebar>
+        </div>
+</div>
+<div class="flex-container link">
+    <div class="flex-item">
+        <button class="btn btn-primary" routerLink="/five/empire">Previous</button>
+    </div>
+    <div class="flex-item">
+        <button class="btn btn-primary" routerLink="/six/les">Next</button>
+    </div>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,100 @@
+<div class="flex-container">
+    <div class="flex-item scroll-major">
+        <article>
+            <div class="flex-item">
+                <carousel [interval]="false">
+                    <slide *ngFor="let phillyPicture of phillyPictures">
+                        <figure class="main-carousel">
+                            <img src="{{link}}photos/{{phillyPicture.image}}" alt="{{phillyPicture.alt}}" class="img-responsive main-carousel">
+                            <figcaption>
+                                	<h3>{{phillyPicture.title}}</h3>
+                                <p>{{phillyPicture.description}}</p>
+                            </figcaption>
+                        </figure>
+                    </slide>
+                </carousel>
+            </div>
+            <div class="flex-item">
+                	<h1>Goodbye Philly</h1>
+                	<h4>{{date}}</h4>
+                <p>When it was all said and done, it was time to leave Philadelphia and head back to Laurel. Driving back from Philly, it was a little sad leaving. I really enjoyed Philadelphia. It's true what they say; Sometimes the unexpected things in
+                    life can truly be the best. But at the same time, we had bigger adventures ahead. One thing I really liked about Philly was the culture. A perfect blend of history and modern wonders, there are lots of adventures to be had in Philly.
+                    Heading back was obviously much of the same, since we took the same route. Jenn did some driving as Neal was incredibly pooped.</p>
+            </div>
+            <div class="flex-item">
+                <app-article-comment></app-article-comment>
+            </div>
+        </article>
+        <article>
+            <div class="flex-item">
+                	<h1>Susquehanna vs. Schuylkill: The Tale of Two Funny Rivers</h1>
+                	<h4>{{date}}</h4>
+                <p>The trip from Maryland to Pennsylvania saw us see two rivers with particularly unique names, the Susquehanna River and the Schuylkill River. The type of names one would never forget. Definitely more noticable than Snake River. Of course,
+                    behind every name is an equally fascinating Where do these names come from, and which one is better? Here are my thoughts.</p>
+                <p>Driving pass Havre De Grace is the Susquehanna River, which empties in the Chesapeake Bay and goes well into Pennsylvania, 464 miles in length before reaching its source in Upstate New York. Pronounced Suskwehanna, the name is from a Delaware
+                    Indian term meaning Oyster River. As it turns out, Oyster beds were found near the mouth of the river, leading to its name.</p>
+                <p>On the flip side is Schuylkill River, a tributary of the Delaware River, which flows 135 miles from the Delaware to Upstate Pennsylvania. Pronounced School-kill, The name comes from a Dutch term meaning Hidden Creek. This was maybe because
+                    of the river's confluence with the Delaware River that was hidden by dense vegetation.</p>
+                <p>There are certainly many reasons to enjoy the names Susquehanna and Schuylkill, despite that fact that each River's name is easier to misspell. As it is, I can misspell Schulykill, Schulkyill or Schulkill all from Schuylkill. Of course,
+                    there's also Suquehanna, Susquhanna or Susquehana. In a perfect world, we'd have Susqueschuylkillhanna or Schuylsquesukillhanna or Sukillhannaqueschuyl. But at the end of the day, we have Susquehanna and Schuylkill, both located in
+                    Pennsylvania within one hour apart.</p>
+            </div>
+            <div class="flex-item">
+                    <app-article-comment></app-article-comment>
+                </div>
+        </article>
+        <article>
+            <div class="flex-item">
+                	<h1>Philadelphia By the Numbers</h1>
+                <p><span>1682 </span> - The year Philadelphia was founded by Quaker William Penn, who made it the capital of the Pennsylvania Colony.</p>
+                <p><span>1</span> - Philadelphia is home of many American firsts, including the first library, hospital, medical school, Capital, stock exchange, zoo and business school.</p>
+                <p><span>8</span> - The number of cities in the United States that have held the title of the Nation's Capital, which Philadelphia was the first. Other cities include Baltimore, New York, Lancaster, PA (for one day), York, PA, Annapolis, Trenton
+                    and currently Washington D.C.</p>
+                <p><span>1702</span> - The year Elfreth's Alley, the oldest residential street in the United States, was built in Philadelphia</p>
+                <p><span>1,567,872</span> - Estimated population of Philadelphia as of 2016.</p>
+                <p><span>1</span> - Also the number of people who thought Jenn was from New Jersey</p>
+            </div>
+        </article>
+        <div class="flex-item">
+            <img src="{{link}}photos/philadelphia2.jpg" class="img-responsive" id="painting" />
+        </div>
+        <article>
+            <div class="flex-item">
+                	<h1>Chido's Review</h1>
+                	<h4>{{date}}</h4>
+                <div style="float: right">
+                <carousel [interval]="false">
+                    <slide *ngFor="let chidoPicture of chidoPictures">
+                        <figure class="main-carousel">
+                                <img src="{{link}}photos/{{chidoPicture.image}}" alt="{{chidoPicture.alt}}" class="img-responsive secondary-carousel">
+                            <figcaption>
+                                 <h3>{{chidoPicture.title}}</h3>
+                                <p>{{chidoPicture.description}}</p>
+                            </figcaption>
+                        </figure>
+                    </slide>
+                </carousel>
+            </div>
+                <p>With Neal asleep in the back seat and Jenn and I hungry, we both decided Mexican food sounded good somewhere between Delaware and Blobs Road. Once we arrived at Neal’s place, he suggested the same, so it was off to Chido's, a Tex Mex restaurant next to our hotel (how convenient). We got there just before the kitchen closed (a common theme throughout the trip). I ordered the typical Margarita, while Jenn had a Virgin mystery flavored Mojito (I think it was Mango, maybe it was Melon).  Either way, it was well deserved. For food, I got creative
+                and ordered a Taco Salad with Chicken. A tasty meal, but a bit too fulfilling for me, especially considering all the chips and salsa I had since I was hungry.  They were enjoyable, but I've had better chips and salsa.  Overall, a fun experience, despite the odd conversations of the justification of illegitimate children from the early 20th Century.</p>
+            </div>
+            <div class="flex-item">
+                <app-article-comment></app-article-comment>
+            </div>
+        </article>
+    </div>
+    <div class="flex-item scroll-minor">
+            <app-sidebar></app-sidebar>
+        </div>
+</div>
+
+
+<div class="flex-container link">
+    <div class="flex-item">
+        <button class="btn btn-primary" routerLink="/two/art">Previous</button>
+    </div>
+    <div class="flex-item">
+        <button class="btn btn-primary" routerLink="/three/capitol">Next</button>
+    </div>
+</div>
+<router-outlet></router-outlet>

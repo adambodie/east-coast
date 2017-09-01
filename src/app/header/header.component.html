@@ -1,0 +1,30 @@
+<header><h1>{{title}}</h1></header>
+<nav class="flex-container">
+  <span class="flex-item"><a routerLink="/">Home</a></span>
+  <span class="flex-item"><a routerLink="/about">About</a></span>
+  <span class="flex-item" dropdown container="body">
+  <a href dropdownToggle (click)="false">Articles</a>
+    <ul *dropdownMenu class="dropdown-menu">
+      <li><a class="dropdown-item" routerLink="/intro">Intro</a></li>
+      <li class="divider dropdown-divider"></li>
+      <li><a class="dropdown-item" routerLink="/one">Day 1</a></li>
+      <li class="divider dropdown-divider"></li>
+      <li><a class="dropdown-item" routerLink="/two">Day 2</a></li>
+      <li class="divider dropdown-divider"></li>
+      <li><a class="dropdown-item" routerLink="/three">Day 3</a></li>
+      <li class="divider dropdown-divider"></li>
+      <li><a class="dropdown-item" routerLink="/four">Day 4</a></li>
+      <li class="divider dropdown-divider"></li>
+      <li><a class="dropdown-item" routerLink="/five">Day 5</a></li>
+      <li class="divider dropdown-divider"></li>
+      <li><a class="dropdown-item" routerLink="/six">Day 6</a></li>
+      <li class="divider dropdown-divider"></li>
+      <li><a class="dropdown-item" routerLink="/outro">Outro</a></li>                        
+    </ul>
+</span>
+	 <span class="flex-item"><a routerLink="/extra">Extras</a></span>
+</nav>
+
+
+
+<router-outlet></router-outlet>

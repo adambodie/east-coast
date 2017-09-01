@@ -1,0 +1,218 @@
+<div class="flex-container">
+    <div class="flex-item scroll-major">
+        <article>
+                <div class="flex-item">
+                        <carousel [interval]="false">
+                            <slide *ngFor="let afternoonPicture of afternoonPictures">
+                                <figure class="main-carousel">
+                                    <img src="{{link}}photos/{{afternoonPicture.image}}" alt="{{afternoonPicture.alt}}" class="img-responsive main-carousel">
+                                    <figcaption>
+                                         <h3>{{afternoonPicture.title}}</h3>
+                                        <p>{{afternoonPicture.description}}</p>
+                                    </figcaption>
+                                </figure>
+                            </slide>
+                        </carousel>
+                    </div>            
+            <div class="flex-item">
+                	<h1>Back to the Hotel with a Few Hours of Peace</h1>
+                	<h4>{{date}}</h4>
+                <p>We needed to get back to the hotel as soon as we could, for Neal needed to take his phone in to see if it could be fixed. He damaged his phone badly. So as we left Battery Park, we tried to figure out the best way to get back. With no
+                    car, we were left with three options: Taxi, Uber and Subway. With time a luxury, I first suggested, "Let's get a taxi." But getting a Taxi to stop for you is difficult. Taxi drivers will only stop when it's convenient for them. They
+                    won't go out of the way even if you raise your hand and call for a taxi. They'll find their ride elsewhere. A few blocks later, I realized we were at a Subway stop. Naturally, I suggested, "Why don't we get a Subway instead?"</p>
+                <p>After the Subway ride (more on that later), we were just a few blocks away from our hotel. Thankfully for Neal, the Apple store he intended to stop at was close to the Hotel. So while Neal went to the Apple Store, Jenn and I relaxed at
+                    the Hotel. Relaxing is something you could never never imagine in New York City, the city that 'supposedly' never sleeps, but our bodies were worn out.</p>
+                </div>
+            <div class="flex-item">
+                <app-article-comment></app-article-comment>
+            </div>
+        </article>
+        <article>
+                <div class="flex-item">
+                        <div class="video">
+                            <video controls="controls" poster="{{link}}videos/subway.jpg" style="width:100%" title="Everyone's Safe Subway Dancers">
+                                <source src="{{link}}videos/subway.m4v" type="video/m4v" />
+                                <source src="{{link}}videos/subway.webm" type="video/webm" />
+                                <source src="{{link}}videos/subway.ogv" type="video/ogg" />
+                            </video>
+                        </div>
+                    </div>            
+            <div class="flex-item">
+                	<h1>Why is Jenn in such Awe? The Truth about Nuggets</h1>
+                	<h4>{{date}}</h4>
+                <p>It's true what they say. The best things in life are the things you don't ever expect. From the vintage car show I once experience with my Mom at Lake Billy Chinook years ago to the roller skating dancers in Philly, these unexpected moments,
+                    which my Mom referred to as Nuggets, fulfill your life in ways you'd never imagine. On the one hand, visiting the Empire State Building is amazing, but one doesn't visit their unexpectedly, they usually plan a visit. Maybe something
+                    amazing happens while there, and that can be the Nugget, but the trip itself is not a Nugget.</p>
+                <p>Nuggets can strike anywhere, as was the point while taking the Subway back to our Hotel. Out of nowhere came three young gentleman, who danced around the poles and break danced for some much needed income. People have to survive anyway
+                    they can. And dancing on the Subway isn't illegal, so they can make their dough utilizing their talents, as long as no one is breaking the law.</p>
+                <p>Nuggets are only valuable to the eye of the beholder. In this case, these young dancers are seeking a particular crowd, the tourists, who could never imagine such a thing happening on the Subway. You can tell a tourist, someone like Jenn
+                    with her mouth dropped in awe, versus a local, who is hardly amazed and seemingly annoyed that they are taking up their space, having seen this many times before. To us, this was a nugget, something we'd never seen before. We saw plenty
+                    of unique things on the trip, some good (the Roller Skating dancers), some bad (the topless woman you'll hear about shortly), but life loves to throw you curveballs anyway it can. Enjoy the best of them while you can.</p>
+            </div>
+            <div class="flex-item">
+                <app-article-comment></app-article-comment>
+            </div>
+        </article>
+        <article>
+                <div class="flex-item">
+                        <carousel [interval]="false">
+                            <slide *ngFor="let nightPicture of nightPictures">
+                                <figure class="main-carousel">
+                                    <img src="{{link}}photos/{{nightPicture.image}}" alt="{{nightPicture.alt}}" class="img-responsive main-carousel">
+                                    <figcaption>
+                                         <h3>{{nightPicture.title}}</h3>
+                                        <p>{{nightPicture.description}}</p>
+                                    </figcaption>
+                                </figure>
+                            </slide>
+                        </carousel>
+                    </div>            
+            <div class="flex-item">
+                	<h1>Journey to Times Square</h1>
+                	<h4>{{date}}</h4>
+                <p>Last night in New York. What do you do? Go to the hippest, funnest, craziest place in New York City, of course. That would be Times Square, where anything goes. Last night in New York. What do you eat? Nothing says New York more than Pizza.
+                    So we went to Times Square to John's Pizzeria, which was conveniently located there. Megan suggested a few places to us, and that was what we settled on, due to Location, Location, Location. Fortunately, the down time allowed Jenn
+                    and I to rest our feet a little, and even more importantly, Neal got his phone replaced at no charge. Hard to believe an Apple store in New York City would do that.</p>
+                <p>Once Neal returned, we waited outside for an Uber ride to Times Square. After a few minutes of waiting, along with one woman who walked by completely topless, the Uber ride showed up, and it was time to go to Times Square. Time to see
+                    some Time. Of course, I wasn't expecting the Uber driver to go East, but trust the Uber driver. Especially with GPS and traffic, traffic and traffic. That at least gave me an opportunity to drive by the eastern edge of Manhattan, where
+                    I could see, among other things, Brooklyn across the water and some of the architecture overshadowed by everything else. Even those buildings look hip in the right view.</p>
+                <p>As the sun was setting, I was able to get some nice sunset pictures while driving through Manhattan. I think we were close to being there on Manhattanhenge. But it's still neat to see the sun setting through the tall skyscrapers. New York
+                    can do just about anything better than any other city, especially Portland.</p>
+            </div>
+            <div class="flex-item">
+                <app-article-comment></app-article-comment>
+            </div>
+        </article>
+        <article>
+                <div class="flex-item">
+                        <carousel [interval]="false">
+                            <slide *ngFor="let johnsPicture of johnsPictures">
+                                <figure class="main-carousel">
+                                    <img src="{{link}}photos/{{johnsPicture.image}}" alt="{{johnsPicture.alt}}" class="img-responsive main-carousel">
+                                    <figcaption>
+                                         <h3>{{johnsPicture.title}}</h3>
+                                        <p>{{johnsPicture.description}}</p>
+                                    </figcaption>
+                                </figure>
+                            </slide>
+                        </carousel>
+                    </div>            
+            <div class="flex-item">
+                	<h1>Escape to New York...In New York</h1>
+                    <h4>{{date}}</h4>
+                    <div class="video" style="float: right">
+                            <video controls="controls" poster="{{link}}videos/johns.jpg" style="width:100%" title="Hi Grandpa">
+                                <source src="{{link}}videos/johns.m4v" type="video/m4v" />
+                                <source src="{{link}}videos/johns.webm" type="video/webm" />
+                                <source src="{{link}}videos/johns.ogv" type="video/ogg" />
+                            </video>
+                        </div>
+                <p>The last item on the menu, fitting for our last night in New York, was New York Pizza. We ended up at John's Pizzeria in Times Square. The building was not what you would expect. In fact, John's Pizzeria is in what used to be a church.
+                    The experience is definitely not what I expected when we decided to come here for pizza. The building was dimly lit, and classy looking. An upper deck provided a church experience, complete with the ceiling and chandeliers, one of
+                    which wouldn't stop moving. As Jenn and I put it simply, it was Grandpa playing tricks. Hi Grandpa!</p>
+                <p>I finally got to have my first beer on the trip, a Brooklyn Lager. A good solid drinkable beer that I wouldn't have otherwise at home. Jenn and I split a pizza, while Neal had his own. One to be healthy, John's Pizzeria only does wheat
+                    dough for its pizza, while making all their pizzas in a coal fired brick oven. The pizza itself was quite delicious, full of flavor and healthy ingredients.</p>
+                <p>After spending the hours wondering whether Megan would join us, she ended up joining us. More hilarity ensured. I did take the opportunity to walk outside to take a few pictures around the block. A perfect excuse to claim a bathroom trip.
+                    So as Jenn asked me if I had a good time, I told her I did, as unwitting Jenn had no clue what I had actually done. After a long and expensive pizza dinner, which Neal complained about, even though he walked himself into the situation.
+                    Jenn and I got a little impatient and left Neal and Megan behind, heading across the street to a gift shop. We had one more person to get a gift for, Earl the Pearl. A miniature race car and a few New York Chocolates was enough to
+                    satisfy Earl. I got a faux license plate stating Big Shot, a perfect addition to the Mancave license plate I bought in Williams, Arizona.</p>
+
+            </div>  
+            <div class="flex-item">
+                <app-article-comment></app-article-comment>
+            </div>
+        </article>
+        <article>
+            <div class="flex-item">
+                <carousel [interval]="false">
+                    <slide *ngFor="let timesPicture of timesPictures">
+                        <figure class="main-carousel">
+                            <img src="{{link}}photos/{{timesPicture.image}}" alt="{{timesPicture.alt}}" class="img-responsive main-carousel">
+                            <figcaption>
+                                 <h3>{{timesPicture.title}}</h3>
+                                <p>{{timesPicture.description}}</p>
+                            </figcaption>
+                        </figure>
+                    </slide>
+                </carousel>
+            </div>
+            <div class="flex-item">
+                	<h1>One Last Hurrah in Times Square</h1>
+                	<h4>{{date}}</h4>
+                <p>After dinner, there was one more thing to do... Have some dessert. As late as it was, that proved to be more difficult than imagined. Turns out, the City That Never Sleeps does more sleeping than we realized. A bunch of false advertising,
+                    but what would you expect from New York.</p>
+                <p>Looking for dessert, we managed to reach the heart of Times Square seemingly by accident. Despite being dark, it was bright as the night could be thanks to the plethora of advertisments on all the buildings. One Times Square, 2 Times Square,
+                    and 4 Times Square in the distance. All these ads, from phone companies, beer companies, and of course, JAY-Z's 4:44 album. Okay. Plus there was a giant SportsCenter screen to watch in the midst of it all.</p>
+                <p>There was more than just billboards, there were plenty of entertainers in Times Square just having a wild and crazy time. There was a guy with snakes and parrots, men dressed up as movie characters, from Storm Troopers to Woody from Toy
+                    Story. What caught our attention the most was what Jenn called the Gold Mime Guy, a seemingly golden statue that danced for cash. Creepy, but people gotta eat anyway they can. There's plenty of that in Portland, too, but it's different
+                    than in Times Square, where you would expect that.</p>
+                <p>All that aside, we were looking for dessert, and we couldn't find any place that was open. The City that Never Sleeps my ass. After striking out on multiple places, at 11:57 PM, we settled for Juniors Cheesecake. The timing was quite impeccable.</p>
+            </div>
+            <div class="flex-item">
+                    <h1>Times Square by the Numbers</h1>
+                    <div class="video" style="float: right">
+                            <video controls="controls" poster="{{link}}videos/times.jpg" style="width:100%" title="Gold Mime Guy">
+                                <source src="{{link}}videos/times.m4v" type="video/m4v" />
+                                <source src="{{link}}videos/times.webm" type="video/webm" />
+                                <source src="{{link}}videos/times.ogv" type="video/ogg" />
+                            </video>
+                        </div>
+                <p><span>7</span> - The Avenue that runs through Times Square, where all the main happenings occur</p>
+                <p><span>42</span> - Street W where Times Square begins</p>
+                <p><span>47</span> - Street W where Times Square ends</p>
+                <p><span>1907</span> - The year in which the first New Year's Ball dropped, an annual event now bringing over 1,000,000 people per year</p>
+                <p><span>360,000</span> - Average number of people who visit Times Square daily</p>
+                <p><span>9</span> - Number of numbered Times Square buildings, from 1-7 plus 11 and 20</p>
+
+            </div>
+            <div class="flex-item">
+
+            </div>
+            <div class="flex-item">
+                <app-article-comment></app-article-comment>
+            </div>
+        </article>
+        <article>
+            <div class="flex-item">
+                <carousel [interval]="false">
+                    <slide *ngFor="let juniorPicture of juniorPictures">
+                        <figure class="main-carousel">
+                            <img src="{{link}}photos/{{juniorPicture.image}}" alt="{{juniorPicture.alt}}" class="img-responsive main-carousel">
+                            <figcaption>
+                                 <h3>{{juniorPicture.title}}</h3>
+                                <p>{{juniorPicture.description}}</p>
+                            </figcaption>
+                        </figure>
+                    </slide>
+                </carousel>
+            </div>
+            <div class="flex-item">
+                	<h1>Junior's Cheesecake, Well You Know ***Pat on the Shoulder***</h1>
+                	<h4>{{date}}</h4>
+                <p>It was 11:57 PM when we got to Junior's, looking for some dessert. Three minutes later, we would have struck out again. But only looking for dessert, we were treated to some easy dessert. There were plenty of Cheesecake options, including
+                    one with a "Hoboken" flavor, which, of course, is a city in New Jersey. In the end, I got me some Red Velvet Cheesecake. Jenn thought it wouldn't be enough, but of course, it was the perfect size.</p>
+                <p>While eating Cheesecake, Jenn and Megan were chatted up by two gentlemen, a father and son from Jacksonville, Florida. What started off as a friendly conversation with odd stories of Hepatitis C and Oregon, turned quite bizarre at the
+                    end when the older gentlemen, seemingly losing his train of thought, finished his time with Jenn by saying "Well, you know...here you go" before patting Jenn on the shoulder and giving her a business card for some reason. Why Jenn
+                    would need a cleaning business in Jacksonville is beyond me. And that is the story of how Jenn wound up with two business cards during the trip.</p>
+                <p>And just like that, the excitement was over. No more things to see, as it was past midnight and later in the day, after getting whatever sleep we could get, Jenn and I had to fly back home, to where our normal life is. So after saying
+                    goodbye to Megan, we hopped into the Taxi back to our hotel. It was a successful trip, but now came the hard part, making our way back home knowing the excitement was gone.</p>
+            </div>
+            <div class="flex-item">
+                    <app-article-comment></app-article-comment>
+                </div>
+        </article>
+
+    </div>
+    <div class="flex-item scroll-minor">
+            <app-sidebar></app-sidebar>
+        </div>
+</div>
+<div class="flex-container link">
+    <div class="flex-item">
+        <button class="btn btn-primary" routerLink="/six/liberty">Previous</button>
+    </div>
+    <div class="flex-item">
+        <button class="btn btn-primary" routerLink="/outro">Next</button>
+    </div>
+</div>
+<router-outlet></router-outlet>

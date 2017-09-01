@@ -1,0 +1,43 @@
+<accordion>
+    <accordion-group #group>
+    <div accordion-heading>
+     Comments
+      <i class="pull-right float-xs-right glyphicon"
+         [ngClass]="{'glyphicon-chevron-down': group?.isOpen, 'glyphicon-chevron-right': !group?.isOpen}"></i>
+    </div>
+	<div [hidden]="!submitted">
+		<div class="flex-container comments">
+			<div class="flex-item">	
+				<h3>{{name}}</h3>
+				<h6>{{time}}</h6>
+				<p>{{comment}}</p>
+			</div>
+			<div class="flex-item">
+				<form [hidden]="!submitted" (submit)="onClear()">
+					<div>
+						<button class="btn btn-success">X</button>
+					</div>
+				</form>
+				
+			</div>	  
+		</div>
+	</div>        
+	<form (submit)="onSubmit()" novalidate>
+		<h1>Comments</h1>
+		<div>
+			<label for="name">Name</label><br>
+			<input type="text" id="name" name="name" class="form-control" [(ngModel)]="name" required minlength="2" #nameField="ngModel" >
+			<label for="comment">Comment</label><br>
+			<textarea id="comment" name="comment" [(ngModel)]="comment" required minlength="5" #commentField="ngModel" rows="10" cols="30"></textarea>              
+		</div>
+		<div>
+			<button class="btn btn-primary submit">Submit</button>
+		</div>
+
+	</form>
+  </accordion-group>
+</accordion>
+
+
+
+			

@@ -1,0 +1,54 @@
+
+blockquote {
+    color: #F5D15D;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.5em;
+}
+
+#photo {
+    border-radius: 100%;
+}
+footer {
+    text-align: right;
+    color: white;
+    font-size: 0.8em;
+}
+
+.scroll-major {
+	max-height: 90vh; 
+	overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+}
+.scroll-minor { 
+    display: none;
+}
+
+@media screen and (min-width: 480px) {
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    padding: 20px;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    align-items: center;    
+}
+
+.image {
+    -webkit-flex: 1;
+    flex: 1;
+}
+.paragraph {
+    -webkit-flex: 2;
+    flex: 2;
+    padding: 20px;  
+}
+.scroll-major {
+    flex: 3; 
+  }
+  .scroll-minor {
+      display: block;
+  }
+}

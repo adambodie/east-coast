@@ -1,0 +1,93 @@
+<div class="flex-container">
+		<div class="flex-item scroll-major">	
+			<article>
+				<div class="flex-item">
+					<carousel [interval]="false">
+						<slide *ngFor="let independencePicture of independencePictures">
+							<figure class="main-carousel">
+								<a href="{{link}}photos/{{independencePicture.image}}">
+									<img src="{{link}}photos/{{independencePicture.image}}" alt="{{independencePicture.alt}}" class="img-responsive main-carousel">
+								</a>
+								<figcaption>
+										<h3>{{independencePicture.title}}</h3>
+									<p>{{independencePicture.description}}</p>
+								</figcaption>
+							</figure>
+						</slide>
+					</carousel>
+				</div>
+				<div class="flex-item">
+						<h1>Independence National Historical Park, where America was born</h1>
+						<h4>{{date}}</h4>
+					
+					<p>Nothing rings American History more than Independence Hall, where our Constitution was signed, and the Liberty Bell, which rang during the vote for Independence. Walking around Independence Hall, I was reminded of how far America came
+						since 1776. Amazing to see such History all within one city block. There’s no city that I’ve been to in the United States, with the exception of Boston, of course, that has the rich history and European flavor.</p>
+					<p>Also there was a building what caught my eye, which many people were looking at. The building I saw was the Liberty Bell Center, and taking a glimpse inside was of course, the Liberty Bell. After exploring the Pride Parade and finding
+						the cafe across the street for Jenn to cool down in, I knew I needed to go inside and see the Liberty Bell.</p>
+					<img src="{{link}}photos/independence21.jpg" alt="Welcome" class="img-responsive side-image" style="width: 50%; height: 50%">
+					<p>The line to the Liberty Bell seemed daunting at first, especially with the humidity, but it wasn’t as bad as I thought it would be. I also had plenty to look at with various quotes about Liberty and other fascinating things, including
+						places, words in different languages and historical quotes. One such quote came from President Obama. I miss having him in charge, we need a real President, not a baby. Once inside, a metal detector awaited, but nothing as bad as going
+						through any airport. Once through, I strolled through the interior, briefly seeing the views and historical facts on the walls. I didn’t have too much time to visit, so I made my way to the Liberty Bell itself. A glorious sight to
+						see, with its historical significance. True, it’s just a bell, a cracked bell, but having been around for so long makes it at least worth seeing once. I managed to get a couple of pictures of myself in front of the cracked bell. Then
+						I saw the lovely view of Independence Hall outside.</p>
+					<p>Once I was done, I left and headed back to the Parade action, mixed with the visiting Jenn action. In between this was going inside the Independence Visitor Center, where cartoon Rocky and a Gift Shop caught my eye. Also on the agenda
+						was finding Neal and Heidi to tell them where Jenn was hanging out. And the coup de grace was a Cappuccino at the Cafe. I got to have at least one during a trip and Philadelphia happened to be the place I got my Cappuccino.</p>
+				</div>
+				<div class="flex-item">
+
+				</div>
+				<div class="flex-item">
+					<app-article-comment></app-article-comment>
+				</div>
+			</article>
+			<div class="flex-item">
+				<a href="http://adamsartshowcase.bodiewebdesign.com" target="_blank">
+					<img src="{{link}}photos/art-showcase.jpg" alt="Adam's Art Showcase" class="img-responsive ad-banner" />
+				</a>
+			</div>
+	
+			<article>
+				<div class="flex-item">
+					<carousel [interval]="false">
+						<slide *ngFor="let libertyBellPicture of libertyBellPictures">
+							<figure class="main-carousel">
+								<a href="{{link}}photos/{{libertyBellPicture.image}}">
+									<img src="{{link}}photos/{{libertyBellPicture.image}}" alt="{{libertyBellPicture.alt}}" class="img-responsive main-carousel">
+								</a>
+								<figcaption>
+										<h3>{{libertyBellPicture.title}}</h3>
+									<p>{{libertyBellPicture.description}}</p>
+								</figcaption>
+							</figure>
+						</slide>
+					</carousel>
+				</div>
+				<div class="flex-item">
+					<h1>Liberty Bell By the Numbers</h1>
+					<p><span>1751</span> - The year in which the Liberty Bell was completed, used to alert citizens of important events</p>
+					<p><span>4</span> - Number of days after July 4, 1776 that the Declaration of Independence was announced to its citizens via the ringing of the Liberty Bell</p>
+					<p><span>1835</span> - The approximate year the Liberty Bell got its crack. The exact year is unknown but popular belief is that is rung to announce the death of Chief Justice John Marshall.</p>
+					<p><span>1847</span> - The year in which the Liberty Bell became famous, due to the false belief it rung on July 4, 1776</p>
+					<p><span>2,080</span> - Weight, in pounds of the Liberty Bell. 70% Copper, 25% Tin and the rest consisting of various metals</p>
+					<p><span>1976</span> - The year the Liberty Bell was moved from inside Independence Hall to a nearby glass pavilion. The current Liberty Bell Center was erected in 2003.</p>
+				</div>
+				<div class="flex-item">
+					<app-article-comment></app-article-comment>
+				</div>
+			</article>
+		</div>
+		<div class="flex-item scroll-minor">
+				<app-sidebar></app-sidebar>
+			</div>
+	</div>
+	
+	
+	<div class="flex-container link">
+		<div class="flex-item">
+			<button class="btn btn-primary" routerLink="/two/delaware">Previous</button>
+		</div>
+		<div class="flex-item">
+			<button class="btn btn-primary" routerLink="/two/pride">Next</button>
+		</div>
+	</div>
+	<router-outlet></router-outlet>

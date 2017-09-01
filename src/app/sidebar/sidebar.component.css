@@ -1,0 +1,29 @@
+a {
+    color: white;
+}
+p {
+    font-weight: bold;
+}
+li {
+    list-style-type: circle; 
+}
+ul {
+    margin-top: 10px;
+}
+/*.panel-default>.panel-heading {
+    background: transparent!important;
+    }
+    
+    .panel {
+      background: transparent;
+    }
+    
+    .panel-title {
+      font-weight: bold;
+      color: white;
+    }
+    
+    .panel-group .panel {
+      border: none;
+    }
+  */  

@@ -1,0 +1,101 @@
+<div class="flex-container">
+    <div class="flex-item scroll-major">
+        <article>
+            <div class="flex-item">
+                <carousel [interval]="false">
+                    <slide *ngFor="let metroPicture of metroPictures">
+                        <figure class="main-carousel">
+                            <img src="{{link}}photos/{{metroPicture.image}}" alt="{{metroPicture.alt}}" class="img-responsive main-carousel">
+                            <figcaption>
+                                 <h3>{{metroPicture.title}}</h3>
+                                <p>{{metroPicture.description}}</p>
+                            </figcaption>
+                        </figure>
+                    </slide>
+                </carousel>
+            </div>			
+            <div class="flex-item">
+                	<h1>Separated at Last?</h1>
+                	<h4>{{date}}</h4>
+                <p>Heading back to Greenbelt, which was the last Metro stop and the one closest to Laurel, at least where Neal’s Honda was at, meant we came back to way we came. But life sure does throw you curveballs. While switching to the Green Line,
+                    and rushing to get on a crowded Metro train, the door started to close right when I got on, and since it wouldn’t open, left Jenn and Neal behind. So I guess I did right the Metro on my own after all. Fortunately it was me alone and
+                    not Jenn, who would’ve been lost without us. The odd ride back by myself was nothing out of the ordinary, and thankfully we were able to text each other with directions once we were out of the tunnels. Good news for Jenn and Neal,
+                    the next Metro was three minutes behind.</p>
+                <p>After both of us reached the Greenbelt Metro station, one more Uber ride awaited us to take us to the Honda and pick up Neal’s car. Driving there provided something I wouldn’t expect in the area, a country like landscape. No city life,
+                    no suburban life. Certainly that can be expected in Portland, but not in the D.C. Metro. Plus some very dark clouds approaching made for more interesting pictures. Finally, we got to the Honda and Neal’s car back and well, except for
+                    the bad stench in the car of course.</p>
+            </div>
+            <div class="flex-item">
+                	<h1>Maryland By The Numbers</h1>
+                	<h4>{{date}}</h4>
+                <p><span>1972</span> - The year in which Laurel, Maryland's most infamous moment occurred, the attempted assassination of Presidential candidate George Wallace</p>
+                <p><span>7</span> - Maryland was the 7th State to ratify the Constitution</p>
+                <p><span>281</span> - The number of named islands Maryland has</p>
+                <p><span>1</span> - Maryland's rank in Household Income Per Capita</p>
+                <p><span>3</span> - The number of counties Laurel, Maryland sits on.</p>
+                <p><span>39°43'</span> - The latitude (North) of Maryland's northern border with Pennsylvania, forming part of the Mason-Dixon Line</p>
+                <p><span>75</span> - The longitude (West) forming Maryland's eastern border with Delaware, forming the other part of the Mason-Dixon Line</p>
+            </div>
+            <div class="flex-item">
+                <app-article-comment></app-article-comment>
+            </div>
+        </article>
+        <div class="flex-item">
+            <a href="http://film.bodiewebdesign.com" target="_blank">
+                <img src="{{link}}photos/coen.jpg" alt="Coen Brothers Film Review" class="img-responsive ad-banner" />
+            </a>
+        </div>
+        <article>
+            <div class="flex-item">
+                <carousel [interval]="false">
+                    <slide *ngFor="let sakuraPicture of sakuraPictures">
+                        <figure class="main-carousel">
+                            <img src="{{link}}photos/{{sakuraPicture.image}}" alt="{{sakuraPicture.alt}}" class="img-responsive main-carousel">
+                            <figcaption>
+                                 <h3>{{sakuraPicture.title}}</h3>
+                                <p>{{sakuraPicture.description}}</p>
+                            </figcaption>
+                        </figure>
+                    </slide>
+                </carousel>
+            </div>
+            <div class="flex-item">
+                	<h1>Dinner and a Show at Sakura</h1>
+                	<h4>{{date}}</h4>
+                <p>With one more night in Maryland, we had one more friend of Neal's to visit, Kelli. The only one of Neal's friends I had met on the previous trip, we met up at our hotel. Previously, Neal asked Jenny if she wanted to come as well. Of course,
+                    Siri had other plans as it asked her if she wanted to come to Laurel for denture center. Neal tried a little too hard to enunciate dinner, opting for the more aspirate sounding dinter. You gotta love Siri lol.</p>
+                <p>That led us to Sakura, a Japanese Steak Seafood &amp; Sushi Bar, which saw us at a Benihana styled restaurant, only with better guests. It was mostly our crew, with a young couple already there for the festivities. Jenny and her daughter Payton
+                    made it not too long after, though they weren't there to eat. I ordered a Love Potion #9, a Vodka based drink with Schnapps and Grenadine. Certainly a love potion indeed. Once our food got made, the fireworks began with the flames,
+                    eggs in the hat routine, the choo choo onion tower, and more. An evolution of meals was ready to begin, starting with Chicken Livers, culminating with the Steak and Shrimp combo with rice, veggies and yummy dipping sauce.</p>
+                <p>After dinner was done, and Neal, not surprisingly, being the center of attention, it was time to wrap up and head back to our places. But first, we needed dessert before our departure to New York City. So we frantically drove to a frozen
+                    yogurt place, Sweet Frog, with just minutes left on the clock before it closed at 10:00. Like a stampeding herd of buffalo, we charged into the shop and got ourselves some yummy frozen yogurt. I got some Chocolate &amp; Peanut Butter and
+                    Creme Brulee. How could I say no to Creme Brulee? One last stop was needed to go to Target, since Kelli needed something. Not wasting the opportunity, we got some snacks and waters for the New York trip. Jenny helped save a rather
+                    ugly looking bug from certain Automatic Door Doom. And just like that, it was time to embark on the biggest trip of our lives...New York City</p>
+            </div>
+            <div class="flex-item">
+                <div class="video">
+                    <video controls="controls" poster="{{link}}videos/sakura.jpg" style="width:100%" title="Arlington">
+                        <source src="{{link}}videos/sakura.m4v" type="video/m4v" />
+                        <source src="{{link}}videos/sakura.webm" type="video/webm" />
+                        <source src="{{link}}videos/sakura.ogv" type="video/ogg" />
+                    </video>
+                </div>
+            </div>
+            <div class="flex-item">
+                <app-article-comment></app-article-comment>
+            </div>
+        </article>
+    </div>
+    <div class="flex-item scroll-minor">
+            <app-sidebar></app-sidebar>
+        </div>
+</div>
+<div class="flex-container link">
+    <div class="flex-item">
+        <button class="btn btn-primary" routerLink="/four/arlington">Previous</button>
+    </div>
+    <div class="flex-item">
+        <button class="btn btn-primary" routerLink="/five/jersey">Next</button>
+    </div>
+</div>
+<router-outlet></router-outlet>

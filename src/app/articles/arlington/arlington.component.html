@@ -1,0 +1,142 @@
+<div class="flex-container">
+		<div class="flex-item scroll-major">
+				<article>
+						<div class="flex-item">
+								<carousel [interval]="false">
+									<slide *ngFor="let chickFilAPicture of chickFilAPictures">
+										<figure class="main-carousel">
+										<a href="{{link}}photos/{{chickFilAPicture.image}}">
+											<img src="{{link}}photos/{{chickFilAPicture.image}}" alt="{{chickFilAPicture.alt}}" class="img-responsive main-carousel">
+										</a>
+									<figcaption>
+										<h3>{{chickFilAPicture.title}}</h3>
+										<p>{{chickFilAPicture.description}}</p>   
+									</figcaption>
+									</figure>
+									</slide>
+								</carousel>
+								</div>	
+					<div class="flex-item">
+						<h1>The Calm Before the Storm</h1>
+						<h4>{{date}}</h4>
+						<p>With one day before our trip to New York, we had seen most everything we had set out to see, from the expected D.C. trip to the Philadelphia surprise.  That left one place on the agenda; Arlington, Virginia.  Home of the Arlington National Cemetery, I had never really gotten to visit a place in Virginia, other than driving to the god awful Dulles Airport and a chance to see the kids at the Reston Zoo.  There are other things to see in Virginia, I imagine, but the Arlington National Cemetery was the natural place to stop.  Problem was, Neal’s car was still in the shop.  At least Neal took care of his car issues before a big trip.  Jenn and I wish we had someone like that in Alabama.  The morning was spent relaxing, so the afternoon was ours to explore.  But first, lunch…</p>
+						<p>Near our hotel, within walking distance, was Chick-Fil-A.  A famous fast food restaurant known for chicken, chicken, and more chicken.  Or should I say, mor chikin.  Only recently did a Chick-Fil-A open in our lovely, health conscious state of Oregon, but Jenn and I haven’t made the trip out to 185th and Highway 26.  Poor us, a fifteen minute drive in rush hour.  But this is our first time in a Chick-Fil-A restaurant.</p>
+						<p>I’ve had Chick-Fil-A before, many times while at school at the University of Minnesota.  But the Chick-Fil-A wasn’t at a restaurant, it was at the school’s Coffman Memorial Union at a stand.  That was the only Chick-Fil-A in the state of Minnesota.  I had their chicken sandwiches before, and I enjoyed them.  So it was a welcomed experience to get the whole chicken experience at their actual restaurant.</p>
+						<p>Chick-Fil-A looks and feels like your typical fast food joint, complete with a play pen.  Their menu was like any fast food burger joint, with obviously, more and more chicken items.  I had the Spicy Deluxe with the Garlic &amp; Herb dipping sauce, along with the fries.  A nice fast food meal, with good fast food chicken.  Basically what I had expected from my previous times eating Chick-Fil-A.</p>
+					</div>	
+
+						<div class="flex-item">
+								<app-article-comment></app-article-comment>
+							</div>	
+					</article>
+				<article>
+						<div class="flex-item">
+						<carousel [interval]="false">
+							<slide *ngFor="let arlingtonPicture of arlingtonPictures">
+								<figure class="main-carousel">
+								<a href="{{link}}photos/{{arlingtonPicture.image}}">
+									<img src="{{link}}photos/{{arlingtonPicture.image}}" alt="{{arlingtonPicture.alt}}" class="img-responsive main-carousel">
+								</a>
+							<figcaption>
+								<h3>{{arlingtonPicture.title}}</h3>
+								<p>{{arlingtonPicture.description}}</p>   
+							</figcaption>
+							</figure>
+							</slide>
+						</carousel>
+						</div>
+					<div class="flex-item">
+						<h1>A Somber Afternoon at the Arlington National Cemetery</h1>
+						<h4>{{date}}</h4>
+						<p>After Chick-Fil-A, an Uber ride awaited our future to take us to the College Park Metro Station.  Not the Greenbelt Metro Station, but the College Park Metro Station, one stop closer to D.C.  A day late, but I finally made it on the Metro, my first time since 2005.  Aside from the constant “Step Back!” at every stop, it felt like being on the MAX.  Transferring stops was hectic, as we were underground and there were many directions to go.  After one transfer, we made it to the Arlington National Cemetery.</p>
+						<p>Heading up the stairway to heaven escalator to the cemetery brought back memories of D.C., or was it Boston.  Either way, once we got to cemetery, a peaceful bliss awaited us.  Away from the hustle and bustle of city life, I felt more calm being surrounded by trees.  There were plenty of people visiting, but that much is expected.</p>
+						<p>I mainly wanted to go to the Cemetery to see the Iwo Jima Memorial.  But I didn’t plan this part of the trip well, so I walked around the cemetery itself.  Turns out, the Iwo Jima Memorial was in the other direction nearby.  While Jenn and Neal did their thing, I took off, something that comes natural to me.  As I walked along the trail seeing nothing but gravestones, I was honored to see all of our military gravestones.  These men fought for us and died for us, and you can’t ignore that while walking through.</p>
+						<p>There were two places on the map nearby I sought out.  The first stop of John F Kennedy’s gravesite and the Eternal Flame.  I followed all the signs there, but I must have missed one.  I managed to see Robert F Kennedy’s grave, but I followed the wrong path.  Soon as I knew it, I was heading towards the other spot on the list, the Tomb of the Unknown Soldier.</p>
+						<p>There were two places on the map nearby I sought out.  The first stop of John F Kennedy’s gravesite and the Eternal Flame.  I followed all the signs there, but I must have missed one.  I managed to see Robert F Kennedy’s grave, but I followed the wrong path.  Soon as I knew it, I was heading towards the other spot on the list, the Tomb of the Unknown Soldier.</p>
+					</div>	
+					<div class="flex-item">
+						<h1>Arlington National Cemetery By the Numbers</h1>
+							<p><span>400,000</span> - An estimated number of graves at the Arlington National Cemetery, which is owned by the Army.</p>
+							<p><span>1929</span> - The year which the first Memorial Day ceremony was held here by Herbert Hoover.</p>
+							<p><span>70</span> - The number of marked sections at the Arlington National Cemetery, with some sections holding specific groups of personnel.</p>
+							<p><span>1920</span> - The year which the Amphitheater was completed, made of marble from Vermont</p>
+							<p><span>72</span> - Weight, in metric tons, of the Tomb of the Unknown Soldier.  It’s made of Yule Marble from Colorado and was completed in 1932.  It has been continuously guarded by the U.S. Army since 1937.</p>
+							<p><span>35</span> - The 35th President, John F. Kennedy is perhaps the most famous person buried here, whose grave site is marked with an “eternal flame”. His family members also reside at his grave site.</p>
+							<p><span>5</span> - The number of compliments Neal received for his Shirt</p>
+					</div>
+					<div class="flex-item">
+							<app-article-comment></app-article-comment>
+						</div>
+					</article>
+				<article>
+						<div class="flex-item">
+						<carousel [interval]="false">
+							<slide *ngFor="let unknownPicture of unknownPictures">
+									<figure class="main-carousel">
+								<a href="{{link}}photos/{{unknownPicture.image}}">
+									<img src="{{link}}photos/{{unknownPicture.image}}" alt="{{unknownPicture.alt}}" class="img-responsive main-carousel">
+								</a>
+							<figcaption>
+								<h3>{{unknownPicture.title}}</h3>
+								<p>{{unknownPicture.description}}</p>   
+							</figcaption>
+							</figure>
+							</slide>
+						</carousel>
+						</div>
+						<div class="flex-item">
+						<h1>Spotlight - Tomb of the Unknown Soldier</h1>
+						<h4>{{date}}</h4>
+						<p>I knew I had reached the preferred spot at the Cemetery when I first laid eyes on the marble Amphitheatre.  Perfectly built like many Ancient Roman buildings, the amphitheatre felt almost surreal.  As I walked around it inside, it felt like I was back in time where the Ancient Romans played.  It almost brought me back to Italy, where I had been ten years prior.  I reached the stage and proceed to walk out where I could hear the bells going off at 4:00.  There I could see the Tomb of the Unknown Soldier, along with hillside views of Washington D.C. in the background.  A perfect place to watch the Armed Soldiers marching to protect the Tomb.  It was very peaceful, as signs requesting complete and utter silence were visible.  With many people watching, and the Military deserving every bit of respect needed, I remained silent while recording and taking pictures of the routine.  I didn’t have too much time to watch, as I needed to get back to the Visitor’s Center at the soft deadline of 4:40, so we could get back to Laurel and retrieve Neal’s car, as repairs were finished.  But I took in the experience and felt proud.  After making my rounds with the Amphitheater, I went back to right my wrong, to see the entire Kennedy gravesite.</p>
+						</div>	
+					</article>
+					<div class="flex-item">
+							<img src="{{link}}photos/unknown.jpg" class="img-responsive" alt="Unknown" id="painting"/>
+						</div>	
+				<article>
+					<div class="flex-item">
+						<h1>For the Exercise Buffs</h1>
+						<h4>{{date}}</h4>
+						<img src="{{link}}photos/arlington-walk.jpg" alt="Arlington Walk" class="img-responsive side-image" width="50%"/>
+						<p>Walking through the Arlington National Cemetery was unlike any walk on this trip.  Though the humidity wasn't as bad as it had been before, as you can clearly see, the walk was hilly, unlike the flat walks in D.C. and Philly.  With an elevation gain of 171 feet, clearly there were times I had to put more pedal to the metal.  Like D.C., I didn't think to start my watch until later, when I was about at John F. Kennedy's grave site, which I obviously initially missed since I went left.</p>
+						<p>I recorded nearly an hour of walking, going up and down hills to reach the Amphitheater, which you can clearly see I circled around, stopping to watch the Guards do their routine.  Afterwards, I completed the loop and walked to see a better view of the outside from the West.  Then I went back on the path towards the JFK site.</p>
+						<p>Since I was on a Neal-imposed "soft" deadline of 4:40, I pushed myself towards the end of the trip, only stopping at the JFK site to take more pictures.  This time, I went right instead of left, being able to see it.  I managed to hustle my way back down towards the entrance.  I clearly burned a sh*tload of calories during the almost hour of walking.  I obviously burned more but didn't record the first leg of the trip.  In all, I was sweaty like a pig when I was done.</p>
+					</div>
+					<div class="flex-item">
+							<app-article-comment></app-article-comment>
+						</div>
+				</article>
+						<div class="flex-item">
+							<app-ad></app-ad>
+						</div>
+				<article>
+					<div class="flex-item">
+						<div class="video">
+							<video controls="controls" poster="{{link}}videos/arlington.jpg" style="width:100%" title="Arlington">
+								<source src="{{link}}videos/arlington.m4v" type="video/m4v" />
+								<source src="{{link}}videos/arlington.webm" type="video/webm" />
+								<source src="{{link}}videos/arlington.ogv" type="video/ogg" />
+							</video>
+						</div>
+					</div>	
+					<div class="flex-item">
+					<h1>Another Mad Dash</h1>
+					<h4>{{date}}</h4>
+					<p>With time running out, and me determined to see everything I could, I walked as fast as I could, recounting my path, making my way to John F. Kennedy’s gravesite.  Once I got there, I realized that Robert Kennedy was to the far left.  I should have gone right instead.  Guess who should’ve taken that turn to Albuquerque?  Me, that’s who.  I became amazed by seeing JFK’s gravesite, with Jackie O next to him, along with their two children who died really young.  In the middle of all of it was the Eternal Flame, providing a more peaceful setting for a man who deserves the highest honor, and served as our President for two years until his tragic assassination.  I also saw other family member’s graves, including Edward Moore Kennedy, whom I didn’t realize until I got home was the great Senator Ted Kennedy.  With the clock ticking and ticking, I returned back to the Visitor’s Center at 4:35, only to realize that Jenn and Neal also went off on their own.</p>
+					</div>
+
+				<div class="flex-item">
+						<app-article-comment></app-article-comment>
+					</div>
+				</article>
+				</div>
+				<div class="flex-item scroll-minor">
+						<app-sidebar></app-sidebar>
+					</div>
+</div>
+<div class="flex-container link">
+	<div class="flex-item"><button class="btn btn-primary" routerLink="/three/georgetown">Previous</button></div>
+	<div class="flex-item"><button class="btn btn-primary" routerLink="/four/metro">Next</button></div>
+</div>
+<router-outlet></router-outlet>	
+

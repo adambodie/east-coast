@@ -1,0 +1,89 @@
+<div class="flex-container ">
+    <div class="flex-item scroll-major">
+        <article>
+            <div class="flex-item">
+                <carousel [interval]="false">
+                    <slide *ngFor="let artPicture of artPictures">
+                            <figure class="main-carousel">
+                                <img src="{{link}}photos/{{artPicture.image}}" alt="{{artPicture.alt}}" class="img-responsive main-carousel">
+                            <figcaption>
+                                 <h3>{{artPicture.title}}</h3>
+                                <p>{{artPicture.description}}</p>
+                            </figcaption>
+                        </figure>
+                    </slide>
+                </carousel>
+            </div>
+            <div class="flex-item">
+                	<h1>Gonna Fly Now: The True Story of the Rocky Experience and More</h1>
+                	<h4>{{date}}</h4>
+                <p>The Philadelphia Museum of Art is one of the more famous Art Museums in the U.S., though modern fame has little to do with the Art itself. Aside from providing great city views with a classical architecture that would make the Ancient
+                    Romans proud, the Museum was made famous by Rocky, the seminal 1976 coming of age boxing film starring Sylvester Stallone as the lovable underdog Rocky Balboa, who ran up the steps of the Museum in what’s colloquially known as the
+                    Rocky Steps. The ground level was beautiful and provided a lovely scene. Also there was the Rocky Statue that plenty of people were drawn to.</p>
+                <p>Neal dragged Jenn up the 72 steps, but I ran up them despite the late start and my backpack, beating the lazy tag team. I meant to record the video from a first person view, but sadly, I didn't press the record button until after I reached
+                    the top. I didn’t feel it was necessary to do it again. Though America’s most cliche place to get exercise, the area on the whole was quite beautiful, with a great view of the city. It reminded me of the St. Louis Art Museum, the architecture
+                    was similar, but with better surrounding views and golden architecture, the Art Museum is a great place to visit. Just watch out for the bums. Gotta love tourist traps.</p>
+            </div>
+            <div class="flex-item">
+                <app-article-comment></app-article-comment>
+            </div>
+        </article>
+        <article>
+            <div class="flex-item">
+                	<h1>Philadelphia Museum of Art By the Numbers</h1>
+                <p><span>72</span> - The number of Steps to the top of the Philadelphia Museum of Art</p>
+                <p><span>7</span> - Number of current Rocky Films, Rocky I, II, III, IV, V, Rocky Balboa and Creed.</p>
+                <p><span>6</span> - Number of Rocky Films that featured the Steps in the film. The only one missing was Rocky IV.</p>
+                <p><span>8.5</span> - The height, in feet, of the Rocky Statue sitting outside the Museum</p>
+                <p><span>240,000</span> - Approximate number of collections held at the Museum of Art, making it one of the largest museums in the world in terms of items held.</p>
+            </div>
+        </article>
+        <article>
+            <carousel [interval]="false">
+                <slide *ngFor="let dancePicture of dancePictures">
+                <figure class="main-carousel">
+                     <img src="{{link}}photos/{{dancePicture.image}}" alt="{{dancePicture.alt}}" class="img-responsive main-carousel">
+                        <figcaption>
+                             <h3>{{dancePicture.title}}</h3>
+                            <p>{{dancePicture.description}}</p>
+                        </figcaption>
+                    </figure>
+                </slide>
+            </carousel>
+            <div class="flex-item">
+                	<h1>Spotlight: Nuggets on Roller Skates</h1>
+                	<h4>{{date}}</h4>
+                <p>After cheating our way to the back side of the building, it was time to see what was out there. To my surprise, we found a scenic view of the funny named Schuylkill River, complete with another great view of the city, along with the Art
+                    Museum itself. A hidden treasure if I ever saw one. A hop skip away was the relaxing Lloyd Hall, with a cafe and impromptu street performance of a group of people dancing on roller skates and roller blades. Neal found himself intrigued
+                    and started dancing to the music as well. He became part of the performance. Considerably better than Heidi drinking juice with Cayenne Pepper (try reading all the ingredients next time…), Jenn and I hung out in the cafe, too hot and
+                    too tired to be outside. Neal surely needed water, and Jenn was worried, so by the time Neal was thirsty, he bursted in, sweating like a pig and bought 7 bottles of water, much to our amusement. That became less funny and more touching
+                    as Neal bought all the performers some water. Seeing all of them having fun for the sake of fun really brings out of liveliness in the big city. Not something I see much in Portland. It was the nugget of the day to say the least. Once
+                    we were done there, it was time to head back to Maryland for another day of adventure and excitement.</p>
+            </div>
+            <div class="flex-item">
+                <div class="video">
+                    <video controls="controls" poster="{{link}}videos/dance.jpg" style="width:100%" title="Roller Skating Dancers">
+                        <source src="{{link}}videos/dance.m4v" type="video/m4v" />
+                        <source src="{{link}}videos/dance.webm" type="video/webm" />
+                        <source src="{{link}}videos/dance.ogv" type="video/ogg" />
+                    </video>
+                </div>
+            </div>
+            <div class="flex-item">
+                    <app-article-comment></app-article-comment>
+                </div>
+        </article>
+    </div>
+    <div class="flex-item scroll-minor">
+            <app-sidebar></app-sidebar>
+        </div>
+</div>
+<div class="flex-container link">
+    <div class="flex-item">
+        <button class="btn btn-primary" routerLink="/two/penn">Previous</button>
+    </div>
+    <div class="flex-item">
+        <button class="btn btn-primary" routerLink="/two/philly">Next</button>
+    </div>
+</div>
+<router-outlet></router-outlet>
