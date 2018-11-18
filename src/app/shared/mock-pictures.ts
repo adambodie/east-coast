@@ -198,7 +198,7 @@ export const LIBERTYBELLPICTURES: Picture[] = [
 {id: 6, image: 'liberty-bell6.jpg', alt: 'In Line for the Liberty Bell', title: 'In Line for the Liberty Bell'},
 {id: 7, image: 'liberty-bell7.jpg', alt: 'Adam', title: 'In Line for the Liberty Bell'},
 {id: 8, image: 'liberty-bell8.jpg', alt: 'In Line for the Liberty Bell', title: 'In Line for the Liberty Bell'},
-{id: 9, image: 'liberty-bell9.jpg', alt: 'Memorial', title: 'Memorial', description: 'I miss Obama, we need an Actual President, not a clown'},
+{id: 9, image: 'liberty-bell9.jpg', alt: 'Memorial', title: 'Memorial', description: 'I miss Obama'},
 {id: 10, image: 'liberty-bell10.jpg', alt: 'In Line for the Liberty Bell', title: 'In Line for the Liberty Bell'},
 {id: 11, image: 'liberty-bell11.jpg', alt: 'In Line for the Liberty Bell', title: 'In Line for the Liberty Bell'},
 {id: 12, image: 'liberty-bell12.jpg', alt: 'Inside the Line for the Liberty Bell', title: 'Inside the Line for the Liberty Bell'},
@@ -206,7 +206,7 @@ export const LIBERTYBELLPICTURES: Picture[] = [
 {id: 14, image: 'liberty-bell14.jpg', alt: 'Inside the Line for the Liberty Bell', title: 'Inside the Line for the Liberty Bell'},
 {id: 15, image: 'liberty-bell15.jpg', alt: 'Inside the Line for the Liberty Bell', title: 'Inside the Line for the Liberty Bell'},
 {id: 16, image: 'liberty-bell16.jpg', alt: 'Inside the Line for the Liberty Bell', title: 'Inside the Line for the Liberty Bell'},
-{id: 17, image: 'liberty-bell17.jpg', alt: 'Inside the Liberty Bell Center, Metal Detector', title: 'Inside the Liberty Bell Center, Metal Detector'},
+{id: 17, image: 'liberty-bell17.jpg', alt: 'Inside the Liberty Bell Center, Security Line', title: 'Inside the Liberty Bell Center, Security Line'},
 {id: 18, image: 'liberty-bell18.jpg', alt: 'America\'s Liberty Bell', title: 'America\'s Liberty Bell'},
 {id: 19, image: 'liberty-bell19.jpg', alt: 'The World\'s Symbol for Liberty', title: 'The World\'s Symbol for Liberty'},
 {id: 20, image: 'liberty-bell20.jpg', alt: 'Inside the Liberty Bell Center', title: 'Inside the Liberty Bell Center'},
@@ -230,7 +230,7 @@ export const PRIDEPICTURES: Picture[] = [
 {id: 8, image: 'pride8.jpg', alt: 'March', title: 'The March Begins'},
 {id: 9, image: 'pride9.jpg', alt: 'Jewish Support', title: 'Philadelphia\'s Jewish Community supports the LGBTQ'},
 {id: 10, image: 'pride10.jpg', alt: 'Pride Parade', title: 'More people marching'},
-{id: 11, image: 'pride11.jpg', alt: 'Donald Trump in Lipstick', title: 'Donald Trump in Lipstick', description: 'Fact: Donald Trump did not recognize June as LGBTQ Pride Month; so much for him liking the LGBTQ community'},
+{id: 11, image: 'pride11.jpg', alt: 'Donald Trump in Lipstick', title: 'Donald Trump in Lipstick'},
 {id: 12, image: 'pride12.jpg', alt: 'Pride Parade', title: 'Parade Floats'},
 {id: 13, image: 'pride13.jpg', alt: 'PECO Float', title: 'PECO Float'},
 {id: 14, image: 'pride14.jpg', alt: 'Pride Parade', title: 'More Parade Pictures'},
@@ -243,7 +243,7 @@ export const PRIDEPICTURES: Picture[] = [
 {id: 21, image: 'pride21.jpg', alt: 'More Pride', title: 'More Pride'},
 {id: 22, image: 'pride22.jpg', alt: 'More Pride', title: 'More Pride'},
 {id: 23, image: 'pride23.jpg', alt: 'The Crowd Goes On', title: 'The Crowd Goes On'},
-{id: 24, image: 'pride24.jpg', alt: 'Driving Through the Parade', title: 'Driving Through the Parade', description: 'I love this view!'},
+{id: 24, image: 'pride24.jpg', alt: 'Driving Through the Parade', title: 'Driving Through the Parade'},
 {id: 25, image: 'pride25.jpg', alt: 'The Rainbow Effect', title: 'The Rainbow Effect'},
 {id: 26, image: 'pride26.jpg', alt: 'The Calm Before the Storm', title: 'The Calm Before the Storm'},
 {id: 27, image: 'pride27.jpg', alt: 'The Judges Booth', title: 'The Judges Booth'},
@@ -258,9 +258,9 @@ export const PRIDEPICTURES: Picture[] = [
 {id: 36, image: 'pride36.jpg', alt: 'The Flaggots', title: 'The Flaggots'},
 {id: 37, image: 'pride37.jpg', alt: 'The Flaggots', title: 'The Flaggots'},
 {id: 38, image: 'pride38.jpg', alt: 'One Confused Person', title: 'One Confused Person'},
-{id: 39, image: 'pride39.jpg', alt: 'Gays 4 Trump', title: 'Gays 4 Trump', description: 'Ironically wearing a mask of Hillary Clinton, who actually supports the LGBTQ unlike Trump who only pretended to like them for vote pandering'},
+{id: 39, image: 'pride39.jpg', alt: 'Gays 4 Trump', title: 'Gays 4 Trump', description: 'Ironically wearing a mask of Hillary Clinton, who actually supports the LGBTQ.'},
 {id: 40, image: 'pride40.jpg', alt: 'Neal', title: 'While I was walking around and Jenn was couped up inside, Neal and Heidi stayed at their one spot the entire time'},
-{id: 41, image: 'pride41.jpg', alt: 'Refuse Facism', title: 'Refuse Fascism, Drive out Trump & Pence', description: 'Neal took this picture, I didn\'t even see this sign.  But it\'s 100% true.'},
+{id: 41, image: 'pride41.jpg', alt: 'Refuse Facism', title: 'Refuse Fascism, Drive out Trump & Pence', description: 'Neal took this picture, I didn\'t even see this sign.'},
 {id: 42, image: 'philadelphia23.jpg', alt: 'Jenn', title: 'Jenn was staying cool inside during the parade'}
 ]
 
@@ -375,7 +375,7 @@ export const PHILLYPICTURES: Picture[] = [
 {id: 3, image: 'philadelphia30.jpg', alt: 'Penn\'s Landing Statue', title: 'Penn\'s Landing Statue'},
 {id: 4, image: 'philadelphia31.jpg', alt: 'Goodbye Philly', title: 'Goodbye Philly'},
 {id: 5, image: 'philadelphia32.jpg', alt: 'Citizens Bank Park', title: 'Citizens Bank Park', description: 'Home of the Philadelphia Phillies'},
-{id: 6, image: 'philadelphia33.jpg', alt: 'Citizen Bank Park', title: 'Citizens Bank Park and Philly'},
+{id: 6, image: 'philadelphia33.jpg', alt: 'Citizens Bank Park', title: 'Citizens Bank Park and Philly'},
 {id: 7, image: 'philadelphia34.jpg', alt: 'Lincoln Field', title: 'Lincoln Field', description: 'Home of the Philadelphia Eagles'},
 {id: 8, image: 'philadelphia35.jpg', alt: 'Lincoln Field', title: 'Lincoln Field', description: 'Cue the theme song of It\'s Always Sunny in Philadelphia'},
 {id: 9, image: 'philadelphia36.jpg', alt: 'Wells Fargo Center', title: 'Wells Fargo Center', description: 'Home of the Philadelphia 76ers and Philadelphia Flyers'},
@@ -399,28 +399,28 @@ export const CHIDOPICTURES: Picture[] = [
 
 export const CAPITOLPICTURES: Picture[] = [
     {id: 1, image: 'capitol1.jpg', alt: 'Union Station', title: 'Union Station'},
-    {id: 2, image: 'capitol2.jpg', alt: 'U.S. Capitol parking lot', title: 'U.S. Capitol parking lot', description: 'This statue has a higher IQ than Paul Ryan'},
+    {id: 2, image: 'capitol2.jpg', alt: 'U.S. Capitol parking lot', title: 'U.S. Capitol parking lot'},
     {id: 3, image: 'capitol3.jpg', alt: 'Capitol Reflection Pool', title: 'Capitol Reflection Pool'},
     {id: 4, image: 'capitol4.jpg', alt: 'Capitol Reflection Pool', title: 'Capitol Reflection Pool'},
     {id: 5, image: 'capitol5.jpg', alt: 'Capitol Reflection Pool', title: 'Capitol Reflection Pool'},
-    {id: 6, image: 'capitol6.jpg', alt: 'Ulysses S Grant Memorial looking towards Washington Monument', title: 'Ulysses S Grant Memorial looking towards Washington Monument', description: 'Ulysses S Grant has accomplished more just by being a statue than Donald Trump ever will'},
-    {id: 7, image: 'capitol7.jpg', alt: 'U.S. Capitol', title: 'U.S. Capitol', description: 'The bags on the ground are more useful than Keebler Elf Jeff Sessions'},
-    {id: 8, image: 'capitol8.jpg', alt: 'Univision Building', title: 'Univision Building', description: 'Donald Trump hates Univision'},
-    {id: 9, image: 'capitol9.jpg', alt: 'National Gallery of Art', title: 'National Gallery of Art', description: 'Foundation money shouldn\'t be used to buy a painting of yourself'},
+    {id: 6, image: 'capitol6.jpg', alt: 'Ulysses S Grant Memorial looking towards Washington Monument', title: 'Ulysses S Grant Memorial looking towards Washington Monument'},
+    {id: 7, image: 'capitol7.jpg', alt: 'U.S. Capitol', title: 'U.S. Capitol'},
+    {id: 8, image: 'capitol8.jpg', alt: 'Univision Building', title: 'Univision Building'},
+    {id: 9, image: 'capitol9.jpg', alt: 'National Gallery of Art', title: 'National Gallery of Art'},
     {id: 10, image: 'capitol10.jpg', alt: 'United States Capitol', title: 'United States Capitol'},
-    {id: 11, image: 'capitol11.jpg', alt: 'U.S. Bankruptcy Court Clerk', title: 'U.S. Bankruptcy Court Clerk', description: 'Donald Trump filed Chapter 11 Bankruptcy SIX times'},
+    {id: 11, image: 'capitol11.jpg', alt: 'U.S. Bankruptcy Court Clerk', title: 'U.S. Bankruptcy Court Clerk'},
     {id: 12, image: 'capitol12.jpg', alt: 'Wirtz Labor Library', title: 'Wirtz Labor Library'},
     {id: 13, image: 'capitol13.jpg', alt: 'U.S. Capitol over Reflecting Pool', title: 'U.S. Capitol over Reflecting Pool'},
     {id: 14, image: 'capitol14.jpg', alt: 'Capitol Reflection Pool', title: 'Capitol Reflection Pool'},
     {id: 15, image: 'capitol15.jpg', alt: 'Capitol Reflection Pool', title: 'Capitol Reflection Pool'},
-    {id: 16, image: 'capitol16.jpg', alt: 'Duck diving in Capitol Reflection Pool', title: 'Duck diving in Capitol Reflection Pool', description: 'This Duck is more qualified to lead the Senate than Mitch McConnell'},
+    {id: 16, image: 'capitol16.jpg', alt: 'Duck diving in Capitol Reflection Pool', title: 'Duck diving in Capitol Reflection Pool'},
     {id: 17, image: 'capitol17.jpg', alt: 'Adam at U.S. Capitol', title: 'Adam at U.S. Capitol'},
     {id: 18, image: 'capitol18.jpg', alt: 'Jenn and Adam at U.S. Capitol', title: 'Jenn and Adam at U.S. Capitol'},
     {id: 19, image: 'capitol19.jpg', alt: 'U.S. Capitol', title: 'U.S. Capitol'},
     {id: 20, image: 'capitol20.jpg', alt: 'U.S. Capitol', title: 'U.S. Capitol'},
     {id: 21, image: 'capitol21.jpg', alt: 'Jenn and Adam at U.S. Capitol', title: 'Jenn and Adam at U.S. Capitol'},
     {id: 22, image: 'capitol22.jpg', alt: 'Capitol Reflection Pool', title: 'Capitol Reflection Pool', description: 'Nice picture Jenn'},
-    {id: 23, image: 'capitol23.jpg', alt: 'Squirrel on a Bench', title: 'Squirrel on a Bench', description: 'Jenn accomplished more in D.C. with this picture than Donald Trump ever will'}
+    {id: 23, image: 'capitol23.jpg', alt: 'Squirrel on a Bench', title: 'Squirrel on a Bench'}
 ]
 
 export const MALLPICTURES: Picture[] = [
@@ -431,7 +431,7 @@ export const MALLPICTURES: Picture[] = [
     {id: 5, image: 'mall5.jpg', alt: 'Artwork', title: 'Looking down at Artwork'},
     {id: 6, image: 'mall6.jpg', alt: 'Artwork', title: 'Seeing more Artwork'},
     {id: 7, image: 'mall7.jpg', alt: 'Hirshhorn Museum', title: 'Hirshhorn'},
-    {id: 8, image: 'mall8.jpg', alt: 'Kiepenkerl', title: 'Kiepenkerl', description: 'With more intelligence than Donald Trump the Idiot'},
+    {id: 8, image: 'mall8.jpg', alt: 'Kiepenkerl', title: 'Kiepenkerl'},
     {id: 9, image: 'mall9.jpg', alt: 'Red Sculpture', title: 'Red Sculpture'},
     {id: 10, image: 'mall10.jpg', alt: 'Artwork', title: 'Artwork'},
     {id: 11, image: 'mall11.jpg', alt: 'Red Sculpture', title: 'Red Sculpture'},
@@ -459,11 +459,11 @@ export const MALLPICTURES: Picture[] = [
     {id: 33, image: 'mall34.jpg', alt: 'U.S. Capitol', title: 'U.S. Capitol'},
     {id: 34, image: 'mall35.jpg', alt: 'Washington Monument', title: 'Washington Monument', description: 'And the clouds start coming in'},
     {id: 35, image: 'mall36.jpg', alt: 'National Mall', title: 'National Mall', description: 'Storm coming...'},
-    {id: 36, image: 'mall37.jpg', alt: 'Washington Monument', title: 'Washington Monument', description: 'A Natural Storm, not an everlasting Trumper Tantrum that won\'t stop'},
+    {id: 36, image: 'mall37.jpg', alt: 'Washington Monument', title: 'Washington Monument'},
     {id: 37, image: 'mall38.jpg', alt: 'Washington Monument', title: 'Washington Monument'},
     {id: 38, image: 'mall39.jpg', alt: 'Washingotn Monument', title: 'Washington Monument'},
     {id: 39, image: 'mall40.jpg', alt: 'Adam', title: 'Adam smiling with a storm coming ahead', description: 'Only because it hasn\'t started yet'},
-    {id: 40, image: 'mall41.jpg', alt: 'U.S. Capitol', title: 'Unlike the worthless Republicans, a storm actually produces results'},
+    {id: 40, image: 'mall41.jpg', alt: 'U.S. Capitol', title: 'A storm actually produces results'},
     {id: 41, image: 'mall42.jpg', alt: 'Storm clouds', title: 'Storm clouds'},
     {id: 42, image: 'mall43.jpg', alt: 'Storm clouds over the U.S. Capitol', title: 'Storm clouds over the U.S. Capitol'},
     {id: 43, image: 'mall44.jpg', alt: 'Storm clouds over the Washington Monument', title: 'Storm clouds over the U.S. Capitol'}
@@ -477,7 +477,7 @@ export const ALIBIPICTURES: Picture[] = [
 
 export const GEORGETOWNPICTURES: Picture[] = [
     {id: 1, image: 'georgetown1.jpg', alt: 'Newseum', title: 'Newseum', description: 'Because the News is important for telling the viewers the Truth, not to kiss Donald Trump\'s butt'},
-    {id: 2, image: 'georgetown2.jpg', alt: 'Constitution Avenue', title: 'Constitution Avenue', description: 'According to Donald Trump, he\'ll protect Article XII of the Constitution (there\'s only VII)'},
+    {id: 2, image: 'georgetown2.jpg', alt: 'Constitution Avenue', title: 'Constitution Avenue'},
     {id: 3, image: 'georgetown3.jpg', alt: 'Jenn in the car', title: 'Jenn in the car'},
     {id: 4, image: 'georgetown4.jpg', alt: 'Driving through D.C.', title: 'Driving through D.C.'},
     {id: 5, image: 'georgetown5.jpg', alt: 'The clouds start multiplying', title: 'The clouds start multiplying'},
@@ -499,7 +499,7 @@ export const GEORGETOWNPICTURES: Picture[] = [
     {id: 21, image: 'georgetown20.jpg', alt: 'Nighttime at Georgetown', title: 'Nighttime at Georgetown, where Neal dances off Gas'},
     {id: 22, image: 'georgetown21.jpg', alt: 'Sprinkles', title: 'Sprinkles'},
     {id: 23, image: 'georgetown22.jpg', alt: 'Another Georgetown Picture', title: 'Gassy Boys - Neal\'s Version of Nasty Boy'},
-    {id: 24, image: 'georgetown23.jpg', alt: '2902 1/2', title: '2902 1/2', description: 'Is this the number of lies Donald Trump has said since he stole the Presidency?  Probably too low of a number.'},
+    {id: 24, image: 'georgetown23.jpg', alt: '2902 1/2', title: '2902 1/2'},
     {id: 25, image: 'georgetown24.jpg', alt: 'Georgetown Scoops', title: 'Georgetown Scoops', description: 'Home of Lavender and Kahlua Ice Cream, along with Jenn\'s 2 Forks and No Spoons'},
     {id: 26, image: 'georgetown25.jpg', alt: 'More Georgetown', title: 'More Georgetown'},
     {id: 27, image: 'georgetown26.jpg', alt: 'Georgetown\'s nice', title: 'Georgetown\'s nice'}
@@ -660,7 +660,7 @@ export const SAKURAPICTURES: Picture[] = [
 
 export const JERSEYPICTURES: Picture[] = [
 {id: 1, image: 'delaware13.jpg', alt: 'Delaware Memorial Bridge', title: 'Delaware Memorial Bridge, New Jersey ahead!'},
-{id: 2, image: 'jersey1.jpg', alt: 'New Jersey Turnpike', title: 'New Jersey Turnpike', description: 'Former Governor Alfred Driscoll died in 1975, but would be a more effective governor today than Chris Christie'},
+{id: 2, image: 'jersey1.jpg', alt: 'New Jersey Turnpike', title: 'New Jersey Turnpike'},
 {id: 3, image: 'jersey2.jpg', alt: 'New Jersey', title: 'New Jersey', description: 'Yawn!'},
 {id: 4, image: 'jersey3.jpg', alt: 'Truck ramp', title: 'Trucks go up, cars stay down'},
 {id: 5, image: 'jersey4.jpg', alt: 'Jenn and Adam', title: 'Jenn snuck into my "I\'m in New Jersey Picture'},
@@ -876,7 +876,7 @@ export const TRAMPPICTURES: Picture[] = [
     {id: 4, image: 'tramp4.jpg', alt: 'And President Tramp', title: 'And President Tramp'},
     {id: 5, image: 'tramp5.jpg', alt: 'Donald Tramp\'s Stupid', title: 'Donald Tramp\'s Stupid'},
     {id: 6, image: 'tramp6.jpg', alt: 'Orange is the New Black', title: 'Orange is the New Black'},
-    {id: 7, image: 'tramp7.jpg', alt: 'Kellyanne Oneway', title: 'Kellyanne Oneway', description: 'Stupid as a bitch'},
+    {id: 7, image: 'tramp7.jpg', alt: 'Kellyanne Oneway', title: 'Kellyanne Oneway'},
     {id: 8, image: 'tramp8.jpg', alt: 'Tramp and Mike Dispence', title: 'Tramp and Mike Dispence'},
     {id: 9, image: 'tramp9.jpg', alt: 'Mike Dispence is Stupid Too', title: 'Mike Dispence is Stupid too'},
     {id: 10, image: 'tramp10.jpg', alt: 'Waiting for Vlad?', title: 'Waiting for Vlad?'},
@@ -1026,7 +1026,7 @@ export const BATTERYPICTURES: Picture[] = [
     {id: 3, image: 'battery18.jpg', alt: 'Battery Park', title: 'Battery Park'},
     {id: 4, image: 'battery19.jpg', alt: 'Battery Park', title: 'Battery Park'},
     {id: 5, image: 'battery20.jpg', alt: 'Battery Park', title: 'Battery Park'},
-    {id: 6, image: 'battery21.jpg', alt: 'Castle Clinton', title: 'Castle Clinton', description: 'Named after former mayor DeWitt Clinton, not former NY Senator Hillary Clinton (who\'s still not a criminal)'},
+    {id: 6, image: 'battery21.jpg', alt: 'Castle Clinton', title: 'Castle Clinton'},
     {id: 7, image: 'battery22.jpg', alt: 'Battery Park', title: 'Battery Park'},
     {id: 8, image: 'battery23.jpg', alt: 'Battery Park', title: 'Battery Park'},
     {id: 9, image: 'battery24.jpg', alt: 'Battery Park', title: 'Battery Park'},
@@ -1169,7 +1169,7 @@ export const AFTERNOONPICTURES: Picture[] = [
     {id: 6, image: 'battery34.jpg', alt: 'Battery Park', title: 'Battery Park'},          
     {id: 7, image: 'battery35.jpg', alt: 'Battery Park', title: 'Battery Park'},          
     {id: 8, image: 'battery36.jpg', alt: 'Battery Park', title: 'Battery Park'},          
-    {id: 9, image: 'battery37.jpg', alt: 'Bowling Green', title: 'Bowling Green', description: 'Not the sight of Kellyanne Conway\'s Stupid non-existent Bowling Green Massacre'},          
+    {id: 9, image: 'battery37.jpg', alt: 'Bowling Green', title: 'Bowling Green'},          
     {id: 10, image: 'battery38.jpg', alt: 'Battery Park', title: 'Battery Park'},          
     {id: 11, image: 'battery39.jpg', alt: 'Battery Park', title: 'Battery Park'},          
     {id: 12, image: 'battery40.jpg', alt: 'Battery Park', title: 'Battery Park'},          
@@ -1358,5 +1358,3 @@ export const OUTROPICTURES: Picture[] = [
     {id: 28, image: 'outro28.jpg', alt: 'Mount Hood', title: 'Mount Hood'},  
     {id: 29, image: 'outro29.jpg', alt: 'Mount Hood', title: 'Mount Hood'},        
 ]
-
-/*    {id: , image: '.jpg', alt: '', title: ''}, */
